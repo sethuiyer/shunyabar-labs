@@ -116,16 +116,18 @@
           "date": "2026-06-30",
           "meta": [
             "HTML",
-            "v1.0"
+            "v1.0",
+            "private"
           ],
           "summary": "Constraint-aware optimization that pairs physics-informed neural networks with Bayesian search and symmetry discovery. The system exploits conserved quantities to avoid searching dimensions that provably cannot change the outcome, and reports the symmetries it found in advance rather than assuming them."
         },
         {
           "title": "miwa-discord-bot",
-          "url": "https://github.com/sethuiyer/miwa-discord-bot",
+          "url": "https://github.com/shiks2/miwa-discord-bot",
           "date": "2026-06-22",
           "meta": [
-            "HTML"
+            "HTML",
+            "private"
           ],
           "summary": "A Discord bot deployed as a static front end, keeping its state server-side and out of the browser. Conversations are summarised for retrieval without losing the distinctions a later reply has to respect, and the user interface stays deliberately plain."
         },
@@ -134,7 +136,8 @@
           "url": "https://github.com/sethuiyer/axiom-synergy",
           "date": "2026-06-18",
           "meta": [
-            "★ 0"
+            "★ 0",
+            "private"
           ],
           "summary": "A framework measuring how rules, constraints and logic interact. Cooperative game theory assigns each rule a marginal contribution, and the framework reports hidden synergy when constraints reinforce one another, and conflict when they collide, where the design error usually sits."
         },
@@ -143,7 +146,8 @@
           "url": "https://github.com/sethuiyer/authorization-lattice",
           "date": "2026-06-04",
           "meta": [
-            "HTML"
+            "HTML",
+            "private"
           ],
           "summary": "Two agents may request the same action while holding entirely different permissions. Ignoring that distinction produces a security failure, so the work orders authority in a lattice and still keeps ownership attached to objects that may have none at all."
         },
@@ -162,7 +166,8 @@
           "url": "https://github.com/sethuiyer/geometry-of-conditional-logic",
           "date": "2026-05-12",
           "meta": [
-            "Python"
+            "Python",
+            "private"
           ],
           "summary": "Conditionals are given shape. The repository builds a geometry in which if-then-else regions sit at different distances, letting a program ask how two logical situations differ and when they may be treated as interchangeable without changing what the program decides."
         },
@@ -171,7 +176,8 @@
           "url": "https://github.com/sethuiyer/thermodynamic-number-line",
           "date": "2026-03-13",
           "meta": [
-            "HTML"
+            "HTML",
+            "private"
           ],
           "summary": "Primes act as thermodynamic fuel, the Riemann zeta function serves as infinite memory, and arithmetic turns out to be a very complex piece of origami. The essay reads number theory as an energy landscape with conserved quantities and irreversible flows."
         },
@@ -210,7 +216,8 @@
           "url": "https://github.com/sethuiyer/navokoj",
           "date": "2026-01-03",
           "meta": [
-            "Python"
+            "Python",
+            "private"
           ],
           "summary": "Physics-inspired SAT solving that treats constraints as flowing geometry rather than fixed clauses. The solver navigates the space of partial assignments and learns which regions of it are worth revisiting at all, using spectral information to decide where effort belongs."
         },
@@ -226,10 +233,11 @@
         },
         {
           "title": "shunyabar-labs",
-          "url": "https://github.com/sethuiyer/shunyabar-labs",
+          "url": "https://github.com/sethuiyer/shunyabar-labs-archive",
           "date": "2025-11-17",
           "meta": [
-            "HTML"
+            "HTML",
+            "private"
           ],
           "summary": "The earlier collection of research spanning 2024 to 2026: Fock-space computations, prime walks, ergodicity results and Jahn-Teller experiments, with figures and JSON outputs kept beside the code that produced them, and the essays that grew out of each individual experiment."
         },
@@ -238,7 +246,8 @@
           "url": "https://github.com/sethuiyer/fooshunyabar",
           "date": "2025-11-05",
           "meta": [
-            "Python"
+            "Python",
+            "private"
           ],
           "summary": "The code files behind Shunyabar Foo, gathered into one place. These are the scripts and experiments that feed the published work, kept visible so the path from a scratch calculation to a checked result stays traceable to whoever reads it."
         },
@@ -256,7 +265,8 @@
           "url": "https://github.com/sethuiyer/floer-hardness-certificates",
           "date": "2025-10-09",
           "meta": [
-            "HTML"
+            "HTML",
+            "private"
           ],
           "summary": "A geometric framework for certifying computational hardness through persistent homology, spanning cryptography, SAT solving and neural network optimisation. It aims at a certificate rather than a benchmark, so a claim about difficulty can be checked by others instead of believed."
         }
@@ -292,7 +302,8 @@
           "url": "https://github.com/sethuiyer/obs-ai",
           "date": "2025-06-26",
           "meta": [
-            "Python"
+            "Python",
+            "private"
           ],
           "summary": "Obsidian with an AI layer, kept as a knowledge base that can be queried without losing provenance. Notes are indexed so retrieval returns the passage you meant, not the closest wording, and answer can be traced back to its source."
         },
@@ -307,7 +318,7 @@
         },
         {
           "title": "playlist-ed",
-          "url": "https://github.com/sethuiyer/playlist-ed",
+          "url": "https://github.com/udit-001/playlist-ed",
           "date": "2023-12-28",
           "meta": [
             "Svelte",
@@ -379,6 +390,153 @@
       ]
     },
     {
+      "id": "essays",
+      "title": "Published essays",
+      "note": "Longer pieces written for the site. They live in the archive repository, kept intact while this index takes the lab's name.",
+      "entries": [
+        {
+          "title": "Convergence Frontiers: Literature Survey of Interdisciplinary Research Paradigms",
+          "url": "https://github.com/sethuiyer/shunyabar-labs-archive/blob/main/posts/convergence-frontiers.html",
+          "date": "2025-11",
+          "meta": [
+            "survey",
+            "private"
+          ],
+          "summary": "A systematic survey mapping the lab's interdisciplinary research onto current scientific advances, placing each line of work against the published literature it touches. The essay identifies where existing results already explain the observations, and where the gap remains genuinely open."
+        },
+        {
+          "title": "The Dynamic Prime Cantor Set: A Fractal Woven from the Primes",
+          "url": "https://github.com/sethuiyer/shunyabar-labs-archive/blob/main/posts/dynamic-prime-cantor-set.html",
+          "date": "2025-11",
+          "meta": [
+            "fractals",
+            "private"
+          ],
+          "summary": "A fractal construction on the unit interval built intrinsically from the distribution of prime numbers, replacing the fixed middle-third rule with one driven by prime gaps. The dynamic set is compared against the classical Cantor construction and known fractal dimensions."
+        },
+        {
+          "title": "Observations on Exponential Functions in Complex Systems",
+          "url": "https://github.com/sethuiyer/shunyabar-labs-archive/blob/main/posts/fingerprint-of-complexity.html",
+          "date": "2025-11",
+          "meta": [
+            "notes",
+            "private"
+          ],
+          "summary": "Notes on patterns in exponential functions across the mathematical and computational domains the lab has studied, looking for a shared shape rather than separate derivations. The essay treats exponential growth as a fingerprint that identifies which regime a system occupies."
+        },
+        {
+          "title": "Fock Space Computation: A Mathematical Framework for Symbolic Information Processing",
+          "url": "https://github.com/sethuiyer/shunyabar-labs-archive/blob/main/posts/fock-space-computation.html",
+          "date": "2025-11",
+          "meta": [
+            "quantum",
+            "private"
+          ],
+          "summary": "A formal demonstration that symbolic computation follows quantum field theory mathematics, with experimental validation in parsing and version control. Fock space supplies the state space, and the framework explains why symbolic systems behave like particle systems under construction and annihilation."
+        },
+        {
+          "title": "The Hidden Laws of Imbalance: Advanced Diagnostic Frameworks for Optimization Limits",
+          "url": "https://github.com/sethuiyer/shunyabar-labs-archive/blob/main/posts/hidden-laws-of-imbalance.html",
+          "date": "2025-11",
+          "meta": [
+            "optimisation",
+            "private"
+          ],
+          "summary": "Diagnostic frameworks for optimisation limits in complex systems, arguing that the right move is often architectural rather than parametric. The essay names the imbalance laws that quietly cap a search, and shows where spending more compute stops helping in practice."
+        },
+        {
+          "title": "Majorana Topological Superconductors: From Quantum Particles to the Riemann Hypothesis",
+          "url": "https://github.com/sethuiyer/shunyabar-labs-archive/blob/main/posts/majorana-topological-superconductors.html",
+          "date": "2025-11",
+          "meta": [
+            "topology",
+            "private"
+          ],
+          "summary": "Exploring the connection between Majorana fermions, topological superconductors and the Riemann hypothesis through quantum physical systems. The essay builds the bridge from topological order to the distribution of primes, treating the hypothesis as an emergent property and what remains unproved."
+        },
+        {
+          "title": "Mathematical Mechanism: How the Self-Stabilizing Optimizer Works",
+          "url": "https://github.com/sethuiyer/shunyabar-labs-archive/blob/main/posts/mathematical-mechanism.html",
+          "date": "2025-11",
+          "meta": [
+            "optimisation",
+            "private"
+          ],
+          "summary": "Clean, rigorous mathematics behind the exponential-sum manifold and the correlation-based control system applied to NP-hard problems. This is the mechanism write-up: what the solver actually computes, why the correlation term converges, and which guarantees hold for hard instances in practice."
+        },
+        {
+          "title": "A Multiplicative Axis for Constraint Enforcement in Machine Learning",
+          "url": "https://github.com/sethuiyer/shunyabar-labs-archive/blob/main/posts/multiplicative-constraint-axis.html",
+          "date": "2025-11",
+          "meta": [
+            "machine learning",
+            "private"
+          ],
+          "summary": "A previously unrecognised axis in loss-design space, built from spectral-multiplicative constraints using analytic number theory and exponential barrier dynamics. The essay shows that constraints can be enforced multiplicatively, preserving properties additive penalties quietly destroy, and explains when this axis helps."
+        },
+        {
+          "title": "The Prime Walk: Spontaneous Symmetry Breaking from Number Theory to the Riemann Hypothesis",
+          "url": "https://github.com/sethuiyer/shunyabar-labs-archive/blob/main/posts/prime-walk-jahn-teller.html",
+          "date": "2025-11",
+          "meta": [
+            "number theory",
+            "private"
+          ],
+          "summary": "A random walk on prime powers that connects the molecular Jahn-Teller effect to the Riemann hypothesis through spontaneous symmetry breaking. The walk shows how a physical degeneracy lifts on a number-theoretic landscape, with plots, figures and computed results attached throughout."
+        },
+        {
+          "title": "The Proximity-Identity Functional: Mathematical Foundations of Equilibrium",
+          "url": "https://github.com/sethuiyer/shunyabar-labs-archive/blob/main/posts/proximity-identity-equilibrium.html",
+          "date": "2025-11",
+          "meta": [
+            "equilibrium",
+            "private"
+          ],
+          "summary": "A mathematical analysis of the proximity-identity functional and its role in determining equilibrium states across physics, machine learning and information theory. The essay derives the functional's fixed points and shows equilibrium as an identity that survives perturbation of the system."
+        },
+        {
+          "title": "The Quantum Rhythm Hypothesis: Mathematics as Condensed Matter Physics",
+          "url": "https://github.com/sethuiyer/shunyabar-labs-archive/blob/main/posts/quantum-rhythm-hypothesis.html",
+          "date": "2025-11",
+          "meta": [
+            "condensed matter",
+            "private"
+          ],
+          "summary": "A framework treating primes as quasiparticles, reimagining the Riemann hypothesis as condensed matter physics. The essay proposes that the distribution of primes behaves like a quantum rhythm, with the hypothesis read as a phase property of the number line itself."
+        },
+        {
+          "title": "Research Contributions",
+          "url": "https://github.com/sethuiyer/shunyabar-labs-archive/blob/main/posts/research.html",
+          "date": "2025-11",
+          "meta": [
+            "index",
+            "private"
+          ],
+          "summary": "The archive's research index, published in November 2025, listing every contributed essay with authorship and affiliation. It is the front door to the collection, kept in step with the posts so a reader can enter anywhere and find the context."
+        },
+        {
+          "title": "The Hidden Manifold Where Geometry Meets Arithmetic: How We Built a Self-Stabilizing Optimizer",
+          "url": "https://github.com/sethuiyer/shunyabar-labs-archive/blob/main/posts/self-stabilizing-optimizer.html",
+          "date": "2025-11",
+          "meta": [
+            "optimisation",
+            "private"
+          ],
+          "summary": "Every optimisation problem, from microchip layouts to cloud allocation, is navigation across an energy landscape. This essay describes the system built to stabilise itself there, replacing brute force with a manifold that contracts toward a solution with no human supervision."
+        },
+        {
+          "title": "TSP on the Self-Stabilizing Optimizer: A Complete Implementation Plan",
+          "url": "https://github.com/sethuiyer/shunyabar-labs-archive/blob/main/posts/tsp-mechanism.html",
+          "date": "2025-11",
+          "meta": [
+            "implementation",
+            "private"
+          ],
+          "summary": "The exponential-sum manifold framework mapped onto the travelling salesman problem, with complete implementation details rather than a sketch. The document specifies data structures, move operators, convergence criteria, the failure modes that follow from each, and a fully worked toy example."
+        }
+      ]
+    },
+    {
       "id": "releases",
       "title": "Released artifacts",
       "note": "Published versions, grouped by project.",
@@ -409,7 +567,8 @@
           "date": "2026-06-30",
           "meta": [
             "HTML",
-            "1 release"
+            "1 release",
+            "private"
           ],
           "summary": "The first stable release of constraint-aware optimization, pairing physics-informed networks with Bayesian search and symmetry discovery. Conserved quantities prune the search space without removing any reachable optimum, and the symmetries are reported rather than simply assumed to hold in advance."
         },

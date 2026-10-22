@@ -5,10 +5,25 @@ A master index of the lab's research, built around one idea:
 > **Decision-preserving abstraction** — preserve the distinctions that matter for a decision,
 > and discard everything else.
 
+Live at **https://sethuiyer.github.io/shunyabar-labs/** (deployed by GitHub Pages from
+`.github/workflows/pages.yml` on every push to `main`).
+
 Every entry in the index carries a **40-word summary**, and the summaries are enforced:
 `scripts/check_summaries.py` fails the build if any summary is not exactly forty words.
 
-## Layout
+## Access
+
+Some repositories and essays are **private** and are marked with a `private` chip in the
+index. To request access, write to **rxgtoing@gmail.com**.
+
+## Repository layout
+
+| Repo | Purpose |
+|---|---|
+| `sethuiyer/shunyabar-labs` | this index site (public) |
+| `sethuiyer/shunyabar-labs-archive` | the earlier collection, with the published essays and figures (private) |
+
+## Layout of this repo
 
 ```
 index.html            generated — the site (do not edit by hand)
@@ -20,13 +35,15 @@ assets/theme.js       theme toggle (auto → light → dark), persisted in local
 scripts/build.py      renders index.html from data + templates
 scripts/apply_summaries.py  copies data/summaries.txt into data/entries.json
 scripts/check_summaries.py  verifies every summary is exactly 40 words
+scripts/fetch_visibility.py  tags entries whose repository is private
 ```
 
 ## Workflow
 
 ```bash
 python3 scripts/apply_summaries.py   # refresh summaries in entries.json
-python3 scripts/check_summaries.py   # 41/41 summaries at exactly 40 words
+python3 scripts/check_summaries.py   # 55/55 summaries at exactly 40 words
+python3 scripts/fetch_visibility.py  # re-tag private repositories
 python3 scripts/build.py             # regenerate index.html
 ```
 

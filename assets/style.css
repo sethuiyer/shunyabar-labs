@@ -401,6 +401,21 @@ h3 {
   white-space: nowrap;
 }
 
+.chip {
+  display: inline-block;
+  font-family: var(--mono);
+  font-size: 0.62rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--accent);
+  background: var(--accent-soft);
+  border: 1px solid transparent;
+  border-radius: 999px;
+  padding: 0.08rem 0.45rem;
+  vertical-align: 0.06em;
+  white-space: nowrap;
+}
+
 .entry .summary {
   margin: 0.45rem 0 0;
   font-size: 0.94rem;
@@ -409,6 +424,34 @@ h3 {
 }
 
 .entry .date { color: var(--faint); }
+
+/* ---------- access ---------- */
+
+.access {
+  padding: 3rem 0 3.5rem;
+  border-top: 1px solid var(--rule);
+}
+
+.access p {
+  max-width: var(--measure);
+  margin: 0 0 1rem;
+  color: var(--muted);
+}
+
+.access .fine {
+  font-size: 0.86rem;
+  color: var(--faint);
+}
+
+.mail {
+  font-family: var(--mono);
+  font-size: 0.94em;
+  color: var(--fg);
+  text-decoration: none;
+  border-bottom: 1px solid var(--accent);
+  padding-bottom: 1px;
+}
+.mail:hover { color: var(--accent); }
 
 /* ---------- footer ---------- */
 

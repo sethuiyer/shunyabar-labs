@@ -120,3 +120,45 @@ The first stable release of constraint-aware optimization, pairing physics-infor
 
 @@ reify — v0.1.0, v0.2.0
 Initial release and first refinement of a declarative SDK for constraint optimization, hosted under the ShunyaBar Labs organisation. Constraints are declared once and the compiler decides what can be safely removed, which is the whole research program in miniature form.
+
+@@ Convergence Frontiers: Literature Survey of Interdisciplinary Research Paradigms
+A systematic survey mapping the lab's interdisciplinary research onto current scientific advances, placing each line of work against the published literature it touches. The essay identifies where existing results already explain the observations, and where the gap remains genuinely open.
+
+@@ The Dynamic Prime Cantor Set: A Fractal Woven from the Primes
+A fractal construction on the unit interval built intrinsically from the distribution of prime numbers, replacing the fixed middle-third rule with one driven by prime gaps. The dynamic set is compared against the classical Cantor construction and known fractal dimensions.
+
+@@ Observations on Exponential Functions in Complex Systems
+Notes on patterns in exponential functions across the mathematical and computational domains the lab has studied, looking for a shared shape rather than separate derivations. The essay treats exponential growth as a fingerprint that identifies which regime a system occupies.
+
+@@ Fock Space Computation: A Mathematical Framework for Symbolic Information Processing
+A formal demonstration that symbolic computation follows quantum field theory mathematics, with experimental validation in parsing and version control. Fock space supplies the state space, and the framework explains why symbolic systems behave like particle systems under construction and annihilation.
+
+@@ The Hidden Laws of Imbalance: Advanced Diagnostic Frameworks for Optimization Limits
+Diagnostic frameworks for optimisation limits in complex systems, arguing that the right move is often architectural rather than parametric. The essay names the imbalance laws that quietly cap a search, and shows where spending more compute stops helping in practice.
+
+@@ Majorana Topological Superconductors: From Quantum Particles to the Riemann Hypothesis
+Exploring the connection between Majorana fermions, topological superconductors and the Riemann hypothesis through quantum physical systems. The essay builds the bridge from topological order to the distribution of primes, treating the hypothesis as an emergent property and what remains unproved.
+
+@@ Mathematical Mechanism: How the Self-Stabilizing Optimizer Works
+Clean, rigorous mathematics behind the exponential-sum manifold and the correlation-based control system applied to NP-hard problems. This is the mechanism write-up: what the solver actually computes, why the correlation term converges, and which guarantees hold for hard instances in practice.
+
+@@ A Multiplicative Axis for Constraint Enforcement in Machine Learning
+A previously unrecognised axis in loss-design space, built from spectral-multiplicative constraints using analytic number theory and exponential barrier dynamics. The essay shows that constraints can be enforced multiplicatively, preserving properties additive penalties quietly destroy, and explains when this axis helps.
+
+@@ The Prime Walk: Spontaneous Symmetry Breaking from Number Theory to the Riemann Hypothesis
+A random walk on prime powers that connects the molecular Jahn-Teller effect to the Riemann hypothesis through spontaneous symmetry breaking. The walk shows how a physical degeneracy lifts on a number-theoretic landscape, with plots, figures and computed results attached throughout.
+
+@@ The Proximity-Identity Functional: Mathematical Foundations of Equilibrium
+A mathematical analysis of the proximity-identity functional and its role in determining equilibrium states across physics, machine learning and information theory. The essay derives the functional's fixed points and shows equilibrium as an identity that survives perturbation of the system.
+
+@@ The Quantum Rhythm Hypothesis: Mathematics as Condensed Matter Physics
+A framework treating primes as quasiparticles, reimagining the Riemann hypothesis as condensed matter physics. The essay proposes that the distribution of primes behaves like a quantum rhythm, with the hypothesis read as a phase property of the number line itself.
+
+@@ Research Contributions
+The archive's research index, published in November 2025, listing every contributed essay with authorship and affiliation. It is the front door to the collection, kept in step with the posts so a reader can enter anywhere and find the context.
+
+@@ The Hidden Manifold Where Geometry Meets Arithmetic: How We Built a Self-Stabilizing Optimizer
+Every optimisation problem, from microchip layouts to cloud allocation, is navigation across an energy landscape. This essay describes the system built to stabilise itself there, replacing brute force with a manifold that contracts toward a solution with no human supervision.
+
+@@ TSP on the Self-Stabilizing Optimizer: A Complete Implementation Plan
+The exponential-sum manifold framework mapped onto the travelling salesman problem, with complete implementation details rather than a sketch. The document specifies data structures, move operators, convergence criteria, the failure modes that follow from each, and a fully worked toy example.

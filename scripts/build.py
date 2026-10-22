@@ -18,9 +18,13 @@ def esc(text: str) -> str:
 
 
 def render_entry(index: int, entry: dict) -> str:
-    meta = " &middot; ".join(esc(m) for m in entry.get("meta", []))
+    tags = [m for m in entry.get("meta", []) if m != "private"]
+    meta = " &middot; ".join(esc(m) for m in tags)
     date = esc(entry.get("date", ""))
-    meta_line = f'<span class="meta">{meta} &middot; <span class="date">{date}</span></span>'
+    chip = ""
+    if "private" in entry.get("meta", []):
+        chip = ' <span class="chip">private</span>'
+    meta_line = f'<span class="meta">{meta} &middot; <span class="date">{date}</span>{chip}</span>'
     summary_words = len(entry["summary"].split())
     if summary_words != TARGET:
         print(f"  !! {entry['title']}: summary is {summary_words} words")
@@ -65,8 +69,11 @@ def main() -> int:
     total = counter[0]
     repos = sum(len(g["entries"]) for g in data["groups"] if g["id"] == "repos")
     gists = sum(len(g["entries"]) for g in data["groups"] if g["id"] == "gists")
+    essays = sum(len(g["entries"]) for g in data["groups"] if g["id"] == "essays")
     rel = sum(len(g["entries"]) for g in data["groups"] if g["id"] == "releases")
-    counts = f"{total} entries &middot; {repos} repositories &middot; {gists} gists &middot; {rel} release lines"
+    private = sum(1 for g in data["groups"] for e in g["entries"] if "private" in e.get("meta", []))
+    counts = (f"{total} entries &middot; {repos} repositories &middot; {gists} gists &middot; "
+              f"{essays} essays &middot; {rel} release lines &middot; {private} held private")
 
     out = template.replace("{{GROUPS}}", groups).replace("{{COUNTS}}", counts)
     (ROOT / "index.html").write_text(out)
