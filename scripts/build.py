@@ -85,10 +85,13 @@ def main() -> int:
     essays = sum(len(g["entries"]) for g in data["groups"] if g["id"] == "essays")
     rel = sum(len(g["entries"]) for g in data["groups"] if g["id"] == "releases")
     zen = sum(len(g["entries"]) for g in data["groups"] if g["id"] == "zenodo")
+    cont = sum(len(g["entries"]) for g in data["groups"] if g["id"] == "continued")
+    found = sum(len(g["entries"]) for g in data["groups"] if g["id"] == "foundations")
     private = sum(1 for g in data["groups"] for e in g["entries"] if "private" in e.get("meta", []))
-    counts = (f"{total} entries &middot; {repos} repositories &middot; {gists} gists &middot; "
-              f"{essays} essays &middot; {zen} citable records &middot; {rel} release lines "
-              f"&middot; {private} held private")
+    counts = (f"{total} entries &middot; {repos} repositories &middot; {cont} continuing "
+              f"&middot; {gists} gists &middot; {essays} essays &middot; {found} foundations "
+              f"&middot; {zen} citable records &middot; {rel} release lines &middot; "
+              f"{private} held private")
 
     out = template.replace("{{GROUPS}}", groups).replace("{{COUNTS}}", counts)
     (ROOT / "index.html").write_text(out)
