@@ -8,6 +8,12 @@ A master index of the lab's research, built around one idea:
 Live at **https://sethuiyer.github.io/shunyabar-labs/** (deployed by GitHub Pages from
 `.github/workflows/pages.yml` on every push to `main`).
 
+Two more pages hang off the index:
+
+- **Broadcast** — `broadcast.html`, the two podcast playlists clustered into five research arcs
+- **Notebook** — `notebook.html`, the concept notes, research essays and blog, with the eight
+  pieces promoted into the index marked
+
 Every entry in the index carries a **40-word summary**, and the summaries are enforced:
 `scripts/check_summaries.py` fails the build if any summary is not exactly forty words.
 
@@ -35,21 +41,31 @@ index. To request access, write to **rxgtoing@gmail.com**.
 ## Layout of this repo
 
 ```
-index.html            generated — the site (do not edit by hand)
-templates/index.html  page template with {{GROUPS}} / {{COUNTS}} placeholders
+index.html            generated — the index page (do not edit by hand)
+broadcast.html        generated — the podcasts, clustered into research arcs
+notebook.html         generated — concepts, research essays and the blog
+templates/            page templates with {{...}} placeholders
 data/entries.json     the index: groups, titles, links, dates, tags, summaries
+data/taxonomy.json    the five tribes, the five layers, the Start Here path, new entries
 data/summaries.txt    the curated 40-word summaries, one block per entry
-data/episodes.json   podcast episode metadata (id, date, duration, views) fetched with yt-dlp
-data/podcast_summaries.txt  curated 40-word summaries for the podcast, keyed by video id
+data/citable_records.json     the Zenodo records, with their DOIs
+data/episodes.json    Space Time Cafe episode metadata (fetched with yt-dlp)
+data/labs_episodes.json  Shunyabar Labs podcast episode metadata
+data/arcs.json        the five research arcs, and which episode sits in which
+data/notebook.json    concept notes, research essays and blog posts, with the author's ledes
+data/podcast_summaries.txt  40-word summaries for Space Time Cafe, keyed by video id
+data/labs_summaries.txt     40-word summaries for the Shunyabar Labs podcast
 assets/style.css      stylesheet: light / dark / auto
 assets/theme.js       theme toggle (auto → light → dark), persisted in localStorage
-scripts/build.py      renders index.html from data + templates
+scripts/build.py      renders the three pages from data + templates
 scripts/apply_summaries.py  copies data/summaries.txt into data/entries.json
-scripts/apply_podcast.py    rebuilds the podcast group from data/episodes.json + summaries
+scripts/apply_taxonomy.py   regroups the index into tribes and layers
 scripts/check_summaries.py  verifies every summary is exactly 40 words
 scripts/fetch_visibility.py  tags entries whose repository is private
 scripts/fetch_pages.py       attaches live GitHub Pages URLs to entries
 scripts/fetch_details.py     attaches the lab's own project write-ups
+scripts/fetch_podcast.py     fetches both playlists and assigns the research arcs
+scripts/fetch_notebook.py    fetches the concept notes, essays and blog
 scripts/prune.py             prunes entries that fail the central criterion
 data/removed.json            the pruned entries, with reasons, so nothing is lost
 ```
@@ -58,26 +74,56 @@ data/removed.json            the pruned entries, with reasons, so nothing is los
 
 ```bash
 python3 scripts/apply_summaries.py   # refresh summaries in entries.json
-python3 scripts/apply_podcast.py     # rebuild the podcast group
-python3 scripts/check_summaries.py   # 109/109 summaries at exactly 40 words
+python3 scripts/apply_taxonomy.py    # regroup into tribes and layers
+python3 scripts/check_summaries.py   # 71/71 summaries at exactly 40 words
 python3 scripts/fetch_visibility.py  # re-tag private repositories
 python3 scripts/fetch_pages.py       # attach live GitHub Pages URLs
 python3 scripts/fetch_details.py     # attach the lab's project write-ups
-python3 scripts/build.py             # regenerate index.html
+python3 scripts/fetch_podcast.py     # refresh episodes and research arcs
+python3 scripts/fetch_notebook.py    # refresh concepts, essays and blog
+python3 scripts/build.py             # regenerate the three pages
 ```
 
 ## Groups
 
+**Research tribes** — where the idea is explored:
+
+| Tribe | What it holds |
+|---|---|
+| Core Theory | the phenomenon itself: the Arithmetic Manifold, the Architecture of Axioms, behavioural quotients, the phantom clock |
+| Representation / Memory | the encoding chosen for it: FUTCache, PDI, novelty geometry, model2vec, obs-ai |
+| Optimization / Search | the behaviour it produces: BAHA, NitroSAT, Navokoj, Casimir SAT, NoetherLeap, the spectral–multiplicative framework |
+| Agents / Authority | who may ask and who may act: authorization lattice, agent guardrail, factor agent, reify |
+| Learning / Physics | representation meets physics: eigen-attention, multiplicative PINNs, Fock-space computation |
+
+**Publication and access layers** — orthogonal to the tribes:
+
 | Group | What it holds |
 |---|---|
-| Repositories | work created since October 2025 |
-| Continuing work | earlier repositories that kept moving |
-| Gists | long-form writing published without a repository |
-| Essays | the published pieces from the archive |
 | Foundations | the lab's long-form documents on the docs site |
 | Citable records | Zenodo DOIs, the version of record for each artifact |
 | Released artifacts | published versions, grouped by project |
-| Podcast | *Space Time Cafe* — the playlist overview and every episode |
+| Broadcast | the two podcasts and the writing index, each with its own page |
+| Elsewhere | the notebook, the shipping API, the evidence ledger |
+
+## Layers
+
+Every project in the index moves through the same five layers:
+
+**core** the phenomenon → **mirror** the representation chosen for it →
+**shadow** the behaviour that representation produces → **record** what was frozen and given
+a DOI → **story** how the idea becomes reconstructible in someone else's head.
+
+BAHA is the worked example: the divergence of a partition function's log-derivative (core),
+the multi-sheeted analytic surface (mirror), the stall that ordinary annealing suffers and
+the branch-aware one does not (shadow), DOI 10.5281/zenodo.18373732 (record), and episode 21
+plus the browser build (story).
+
+## Start here
+
+Arithmetic Manifold → Architecture of Axioms → Behavioral Quotients → Phantom Clock → FUTCache.
+What structure exists, what representations preserve it, when equivalence is legitimate, what
+goes wrong when distinctions collapse, and how to compress safely.
 | Elsewhere | the notebook, the shipping API, the evidence ledger |
 
 ## The criterion
@@ -102,8 +148,11 @@ python3 -m http.server 8000
 
 1. Edit the summary block in `data/summaries.txt` (title must match the entry title exactly).
 2. Run `scripts/apply_summaries.py` — it reports any summary that is not exactly 40 words.
-3. Fix the count, re-run, then `scripts/build.py`.
-4. Commit both `data/entries.json` and `index.html`.
+3. Fix the count, re-run `scripts/apply_taxonomy.py`, then `scripts/build.py`.
+4. Commit `data/entries.json` and the three generated pages.
+
+To move an entry to another tribe, edit its membership in `data/taxonomy.json` and re-run
+`scripts/apply_taxonomy.py`; the entry keeps its metadata and summary, only its group changes.
 
 ## Design
 

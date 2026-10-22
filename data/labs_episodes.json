@@ -1,0 +1,167 @@
+[
+ {
+  "id": "v4-RvijYRLY",
+  "title": "",
+  "date": "",
+  "duration": 0,
+  "views": 0,
+  "likes": 0,
+  "desc": "",
+  "available": false,
+  "private": true
+ },
+ {
+  "id": "7SeAx9QbdXk",
+  "title": "",
+  "date": "",
+  "duration": 0,
+  "views": 0,
+  "likes": 0,
+  "desc": "",
+  "available": false,
+  "private": true
+ },
+ {
+  "id": "2dUImjy7F4A",
+  "title": "Extreme Computation | Arithmetic Rigidity Explained",
+  "date": "20260505",
+  "duration": 2422,
+  "views": 157,
+  "likes": 3,
+  "desc": "Is there a mathematical \"wall\" that caps the potential of all human software?\n\nIn this deep dive, Sethu Iyer explores the provocative theory of Arithmetic Rigidity. We often assume software is infinitely malleable—that with enough code and servers, we can build anything. But what if the very fabric of mathematics imposes a boundary that only one structure can survive?\n\nWe’re unpacking why prime numbers are not just schoolbook curiosities, but the only \"computational substrate\" in the universe capable of scaling infinitely without collapsing. From the fatal rounding error of a Patriot Missile to the music of the Riemann Zeta function, we explore the four impossible constraints that define the limits of what can be built.\n\nKey concepts explored:\n\nThe Closure Phenomenon: Why the design space for perfect computation violently collapses.\nThe Four Constraints: Multiplicative Identity, Hierarchical Factorization, Non-Lattice Spectra, and Asymptotic Control.\nThe Graveyard of Alternatives: Why hashes, floating points, and quasi-crystals fail at scale.\nThe Euler Product API: The 18th-century formula that acts as the universe's most perfect software interface.\nThe Riemann Hypothesis as Stabil",
+  "available": true,
+  "private": false
+ },
+ {
+  "id": "PLZZELJfns8",
+  "title": "",
+  "date": "",
+  "duration": 0,
+  "views": 0,
+  "likes": 0,
+  "desc": "",
+  "available": false,
+  "private": true
+ },
+ {
+  "id": "whMiOUdPH4g",
+  "title": "",
+  "date": "",
+  "duration": 0,
+  "views": 0,
+  "likes": 0,
+  "desc": "",
+  "available": false,
+  "private": true
+ },
+ {
+  "id": "88VtGLRa5Us",
+  "title": "",
+  "date": "",
+  "duration": 0,
+  "views": 0,
+  "likes": 0,
+  "desc": "",
+  "available": false,
+  "private": true
+ },
+ {
+  "id": "TVWow7yH8BU",
+  "title": "Truth as Thermal History",
+  "date": "20260402",
+  "duration": 356,
+  "views": 89,
+  "likes": 3,
+  "desc": "Explore a radical new perspective on the fundamental laws governing our reality. This video dives into the \"Four-Step Engine of Complexity\"—a universal cycle found in physics, cognition, and computation. We examine the concept of TATH (Truth as Thermal History), suggesting that mathematics isn't just discovered but \"condensed\" from infinite possibilities. From the unpredictable turbulence of prime numbers to the multi-dimensional origami of the Adele Ring, discover how complexity emerges from creases and folds rather than raw material. We also take a look at Shunya Bar, a deep-tech lab in India building the tools—like Nitrosat and BAHA—to map this new frontier where math and reality melt together.\n\nTimestamps:\n\n    0:00 - Introduction: The Quiet Revolution across Science & Math\n\n    0:20 - The Four-Step Engine of Complexity: Constraint, Tension, Search, Resolution\n\n    1:39 - TATH: Math as Frozen Truth and the Role of Prime Numbers\n\n    3:00 - The Universe as Origami: Structure from Folds\n\n    3:47 - Comparing Views: Classical Math vs. the TATH Perspective\n\n    4:36 - Shunya Bar: Engineering Tools for the Next Foundation of Tech\n\n    5:47 - Conclusion: We are the Unfolding",
+  "available": true,
+  "private": false
+ },
+ {
+  "id": "aJhBIv3EFAM",
+  "title": "Introducing NitroSAT: Powerful linear-time MaxSAT approximation engine",
+  "date": "20260302",
+  "duration": 232,
+  "views": 123,
+  "likes": 5,
+  "desc": "NitroSAT is a new computational engine that reinterprets the MaxSAT problem as a continuous process of thermodynamic relaxation. \n\nHow It Works – From Math to Code\nState as a field on the hyperbolic disk.\nCompute gradients of the free energy (kinetic + potential + entropy).\nDiffuse via a heat‑kernel approximation (no expensive eigen‑decomposition).\nDetect topological fractures (Betti‑1 cycles) and perform branch‑aware holonomy annealing.\nIterate until a global optimum or a high‑quality approximate solution is found.\n\nThis gives astonishing results across 5600+ CNFs. Benchmarks: https://huggingface.co/datasets/sethuiyer/navokoj_sat_2024\n\nTimestamps:\n\n    0:00 - What is NitroSAT? (Introduction)\n    0:24 - The SAT Crisis: Why traditional solvers fail\n    0:47 - NitroSAT Architecture Overview\n    1:05 - Innovation 01: The Hyperbolic Manifold & Poincaré Disk\n    1:23 - Innovation 02: Prime Weights & Multiplicative Independence\n    1:40 - Innovation 03: Heat Kernel Diffusion\n    2:00 - Innovation 04: Topological Intelligence & Betti Numbers\n    2:20 - Performance Benchmarks: Numbers Don’t Lie\n    2:42 - Real-World Impact: Chip Verification, Protein Maps, and Timetabling\n    3:05 - Implem",
+  "available": true,
+  "private": false
+ },
+ {
+  "id": "lJyqOVOJRPA",
+  "title": "Escaping NP-Hard Search with Statistical Mechanics",
+  "date": "20260205",
+  "duration": 834,
+  "views": 360,
+  "likes": 11,
+  "desc": "This is an outcome after 8 years of relentless research in millenium prize problems since 2018. I do not know how to make cozy animations so I am using AI for the outreach. \n\nI promise you, this is not a random AI slop. This is a very unconventional line of thought, pretty interdisciplinary and with real emperical results and speedups. I would love if you could spend some time understanding my work. Thank you.\n=====\n\nFind the condensed code at https://github.com/sethuiyer/shunyabar.lua. Enjoy.\nNotebookLM: https://notebooklm.google.com/notebook/6bbec879-32a7-4202-b4aa-bf19e18208b0?pli=1\n\nWhy do conventional algorithms struggle with problems that nature solves effortlessly? This video presents a unified framework for \"Physics-Inspired Computation,\" exploring how we can move from brute-force logic to elegant geometry.\n\nBy treating computational hardness as thermodynamic phase transitions and Boolean constraints as continuous energy landscapes, we can solve \"impossible\" problems like the Traveling Salesman Problem and extreme SAT equations.\n\nWe cover six key pillars:\nThe Computational Challenge: Why 20 cities create 2.4 quintillion routes.\nLogic as Geometry: Reframing discrete problems",
+  "available": true,
+  "private": false
+ },
+ {
+  "id": "NvSmy5P9H_E",
+  "title": "The Algorithm That Feels Like Cheating",
+  "date": "20260128",
+  "duration": 397,
+  "views": 54,
+  "likes": 2,
+  "desc": "Is computational hardness just a failure to see the right map? In this deep dive, we explore BAHA (Branch Adaptive Hardness Aligner), a physics-inspired algorithm that treats optimization landscapes like glass. While traditional solvers get stuck in \"shattered\" solution spaces, BAHA monitors thermodynamic spikes to \"teleport\" between solution sheets. From doubling revenue in spectrum auctions to finding Ramsey theory witnesses in under a second on a laptop, BAHA isn't just an optimizer—it's a diagnostic oracle that reveals the hidden structure of reality.\n\nBlog: https://sethuiyer.github.io/baha/\n\nhttps://github.com/sethuiyer/baha\nhttps://doi.org/10.5281/zenodo.18373732\nTimestamps\n\nPart 1: Visual Presentation\n\n    00:00 - What is BAHA? (Branch-Adaptive Hardness Aligner)\n\n    00:12 - The Optimization Trap (The \"Glassy Phase\")\n\n    00:25 - The Innovation: Topological Shattering Detection\n\n    00:37 - The Universal 5-Phase Fracture Pattern\n\n    00:52 - Selective Exploitation: Fractures vs. Branch Jumps\n\n    01:06 - Validation Across 26+ Problem Domains\n\n    01:19 - Notable Results: Ramsey Theory & Spectrum Auctions\n\n    01:32 - Technical Architecture (C++ & CUDA)\n\n    01:48 - Beyond Op",
+  "available": true,
+  "private": false
+ },
+ {
+  "id": "ddjok2jt2AQ",
+  "title": "Navokoj: Deterministic, Time-Bounded Constraint Solving at Scale",
+  "date": "20260119",
+  "duration": 591,
+  "views": 106,
+  "likes": 3,
+  "desc": "Navokoj is a novel constraint intelligence engine platform designed to solve astronomically large discrete spaces with deterministic, time-bounded performance. While classical SAT solvers often struggle with search explosions and unpredictable runtimes, Navokoj leverages principles from statistical mechanics and arithmetic symmetry breaking to deliver a scalable, reliable solution.\n\nIn this video, we go beyond standard Boolean logic to explore the \"geometry of constraint satisfaction.\" We discuss how C* algebras, Gibbs states, and the Riemann zeta function can be unified into a high-performance framework for constraint solving at scale.\n\nWhat we cover:\n\n0:00 - The Problem with Classical SAT Solvers\n1:10 - Arithmetic Symmetry Breaking Explained\n3:00 - C* Algebras and Gibbs States in Constraint Logic\n4:40 - Symmetry Breaking and KMS States\n6:08 - Hands-on Lab: Solving at Scale with Navokoj\n8:30 - Future Implications for Chip Verification and AI\nKey Concepts: #ConstraintSolving #Navokoj #SATSolvers #StatisticalMechanics #MathEngineering #SethuIyer\n\n\n\n### **OFFICIAL LINKS**\n\nAPI & Docs: [https://navokoj.shunyabar.foo/](https://navokoj.shunyabar.foo/)\nGitHub (Reference Implementation): ",
+  "available": true,
+  "private": false
+ },
+ {
+  "id": "4QZOYWg7Diw",
+  "title": "Primes as Curvature Defects: A Topological Perspective on Number Theory",
+  "date": "20260109",
+  "duration": 152,
+  "views": 611,
+  "likes": 10,
+  "desc": "What if prime numbers are not just isolated integers, but structural \"defects\" in a geometric landscape?\n\nIn this presentation, Sethu Iyer explores a novel topological framework for number theory, shifting the perspective from Boolean variables to an arithmetic landscape where global phase coherence and curvature play a central role. By examining the relationship between local inconsistency (\"frustration\") and measurable curvature, this research provides a new lens through which to view primality, the Riemann Zeta function, and the profinite solenoid.\n\nKey Concepts Explored:\n\n    Frustration = Curvature: How local pairwise inconsistencies predict global impossibility.\n\n    The Spectral Portrait of Primality: Using Fourier analysis and the Riemann Zeta function to understand the integer terrain.\n\n    Topological Defects: Primes as irreducible features in the profinite solenoid.\n\n    Geodesic Divergence: Linking prime number density to negative curvature and local geometry.\n\nPresented by: Sethu Iyer\nResearch | 2024\nTimestamps\n\n0:00 - Introduction: Primes as Curvature Defects\n0:16 - Frustration as Curvature: Local Probes for Global Impossibility\n0:34 - The Prime Sieve: Emergence via E",
+  "available": true,
+  "private": false
+ },
+ {
+  "id": "EgUC0Eczr-A",
+  "title": "Prime Gated Navier Stokes",
+  "date": "20251201",
+  "duration": 190,
+  "views": 42,
+  "likes": 2,
+  "desc": "Blog: https://research.shunyabar.foo/posts/multiplicative-navier-stokes.html\nCode: https://github.com/sethuiyer/multiplicative-pinn-framework",
+  "available": true,
+  "private": false
+ },
+ {
+  "id": "9o44BH-vWps",
+  "title": "A Fractal Woven from Primes",
+  "date": "20251129",
+  "duration": 187,
+  "views": 331,
+  "likes": 6,
+  "desc": "Dynamic Prime Cantor Set, the elusive set with measure 0 and dimension 1\nBlog Post: https://research.shunyabar.foo/posts/dynamic-prime-cantor-set.html",
+  "available": true,
+  "private": false
+ },
+ {
+  "id": "74Chty3tRdI",
+  "title": "Solving SAT with Quantum Vacuum Dynamics",
+  "date": "20251129",
+  "duration": 244,
+  "views": 139,
+  "likes": 3,
+  "desc": "Casimir-SAT: Physics-Driven SAT Solving (92.57% on 4,199 SAT 2024 instances)\n\nWhat if NP-Complete problems could be solved by quantum physics? \n\nThis pure-Python solver replaces CDCL backtracking with vacuum dynamics + Casimir forces, achieving:\n• 92.57% perfect solutions (Pro engine)\n• N=1000 scalability \n• 98.7% MAX-SAT accuracy on hard instances\n\n📄 Theory: https://sethuiyer.github.io/casimir-sat-solver/\n💻 Code: https://github.com/sethuiyer/casimir-sat-solver\n📊 Benchmarks: https://huggingface.co/datasets/sethuiyer/navokoj_sat_2024\n🔧 Live API: https://navokoj.shunyabar.foo\n\nZenodo DOI: https://zenodo.org/records/17394165\n\nTimestamps:\n00:00 Intro: Computation as Physics\n00:14 Vacuum Dynamics & Casimir Force\n00:37 Energy Landscape\n00:51 Domain Walls & Fractional Satisfaction\n01:18 Phase Separation Dynamics\n01:44 Spectral Clustering (Fiedler Vector)\n02:12 Crystallization & Clause Learning\n02:25 SAT Phase Transitions\n02:52 Benchmarks vs CDCL Solvers\n03:34 Future: Hybrid Solvers\n\n#SATSolver #QuantumComputing #CasimirEffect #ConstraintOptimization #MLResearch",
+  "available": true,
+  "private": false
+ }
+]

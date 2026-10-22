@@ -228,3 +228,45 @@ The community around the lab: a Discord with people working on solvers, constrai
 
 @@ Theory portal
 The formal architecture of the spectral-arithmetic system, still being written: the axioms, the geometry, the quotient structure and the open questions. It is the deepest door into the lab, and it is currently a placeholder while the proofs are settled.
+
+@@ The Dynamic Prime Cantor Set: A Fractal Woven from the Primes
+A fractal construction on the unit interval built intrinsically from the distribution of prime numbers, replacing the fixed middle-third rule with one driven by prime gaps. The dynamic set is compared against the classical Cantor construction and known fractal dimensions.
+
+@@ The Prime Walk: Spontaneous Symmetry Breaking from Number Theory to the Riemann Hypothesis
+A random walk on prime powers that connects the molecular Jahn-Teller effect to the Riemann hypothesis through spontaneous symmetry breaking. The walk shows how a physical degeneracy lifts on a number-theoretic landscape, with plots, figures and computed results attached throughout.
+
+@@ Multiplicative Archaeology: Recovering Interaction History from Digital Atoms
+A framework for treating numbers as structured histories rather than opaque quantities. Digit topology, interaction cost and the archaeology of factorization are used to read a number's past, to say which parts of that past a downstream decision may ignore.
+
+@@ Probing the Ramsey Limit: Phase Transitions in High-Dimensional Logic
+Where perfect solutions become impossible, the constraint system changes character rather than merely getting harder. The essay locates that boundary for high-dimensional logic and reports what survives on the far side of it, where partial satisfaction is all that remains.
+
+@@ Navokoj: A Physics Engine for Logic
+Boolean logic treated as a continuous dynamical system rather than a search over assignments. The essay argues that constraints can be relaxed as physics, that the relaxation can be computed, and that the result beats classical solvers on industrial instances.
+
+@@ Training Dynamics for Discrete Constraint Satisfaction
+The parallel between gradient descent through a neural network and continuous optimisation for NP-hard constraint problems, examined directly. The essay asks what a training dynamic looks like when the parameters are clauses, and what a loss surface would even mean.
+
+@@ The Physics-Informed Control Plane for Agentic Systems
+Probabilistic agent behaviour turned into reliable, inspectable action through a constraint-governed execution layer. The essay describes the architecture that decides what an agent may do, verifies that it was done, and returns verifiable evidence rather than a promise of compliance.
+
+@@ The Multiplicative Axis: A New Approach to Navier-Stokes with Prime Number Gates
+Additive physics penalties replaced by prime-based multiplicative gates, offering a new perspective on gradient pathology that solvers meet in Navier-Stokes simulation. The essay shows how positivity and conservation laws survive the reformulation that ordinary penalty methods quietly break in practice.
+
+@@ Novelty Geometry — Initial Release
+The frozen first release of the novelty-geometry repository, covering traversal, ordered novelty, memory and asymptotic completion in metric and hyperbolic spaces alike. The record fixes the released version that separates genuinely covered territory from a reworded revisit of ground explored.
+
+@@ NoetherLeap — Zenodo software record
+The frozen first release of constraint-aware optimization, pairing physics-informed networks with Bayesian search and symmetry discovery. Conserved quantities prune the search space without removing any reachable optimum, and the symmetries are reported rather than simply assumed to hold in advance.
+
+@@ Banzhaf Ensemble Thesis
+The frozen, citable thesis record of a study of Banzhaf power indices in ensemble learning: which features shift a model's vote, and how much redundancy an ensemble can carry before the extra members change nothing at all in real deployments.
+
+@@ Space Time Cafe
+An audio notebook following the ideas that became ShunyaBar Labs: primes, invariants, operator theory, geometry, complexity, information, intelligence and mathematical physics. The podcast is the oral prehistory of the lab, recording the conceptual lineage behind the later formal research programme.
+
+@@ Shunyabar Labs podcast
+The lab's short-form channel: arithmetic rigidity, statistical mechanics for NP-hard search, primes as curvature defects, and demonstrations of the solvers and the constraint engine. Fifteen episodes, ten of them public and available today, each one a piece of the argument.
+
+@@ Writing index
+Everything written and not promoted into the main index: the concept notes, the research essays and the working blog, with the author's ledes kept intact. Eight pieces are promoted into the research path; the rest stay here, one click away.

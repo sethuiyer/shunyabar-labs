@@ -1,0 +1,80 @@
+[
+  {
+    "title": "Solving SAT with Quantum Vacuum Dynamics",
+    "url": "https://zenodo.org/records/17394165",
+    "date": "2025-10-20",
+    "meta": [
+      "Proposal",
+      "2025",
+      "CC-BY-4.0"
+    ],
+    "summary": "Partial assignments are treated as physical microstates in an energy landscape, where almost-satisfying configurations attract one another Casimir-style and coagulate into stable solution clusters. The proposal reframes Boolean satisfiability as a physical process, with the implementation and interactive site attached.",
+    "doi": "https://doi.org/10.5281/zenodo.17394165",
+    "details": "https://sethuiyer.github.io/docs/zenodo/solving-sat-quantum-vacuum-dynamics"
+  },
+  {
+    "title": "Spectral-Multiplicative Optimization Framework",
+    "url": "https://zenodo.org/records/17596089",
+    "date": "2025-04-21",
+    "meta": [
+      "Thesis",
+      "2025",
+      "CC-BY-4.0"
+    ],
+    "summary": "An implementation and validation bundle joining heat-kernel spectral theory to number-theoretic constraint encoding, running at O(nnz) on graphs past a hundred thousand nodes while holding spectral action and multiplicative penalties correlated. It ships diagnostics for inherent optimisation limits baked in.",
+    "doi": "https://doi.org/10.5281/zenodo.17596089",
+    "details": "https://sethuiyer.github.io/docs/zenodo/spectral-multiplicative-framework"
+  },
+  {
+    "title": "ShunyaBar: Spectral-Arithmetic Phase Transitions for Combinatorial Optimization",
+    "url": "https://zenodo.org/records/18214172",
+    "date": "2025-12-31",
+    "meta": [
+      "Preprint",
+      "2025",
+      "CC-BY-4.0"
+    ],
+    "summary": "The umbrella preprint formalising the solver programme as a spectral triple whose partition function factorises over the adelic ring, with KMS states undergoing a phase transition at inverse temperature one. A renormalisation sweep replaces exponential search with a bounded one.",
+    "doi": "https://doi.org/10.5281/zenodo.18214172",
+    "details": "https://sethuiyer.github.io/docs/zenodo/shunyabar-spectral-arithmetic-phase-transitions"
+  },
+  {
+    "title": "Multiplicative Calculus for Hardness Detection and Branch-Aware Optimization",
+    "url": "https://zenodo.org/records/18373732",
+    "date": "2026-01-26",
+    "meta": [
+      "Working paper",
+      "2026",
+      "CC-BY-4.0"
+    ],
+    "summary": "Hardness is located where the log-derivative of a partition function diverges, because the control parameter there lives on a multi-sheeted analytic surface where optimisers fail. A branch-aware optimiser navigates the sheets with Lambert W, cutting complexity from exponential to linear.",
+    "doi": "https://doi.org/10.5281/zenodo.18373732",
+    "details": "https://sethuiyer.github.io/docs/zenodo/multiplicative-calculus-hardness-detection"
+  },
+  {
+    "title": "NitroSAT: A Physics-Informed MaxSAT Solver Using Heat Kernel Diffusion, Persistent Homology, and Branch-Aware Holonomy Annealing",
+    "url": "https://zenodo.org/records/18753235",
+    "date": "2026-02-24",
+    "meta": [
+      "Software",
+      "2026",
+      "Apache-2.0"
+    ],
+    "summary": "A MaxSAT solver treating constraint satisfaction as a dynamical system on a clause hypergraph, with heat-kernel smoothing, persistent homology for symmetry detection, zeta-guided resonance injection and branch-aware holonomy annealing. It reaches 99.58 percent satisfaction across 358 instances and nineteen families.",
+    "doi": "https://doi.org/10.5281/zenodo.18753235",
+    "details": "https://sethuiyer.github.io/docs/zenodo/nitrosat-physics-informed-maxsat"
+  },
+  {
+    "title": "Emergent Stochasticity from Serialized Concurrency",
+    "url": "https://zenodo.org/records/19571762",
+    "date": "2026-04-03",
+    "meta": [
+      "Thesis",
+      "2026",
+      "CC-BY-4.0"
+    ],
+    "summary": "Uniform randomness is reconstructed as the invariant measure of a deterministic concurrent system forced through a serialising bottleneck, with the interleaving space written as products of symmetric groups. It is a constructive theory of when distinct histories may be pooled.",
+    "doi": "https://doi.org/10.5281/zenodo.19571762",
+    "details": "https://sethuiyer.github.io/docs/zenodo/emergent-stochasticity-serialized-concurrency"
+  }
+]

@@ -1,0 +1,420 @@
+{
+  "concepts": [
+    {
+      "title": "Beyond Prompt Engineering: Agentic AI as a Distributed System",
+      "url": "https://sethuiyer.github.io/docs/concepts/agentic-ai-distributed-systems/",
+      "date": "",
+      "lede": "Agentic AI is usually framed as a prompt-engineering problem. That is the wrong abstraction for enterprise systems.",
+      "slug": "agentic-ai-distributed-systems"
+    },
+    {
+      "title": "Asymptotically Fair Stopping and Divergent Computation",
+      "url": "https://sethuiyer.github.io/docs/concepts/asymptotically-fair-stopping/",
+      "date": "",
+      "lede": "&quot;I believe that divergent series are an invention of the devil, and it is a shame to base any demonstration upon them. One can obtain from them whatever one wishes when one proceeds, and…",
+      "slug": "asymptotically-fair-stopping"
+    },
+    {
+      "title": "Cofinal Invariance",
+      "url": "https://sethuiyer.github.io/docs/concepts/cofinal-invariance/",
+      "date": "",
+      "lede": "Canonicity for the live growth rate: is the exponent a property of the system, or of the tower?",
+      "slug": "cofinal-invariance"
+    },
+    {
+      "title": "Multiplicative vs Additive Constraint Enforcement",
+      "url": "https://sethuiyer.github.io/docs/concepts/multiplicative-vs-additive/",
+      "date": "",
+      "lede": "Imagine you're trying to lose weight (data fit) while also eating enough vegetables (constraint). An additive approach says:",
+      "slug": "multiplicative-vs-additive"
+    },
+    {
+      "title": "The Partition Function",
+      "url": "https://sethuiyer.github.io/docs/concepts/partition-function/",
+      "date": "",
+      "lede": "The partition function is the single most important mathematical object in the Arithmetic Manifold. Think of it as a &quot;smoothed out&quot; summary of an entire system — it captures everything im…",
+      "slug": "partition-function"
+    },
+    {
+      "title": "Phase Transitions",
+      "url": "https://sethuiyer.github.io/docs/concepts/phase-transitions/",
+      "date": "",
+      "lede": "Water turning to ice is a phase transition. The same substance, the same chemical formula, but at certain temperatures, the entire character of the system changes — from a fluid where mol…",
+      "slug": "phase-transitions"
+    },
+    {
+      "title": "Prime Euler Activations and ZetaDrop",
+      "url": "https://sethuiyer.github.io/docs/concepts/prime-euler-activations/",
+      "date": "",
+      "lede": "where v measures constraint violation and C(v) rescales the optimization landscape. This preserves the main data-gradient direction while adding a structured correction through",
+      "slug": "prime-euler-activations"
+    },
+    {
+      "title": "Prime Weighting",
+      "url": "https://sethuiyer.github.io/docs/concepts/prime-weighting/",
+      "date": "",
+      "lede": "Every constraint in a problem is different — a clause in a SAT formula is not the same as an edge-cut constraint in graph partitioning. But traditional algorithms treat constraints all th…",
+      "slug": "prime-weighting"
+    },
+    {
+      "title": "Regular-Growth Identification",
+      "url": "https://sethuiyer.github.io/docs/concepts/regular-growth-identification/",
+      "date": "",
+      "lede": "Standing. This note is deliberately separate from the frozen quotient–completion–observer triple. It does not modify Resolution STOP or §19 of the STOP manuscript. The triple asserts q c…",
+      "slug": "regular-growth-identification"
+    },
+    {
+      "title": "Resolution STOP",
+      "url": "https://sethuiyer.github.io/docs/concepts/resolution-stop/",
+      "date": "",
+      "lede": "Let K be a space of histories, trajectories, or behavioural traces, equipped with nested finite-resolution indistinguishability relations \\sim 0,\\ \\sim 1,\\ \\sim 2,\\dots , and define the f…",
+      "slug": "resolution-stop"
+    },
+    {
+      "title": "The Riemann Hypothesis as Stability Condition",
+      "url": "https://sethuiyer.github.io/docs/concepts/riemann-hypothesis/",
+      "date": "",
+      "lede": "The Riemann Hypothesis (RH) is one of the most famous unsolved problems in mathematics — it states that all non-trivial zeros of the Riemann zeta function lie on the critical line \\text{R…",
+      "slug": "riemann-hypothesis"
+    },
+    {
+      "title": "STOP Operators as Resolution Flows on Infinite Computational Paths",
+      "url": "https://sethuiyer.github.io/docs/concepts/stop-operator-manuscript/",
+      "date": "",
+      "lede": "Classical analysis usually studies an infinite process through the existence or failure of a terminal limit. This paper develops an alternative formulation in which an infinite process is…",
+      "slug": "stop-operator-manuscript"
+    }
+  ],
+  "research": [
+    {
+      "title": "Convergence Frontiers: Literature Survey of Interdisciplinary Research Paradigms",
+      "url": "https://research.shunyabar.foo/posts/convergence-frontiers.html",
+      "date": "November 5, 2025",
+      "lede": "Systematic literature survey mapping ShunyaBar Labs’ interdisciplinary research to current scientific advances.",
+      "slug": "convergence-frontiers.html",
+      "promoted": false
+    },
+    {
+      "title": "The Dynamic Prime Cantor Set: A Fractal Woven from the Primes",
+      "url": "https://research.shunyabar.foo/posts/dynamic-prime-cantor-set.html",
+      "date": "April 28, 2025",
+      "lede": "We introduce the Dynamic Prime Cantor (DPC) set, a novel fractal construction on the unit interval intrinsically linked to the distribution of prime numbers.",
+      "slug": "dynamic-prime-cantor-set.html",
+      "promoted": true
+    },
+    {
+      "title": "Observations on Exponential Functions in Complex Systems",
+      "url": "https://research.shunyabar.foo/posts/fingerprint-of-complexity.html",
+      "date": "November 16, 2025",
+      "lede": "Notes on patterns in exponential functions across various mathematical and computational domains we’ve studied.",
+      "slug": "fingerprint-of-complexity.html",
+      "promoted": false
+    },
+    {
+      "title": "Fock Space Computation: A Mathematical Framework for Symbolic Information Processing",
+      "url": "https://research.shunyabar.foo/posts/fock-space-computation.html",
+      "date": "November 5, 2025",
+      "lede": "A formal demonstration that symbolic computation follows quantum field theory mathematics, with experimental validation in parsing and version control.",
+      "slug": "fock-space-computation.html",
+      "promoted": false
+    },
+    {
+      "title": "The Hidden Laws of Imbalance: Advanced Diagnostic Frameworks for Optimization Limits in Complex Systems",
+      "url": "https://research.shunyabar.foo/posts/hidden-laws-of-imbalance.html",
+      "date": "November 1, 2025",
+      "lede": "Save cycles and dollars: sometimes the right move is architectural, not parametric.",
+      "slug": "hidden-laws-of-imbalance.html",
+      "promoted": false
+    },
+    {
+      "title": "Majorana Topological Superconductors: From Quantum Particles to the Riemann Hypothesis",
+      "url": "https://research.shunyabar.foo/posts/majorana-topological-superconductors.html",
+      "date": "February 22, 2025",
+      "lede": "Exploring the fascinating connection between Majorana fermions, topological superconductors, and the Riemann hypothesis through quantum physical systems.",
+      "slug": "majorana-topological-superconductors.html",
+      "promoted": false
+    },
+    {
+      "title": "Mathematical Mechanism: How the Self-Stabilizing Optimizer Works",
+      "url": "https://research.shunyabar.foo/posts/mathematical-mechanism.html",
+      "date": "November 14, 2025",
+      "lede": "Clean, rigorous mathematics behind the exponential-sum manifold and correlation-based control system for NP-hard problems",
+      "slug": "mathematical-mechanism.html",
+      "promoted": false
+    },
+    {
+      "title": "A Multiplicative Axis for Constraint Enforcement in Machine Learning",
+      "url": "https://research.shunyabar.foo/posts/multiplicative-constraint-axis.html",
+      "date": "November 17, 2025",
+      "lede": "Revealing a previously unrecognized axis in loss-design space through spectral-multiplicative constraints built on analytic number theory and exponential barrier dynamics.",
+      "slug": "multiplicative-constraint-axis.html",
+      "promoted": false
+    },
+    {
+      "title": "The Multiplicative Axis: A New Approach to Navier-Stokes with Prime Number Gates",
+      "url": "https://research.shunyabar.foo/posts/multiplicative-navier-stokes.html",
+      "date": "November 20, 2025",
+      "lede": "A novel framework replacing additive physics penalties with prime-based multiplicative gates, offering a new perspective on gradient pathology in Navier-Stokes simulations.",
+      "slug": "multiplicative-navier-stokes.html",
+      "promoted": true
+    },
+    {
+      "title": "The Prime Walk: Spontaneous Symmetry Breaking from Number Theory to the Riemann Hypothesis",
+      "url": "https://research.shunyabar.foo/posts/prime-walk-jahn-teller.html",
+      "date": "October 6, 2025",
+      "lede": "A random walk on prime powers that connects molecular Jahn-Teller effect to the Riemann Hypothesis through spontaneous symmetry breaking.",
+      "slug": "prime-walk-jahn-teller.html",
+      "promoted": true
+    },
+    {
+      "title": "The Proximity-Identity Functional: Mathematical Foundations of Equilibrium in Complex Systems",
+      "url": "https://research.shunyabar.foo/posts/proximity-identity-equilibrium.html",
+      "date": "April 19, 2025",
+      "lede": "A mathematical analysis of the proximity-identity functional and its role in determining equilibrium states across physics, machine learning, and information theory.",
+      "slug": "proximity-identity-equilibrium.html",
+      "promoted": false
+    },
+    {
+      "title": "The Quantum Rhythm Hypothesis: Mathematics as Condensed Matter Physics",
+      "url": "https://research.shunyabar.foo/posts/quantum-rhythm-hypothesis.html",
+      "date": "November 2, 2025",
+      "lede": "Revolutionary framework treating primes as quasiparticles, reimagining the Riemann Hypothesis as condensed matter physics.",
+      "slug": "quantum-rhythm-hypothesis.html",
+      "promoted": false
+    },
+    {
+      "title": "The Hidden Manifold Where Geometry Meets Arithmetic: How We Built a Self-Stabilizing Optimizer",
+      "url": "https://research.shunyabar.foo/posts/self-stabilizing-optimizer.html",
+      "date": "November 14, 2025",
+      "lede": "Every optimization problem—from designing microchip layouts to allocating cloud resources—can be visualized as navigating a complex energy landscape. Traditional solvers rely on brute force, but we built a system that actively locks onto the fundamental smooth structure beneath.",
+      "slug": "self-stabilizing-optimizer.html",
+      "promoted": false
+    },
+    {
+      "title": "TSP on the Self-Stabilizing Optimizer: A Complete Implementation Plan",
+      "url": "https://research.shunyabar.foo/posts/tsp-mechanism.html",
+      "date": "November 14, 2025",
+      "lede": "Mapping the Exponential-Sum Manifold framework onto the Traveling Salesman Problem with complete implementation details",
+      "slug": "tsp-mechanism.html",
+      "promoted": false
+    }
+  ],
+  "blog": [
+    {
+      "title": "The Physics-Informed Control Plane for Agentic Systems",
+      "url": "https://sethuiyer.github.io/docs/blog/agent-control-plane/",
+      "date": "2026-05-11",
+      "lede": "Turn probabilistic agent behavior into reliable, enterprise-grade action with Navokoj's constraint-governed execution layer. Computing that never fails closed.",
+      "slug": "agent-control-plane",
+      "promoted": true
+    },
+    {
+      "title": "Building a Constraint Runtime, Not Just a Solver",
+      "url": "https://sethuiyer.github.io/docs/blog/building-a-constraint-runtime/",
+      "date": "2026-07-18",
+      "lede": "The product architecture behind deadline-bounded decisions: models, execution, repair, verification, and evidence.",
+      "slug": "building-a-constraint-runtime",
+      "promoted": false
+    },
+    {
+      "title": "Constraint Intelligence for AI Agents",
+      "url": "https://sethuiyer.github.io/docs/blog/constraint-intelligence-for-ai-agents/",
+      "date": "2026-07-18",
+      "lede": "Agents can propose actions probabilistically; Navokoj helps make the resulting decision admissible, inspectable, and executable.",
+      "slug": "constraint-intelligence-for-ai-agents",
+      "promoted": false
+    },
+    {
+      "title": "Deploying Navokoj in Private and Air-Gapped Environments",
+      "url": "https://sethuiyer.github.io/docs/blog/deploying-navokoj-in-private-environments/",
+      "date": "2026-07-18",
+      "lede": "A deployment model for teams that need constraint execution close to their data, networks, and operational controls.",
+      "slug": "deploying-navokoj-in-private-environments",
+      "promoted": false
+    },
+    {
+      "title": "The Product Is the Surface. The Research Goes Deeper.",
+      "url": "https://sethuiyer.github.io/docs/blog/enter-the-research-program/",
+      "date": "2026-07-22",
+      "lede": "Navokoj is one operational expression of a larger research program. A guide for readers who want to follow the mathematics into ShunyaBar Labs' research site.",
+      "slug": "enter-the-research-program",
+      "promoted": false
+    },
+    {
+      "title": "From Workforce Data to a Verified Nurse Roster",
+      "url": "https://sethuiyer.github.io/docs/blog/from-csv-to-verified-nurse-roster/",
+      "date": "2026-07-18",
+      "lede": "How a scheduling workflow turns staffing data, policies, and preferences into a time-bounded operational decision.",
+      "slug": "from-csv-to-verified-nurse-roster",
+      "promoted": false
+    },
+    {
+      "title": "From NitroSAT Research to the Navokoj Runtime",
+      "url": "https://sethuiyer.github.io/docs/blog/from-nitrosat-to-navokoj/",
+      "date": "2026-07-18",
+      "lede": "Why ShunyaBar Labs keeps an open research release while building a commercial constraint runtime around it.",
+      "slug": "from-nitrosat-to-navokoj",
+      "promoted": false
+    },
+    {
+      "title": "Sponsor Preview: Fund the Research, Run the Solver",
+      "url": "https://sethuiyer.github.io/docs/blog/github-sponsors-preview/",
+      "date": "2026-07-20",
+      "lede": "How GitHub Sponsors supports NitroSAT research and unlocks Navokoj compute credits for evaluation.",
+      "slug": "github-sponsors-preview",
+      "promoted": false
+    },
+    {
+      "title": "Kubernetes Placement: 2 Million Constraints, 100% Satisfaction",
+      "url": "https://sethuiyer.github.io/docs/blog/k8s-placement/",
+      "date": "2025-12-28",
+      "lede": "Navokoj, the Fault-Tolerant Constraint Intelligence Engine, delivers a case study in placement safety and outage prevention with 5,000 variables and 2 million constraints.",
+      "slug": "k8s-placement",
+      "promoted": false
+    },
+    {
+      "title": "Multiplicative Archaeology: Recovering Interaction History from Digital Atoms",
+      "url": "https://sethuiyer.github.io/docs/blog/multiplicative-archaeology/",
+      "date": "2026-06-23",
+      "lede": "A framework for treating numbers as structured histories, connecting digit topology, interaction cost, and the archaeology of factorization.",
+      "slug": "multiplicative-archaeology",
+      "promoted": true
+    },
+    {
+      "title": "Navokoj: The Arithmetic Manifold in Production",
+      "url": "https://sethuiyer.github.io/docs/blog/navokoj-launch/",
+      "date": "2026-06-19",
+      "lede": "How Navokoj turns discrete constraint problems into continuous geometric flow, with production benchmarks and verifiable results.",
+      "slug": "navokoj-launch",
+      "promoted": false
+    },
+    {
+      "title": "Navokoj Pricing: Plans, Workloads, and Compute",
+      "url": "https://sethuiyer.github.io/docs/blog/navokoj-pricing-explained/",
+      "date": "2026-07-18",
+      "lede": "How Navokoj combines monthly workload entitlements with explicit CPU and GPU compute settlement.",
+      "slug": "navokoj-pricing-explained",
+      "promoted": false
+    },
+    {
+      "title": "The Road to Enterprise (Legacy Report)",
+      "url": "https://sethuiyer.github.io/docs/blog/navokoj-road-to-enterprise/",
+      "date": "2026-01-24",
+      "lede": "The physics behind Navokoj, the barriers already crossed, and the engineering path from public beta to enterprise readiness.",
+      "slug": "navokoj-road-to-enterprise",
+      "promoted": false
+    },
+    {
+      "title": "Introducing NitroSAT: A High-Performance, Physics-Informed MaxSAT Solver Now Available via Navokoj API",
+      "url": "https://sethuiyer.github.io/docs/blog/nitrosat-release/",
+      "date": "2026-05-11",
+      "lede": "ShunyaBar Labs is proud to announce the public release of NitroSAT — a next-generation MaxSAT approximator that achieves exceptional satisfaction rates on massive, real-world constraint problems while maintaining linear scaling in the number of clauses.",
+      "slug": "nitrosat-release",
+      "promoted": false
+    },
+    {
+      "title": "Navokoj: A Physics Engine for Logic | Constraint Intelligence Platform",
+      "url": "https://sethuiyer.github.io/docs/blog/physics-engine-for-logic/",
+      "date": "2025-11-01",
+      "lede": "Revolutionary Constraint Intelligence Platform that treats Boolean logic as continuous dynamical systems. 347ms median latency vs 45s classical solvers. Physics-inspired optimization for NP-complete problems.",
+      "slug": "physics-engine-for-logic",
+      "promoted": true
+    },
+    {
+      "title": "Beyond SAT: PSPACE-Complete Problems Solved via Continuous Optimization",
+      "url": "https://sethuiyer.github.io/docs/blog/qbf-solving/",
+      "date": "2025-12-24",
+      "lede": "Navokoj, the Fault-Tolerant Constraint Intelligence Engine, provides an overview of PSPACE verification with graceful degradation instead of binary failure.",
+      "slug": "qbf-solving",
+      "promoted": false
+    },
+    {
+      "title": "Q-State Solves a 9x9 Sudoku Through the Navokoj API",
+      "url": "https://sethuiyer.github.io/docs/blog/qstate-sudoku-api-case-study/",
+      "date": "2026-07-19",
+      "lede": "A live Q-State API run solved an 81-variable Sudoku model with 100% satisfaction and zero conflicts.",
+      "slug": "qstate-sudoku-api-case-study",
+      "promoted": false
+    },
+    {
+      "title": "Probing the Ramsey Limit: Phase Transitions in High-Dimensional Logic",
+      "url": "https://sethuiyer.github.io/docs/blog/ramsey-limit/",
+      "date": "2025-12-20",
+      "lede": "Navokoj, the Fault-Tolerant Constraint Intelligence Engine, analyzes phase transitions when perfect solutions become impossible.",
+      "slug": "ramsey-limit",
+      "promoted": true
+    },
+    {
+      "title": "The Road to Enterprise: From Spectral Phase Transitions to a Production Runtime",
+      "url": "https://sethuiyer.github.io/docs/blog/road-to-enterprise/",
+      "date": "2026-07-20",
+      "lede": "How Navokoj evolved from a differentiable SAT experiment into a production constraint runtime with SUTRA, GPU routing, verification, usage billing, and customer-controlled deployment.",
+      "slug": "road-to-enterprise",
+      "promoted": false
+    },
+    {
+      "title": "The Seven Trust Boundaries of a Private Navokoj Deployment",
+      "url": "https://sethuiyer.github.io/docs/blog/seven-seals-navokoj/",
+      "date": "2026-06-22",
+      "lede": "Seven layers of privacy, supply-chain integrity, offline licensing, and binary protection behind the Navokoj deployment model.",
+      "slug": "seven-seals-navokoj",
+      "promoted": false
+    },
+    {
+      "title": "Empirical Evaluation of Navokoj Constraint Solver API",
+      "url": "https://sethuiyer.github.io/docs/blog/shipped-api-verification/",
+      "date": "2026-01-17",
+      "lede": "Production verification of anytime constraint solving with partial satisfaction semantics. 47 test cases, scaling analysis, and failure mode characterization.",
+      "slug": "shipped-api-verification",
+      "promoted": false
+    },
+    {
+      "title": "The Six Research Tribes of ShunyaBar",
+      "url": "https://sethuiyer.github.io/docs/blog/six-research-tribes/",
+      "date": "2026-06-22",
+      "lede": "Six research cohorts compose into one pipeline: weight, transform, satisfy, relax, observe, and coordinate.",
+      "slug": "six-research-tribes",
+      "promoted": false
+    },
+    {
+      "title": "SUTRA on the API: A Small Weighted Constraint Problem, Solved End to End",
+      "url": "https://sethuiyer.github.io/docs/blog/sutra-wcnf-api-case-study/",
+      "date": "2026-07-19",
+      "lede": "A concrete WCNF-style API request using engine:nitro, with hard-feasibility, soft preferences, routing, and verification metadata in one response.",
+      "slug": "sutra-wcnf-api-case-study",
+      "promoted": false
+    },
+    {
+      "title": "Navokoj: Computing That Never Fails Closed",
+      "url": "https://sethuiyer.github.io/docs/blog/the-future-of-sure-thing-computing/",
+      "date": "2026-01-17",
+      "lede": "Traditional solvers make promises they can't keep. When perfection is impossible, they return 'UNSAT' and your system halts. Navokoj returns the best possible outcome, every time. That's resilience infrastructure.",
+      "slug": "the-future-of-sure-thing-computing",
+      "promoted": false
+    },
+    {
+      "title": "Training Dynamics for Discrete Constraint Satisfaction",
+      "url": "https://sethuiyer.github.io/docs/blog/training-dynamics/",
+      "date": "2025-12-15",
+      "lede": "Examining the parallel between gradient-based neural network training and continuous optimization for NP-hard constraint problems.",
+      "slug": "training-dynamics",
+      "promoted": true
+    },
+    {
+      "title": "What Happens When the Deadline Arrives?",
+      "url": "https://sethuiyer.github.io/docs/blog/what-happens-when-a-solve-times-out/",
+      "date": "2026-07-18",
+      "lede": "Navokoj is designed for deadline-bounded decisions: here is what an application receives when a solve cannot finish perfectly.",
+      "slug": "what-happens-when-a-solve-times-out",
+      "promoted": false
+    },
+    {
+      "title": "Why Customers Switch to Navokoj",
+      "url": "https://sethuiyer.github.io/docs/blog/why-customers-switch-to-navokoj/",
+      "date": "2026-07-18",
+      "lede": "A practical constraint runtime for decisions that are expensive, slow, opaque, or difficult to integrate.",
+      "slug": "why-customers-switch-to-navokoj",
+      "promoted": false
+    }
+  ]
+}

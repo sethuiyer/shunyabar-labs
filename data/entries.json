@@ -6,41 +6,29 @@
   },
   "groups": [
     {
-      "id": "repos",
-      "title": "Repositories",
-      "note": "{n} repositories created since October 2025 — each a different surface of the same question.",
+      "id": "core",
+      "title": "Core Theory",
+      "note": "The underlying phenomenon: what structure exists, and what must be preserved for an equivalence to be legitimate at all.",
       "entries": [
         {
-          "title": "phantom-clock",
-          "url": "https://github.com/sethuiyer/phantom-clock",
-          "date": "2026-10-22",
+          "title": "The Arithmetic Manifold",
+          "url": "https://sethuiyer.github.io/docs/core-vision/",
+          "date": "2026",
           "meta": [
-            "HTML",
-            "★ 0"
+            "thesis",
+            "2026"
           ],
-          "summary": "Optical phase space becomes a memory medium. Two rays can share a position and still differ in direction and timing, so collapsing them manufactures errors. This essay keeps phase as a first-class coordinate and documents the ellipsoid inside the clock.",
-          "site": "https://sethuiyer.github.io/phantom-clock/"
+          "summary": "The thesis that constraint satisfaction, optimization and physical simulation are projections of one geometric structure, with five proof points: prime-weighted constraints give every clause a unique fingerprint, so none compete for the same gradient signal and the solver stops stalling."
         },
         {
-          "title": "eigen-attention",
-          "url": "https://github.com/sethuiyer/eigen-attention",
-          "date": "2026-10-18",
+          "title": "The Architecture of Axioms: Geometry, Infinity, and the Prime Code",
+          "url": "https://sethuiyer.github.io/docs/axiom-architecture/",
+          "date": "2026",
           "meta": [
-            "JavaScript",
-            "★ 0"
+            "essay",
+            "2026"
           ],
-          "summary": "Attention reframed as constrained spectral regression: tokens are eigenvectors under a task-induced operator, and the softmax is solved for rather than assumed. The repository extends the theorem, adds controlled experiments, and ships reproducible checks that show where the approximation holds.",
-          "site": "https://sethuiyer.github.io/eigen-attention/"
-        },
-        {
-          "title": "persistent-discovery-index",
-          "url": "https://github.com/sethuiyer/persistent-discovery-index",
-          "date": "2026-09-15",
-          "meta": [
-            "Python",
-            "v0.5.0"
-          ],
-          "summary": "A microscope for agent behaviour. PDI reads pi, OpenAI, LangSmith and canonical traces to locate the exact boundary where useful discovery ends and wasteful exploration begins, and report that boundary at behavioural resolution instead of returning one blunt aggregate score."
+          "summary": "Axioms are treated as a Boolean lattice whose curvature measures how much each axiom depends on the others. Non-zero curvature is the obstruction to path-independence, and extending the geometry to infinite axiom sets breaks Möbius inversion until primes rescue it."
         },
         {
           "title": "behavioral-quotients",
@@ -55,15 +43,110 @@
           "details": "https://sethuiyer.github.io/docs/projects/behavioral-quotients/"
         },
         {
-          "title": "agent-guardrail",
-          "url": "https://github.com/sethuiyer/agent-guardrail",
-          "date": "2026-08-31",
+          "title": "phantom-clock",
+          "url": "https://github.com/sethuiyer/phantom-clock",
+          "date": "2026-10-22",
+          "meta": [
+            "HTML",
+            "★ 0"
+          ],
+          "summary": "Optical phase space becomes a memory medium. Two rays can share a position and still differ in direction and timing, so collapsing them manufactures errors. This essay keeps phase as a first-class coordinate and documents the ellipsoid inside the clock.",
+          "site": "https://sethuiyer.github.io/phantom-clock/"
+        },
+        {
+          "title": "geometry-of-conditional-logic",
+          "url": "https://github.com/sethuiyer/geometry-of-conditional-logic",
+          "date": "2026-05-12",
           "meta": [
             "Python",
-            "★ 1"
+            "private"
           ],
-          "summary": "Policy enforcement and permission testing for AI agents. Mock enterprise APIs simulate synthetic user consent, and requests are blocked before deployment when an agent's authority is not actually established, so abstraction never erases the security-relevant distinctions between any two callers."
+          "summary": "Conditionals are given shape. The repository builds a geometry in which if-then-else regions sit at different distances, letting a program ask how two logical situations differ and when they may be treated as interchangeable without changing what the program decides.",
+          "details": "https://sethuiyer.github.io/docs/projects/geometry-of-conditional-logic/"
         },
+        {
+          "title": "banzhaf-ensemble-thesis",
+          "url": "https://github.com/sethuiyer/banzhaf-ensemble-thesis",
+          "date": "2025-03-25",
+          "meta": [
+            "Python"
+          ],
+          "summary": "Game theory meets ensemble learning through Banzhaf power indices, measuring which features shift a model's vote. The thesis asks how much redundancy an ensemble can carry before the extra members change nothing, and how to tell when they already have."
+        },
+        {
+          "title": "TATH",
+          "url": "https://gist.github.com/sethuiyer/95163626f16f4f7c5736d88fe6799587",
+          "date": "2026-03-26",
+          "meta": [
+            "FORMAL.md"
+          ],
+          "summary": "A formal treatment of the laboratory's central device, written as a self-contained document. The definitions are tightened until every later project can be checked against them, including which information an abstraction is allowed to discard and what it must keep."
+        },
+        {
+          "title": "Computation",
+          "url": "https://gist.github.com/sethuiyer/0f0c58dda163472e77272160391c1b4d",
+          "date": "2026-01-14",
+          "meta": [
+            "BLOG.md"
+          ],
+          "summary": "An essay on computation as the act of discarding what is irrelevant. It works through what computation must retain, what it may forget, and why two questions are inseparable in every system that has to survive contact with a user."
+        },
+        {
+          "title": "Operator Algebra Blogpost",
+          "url": "https://gist.github.com/sethuiyer/26a3ed75b2a535bcb28b2d2f7af81616",
+          "date": "2026-01-14",
+          "meta": [
+            "README.md"
+          ],
+          "summary": "Operator algebra imported as a language for representation: which parts of a system are interchangeable, and what quotient structure survives that interchange. It is the bridge between physics and the abstraction program, and the clearest statement of the shared vocabulary."
+        },
+        {
+          "title": "The Proximity-Identity Functional: Mathematical Foundations of Equilibrium",
+          "url": "https://github.com/sethuiyer/shunyabar-labs-archive/blob/main/posts/proximity-identity-equilibrium.html",
+          "date": "2025-11",
+          "meta": [
+            "equilibrium",
+            "private"
+          ],
+          "summary": "A mathematical analysis of the proximity-identity functional and its role in determining equilibrium states across physics, machine learning and information theory. The essay derives the functional's fixed points and shows equilibrium as an identity that survives perturbation of the system."
+        },
+        {
+          "title": "The Dynamic Prime Cantor Set: A Fractal Woven from the Primes",
+          "url": "https://research.shunyabar.foo/posts/dynamic-prime-cantor-set.html",
+          "date": "2025-11-01",
+          "meta": [
+            "Essay",
+            "Number theory"
+          ],
+          "summary": "A fractal construction on the unit interval built intrinsically from the distribution of prime numbers, replacing the fixed middle-third rule with one driven by prime gaps. The dynamic set is compared against the classical Cantor construction and known fractal dimensions."
+        },
+        {
+          "title": "The Prime Walk: Spontaneous Symmetry Breaking from Number Theory to the Riemann Hypothesis",
+          "url": "https://research.shunyabar.foo/posts/prime-walk-jahn-teller.html",
+          "date": "2025-11-01",
+          "meta": [
+            "Essay",
+            "Number theory"
+          ],
+          "summary": "A random walk on prime powers that connects the molecular Jahn-Teller effect to the Riemann hypothesis through spontaneous symmetry breaking. The walk shows how a physical degeneracy lifts on a number-theoretic landscape, with plots, figures and computed results attached throughout."
+        },
+        {
+          "title": "Multiplicative Archaeology: Recovering Interaction History from Digital Atoms",
+          "url": "https://sethuiyer.github.io/docs/blog/multiplicative-archaeology/",
+          "date": "2026-06-23",
+          "meta": [
+            "Note",
+            "Number theory"
+          ],
+          "summary": "A framework for treating numbers as structured histories rather than opaque quantities. Digit topology, interaction cost and the archaeology of factorization are used to read a number's past, to say which parts of that past a downstream decision may ignore."
+        }
+      ]
+    },
+    {
+      "id": "representation",
+      "title": "Representation / Memory",
+      "note": "The mirror: the encoding chosen for a system, and how much of it may be discarded before the next decision goes wrong.",
+      "entries": [
         {
           "title": "FUTCache",
           "url": "https://github.com/sethuiyer/FUTCache",
@@ -74,6 +157,16 @@
           ],
           "summary": "A bounded-memory sufficient-state representation of explored geometry. FUTCache merges visited states whenever merging loses nothing a later decision needs, scaling to a million production traces while the cache itself stays fixed in size, and released three times in summer 2026.",
           "details": "https://sethuiyer.github.io/docs/projects/futcache/"
+        },
+        {
+          "title": "persistent-discovery-index",
+          "url": "https://github.com/sethuiyer/persistent-discovery-index",
+          "date": "2026-09-15",
+          "meta": [
+            "Python",
+            "v0.5.0"
+          ],
+          "summary": "A microscope for agent behaviour. PDI reads pi, OpenAI, LangSmith and canonical traces to locate the exact boundary where useful discovery ends and wasteful exploration begins, and report that boundary at behavioural resolution instead of returning one blunt aggregate score."
         },
         {
           "title": "novelty-geometry",
@@ -88,69 +181,44 @@
           "details": "https://sethuiyer.github.io/docs/projects/novelty-geometry/"
         },
         {
-          "title": "reify",
-          "url": "https://github.com/shunyabarlabs/reify",
-          "date": "2026-07-27",
+          "title": "model2vec",
+          "url": "https://github.com/sethuiyer/model2vec",
+          "date": "2025-11-07",
           "meta": [
-            "D",
-            "★ 0"
+            "fork"
           ],
-          "summary": "A declarative SDK and compiler for constraint optimization and decision-intelligence engines. Constraints are declared rather than hand-encoded, and the compiler decides how much structure can be discarded while every remaining degree of freedom still changes the decision that comes out."
+          "summary": "A fork of the static-embedding toolkit, kept for experiments in compressing models until only the distinctions a downstream decision depends on remain. The fork exists to test how far that compression can be pushed, and where it starts to lose."
         },
         {
-          "title": "docs",
-          "url": "https://github.com/sethuiyer/docs",
-          "date": "2026-07-20",
-          "meta": [
-            "Astro"
-          ],
-          "summary": "The lab's documentation site, built with Astro: core vision, glossary, concepts, limitations and design philosophy, written so outsiders can follow it. It states the Arithmetic Manifold thesis, cites the evidence ledger, and serves as the front door to the lab.",
-          "site": "https://sethuiyer.github.io/docs/"
-        },
-        {
-          "title": "NoetherLeap",
-          "url": "https://github.com/sethuiyer/NoetherLeap",
-          "date": "2026-06-30",
-          "meta": [
-            "HTML",
-            "v1.0",
-            "private"
-          ],
-          "summary": "Constraint-aware optimization that pairs physics-informed neural networks with Bayesian search and symmetry discovery. The system exploits conserved quantities to avoid searching dimensions that provably cannot change the outcome, and reports the symmetries it found in advance rather than assuming them."
-        },
-        {
-          "title": "authorization-lattice",
-          "url": "https://github.com/sethuiyer/authorization-lattice",
-          "date": "2026-06-04",
-          "meta": [
-            "HTML",
-            "private"
-          ],
-          "summary": "Two agents may request the same action while holding entirely different permissions. Ignoring that distinction produces a security failure, so the work orders authority in a lattice and still keeps ownership attached to objects that may have none at all.",
-          "details": "https://sethuiyer.github.io/docs/projects/authorization-lattice/"
-        },
-        {
-          "title": "factor-agent",
-          "url": "https://github.com/sethuiyer/factor-agent",
-          "date": "2026-05-20",
-          "meta": [
-            "HTML",
-            "★ 1"
-          ],
-          "summary": "Invariant-preserving agent harnesses built on OTP supervision, arithmetic security lattices and lawful composition. The harness watches that an agent preserves the quantities it was supposed to preserve exactly, and reports every violation rather than silently averaging it out of sight.",
-          "site": "https://sethuiyer.github.io/factor-agent/",
-          "details": "https://sethuiyer.github.io/docs/projects/factor-agent/"
-        },
-        {
-          "title": "geometry-of-conditional-logic",
-          "url": "https://github.com/sethuiyer/geometry-of-conditional-logic",
-          "date": "2026-05-12",
+          "title": "obs-ai",
+          "url": "https://github.com/sethuiyer/obs-ai",
+          "date": "2025-06-26",
           "meta": [
             "Python",
             "private"
           ],
-          "summary": "Conditionals are given shape. The repository builds a geometry in which if-then-else regions sit at different distances, letting a program ask how two logical situations differ and when they may be treated as interchangeable without changing what the program decides.",
-          "details": "https://sethuiyer.github.io/docs/projects/geometry-of-conditional-logic/"
+          "summary": "Obsidian with an AI layer, kept as a knowledge base that can be queried without losing provenance. Notes are indexed so retrieval returns the passage you meant, not the closest wording, and answer can be traced back to its source."
+        }
+      ]
+    },
+    {
+      "id": "optimization",
+      "title": "Optimization / Search",
+      "note": "The shadow: behaviour produced by that representation when it meets a hard instance and a deadline.",
+      "entries": [
+        {
+          "title": "baha",
+          "url": "https://github.com/sethuiyer/baha",
+          "date": "2026-01-27",
+          "meta": [
+            "C++",
+            "★ 4"
+          ],
+          "summary": "Branch-aware holonomy annealing: when a solver stalls, the escape mechanism detects the fractures where the log-derivative of the partition function diverges and navigates the multi-sheeted analytic surface with Lambert W, cutting complexity from exponential to linear where ordinary annealing stalls.",
+          "site": "https://sethuiyer.github.io/baha/",
+          "details": "https://sethuiyer.github.io/docs/projects/baha/",
+          "doi": "https://doi.org/10.5281/zenodo.18373732",
+          "app": "https://baha.pages.dev/"
         },
         {
           "title": "NitroSAT",
@@ -176,48 +244,6 @@
           "details": "https://sethuiyer.github.io/docs/projects/navokoj/"
         },
         {
-          "title": "baha",
-          "url": "https://github.com/sethuiyer/baha",
-          "date": "2026-01-27",
-          "meta": [
-            "C++",
-            "★ 4"
-          ],
-          "summary": "Branch-aware holonomy annealing: when a solver stalls, the escape mechanism detects the fractures where the log-derivative of the partition function diverges and navigates the multi-sheeted analytic surface with Lambert W, cutting complexity from exponential to linear where ordinary annealing stalls.",
-          "site": "https://sethuiyer.github.io/baha/",
-          "details": "https://sethuiyer.github.io/docs/projects/baha/",
-          "doi": "https://doi.org/10.5281/zenodo.18373732",
-          "app": "https://baha.pages.dev/"
-        },
-        {
-          "title": "multiplicative-pinn-framework",
-          "url": "https://github.com/sethuiyer/multiplicative-pinn-framework",
-          "date": "2025-11-19",
-          "meta": [
-            "Python",
-            "★ 1"
-          ],
-          "summary": "A research framework for solving PDEs with multiplicative constraints, where physics-informed networks are constrained multiplicatively rather than additively. The result preserves positivity and conservation laws that the usual formulation violates, and makes the violation visible whenever it cannot be avoided.",
-          "site": "https://sethuiyer.github.io/multiplicative-pinn-framework/",
-          "details": "https://sethuiyer.github.io/docs/projects/multiplicative-pinn/"
-        },
-        {
-          "title": "model2vec",
-          "url": "https://github.com/sethuiyer/model2vec",
-          "date": "2025-11-07",
-          "meta": [
-            "fork"
-          ],
-          "summary": "A fork of the static-embedding toolkit, kept for experiments in compressing models until only the distinctions a downstream decision depends on remain. The fork exists to test how far that compression can be pushed, and where it starts to lose."
-        }
-      ]
-    },
-    {
-      "id": "continued",
-      "title": "Continuing work",
-      "note": "Repositories that began earlier and kept moving through the same period.",
-      "entries": [
-        {
           "title": "casimir-sat-solver",
           "url": "https://github.com/sethuiyer/casimir-sat-solver",
           "date": "2025-10-20",
@@ -228,6 +254,17 @@
           "summary": "Where boolean logic meets quantum mechanics, expressed as a solver whose constraints behave like physical fields settling toward a ground state. The project asks which logical distinctions survive when the clause set is treated as one physical object at once.",
           "site": "https://sethuiyer.github.io/casimir-sat-solver/",
           "details": "https://sethuiyer.github.io/docs/projects/casimir-sat-solver/"
+        },
+        {
+          "title": "NoetherLeap",
+          "url": "https://github.com/sethuiyer/NoetherLeap",
+          "date": "2026-06-30",
+          "meta": [
+            "HTML",
+            "v1.0",
+            "private"
+          ],
+          "summary": "Constraint-aware optimization that pairs physics-informed neural networks with Bayesian search and symmetry discovery. The system exploits conserved quantities to avoid searching dimensions that provably cannot change the outcome, and reports the symmetries it found in advance rather than assuming them."
         },
         {
           "title": "spectral-multiplicative-framework",
@@ -241,41 +278,6 @@
           "details": "https://sethuiyer.github.io/docs/projects/spectral-multiplicative/"
         },
         {
-          "title": "obs-ai",
-          "url": "https://github.com/sethuiyer/obs-ai",
-          "date": "2025-06-26",
-          "meta": [
-            "Python",
-            "private"
-          ],
-          "summary": "Obsidian with an AI layer, kept as a knowledge base that can be queried without losing provenance. Notes are indexed so retrieval returns the passage you meant, not the closest wording, and answer can be traced back to its source."
-        },
-        {
-          "title": "banzhaf-ensemble-thesis",
-          "url": "https://github.com/sethuiyer/banzhaf-ensemble-thesis",
-          "date": "2025-03-25",
-          "meta": [
-            "Python"
-          ],
-          "summary": "Game theory meets ensemble learning through Banzhaf power indices, measuring which features shift a model's vote. The thesis asks how much redundancy an ensemble can carry before the extra members change nothing, and how to tell when they already have."
-        }
-      ]
-    },
-    {
-      "id": "gists",
-      "title": "Gists and essays",
-      "note": "Long-form writing published directly on GitHub, without a repository around it.",
-      "entries": [
-        {
-          "title": "TATH",
-          "url": "https://gist.github.com/sethuiyer/95163626f16f4f7c5736d88fe6799587",
-          "date": "2026-03-26",
-          "meta": [
-            "FORMAL.md"
-          ],
-          "summary": "A formal treatment of the laboratory's central device, written as a self-contained document. The definitions are tightened until every later project can be checked against them, including which information an abstraction is allowed to discard and what it must keep."
-        },
-        {
           "title": "How Number Theory Breaks a NP-Hard Problem",
           "url": "https://gist.github.com/sethuiyer/ab041089ca4c4c2a8f3b164be7498442",
           "date": "2026-03-24",
@@ -283,41 +285,6 @@
             "BLOG.md"
           ],
           "summary": "An argument that number-theoretic structure can dissolve the apparent hardness of a combinatorial problem rather than merely making it faster. The piece isolates the specific distinction the encoding preserves, and explains why removing that distinction returns the original difficulty unchanged."
-        },
-        {
-          "title": "Computation",
-          "url": "https://gist.github.com/sethuiyer/0f0c58dda163472e77272160391c1b4d",
-          "date": "2026-01-14",
-          "meta": [
-            "BLOG.md"
-          ],
-          "summary": "An essay on computation as the act of discarding what is irrelevant. It works through what computation must retain, what it may forget, and why two questions are inseparable in every system that has to survive contact with a user."
-        },
-        {
-          "title": "Operator Algebra Blogpost",
-          "url": "https://gist.github.com/sethuiyer/26a3ed75b2a535bcb28b2d2f7af81616",
-          "date": "2026-01-14",
-          "meta": [
-            "README.md"
-          ],
-          "summary": "Operator algebra imported as a language for representation: which parts of a system are interchangeable, and what quotient structure survives that interchange. It is the bridge between physics and the abstraction program, and the clearest statement of the shared vocabulary."
-        }
-      ]
-    },
-    {
-      "id": "essays",
-      "title": "Published essays",
-      "note": "Longer pieces written for the site. They live in the archive repository, held private — write to request access.",
-      "entries": [
-        {
-          "title": "Fock Space Computation: A Mathematical Framework for Symbolic Information Processing",
-          "url": "https://github.com/sethuiyer/shunyabar-labs-archive/blob/main/posts/fock-space-computation.html",
-          "date": "2025-11",
-          "meta": [
-            "quantum",
-            "private"
-          ],
-          "summary": "A formal demonstration that symbolic computation follows quantum field theory mathematics, with experimental validation in parsing and version control. Fock space supplies the state space, and the framework explains why symbolic systems behave like particle systems under construction and annihilation."
         },
         {
           "title": "The Hidden Laws of Imbalance: Advanced Diagnostic Frameworks for Optimization Limits",
@@ -340,6 +307,146 @@
           "summary": "Clean, rigorous mathematics behind the exponential-sum manifold and the correlation-based control system applied to NP-hard problems. This is the mechanism write-up: what the solver actually computes, why the correlation term converges, and which guarantees hold for hard instances in practice."
         },
         {
+          "title": "The Hidden Manifold Where Geometry Meets Arithmetic: How We Built a Self-Stabilizing Optimizer",
+          "url": "https://github.com/sethuiyer/shunyabar-labs-archive/blob/main/posts/self-stabilizing-optimizer.html",
+          "date": "2025-11",
+          "meta": [
+            "optimisation",
+            "private"
+          ],
+          "summary": "Every optimisation problem, from microchip layouts to cloud allocation, is navigation across an energy landscape. This essay describes the system built to stabilise itself there, replacing brute force with a manifold that contracts toward a solution with no human supervision."
+        },
+        {
+          "title": "Probing the Ramsey Limit: Phase Transitions in High-Dimensional Logic",
+          "url": "https://sethuiyer.github.io/docs/blog/ramsey-limit/",
+          "date": "2025-12-20",
+          "meta": [
+            "Note",
+            "Phase transitions"
+          ],
+          "summary": "Where perfect solutions become impossible, the constraint system changes character rather than merely getting harder. The essay locates that boundary for high-dimensional logic and reports what survives on the far side of it, where partial satisfaction is all that remains."
+        },
+        {
+          "title": "Navokoj: A Physics Engine for Logic",
+          "url": "https://sethuiyer.github.io/docs/blog/physics-engine-for-logic/",
+          "date": "2025-11-01",
+          "meta": [
+            "Note",
+            "Constraint solving"
+          ],
+          "summary": "Boolean logic treated as a continuous dynamical system rather than a search over assignments. The essay argues that constraints can be relaxed as physics, that the relaxation can be computed, and that the result beats classical solvers on industrial instances."
+        },
+        {
+          "title": "Training Dynamics for Discrete Constraint Satisfaction",
+          "url": "https://sethuiyer.github.io/docs/blog/training-dynamics/",
+          "date": "2025-12-15",
+          "meta": [
+            "Note",
+            "Optimization"
+          ],
+          "summary": "The parallel between gradient descent through a neural network and continuous optimisation for NP-hard constraint problems, examined directly. The essay asks what a training dynamic looks like when the parameters are clauses, and what a loss surface would even mean."
+        }
+      ]
+    },
+    {
+      "id": "agents",
+      "title": "Agents / Authority",
+      "note": "The shadow for agents: who may ask, who may act, and which distinctions a merge would silently erase.",
+      "entries": [
+        {
+          "title": "authorization-lattice",
+          "url": "https://github.com/sethuiyer/authorization-lattice",
+          "date": "2026-06-04",
+          "meta": [
+            "HTML",
+            "private"
+          ],
+          "summary": "Two agents may request the same action while holding entirely different permissions. Ignoring that distinction produces a security failure, so the work orders authority in a lattice and still keeps ownership attached to objects that may have none at all.",
+          "details": "https://sethuiyer.github.io/docs/projects/authorization-lattice/"
+        },
+        {
+          "title": "agent-guardrail",
+          "url": "https://github.com/sethuiyer/agent-guardrail",
+          "date": "2026-08-31",
+          "meta": [
+            "Python",
+            "★ 1"
+          ],
+          "summary": "Policy enforcement and permission testing for AI agents. Mock enterprise APIs simulate synthetic user consent, and requests are blocked before deployment when an agent's authority is not actually established, so abstraction never erases the security-relevant distinctions between any two callers."
+        },
+        {
+          "title": "factor-agent",
+          "url": "https://github.com/sethuiyer/factor-agent",
+          "date": "2026-05-20",
+          "meta": [
+            "HTML",
+            "★ 1"
+          ],
+          "summary": "Invariant-preserving agent harnesses built on OTP supervision, arithmetic security lattices and lawful composition. The harness watches that an agent preserves the quantities it was supposed to preserve exactly, and reports every violation rather than silently averaging it out of sight.",
+          "site": "https://sethuiyer.github.io/factor-agent/",
+          "details": "https://sethuiyer.github.io/docs/projects/factor-agent/"
+        },
+        {
+          "title": "reify",
+          "url": "https://github.com/shunyabarlabs/reify",
+          "date": "2026-07-27",
+          "meta": [
+            "D",
+            "★ 0"
+          ],
+          "summary": "A declarative SDK and compiler for constraint optimization and decision-intelligence engines. Constraints are declared rather than hand-encoded, and the compiler decides how much structure can be discarded while every remaining degree of freedom still changes the decision that comes out."
+        },
+        {
+          "title": "The Physics-Informed Control Plane for Agentic Systems",
+          "url": "https://sethuiyer.github.io/docs/blog/agent-control-plane/",
+          "date": "2026-05-11",
+          "meta": [
+            "Note",
+            "Agents"
+          ],
+          "summary": "Probabilistic agent behaviour turned into reliable, inspectable action through a constraint-governed execution layer. The essay describes the architecture that decides what an agent may do, verifies that it was done, and returns verifiable evidence rather than a promise of compliance."
+        }
+      ]
+    },
+    {
+      "id": "learning",
+      "title": "Learning / Physics",
+      "note": "Where the representation meets physics: multiplicative constraints, operator language, and models that solve for what softmax assumes.",
+      "entries": [
+        {
+          "title": "eigen-attention",
+          "url": "https://github.com/sethuiyer/eigen-attention",
+          "date": "2026-10-18",
+          "meta": [
+            "JavaScript",
+            "★ 0"
+          ],
+          "summary": "Attention reframed as constrained spectral regression: tokens are eigenvectors under a task-induced operator, and the softmax is solved for rather than assumed. The repository extends the theorem, adds controlled experiments, and ships reproducible checks that show where the approximation holds.",
+          "site": "https://sethuiyer.github.io/eigen-attention/"
+        },
+        {
+          "title": "multiplicative-pinn-framework",
+          "url": "https://github.com/sethuiyer/multiplicative-pinn-framework",
+          "date": "2025-11-19",
+          "meta": [
+            "Python",
+            "★ 1"
+          ],
+          "summary": "A research framework for solving PDEs with multiplicative constraints, where physics-informed networks are constrained multiplicatively rather than additively. The result preserves positivity and conservation laws that the usual formulation violates, and makes the violation visible whenever it cannot be avoided.",
+          "site": "https://sethuiyer.github.io/multiplicative-pinn-framework/",
+          "details": "https://sethuiyer.github.io/docs/projects/multiplicative-pinn/"
+        },
+        {
+          "title": "Fock Space Computation: A Mathematical Framework for Symbolic Information Processing",
+          "url": "https://github.com/sethuiyer/shunyabar-labs-archive/blob/main/posts/fock-space-computation.html",
+          "date": "2025-11",
+          "meta": [
+            "quantum",
+            "private"
+          ],
+          "summary": "A formal demonstration that symbolic computation follows quantum field theory mathematics, with experimental validation in parsing and version control. Fock space supplies the state space, and the framework explains why symbolic systems behave like particle systems under construction and annihilation."
+        },
+        {
           "title": "A Multiplicative Axis for Constraint Enforcement in Machine Learning",
           "url": "https://github.com/sethuiyer/shunyabar-labs-archive/blob/main/posts/multiplicative-constraint-axis.html",
           "date": "2025-11",
@@ -350,52 +457,22 @@
           "summary": "A previously unrecognised axis in loss-design space, built from spectral-multiplicative constraints using analytic number theory and exponential barrier dynamics. The essay shows that constraints can be enforced multiplicatively, preserving properties additive penalties quietly destroy, and explains when this axis helps."
         },
         {
-          "title": "The Proximity-Identity Functional: Mathematical Foundations of Equilibrium",
-          "url": "https://github.com/sethuiyer/shunyabar-labs-archive/blob/main/posts/proximity-identity-equilibrium.html",
-          "date": "2025-11",
+          "title": "The Multiplicative Axis: A New Approach to Navier-Stokes with Prime Number Gates",
+          "url": "https://research.shunyabar.foo/posts/multiplicative-navier-stokes.html",
+          "date": "2025-11-01",
           "meta": [
-            "equilibrium",
-            "private"
+            "Essay",
+            "Physics"
           ],
-          "summary": "A mathematical analysis of the proximity-identity functional and its role in determining equilibrium states across physics, machine learning and information theory. The essay derives the functional's fixed points and shows equilibrium as an identity that survives perturbation of the system."
-        },
-        {
-          "title": "The Hidden Manifold Where Geometry Meets Arithmetic: How We Built a Self-Stabilizing Optimizer",
-          "url": "https://github.com/sethuiyer/shunyabar-labs-archive/blob/main/posts/self-stabilizing-optimizer.html",
-          "date": "2025-11",
-          "meta": [
-            "optimisation",
-            "private"
-          ],
-          "summary": "Every optimisation problem, from microchip layouts to cloud allocation, is navigation across an energy landscape. This essay describes the system built to stabilise itself there, replacing brute force with a manifold that contracts toward a solution with no human supervision."
+          "summary": "Additive physics penalties replaced by prime-based multiplicative gates, offering a new perspective on gradient pathology that solvers meet in Navier-Stokes simulation. The essay shows how positivity and conservation laws survive the reformulation that ordinary penalty methods quietly break in practice."
         }
       ]
     },
     {
       "id": "foundations",
-      "title": "Foundations",
-      "note": "{n} long-form documents on the lab site: the thesis, the axiom geometry, the honest scope, and the bibliography. Read these before the code.",
+      "title": "docs",
+      "note": "The long-form documents: what the idea is, where it stops, and what it rests on.",
       "entries": [
-        {
-          "title": "The Architecture of Axioms: Geometry, Infinity, and the Prime Code",
-          "url": "https://sethuiyer.github.io/docs/axiom-architecture/",
-          "date": "2026",
-          "meta": [
-            "essay",
-            "2026"
-          ],
-          "summary": "Axioms are treated as a Boolean lattice whose curvature measures how much each axiom depends on the others. Non-zero curvature is the obstruction to path-independence, and extending the geometry to infinite axiom sets breaks Möbius inversion until primes rescue it."
-        },
-        {
-          "title": "The Arithmetic Manifold",
-          "url": "https://sethuiyer.github.io/docs/core-vision/",
-          "date": "2026",
-          "meta": [
-            "thesis",
-            "2026"
-          ],
-          "summary": "The thesis that constraint satisfaction, optimization and physical simulation are projections of one geometric structure, with five proof points: prime-weighted constraints give every clause a unique fingerprint, so none compete for the same gradient signal and the solver stops stalling."
-        },
         {
           "title": "Unified Mathematical Systems Report",
           "url": "https://sethuiyer.github.io/docs/research-report/",
@@ -455,13 +532,23 @@
             "2026"
           ],
           "summary": "A working document on running five public surfaces and ten shipped projects without flattening them into one template. The rule is simple: tune every surface to what its reader came to do, and let the surfaces disagree where readers differ."
+        },
+        {
+          "title": "docs",
+          "url": "https://github.com/sethuiyer/docs",
+          "date": "2026-07-20",
+          "meta": [
+            "Astro"
+          ],
+          "summary": "The lab's documentation site, built with Astro: core vision, glossary, concepts, limitations and design philosophy, written so outsiders can follow it. It states the Arithmetic Manifold thesis, cites the evidence ledger, and serves as the front door to the lab.",
+          "site": "https://sethuiyer.github.io/docs/"
         }
       ]
     },
     {
-      "id": "zenodo",
-      "title": "Citable records",
-      "note": "{n} Zenodo records, each the version of record for an artifact. The DOIs are permanent and citable; prefer them over a repository link when you cite.",
+      "id": "citable",
+      "title": "Banzhaf Ensemble Thesis",
+      "note": "Every artifact with a permanent identifier — the version of record, not a pointer to one.",
       "entries": [
         {
           "title": "Solving SAT with Quantum Vacuum Dynamics",
@@ -540,13 +627,46 @@
           "summary": "Uniform randomness is reconstructed as the invariant measure of a deterministic concurrent system forced through a serialising bottleneck, with the interleaving space written as products of symmetric groups. It is a constructive theory of when distinct histories may be pooled.",
           "doi": "https://doi.org/10.5281/zenodo.19571762",
           "details": "https://sethuiyer.github.io/docs/zenodo/emergent-stochasticity-serialized-concurrency"
+        },
+        {
+          "title": "Novelty Geometry — Initial Release",
+          "url": "https://doi.org/10.5281/zenodo.22058736",
+          "date": "2026",
+          "meta": [
+            "Zenodo",
+            "Software"
+          ],
+          "doi": "https://doi.org/10.5281/zenodo.22058736",
+          "summary": "The frozen first release of the novelty-geometry repository, covering traversal, ordered novelty, memory and asymptotic completion in metric and hyperbolic spaces alike. The record fixes the released version that separates genuinely covered territory from a reworded revisit of ground explored."
+        },
+        {
+          "title": "NoetherLeap — Zenodo software record",
+          "url": "https://doi.org/10.5281/zenodo.21077472",
+          "date": "2026",
+          "meta": [
+            "Zenodo",
+            "Software"
+          ],
+          "doi": "https://doi.org/10.5281/zenodo.21077472",
+          "summary": "The frozen first release of constraint-aware optimization, pairing physics-informed networks with Bayesian search and symmetry discovery. Conserved quantities prune the search space without removing any reachable optimum, and the symmetries are reported rather than simply assumed to hold in advance."
+        },
+        {
+          "title": "Banzhaf Ensemble Thesis",
+          "url": "https://doi.org/10.5281/zenodo.17611452",
+          "date": "2025",
+          "meta": [
+            "Zenodo",
+            "Thesis"
+          ],
+          "doi": "https://doi.org/10.5281/zenodo.17611452",
+          "summary": "The frozen, citable thesis record of a study of Banzhaf power indices in ensemble learning: which features shift a model's vote, and how much redundancy an ensemble can carry before the extra members change nothing at all in real deployments."
         }
       ]
     },
     {
       "id": "releases",
-      "title": "Released artifacts",
-      "note": "Published versions, grouped by project.",
+      "title": "reify — v0.1.0, v0.2.0",
+      "note": "Published versions, grouped by project: what froze, and when.",
       "entries": [
         {
           "title": "FUTCache — v1.3.0, v1.4.0, v.2.0.0",
@@ -593,639 +713,51 @@
       ]
     },
     {
-      "id": "podcast",
-      "title": "Podcast — Space Time Cafe",
-      "note": "{n} entries — the lab's argument in spoken form: one long-form video essay per topic, plus the playlist overview.",
+      "id": "broadcast",
+      "title": "Writing index",
+      "note": "How the idea becomes reconstructible in someone else's head.",
       "entries": [
         {
           "title": "Space Time Cafe",
           "url": "https://www.youtube.com/playlist?list=PLUPyripldgZb2ZKSJOQ6p1DO3oCk9yT6G",
           "date": "2025-02-22",
           "meta": [
-            "Playlist",
-            "51 videos"
+            "Podcast",
+            "51 episodes"
           ],
-          "summary": "A long-form video essay series in which physics, number theory, geometry and machine learning are argued through together. Fifty-one episodes published between February 2025 and August 2026 range over primes, infinity, chaos, operators, fairness and the limits of computation itself.",
-          "site": "https://www.youtube.com/@SethuIyer95"
+          "site": "https://sethuiyer.github.io/shunyabar-labs/broadcast.html",
+          "details": "https://www.youtube.com/@SethuIyer95",
+          "summary": "An audio notebook following the ideas that became ShunyaBar Labs: primes, invariants, operator theory, geometry, complexity, information, intelligence and mathematical physics. The podcast is the oral prehistory of the lab, recording the conceptual lineage behind the later formal research programme."
         },
         {
-          "title": "Episode 1 : The Lore Behind Majorana Quantum Chip",
-          "url": "https://www.youtube.com/watch?v=mFOJihE49eE",
-          "date": "2025-02-22",
+          "title": "Shunyabar Labs podcast",
+          "url": "https://www.youtube.com/playlist?list=PLUPyripldgZZMq2qkUzxhj_N9aVh6w2XV",
+          "date": "2025-11-29",
           "meta": [
-            "Video",
-            "36m 34s",
-            "506 views"
+            "Podcast",
+            "15 episodes"
           ],
-          "summary": "The series opens on Ettore Majorana, who vanished in 1938, and the fermions that carry his name. The episode reconstructs the story, explains what makes them neutral and self-conjugate, and traces how a particle became a candidate for quantum hardware.",
-          "video": "mFOJihE49eE"
+          "site": "https://sethuiyer.github.io/shunyabar-labs/broadcast.html#labs",
+          "details": "https://www.youtube.com/@SethuIyer95",
+          "summary": "The lab's short-form channel: arithmetic rigidity, statistical mechanics for NP-hard search, primes as curvature defects, and demonstrations of the solvers and the constraint engine. Fifteen episodes, ten of them public and available today, each one a piece of the argument."
         },
         {
-          "title": "Episode 2 : The Majorana-Riemann Hypothesis Connection – A Breakdown",
-          "url": "https://www.youtube.com/watch?v=cxMhh-0aysc",
-          "date": "2025-02-22",
+          "title": "Writing index",
+          "url": "https://sethuiyer.github.io/shunyabar-labs/notebook.html",
+          "date": "2026",
           "meta": [
-            "Video",
-            "50m 56s",
-            "1.7k views"
+            "Notebook",
+            "53 notes"
           ],
-          "summary": "The second episode presses the link between Majorana fermions and the Riemann hypothesis, working through how topological superconductivity encodes prime behaviour, where the analogy holds, and where the mathematics is doing real work rather than merely sounding deep and impressive.",
-          "video": "cxMhh-0aysc"
-        },
-        {
-          "title": "Episode 3: Unraveling Infinity’s Code",
-          "url": "https://www.youtube.com/watch?v=PJB5v1wseRc",
-          "date": "2025-02-24",
-          "meta": [
-            "Video",
-            "31m 24s",
-            "146 views"
-          ],
-          "summary": "Einstein's continuous infinity against Wolfram's computational treatment of the infinite, with the argument that infinity is a constraint of description rather than a thing that exists. The episode asks what changes if the universe is explored algorithmically instead of analytically.",
-          "video": "PJB5v1wseRc"
-        },
-        {
-          "title": "Episode 6: The Monster Problem: Fibonacci’s Deepest Secrets (Part 2)",
-          "url": "https://www.youtube.com/watch?v=YvNBkF5KM2c",
-          "date": "2025-02-24",
-          "meta": [
-            "Video",
-            "40m 50s",
-            "130 views"
-          ],
-          "summary": "Part two of the Fibonacci sequence: whether primes hide a code when written in Fibonacci base, and what that means for finding them. The episode works through the monster problem and asks whether arithmetic structure could resolve an open question.",
-          "video": "YvNBkF5KM2c"
-        },
-        {
-          "title": "Episode 4: Computational Infinity: The Universe's Hidden Code",
-          "url": "https://www.youtube.com/watch?v=xu27UFJ9ua0",
-          "date": "2025-02-25",
-          "meta": [
-            "Video",
-            "38m 36s",
-            "367 views"
-          ],
-          "summary": "What if infinity is not real, and every infinite is a computational limit not yet reached. The episode develops computational infinity as a working alternative to continuous analysis, and tests it against the places classical mathematics refuses to ever terminate.",
-          "video": "xu27UFJ9ua0"
-        },
-        {
-          "title": "Episode 5: Fibonacci Unraveled: The Math, the Mystery, and the Magic (Part 1)",
-          "url": "https://www.youtube.com/watch?v=4UJt391PMqY",
-          "date": "2025-02-26",
-          "meta": [
-            "Video",
-            "38m 47s",
-            "153 views"
-          ],
-          "summary": "Part one: the Fibonacci sequence from first principles, its closed form, and the golden ratio it converges to, then outward to sunflowers, spirals and galaxies. The episode asks why one recurrence appears everywhere it does, and what it is counting.",
-          "video": "4UJt391PMqY"
-        },
-        {
-          "title": "Episode 7: Fibonacci’s Hidden Duality: Growth vs Decay",
-          "url": "https://www.youtube.com/watch?v=h1iDDU50ZKc",
-          "date": "2025-02-28",
-          "meta": [
-            "Video",
-            "43m 03s",
-            "154 views"
-          ],
-          "summary": "The same recurrence, with initial conditions nudged, produces decay instead of growth. The episode explores eigenmode cancellation in detail and the parameter at which exponential growth flips sign, treating the pair of behaviours as one object seen from two sides.",
-          "video": "h1iDDU50ZKc"
-        },
-        {
-          "title": "Episode 8: Primes, Chaos, and the Quantum Code | Spacetime Cafe",
-          "url": "https://www.youtube.com/watch?v=Ooh_ZKH93gw",
-          "date": "2025-03-09",
-          "meta": [
-            "Video",
-            "59m 30s",
-            "976 views"
-          ],
-          "summary": "Primes mimic quantum randomness using arithmetic alone: the episode works through chaotic maps over the primes, their spectral behaviour, and why the pattern is indistinguishable from quantum while being entirely classical in origin, then asks what would separate the explanations.",
-          "video": "Ooh_ZKH93gw"
-        },
-        {
-          "title": "Episode 9: Prime Chaos and the Secret p-adic Vortex of Randomness - Spacetime Cafe",
-          "url": "https://www.youtube.com/watch?v=Sfr95nLoUAM",
-          "date": "2025-03-13",
-          "meta": [
-            "Video",
-            "47m 25s",
-            "253 views"
-          ],
-          "summary": "Prime vortex maps, the swirling flows of quantum materials, and the p-adic number line placed side by side, arguing that randomness at different scales has one single structure, and that the vortex is where number theory becomes fluid and computable.",
-          "video": "Sfr95nLoUAM"
-        },
-        {
-          "title": "Episode 10: Patterns in Primes: Structure, Entropy, and the Nature of Intelligence - Spacetime Cafe",
-          "url": "https://www.youtube.com/watch?v=6Yl0xU32ncg",
-          "date": "2025-03-14",
-          "meta": [
-            "Video",
-            "48m 13s",
-            "137 views"
-          ],
-          "summary": "Structure, entropy and the nature of intelligence drawn together through the primes: the episode asks whether the irregularity of the primes carries information, and whether a system that could read that irregularity would count as intelligent in any meaningful sense.",
-          "video": "6Yl0xU32ncg"
-        },
-        {
-          "title": "Episode 11: The Beauty and Power of Invariants - Spacetime Cafe",
-          "url": "https://www.youtube.com/watch?v=4kD8QYopRzo",
-          "date": "2025-03-15",
-          "meta": [
-            "Video",
-            "36m 00s",
-            "68 views"
-          ],
-          "summary": "Invariants as the hidden order beneath mathematics, using the fraction matrix problem to show how the smallest fractions behave and why quantities that survive every transformation are the ones worth tracking. The episode asks what an invariant is really for.",
-          "video": "4kD8QYopRzo"
-        },
-        {
-          "title": "Episode 12: The Terminal Algebra of the Event Horizon - Spacetime Cafe",
-          "url": "https://www.youtube.com/watch?v=_0YwATNqVtA",
-          "date": "2025-03-18",
-          "meta": [
-            "Video",
-            "52m 35s",
-            "49 views"
-          ],
-          "summary": "Zero point algebra, the algebraic structure at the boundary where nothing returns, and what it says about descriptions of the impossible. The episode works through the system, its operations, and the limits of the framework itself, and where it stops.",
-          "video": "_0YwATNqVtA"
-        },
-        {
-          "title": "Episode 13:  Concurrency Invariant and the Singularity - Spacetime Cafe",
-          "url": "https://www.youtube.com/watch?v=Bo97bv65t5I",
-          "date": "2025-03-19",
-          "meta": [
-            "Video",
-            "48m 24s",
-            "37 views"
-          ],
-          "summary": "Cloud workflows, collapse of consciousness, classical and quantum computing, all unified by one claimed law: that concurrency has an invariant. The episode states the law, argues it from several directions, and asks what it would predict if it were true.",
-          "video": "Bo97bv65t5I"
-        },
-        {
-          "title": "Episode 14: Ghosts, Eternal Inflation, and the Boundaries of Singularity Algebra - Spacetime Cafe",
-          "url": "https://www.youtube.com/watch?v=VT6C_GqeBmI",
-          "date": "2025-03-20",
-          "meta": [
-            "Video",
-            "28m 08s",
-            "36 views"
-          ],
-          "summary": "Two of Hawking's papers, living with ghosts and the final boundary of the universe, read as a stress test for singularity algebra. The episode asks whether the algebra can account for what the physics actually says, and where it stops.",
-          "video": "VT6C_GqeBmI"
-        },
-        {
-          "title": "Encrypting with Chaos:- ChaosEncrypt - Episode 12 - Spacetime Cafe",
-          "url": "https://www.youtube.com/watch?v=HYqV51qNAWE",
-          "date": "2025-04-02",
-          "meta": [
-            "Video",
-            "37m 45s",
-            "79 views"
-          ],
-          "summary": "ChaosEncrypt, a cipher built on deterministic chaotic maps, with prime-driven keystreams and HMAC key exchange. The episode walks through the construction, explains why chaotic systems resist prediction, and is about the difference between a research tool and a production cipher.",
-          "video": "HYqV51qNAWE"
-        },
-        {
-          "title": "Episode 13: The Hidden Geometry of Language Models and Thought | Spacetime Cafe",
-          "url": "https://www.youtube.com/watch?v=JXCvWEc_MWY",
-          "date": "2025-04-08",
-          "meta": [
-            "Video",
-            "41m 08s",
-            "102 views"
-          ],
-          "summary": "Counting, arithmetic and primes connected through Riemannian geometry and singularities, with large language models as the test case. The episode asks whether the geometry of a model's internal representations is recoverable at all, and what counting means in that space.",
-          "video": "JXCvWEc_MWY"
-        },
-        {
-          "title": "Episode 14: The Strange Reality of Fractals and Hyperbolic Space  | SpaceTime Cafe",
-          "url": "https://www.youtube.com/watch?v=3zpYjZtcwcY",
-          "date": "2025-04-11",
-          "meta": [
-            "Video",
-            "37m 50s",
-            "184 views"
-          ],
-          "summary": "Fractional dimensions and hyperbolic geometry through the idea of precision dimension: how a measure can sit between integers, and what the hyperbolic space does to notions of distance, scale and self-similarity that Euclidean intuition cannot reach or even represent well.",
-          "video": "3zpYjZtcwcY"
-        },
-        {
-          "title": "Episode 15: Visualizing the Cantor Set in Hyperbolic Space | SpaceTime Cafe",
-          "url": "https://www.youtube.com/watch?v=2h9Pqlr8mKk",
-          "date": "2025-04-13",
-          "meta": [
-            "Video",
-            "26m 34s",
-            "171 views"
-          ],
-          "summary": "The Cantor set remade in hyperbolic space, where chopping an interval behaves quite differently than it does in the line. The episode is part proof, part visualisation, showing how the classical construction changes and what survives the change of geometry.",
-          "video": "2h9Pqlr8mKk"
-        },
-        {
-          "title": "Episode 16: How Prime Numbers Shape Geometry | SpaceTime Cafe",
-          "url": "https://www.youtube.com/watch?v=ooT7DbpX4Lc",
-          "date": "2025-04-15",
-          "meta": [
-            "Video",
-            "46m 56s",
-            "205 views"
-          ],
-          "summary": "The Dynamic Prime Cantor set, the fat variant, and the structures primes generate when they are allowed to determine the geometry. The episode follows the construction and asks what it means for arithmetic to be the thing carving the space.",
-          "video": "ooT7DbpX4Lc"
-        },
-        {
-          "title": "Episode 17: From Prime Fractals to Multiverse Islands | SpaceTime Cafe",
-          "url": "https://www.youtube.com/watch?v=po6ofgGcF4o",
-          "date": "2025-04-17",
-          "meta": [
-            "Video",
-            "35m 53s",
-            "91 views"
-          ],
-          "summary": "Prime fractals read against inverted islands, entanglement and branching cosmologies alike. The episode draws the parallel honestly and precisely: where the analogy is structural rather than decorative, and where the multiverse framing is doing philosophical rather than purely mathematical work.",
-          "video": "po6ofgGcF4o"
-        },
-        {
-          "title": "Episode 18: The Mathematical Tug of War between Identity and Proximity |  SpaceTime Cafe",
-          "url": "https://www.youtube.com/watch?v=NHodSBlH50Y",
-          "date": "2025-04-19",
-          "meta": [
-            "Video",
-            "38m 41s",
-            "1.0k views"
-          ],
-          "summary": "A balance between similarity and difference, appearing in machine learning, quantum physics and perception all at once. The episode builds the tension formally and asks when two things should be treated as the same, and when they must not be.",
-          "video": "NHodSBlH50Y"
-        },
-        {
-          "title": "Episode 19: Dynamic Choice and the Geometry of Now | SpaceTime Cafe",
-          "url": "https://www.youtube.com/watch?v=uJNeFs0OjwA",
-          "date": "2025-04-20",
-          "meta": [
-            "Video",
-            "55m 43s",
-            "134 views"
-          ],
-          "summary": "The present as a saddle point where a Euclidean past meets a fractal future, and the account of choice and time that follows. The episode develops geometry, then asks what freedom looks like when the now is a fixed point.",
-          "video": "uJNeFs0OjwA"
-        },
-        {
-          "title": "Ep  20 Trailer:  Regularizing Divergence with Convergence  | SpaceTime Cafe",
-          "url": "https://www.youtube.com/watch?v=0BymoGdJwkQ",
-          "date": "2025-04-21",
-          "meta": [
-            "Video",
-            "1m 56s",
-            "26 views"
-          ],
-          "summary": "A short trailer: collapsing divergent sequences rather than discarding them, and the core insight behind regularizing divergence with convergence. It is a ninety-second door into the argument that non-convergence can be handled by changing what the limit is taken over.",
-          "video": "0BymoGdJwkQ"
-        },
-        {
-          "title": "Episode 20: Spectral Symmetry Confinement Principle | SpaceTime Cafe",
-          "url": "https://www.youtube.com/watch?v=nSFq1ny83bU",
-          "date": "2025-05-31",
-          "meta": [
-            "Video",
-            "37m 03s",
-            "400 views"
-          ],
-          "summary": "Symmetry as the hidden force shaping both quantum particles and the primes, stated as the Spectral Symmetry Confinement Principle. The episode formulates the principle, gives it consequences, and asks whether it is a law or a pattern, or a coincidence.",
-          "video": "nSFq1ny83bU"
-        },
-        {
-          "title": "Episode 21: Primefall: The Precision Descent | SpaceTime Cafe",
-          "url": "https://www.youtube.com/watch?v=Jcu8BoKnIEc",
-          "date": "2025-06-08",
-          "meta": [
-            "Video",
-            "49m 15s",
-            "201 views"
-          ],
-          "summary": "A game of number theory, chaos and high stakes: Prime Fall, where a descent through precision replaces the game mechanics. The episode plays it, reads the mathematics inside the rules, and asks what the design teaches about exploration and play.",
-          "video": "Jcu8BoKnIEc"
-        },
-        {
-          "title": "Episode 22: The Physics of Story Telling | SpaceTime Cafe",
-          "url": "https://www.youtube.com/watch?v=1i-2fclalcg",
-          "date": "2025-06-12",
-          "meta": [
-            "Video",
-            "47m 37s",
-            "226 views"
-          ],
-          "summary": "Reality as a language with physics as its grammar: how quantum mechanics, emotion and narrative form interact in a single account. The episode argues that storytelling is a physical process, and that the mechanism is measurable rather than merely metaphorical.",
-          "video": "1i-2fclalcg"
-        },
-        {
-          "title": "Episode 23: Mystery of Self-Adjoint Operators | SpaceTime Cafe",
-          "url": "https://www.youtube.com/watch?v=Y4avF7bnFoE",
-          "date": "2025-06-23",
-          "meta": [
-            "Video",
-            "36m 27s",
-            "93 views"
-          ],
-          "summary": "Wigner's puzzle about the unreasonable effectiveness of mathematics, approached through self-adjoint operators and the conditions under which an operator is genuinely observable. The episode works through the spectral theorem and asks why physics keeps choosing structures that work so well.",
-          "video": "Y4avF7bnFoE"
-        },
-        {
-          "title": "Episode 24 : Operator Theory of Everything -  SpaceTime Cafe",
-          "url": "https://www.youtube.com/watch?v=gGG_wATUVh4",
-          "date": "2025-07-01",
-          "meta": [
-            "Video",
-            "27m 15s",
-            "150 views"
-          ],
-          "summary": "Five codes, one cosmos: a framework blending operator theory with philosophy, and the mathematics carried rather than gestured at. The episode argues that the same operator language describes physics, computation and mind, and asks what it would take to refute.",
-          "video": "gGG_wATUVh4"
-        },
-        {
-          "title": "Episode 25: Artificial Substrate Intelligence | SpaceTime Cafe",
-          "url": "https://www.youtube.com/watch?v=1dQ2vadw-6s",
-          "date": "2025-07-04",
-          "meta": [
-            "Video",
-            "45m 52s",
-            "66 views"
-          ],
-          "summary": "Intelligence that emerges from the substrate rather than the model, moving from philosophical argument to engineering. The episode asks what changes when intelligence is a property of the arrangement of matter rather than of a program trained on text alone.",
-          "video": "1dQ2vadw-6s"
-        },
-        {
-          "title": "Episode 26: The Thermodynamics of Purpose | SpaceTime Cafe",
-          "url": "https://www.youtube.com/watch?v=yIV-n3SPIWM",
-          "date": "2025-07-07",
-          "meta": [
-            "Video",
-            "34m 33s",
-            "133 views"
-          ],
-          "summary": "What it means for something to have purpose, worked through thermodynamics and information theory rather than ethics. The episode asks whether agency can be defined by energy accounting alone, and what a purpose-free system looks like in practice to us.",
-          "video": "yIV-n3SPIWM"
-        },
-        {
-          "title": "Episode 27: The Shape of Unsolvable Problems | SpaceTime Cafe",
-          "url": "https://www.youtube.com/watch?v=p6qQ1EYfwWM",
-          "date": "2025-07-10",
-          "meta": [
-            "Video",
-            "40m 17s",
-            "377 views"
-          ],
-          "summary": "Obstruction theory and why certain problems feel unsolvable: the gerbe twist and what it implies across mathematics, physics and computation. The episode argues that unsolvability has a shape, and that seeing that shape deliberately changes what you try next time.",
-          "video": "p6qQ1EYfwWM"
-        },
-        {
-          "title": "Episode 27 Trailer | Fiber Bundles and Gerbes | SpaceTime Cafe",
-          "url": "https://www.youtube.com/watch?v=Wt9j-tO8M3c",
-          "date": "2025-07-23",
-          "meta": [
-            "Video",
-            "3m 03s",
-            "36 views"
-          ],
-          "summary": "A short trailer for the gerbe episode, introducing fiber bundles and gerbes as the hidden architecture of inconsistency, and previewing the argument that some contradictions are structural rather than accidental, and not simply a failure of effort, attention or nerve.",
-          "video": "Wt9j-tO8M3c"
-        },
-        {
-          "title": "Episode 28: Why Hard Problems Bend Reality | SpaceTime Cafe",
-          "url": "https://www.youtube.com/watch?v=Lu3kBF_Sw4k",
-          "date": "2025-07-27",
-          "meta": [
-            "Video",
-            "36m 33s",
-            "43 views"
-          ],
-          "summary": "The curved geometry of problem spaces, argued through Sudoku and ordinary decisions, and what curvature does to strategy. The episode shows that hard problems are not merely harder but differently shaped, and that the shape should guide the method chosen.",
-          "video": "Lu3kBF_Sw4k"
-        },
-        {
-          "title": "Episode 29: Geometry of Chaos and Order | SpaceTime Cafe",
-          "url": "https://www.youtube.com/watch?v=NYuqE5p-BU8",
-          "date": "2025-07-28",
-          "meta": [
-            "Video",
-            "19m 13s",
-            "88 views"
-          ],
-          "summary": "Prime numbers against reverse gerbes, and the geometry of chaos and order built from them. The episode works through how order emerges inside apparent randomness, and what the reverse construction makes visible that the forward one hides at first glance.",
-          "video": "NYuqE5p-BU8"
-        },
-        {
-          "title": "Episode 30: Mathematics with a Pulse | SpaceTime Cafe",
-          "url": "https://www.youtube.com/watch?v=tG-efSP8meI",
-          "date": "2025-08-01",
-          "meta": [
-            "Video",
-            "56m 37s",
-            "57 views"
-          ],
-          "summary": "Spectral logic: proofs treated as thermodynamic journeys with energy bills, prime-weighted costs assigned to each step. The episode argues that mathematics can be made to pay for itself, and asks what a cost function for proof would buy in practice.",
-          "video": "tG-efSP8meI"
-        },
-        {
-          "title": "Episode 31: The Physics of Thought | SpaceTime Cafe",
-          "url": "https://www.youtube.com/watch?v=8X5_F8Y4ZhA",
-          "date": "2025-08-06",
-          "meta": [
-            "Video",
-            "45m 53s",
-            "137 views"
-          ],
-          "summary": "Creativity through cognitive thermodynamics, examining intelligence through thermodynamics and harmonic analysis. The episode asks whether thinking is a physical process with constraints, and whether those constraints are informative rather than merely limiting, and whether creativity means escaping them at all.",
-          "video": "8X5_F8Y4ZhA"
-        },
-        {
-          "title": "Are we in a Simulation? | Explainer Video",
-          "url": "https://www.youtube.com/watch?v=0fnvuBTm3fM",
-          "date": "2025-08-08",
-          "meta": [
-            "Video",
-            "9m 00s",
-            "32 views"
-          ],
-          "summary": "A short explainer on whether the world is a simulation, approached with scientific tools rather than speculation. It lays out what each hypothesis would predict, what evidence would distinguish them, and why the question is harder than it first appears.",
-          "video": "0fnvuBTm3fM"
-        },
-        {
-          "title": "Episode 32: Ramanujan Graphs | Elegant Networks for a Complex World | SpaceTime Cafe",
-          "url": "https://www.youtube.com/watch?v=KViaJAbt82Y",
-          "date": "2025-08-11",
-          "meta": [
-            "Video",
-            "26m 43s",
-            "404 views"
-          ],
-          "summary": "Ramanujan's intuition and the graphs that carry it forward: networks with strong spectral properties, used in modern communications and codes. The episode traces the story from a self-taught genius to a deployed technology, and asks what else he saw coming.",
-          "video": "KViaJAbt82Y"
-        },
-        {
-          "title": "Episode 33: The Rhythm of Encryption | SpaceTime Cafe",
-          "url": "https://www.youtube.com/watch?v=7xA2FzufFYk",
-          "date": "2025-08-12",
-          "meta": [
-            "Video",
-            "51m 08s",
-            "45 views"
-          ],
-          "summary": "Keys that are not stored data but the evolving rhythm of a living system. The episode develops the idea, asks what it buys against an adversary, and is frank about how much of it is proposal rather than deployed practice.",
-          "video": "7xA2FzufFYk"
-        },
-        {
-          "title": "Episode 34: General Relativity of Information | SpaceTime Cafe",
-          "url": "https://www.youtube.com/watch?v=uAIiKoDP7IU",
-          "date": "2025-08-13",
-          "meta": [
-            "Video",
-            "51m 58s",
-            "49 views"
-          ],
-          "summary": "Whether reality is fixed or partly constructed by observation, through spectral redundancy and a proposed unified theory of complex systems. The episode develops the claim and asks what would count as evidence against it, and whether any such could exist.",
-          "video": "uAIiKoDP7IU"
-        },
-        {
-          "title": "Episode 35: What Makes Something Real? | SpaceTime Cafe",
-          "url": "https://www.youtube.com/watch?v=p0wiwoMIsyg",
-          "date": "2025-08-17",
-          "meta": [
-            "Video",
-            "1h 08m",
-            "43 views"
-          ],
-          "summary": "Inspired by an eight-year-old's question, matter versus mind versus resources, and what makes something real at all. The episode takes the question seriously, works through the philosophical positions, and ends with something closer to a method than to an answer.",
-          "video": "p0wiwoMIsyg"
-        },
-        {
-          "title": "Episode 36: Speed Limit of Intelligence | SpaceTime Cafe",
-          "url": "https://www.youtube.com/watch?v=rPucF88JMAM",
-          "date": "2025-08-19",
-          "meta": [
-            "Video",
-            "30m 43s",
-            "59 views"
-          ],
-          "summary": "The claim that intelligence has a fundamental speed limit, argued from neuroscience, complex systems and physics. The episode asks what such a limit would be made of, whether it could be evaded, and how you would notice it in practice.",
-          "video": "rPucF88JMAM"
-        },
-        {
-          "title": "Podcast Introduction",
-          "url": "https://www.youtube.com/watch?v=gw820jVjk1U",
-          "date": "2025-08-20",
-          "meta": [
-            "Video",
-            "14s",
-            "35 views"
-          ],
-          "summary": "A fourteen-second bumper introducing the podcast, and a reminder of what the series is for: long conversations about the places where physics, mathematics and computation meet, and a first taste of the argument that runs through all forty of them.",
-          "video": "gw820jVjk1U"
-        },
-        {
-          "title": "Episode 37:  Splitting the Unsplittable  | SpaceTime Cafe",
-          "url": "https://www.youtube.com/watch?v=TCYCI1Ijl-0",
-          "date": "2025-08-24",
-          "meta": [
-            "Video",
-            "40m 00s",
-            "47 views"
-          ],
-          "summary": "Fair division in computer science: partitioning data so that no party is systematically worse off, and the approximation guarantees that make it tractable. The episode works through the cake-cutting line of results and asks what fairness costs computationally, and when.",
-          "video": "TCYCI1Ijl-0"
-        },
-        {
-          "title": "Episode 38: The Circle that helps Intelligence | SpaceTime Cafe",
-          "url": "https://www.youtube.com/watch?v=bBAEos4oy8I",
-          "date": "2025-09-21",
-          "meta": [
-            "Video",
-            "40m 14s",
-            "76 views"
-          ],
-          "summary": "Seven points on a circle, and from them a synthesis bridging geometry, number theory and artificial intelligence alike. The episode builds the construction stepwise, then asks whether the circle helps machines think or only helps us describe how they do.",
-          "video": "bBAEos4oy8I"
-        },
-        {
-          "title": "Episode 39: The Shape of Fairness | SpaceTime Cafe",
-          "url": "https://www.youtube.com/watch?v=1b_uKRM8eMg",
-          "date": "2025-09-25",
-          "meta": [
-            "Video",
-            "53m 55s",
-            "51 views"
-          ],
-          "summary": "What fairness means for a system, a market or a society, challenging the usual definitions in favour of a geometric account. The episode asks what shape fairness has, and whether it can be measured without reducing it to a scalar.",
-          "video": "1b_uKRM8eMg"
-        },
-        {
-          "title": "Episode 40: The Perfect Arithmetic Resistor | SpaceTime Cafe",
-          "url": "https://www.youtube.com/watch?v=rcum4C48efc",
-          "date": "2025-10-03",
-          "meta": [
-            "Video",
-            "40m 49s",
-            "140 views"
-          ],
-          "summary": "Anti-superconductors and non-commutative geometry, with the hidden quantum order of the primes. The episode walks through the prime-annealer paper and blog at length, and asks whether arithmetic can insulate a material the way geometry insulates an ordinary semiconductor device today.",
-          "video": "rcum4C48efc"
-        },
-        {
-          "title": "Episode 41: Prime Walk | SpaceTime Cafe",
-          "url": "https://www.youtube.com/watch?v=kGQT5g-Rh5Q",
-          "date": "2025-10-06",
-          "meta": [
-            "Video",
-            "30m 06s",
-            "95 views"
-          ],
-          "summary": "The prime walk, a number-line puzzle, taken seriously as a route into symmetry breaking and the Riemann hypothesis. The episode follows the walk, the Jahn-Teller analogy, and the specific sense in which primes behave like quantum particles in the laboratory.",
-          "video": "kGQT5g-Rh5Q"
-        },
-        {
-          "title": "Episode 42: The Geometry of Knowledge | SpaceTime Cafe",
-          "url": "https://www.youtube.com/watch?v=CVm01DM0jCw",
-          "date": "2025-10-09",
-          "meta": [
-            "Video",
-            "1h 02m",
-            "37 views"
-          ],
-          "summary": "The geometry underpinning mathematical understanding, taken from the Floer hardness certificates paper. The episode asks whether knowledge has structure that can be measured, what persistent homology contributes to the question, and whether a certificate is the right thing to want.",
-          "video": "CVm01DM0jCw"
-        },
-        {
-          "title": "The Physics of Divergent Computation",
-          "url": "https://www.youtube.com/watch?v=3NmgkLSyP_8",
-          "date": "2026-06-19",
-          "meta": [
-            "Video",
-            "52m 58s",
-            "88 views"
-          ],
-          "summary": "What an infinite loop is really tracing: divergent computation as a hidden mathematical structure rather than a plain failure. The episode connects frozen loading screens to the mathematics of divergence, and asks what it would mean to wait correctly, eventually.",
-          "video": "3NmgkLSyP_8"
-        },
-        {
-          "title": "Gravity Is Just Biased Attention: The Math Connecting Physics and AI",
-          "url": "https://www.youtube.com/watch?v=nZLr8RpNgdI",
-          "date": "2026-08-13",
-          "meta": [
-            "Video",
-            "47m 57s",
-            "34 views"
-          ],
-          "summary": "The claim that asymmetric attention in physics and hallucination in transformers share one piece of mathematics. The episode works through the column-imbalance result and asks what a link between gravity and attention would have to explain, and whether it survives.",
-          "video": "nZLr8RpNgdI"
+          "site": "https://research.shunyabar.foo",
+          "summary": "Everything written and not promoted into the main index: the concept notes, the research essays and the working blog, with the author's ledes kept intact. Eight pieces are promoted into the research path; the rest stay here, one click away."
         }
       ]
     },
     {
       "id": "elsewhere",
-      "title": "Elsewhere",
-      "note": "{n} other doors into the lab: the front door, the notebook, the shipping API, the browser build, the community, the theory portal and the evidence ledger.",
+      "title": "Theory portal",
+      "note": "The lab's other surfaces: notebook, shipping API, evidence ledger, community.",
       "entries": [
         {
           "title": "Research notebook",
@@ -1292,6 +824,45 @@
           "summary": "The formal architecture of the spectral-arithmetic system, still being written: the axioms, the geometry, the quotient structure and the open questions. It is the deepest door into the lab, and it is currently a placeholder while the proofs are settled."
         }
       ]
+    }
+  ],
+  "start_here": [
+    "The Arithmetic Manifold",
+    "The Architecture of Axioms: Geometry, Infinity, and the Prime Code",
+    "behavioral-quotients",
+    "phantom-clock",
+    "FUTCache"
+  ],
+  "layers": [
+    {
+      "id": "core",
+      "label": "Core",
+      "text": "The underlying mathematical or computational phenomenon, before anyone chose a representation for it.",
+      "where": "Core Theory, Foundations"
+    },
+    {
+      "id": "mirror",
+      "label": "Mirror",
+      "text": "The representation chosen for it — the encoding, quotient or geometry that stands in for the original.",
+      "where": "Representation / Memory"
+    },
+    {
+      "id": "shadow",
+      "label": "Shadow",
+      "text": "The behaviour that representation produces when it meets a hard instance, a deadline or an agent.",
+      "where": "Optimization / Search, Agents / Authority, Learning / Physics"
+    },
+    {
+      "id": "record",
+      "label": "Record",
+      "text": "What was actually demonstrated, frozen and given a permanent identifier.",
+      "where": "Citable records, Released artifacts, Evidence ledger"
+    },
+    {
+      "id": "story",
+      "label": "Story",
+      "text": "How the idea becomes reconstructible in someone else's head — episodes, essays, notebook, visual explanations.",
+      "where": "Broadcast, Published essays, Research notebook"
     }
   ]
 }

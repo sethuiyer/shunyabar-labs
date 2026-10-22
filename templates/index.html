@@ -16,7 +16,11 @@
     <a class="wordmark" href="#top">ShunyaBar&nbsp;Labs</a>
     <nav class="nav">
       <a href="#program">Program</a>
+      <a href="#start">Start here</a>
+      <a href="#tribes">Tribes</a>
       <a href="#index">Index</a>
+      <a href="broadcast.html">Broadcast</a>
+      <a href="notebook.html">Notebook</a>
       <a href="#access">Access</a>
       <a href="https://github.com/sethuiyer" rel="noopener">GitHub</a>
       <button id="theme-toggle" type="button" aria-label="Toggle colour theme">
@@ -87,6 +91,15 @@
       physics are listed elsewhere, or not at all.
     </p>
 
+    <p class="aside">
+      <strong>How it is arranged.</strong> The entries sit in five research tribes — core
+      theory, representation and memory, optimization and search, agents and authority,
+      learning and physics — with the foundations, the citable records, the released
+      artifacts and the lab's other surfaces beside them as publication and access layers.
+      The <a href="broadcast.html">broadcast</a> and the <a href="notebook.html">notebook</a>
+      have pages of their own, so neither turns the index into a bibliography.
+    </p>
+
     <div class="vignettes">
       <div class="vignette">
         <h3>Merge when it is safe</h3>
@@ -115,8 +128,63 @@
     </div>
   </section>
 
+  <section id="start" class="start">
+    <h2>Start here</h2>
+    <p class="lede-small">
+      Five entries, in order. Together they are the research programme:
+      what structure exists, what representations preserve it, when equivalence is
+      legitimate, what goes wrong when distinctions collapse, and how to compress safely.
+    </p>
+    <ol class="path">
+{{STARTHERE}}
+    </ol>
+  </section>
+
+  <section id="tribes" class="tribes">
+    <h2>Five tribes</h2>
+    <p class="lede-small">
+      The work is grouped by the question each project asks, not by the year it was written.
+      Citable records, foundations and the lab's other surfaces sit outside the tribes:
+      they are publication and access layers, not research directions.
+    </p>
+    <p class="aside">
+      <strong>Three questions, three answers.</strong> What is the idea? — the foundations and
+      the core-theory tribe. Where is the idea explored? — the five tribes. What can I cite? —
+      the citable records, each with its permanent identifier.
+    </p>
+    <div class="cards">
+{{TRIBE_CARDS}}
+    </div>
+  </section>
+
+  <section id="layers" class="layers">
+    <h2>How to read a project</h2>
+    <p class="lede-small">
+      Every project in the index moves through the same five layers.
+      The order matters: the phenomenon comes first, the representation is a choice,
+      the behaviour follows from that choice, and the record and the story come last.
+    </p>
+    <ol class="layers-list">
+{{LAYERS}}
+    </ol>
+    <p class="aside">
+      <strong>One project, five layers.</strong> BAHA. <em>Core:</em> the log-derivative of a
+      partition function diverges where the landscape fractures. <em>Mirror:</em> the control
+      parameter is represented on a multi-sheeted analytic surface. <em>Shadow:</em> an ordinary
+      annealer flattens the branches and stalls where the branch-aware one navigates them with
+      Lambert W. <em>Record:</em> DOI 10.5281/zenodo.18373732, and the shipped repository.
+      <em>Story:</em> episode 21, <a href="https://www.youtube.com/watch?v=Jcu8BoKnIEc" rel="noopener">Primefall</a>,
+      and the browser build.
+    </p>
+  </section>
+
   <section id="index" class="index">
     <h2>Index</h2>
+    <p class="lede-small">
+      Grouped by tribe, then by layer: {{TRIBE_COUNT}} entries across five tribes,
+      followed by the foundations, the citable records, the released artifacts,
+      the broadcast and the lab's other surfaces.
+    </p>
 {{GROUPS}}
   </section>
 
@@ -154,7 +222,8 @@
     <p class="fine">
       Every entry below carries a forty-word summary. Generated from
       <code>data/entries.json</code>; summaries are checked to exactly forty words by
-      <code>scripts/check_summaries.py</code>.
+      <code>scripts/check_summaries.py</code>. The <a href="broadcast.html">broadcast</a>
+      and the <a href="notebook.html">notebook</a> carry forty-word summaries too.
     </p>
   </div>
 </footer>

@@ -16,7 +16,11 @@
     <a class="wordmark" href="#top">ShunyaBar&nbsp;Labs</a>
     <nav class="nav">
       <a href="#program">Program</a>
+      <a href="#start">Start here</a>
+      <a href="#tribes">Tribes</a>
       <a href="#index">Index</a>
+      <a href="broadcast.html">Broadcast</a>
+      <a href="notebook.html">Notebook</a>
       <a href="#access">Access</a>
       <a href="https://github.com/sethuiyer" rel="noopener">GitHub</a>
       <button id="theme-toggle" type="button" aria-label="Toggle colour theme">
@@ -36,7 +40,7 @@
       <em>when is it safe to treat two different things as the same thing?</em>
       And its mirror: <em>what is the smallest representation that preserves the difference when it matters?</em>
     </p>
-    <p class="counts">109 entries &middot; 18 repositories &middot; 4 continuing &middot; 4 gists &middot; 6 essays &middot; 8 foundations &middot; 6 citable records &middot; 4 release lines &middot; 52 podcast entries &middot; 7 elsewhere &middot; 12 held private</p>
+    <p class="counts">71 entries &middot; 5 tribes &middot; 41 in tribes &middot; 7 foundations &middot; 9 citable records &middot; 4 release lines &middot; 3 broadcasts &middot; 7 elsewhere &middot; 12 held private</p>
   </section>
 
   <section id="program" class="program">
@@ -87,6 +91,15 @@
       physics are listed elsewhere, or not at all.
     </p>
 
+    <p class="aside">
+      <strong>How it is arranged.</strong> The entries sit in five research tribes — core
+      theory, representation and memory, optimization and search, agents and authority,
+      learning and physics — with the foundations, the citable records, the released
+      artifacts and the lab's other surfaces beside them as publication and access layers.
+      The <a href="broadcast.html">broadcast</a> and the <a href="notebook.html">notebook</a>
+      have pages of their own, so neither turns the index into a bibliography.
+    </p>
+
     <div class="vignettes">
       <div class="vignette">
         <h3>Merge when it is safe</h3>
@@ -115,411 +128,138 @@
     </div>
   </section>
 
+  <section id="start" class="start">
+    <h2>Start here</h2>
+    <p class="lede-small">
+      Five entries, in order. Together they are the research programme:
+      what structure exists, what representations preserve it, when equivalence is
+      legitimate, what goes wrong when distinctions collapse, and how to compress safely.
+    </p>
+    <ol class="path">
+        <li>
+          <span class="step">1</span>
+          <a href="https://sethuiyer.github.io/docs/core-vision/" rel="noopener">The Arithmetic Manifold</a>
+          <span class="gloss">What structure exists — one geometric object under constraint satisfaction, optimisation and simulation.</span>
+        </li>
+        <li>
+          <span class="step">2</span>
+          <a href="https://sethuiyer.github.io/docs/axiom-architecture/" rel="noopener">The Architecture of Axioms: Geometry, Infinity, and the Prime Code</a>
+          <span class="gloss">What the structure is made of, and the obstruction that appears when it is made infinite.</span>
+        </li>
+        <li>
+          <span class="step">3</span>
+          <a href="https://github.com/sethuiyer/behavioral-quotients" rel="noopener">behavioral-quotients</a>
+          <span class="gloss">When equivalence is legitimate: when two computational histories may be treated as the same.</span>
+        </li>
+        <li>
+          <span class="step">4</span>
+          <a href="https://github.com/sethuiyer/phantom-clock" rel="noopener">phantom-clock</a>
+          <span class="gloss">What goes wrong when distinctions collapse — two rays, one position, different physics.</span>
+        </li>
+        <li>
+          <span class="step">5</span>
+          <a href="https://github.com/sethuiyer/FUTCache" rel="noopener">FUTCache</a>
+          <span class="gloss">How to compress safely: merge only when the merge loses nothing a later decision needs.</span>
+        </li>
+    </ol>
+  </section>
+
+  <section id="tribes" class="tribes">
+    <h2>Five tribes</h2>
+    <p class="lede-small">
+      The work is grouped by the question each project asks, not by the year it was written.
+      Citable records, foundations and the lab's other surfaces sit outside the tribes:
+      they are publication and access layers, not research directions.
+    </p>
+    <p class="aside">
+      <strong>Three questions, three answers.</strong> What is the idea? — the foundations and
+      the core-theory tribe. Where is the idea explored? — the five tribes. What can I cite? —
+      the citable records, each with its permanent identifier.
+    </p>
+    <div class="cards">
+      <a class="card" href="#core">
+        <h3>Core Theory</h3>
+        <p>The underlying phenomenon: what structure exists, and what must be preserved for an equivalence to be legitimate at all.</p>
+      </a>
+      <a class="card" href="#representation">
+        <h3>Representation / Memory</h3>
+        <p>The mirror: the encoding chosen for a system, and how much of it may be discarded before the next decision goes wrong.</p>
+      </a>
+      <a class="card" href="#optimization">
+        <h3>Optimization / Search</h3>
+        <p>The shadow: behaviour produced by that representation when it meets a hard instance and a deadline.</p>
+      </a>
+      <a class="card" href="#agents">
+        <h3>Agents / Authority</h3>
+        <p>The shadow for agents: who may ask, who may act, and which distinctions a merge would silently erase.</p>
+      </a>
+      <a class="card" href="#learning">
+        <h3>Learning / Physics</h3>
+        <p>Where the representation meets physics: multiplicative constraints, operator language, and models that solve for what softmax assumes.</p>
+      </a>
+    </div>
+  </section>
+
+  <section id="layers" class="layers">
+    <h2>How to read a project</h2>
+    <p class="lede-small">
+      Every project in the index moves through the same five layers.
+      The order matters: the phenomenon comes first, the representation is a choice,
+      the behaviour follows from that choice, and the record and the story come last.
+    </p>
+    <ol class="layers-list">
+        <li>
+          <span class="label">Core</span>
+          <span class="text">The underlying mathematical or computational phenomenon, before anyone chose a representation for it.</span>
+          <span class="where">Core Theory, Foundations</span>
+        </li>
+        <li>
+          <span class="label">Mirror</span>
+          <span class="text">The representation chosen for it — the encoding, quotient or geometry that stands in for the original.</span>
+          <span class="where">Representation / Memory</span>
+        </li>
+        <li>
+          <span class="label">Shadow</span>
+          <span class="text">The behaviour that representation produces when it meets a hard instance, a deadline or an agent.</span>
+          <span class="where">Optimization / Search, Agents / Authority, Learning / Physics</span>
+        </li>
+        <li>
+          <span class="label">Record</span>
+          <span class="text">What was actually demonstrated, frozen and given a permanent identifier.</span>
+          <span class="where">Citable records, Released artifacts, Evidence ledger</span>
+        </li>
+        <li>
+          <span class="label">Story</span>
+          <span class="text">How the idea becomes reconstructible in someone else&#x27;s head — episodes, essays, notebook, visual explanations.</span>
+          <span class="where">Broadcast, Published essays, Research notebook</span>
+        </li>
+    </ol>
+    <p class="aside">
+      <strong>One project, five layers.</strong> BAHA. <em>Core:</em> the log-derivative of a
+      partition function diverges where the landscape fractures. <em>Mirror:</em> the control
+      parameter is represented on a multi-sheeted analytic surface. <em>Shadow:</em> an ordinary
+      annealer flattens the branches and stalls where the branch-aware one navigates them with
+      Lambert W. <em>Record:</em> DOI 10.5281/zenodo.18373732, and the shipped repository.
+      <em>Story:</em> episode 21, <a href="https://www.youtube.com/watch?v=Jcu8BoKnIEc" rel="noopener">Primefall</a>,
+      and the browser build.
+    </p>
+  </section>
+
   <section id="index" class="index">
     <h2>Index</h2>
-    <section class="group" id="repos">
+    <p class="lede-small">
+      Grouped by tribe, then by layer: 41 entries across five tribes,
+      followed by the foundations, the citable records, the released artifacts,
+      the broadcast and the lab's other surfaces.
+    </p>
+    <section class="group" id="core">
       <div class="group-head">
-        <h2>Repositories</h2>
-        <span class="count">18 entries</span>
+        <h2>Core Theory</h2>
+        <span class="count">13 entries</span>
       </div>
-      <p class="group-note">18 repositories created since October 2025 — each a different surface of the same question.</p>
+      <p class="group-note">The underlying phenomenon: what structure exists, and what must be preserved for an equivalence to be legitimate at all.</p>
       <article class="entry">
         <span class="num">01</span>
-        <div>
-          <div class="entry-title">
-            <a href="https://github.com/sethuiyer/phantom-clock" rel="noopener">phantom-clock</a>
-            <span class="arrow" aria-hidden="true">&#8599;</span>
-            <span class="meta">HTML &middot; ★ 0 &middot; <span class="date">2026-10-22</span> &middot; <a class="site-link" href="https://sethuiyer.github.io/phantom-clock/" rel="noopener">site &#8599;</a></span>
-          </div>
-          <p class="summary">Optical phase space becomes a memory medium. Two rays can share a position and still differ in direction and timing, so collapsing them manufactures errors. This essay keeps phase as a first-class coordinate and documents the ellipsoid inside the clock.</p>
-        </div>
-      </article>
-      <article class="entry">
-        <span class="num">02</span>
-        <div>
-          <div class="entry-title">
-            <a href="https://github.com/sethuiyer/eigen-attention" rel="noopener">eigen-attention</a>
-            <span class="arrow" aria-hidden="true">&#8599;</span>
-            <span class="meta">JavaScript &middot; ★ 0 &middot; <span class="date">2026-10-18</span> &middot; <a class="site-link" href="https://sethuiyer.github.io/eigen-attention/" rel="noopener">site &#8599;</a></span>
-          </div>
-          <p class="summary">Attention reframed as constrained spectral regression: tokens are eigenvectors under a task-induced operator, and the softmax is solved for rather than assumed. The repository extends the theorem, adds controlled experiments, and ships reproducible checks that show where the approximation holds.</p>
-        </div>
-      </article>
-      <article class="entry">
-        <span class="num">03</span>
-        <div>
-          <div class="entry-title">
-            <a href="https://github.com/sethuiyer/persistent-discovery-index" rel="noopener">persistent-discovery-index</a>
-            <span class="arrow" aria-hidden="true">&#8599;</span>
-            <span class="meta">Python &middot; v0.5.0 &middot; <span class="date">2026-09-15</span></span>
-          </div>
-          <p class="summary">A microscope for agent behaviour. PDI reads pi, OpenAI, LangSmith and canonical traces to locate the exact boundary where useful discovery ends and wasteful exploration begins, and report that boundary at behavioural resolution instead of returning one blunt aggregate score.</p>
-        </div>
-      </article>
-      <article class="entry">
-        <span class="num">04</span>
-        <div>
-          <div class="entry-title">
-            <a href="https://github.com/sethuiyer/behavioral-quotients" rel="noopener">behavioral-quotients</a>
-            <span class="arrow" aria-hidden="true">&#8599;</span>
-            <span class="meta">HTML &middot; ★ 1 &middot; <span class="date">2026-09-12</span> &middot; <a class="site-link" href="https://sethuiyer.github.io/behavioral-quotients/" rel="noopener">site &#8599;</a> &middot; <a class="site-link" href="https://sethuiyer.github.io/docs/projects/behavioral-quotients/" rel="noopener">details &#8599;</a></span>
-          </div>
-          <p class="summary">Two computational histories may be equivalent when they produce the same relevant behaviour. This paper states the equivalence relation explicitly, derives which observations must be retained for it to hold, and presents the quotient as a design principle for computation.</p>
-        </div>
-      </article>
-      <article class="entry">
-        <span class="num">05</span>
-        <div>
-          <div class="entry-title">
-            <a href="https://github.com/sethuiyer/agent-guardrail" rel="noopener">agent-guardrail</a>
-            <span class="arrow" aria-hidden="true">&#8599;</span>
-            <span class="meta">Python &middot; ★ 1 &middot; <span class="date">2026-08-31</span></span>
-          </div>
-          <p class="summary">Policy enforcement and permission testing for AI agents. Mock enterprise APIs simulate synthetic user consent, and requests are blocked before deployment when an agent&#x27;s authority is not actually established, so abstraction never erases the security-relevant distinctions between any two callers.</p>
-        </div>
-      </article>
-      <article class="entry">
-        <span class="num">06</span>
-        <div>
-          <div class="entry-title">
-            <a href="https://github.com/sethuiyer/FUTCache" rel="noopener">FUTCache</a>
-            <span class="arrow" aria-hidden="true">&#8599;</span>
-            <span class="meta">C &middot; ★ 2 &middot; <span class="date">2026-08-23</span> &middot; <a class="site-link" href="https://sethuiyer.github.io/docs/projects/futcache/" rel="noopener">details &#8599;</a></span>
-          </div>
-          <p class="summary">A bounded-memory sufficient-state representation of explored geometry. FUTCache merges visited states whenever merging loses nothing a later decision needs, scaling to a million production traces while the cache itself stays fixed in size, and released three times in summer 2026.</p>
-        </div>
-      </article>
-      <article class="entry">
-        <span class="num">07</span>
-        <div>
-          <div class="entry-title">
-            <a href="https://github.com/sethuiyer/novelty-geometry" rel="noopener">novelty-geometry</a>
-            <span class="arrow" aria-hidden="true">&#8599;</span>
-            <span class="meta">HTML &middot; ★ 2 &middot; <span class="date">2026-08-20</span> &middot; <a class="site-link" href="https://sethuiyer.github.io/novelty-geometry/" rel="noopener">site &#8599;</a> &middot; <a class="site-link" href="https://sethuiyer.github.io/docs/projects/novelty-geometry/" rel="noopener">details &#8599;</a></span>
-          </div>
-          <p class="summary">Traversal, ordered novelty, memory and asymptotic completion in metric and hyperbolic spaces. The framework formalizes which directions an agent has genuinely covered, separating reached territory from a reworded revisit of ground explored, and shows how completion behaves as space grows.</p>
-        </div>
-      </article>
-      <article class="entry">
-        <span class="num">08</span>
-        <div>
-          <div class="entry-title">
-            <a href="https://github.com/shunyabarlabs/reify" rel="noopener">reify</a>
-            <span class="arrow" aria-hidden="true">&#8599;</span>
-            <span class="meta">D &middot; ★ 0 &middot; <span class="date">2026-07-27</span></span>
-          </div>
-          <p class="summary">A declarative SDK and compiler for constraint optimization and decision-intelligence engines. Constraints are declared rather than hand-encoded, and the compiler decides how much structure can be discarded while every remaining degree of freedom still changes the decision that comes out.</p>
-        </div>
-      </article>
-      <article class="entry">
-        <span class="num">09</span>
-        <div>
-          <div class="entry-title">
-            <a href="https://github.com/sethuiyer/docs" rel="noopener">docs</a>
-            <span class="arrow" aria-hidden="true">&#8599;</span>
-            <span class="meta">Astro &middot; <span class="date">2026-07-20</span> &middot; <a class="site-link" href="https://sethuiyer.github.io/docs/" rel="noopener">site &#8599;</a></span>
-          </div>
-          <p class="summary">The lab&#x27;s documentation site, built with Astro: core vision, glossary, concepts, limitations and design philosophy, written so outsiders can follow it. It states the Arithmetic Manifold thesis, cites the evidence ledger, and serves as the front door to the lab.</p>
-        </div>
-      </article>
-      <article class="entry">
-        <span class="num">10</span>
-        <div>
-          <div class="entry-title">
-            <a href="https://github.com/sethuiyer/NoetherLeap" rel="noopener">NoetherLeap</a>
-            <span class="arrow" aria-hidden="true">&#8599;</span>
-            <span class="meta">HTML &middot; v1.0 &middot; <span class="date">2026-06-30</span> <span class="chip">private</span></span>
-          </div>
-          <p class="summary">Constraint-aware optimization that pairs physics-informed neural networks with Bayesian search and symmetry discovery. The system exploits conserved quantities to avoid searching dimensions that provably cannot change the outcome, and reports the symmetries it found in advance rather than assuming them.</p>
-        </div>
-      </article>
-      <article class="entry">
-        <span class="num">11</span>
-        <div>
-          <div class="entry-title">
-            <a href="https://github.com/sethuiyer/authorization-lattice" rel="noopener">authorization-lattice</a>
-            <span class="arrow" aria-hidden="true">&#8599;</span>
-            <span class="meta">HTML &middot; <span class="date">2026-06-04</span> <span class="chip">private</span> &middot; <a class="site-link" href="https://sethuiyer.github.io/docs/projects/authorization-lattice/" rel="noopener">details &#8599;</a></span>
-          </div>
-          <p class="summary">Two agents may request the same action while holding entirely different permissions. Ignoring that distinction produces a security failure, so the work orders authority in a lattice and still keeps ownership attached to objects that may have none at all.</p>
-        </div>
-      </article>
-      <article class="entry">
-        <span class="num">12</span>
-        <div>
-          <div class="entry-title">
-            <a href="https://github.com/sethuiyer/factor-agent" rel="noopener">factor-agent</a>
-            <span class="arrow" aria-hidden="true">&#8599;</span>
-            <span class="meta">HTML &middot; ★ 1 &middot; <span class="date">2026-05-20</span> &middot; <a class="site-link" href="https://sethuiyer.github.io/factor-agent/" rel="noopener">site &#8599;</a> &middot; <a class="site-link" href="https://sethuiyer.github.io/docs/projects/factor-agent/" rel="noopener">details &#8599;</a></span>
-          </div>
-          <p class="summary">Invariant-preserving agent harnesses built on OTP supervision, arithmetic security lattices and lawful composition. The harness watches that an agent preserves the quantities it was supposed to preserve exactly, and reports every violation rather than silently averaging it out of sight.</p>
-        </div>
-      </article>
-      <article class="entry">
-        <span class="num">13</span>
-        <div>
-          <div class="entry-title">
-            <a href="https://github.com/sethuiyer/geometry-of-conditional-logic" rel="noopener">geometry-of-conditional-logic</a>
-            <span class="arrow" aria-hidden="true">&#8599;</span>
-            <span class="meta">Python &middot; <span class="date">2026-05-12</span> <span class="chip">private</span> &middot; <a class="site-link" href="https://sethuiyer.github.io/docs/projects/geometry-of-conditional-logic/" rel="noopener">details &#8599;</a></span>
-          </div>
-          <p class="summary">Conditionals are given shape. The repository builds a geometry in which if-then-else regions sit at different distances, letting a program ask how two logical situations differ and when they may be treated as interchangeable without changing what the program decides.</p>
-        </div>
-      </article>
-      <article class="entry">
-        <span class="num">14</span>
-        <div>
-          <div class="entry-title">
-            <a href="https://github.com/sethuiyer/NitroSAT" rel="noopener">NitroSAT</a>
-            <span class="arrow" aria-hidden="true">&#8599;</span>
-            <span class="meta">C &middot; ★ 2 &middot; <span class="date">2026-02-15</span> &middot; <a class="site-link" href="https://sethuiyer.github.io/NitroSAT/" rel="noopener">site &#8599;</a> &middot; <a class="site-link" href="https://sethuiyer.github.io/docs/projects/nitrosat/" rel="noopener">details &#8599;</a></span>
-          </div>
-          <p class="summary">A powerful linear-time MaxSAT approximator that consistently reaches 99.5 percent satisfaction across graph colouring, clique and Ramsey instances. It prunes aggressively while preserving the distinctions that keep the remaining search honest, and it streams to disk when memory runs short.</p>
-        </div>
-      </article>
-      <article class="entry">
-        <span class="num">15</span>
-        <div>
-          <div class="entry-title">
-            <a href="https://github.com/sethuiyer/navokoj" rel="noopener">navokoj</a>
-            <span class="arrow" aria-hidden="true">&#8599;</span>
-            <span class="meta">Python &middot; <span class="date">2026-01-03</span> <span class="chip">private</span> &middot; <a class="site-link" href="https://sethuiyer.github.io/docs/projects/navokoj/" rel="noopener">details &#8599;</a></span>
-          </div>
-          <p class="summary">Physics-inspired SAT solving that treats constraints as flowing geometry rather than fixed clauses. The solver navigates the space of partial assignments and learns which regions of it are worth revisiting at all, using spectral information to decide where effort belongs.</p>
-        </div>
-      </article>
-      <article class="entry">
-        <span class="num">16</span>
-        <div>
-          <div class="entry-title">
-            <a href="https://github.com/sethuiyer/baha" rel="noopener">baha</a>
-            <span class="arrow" aria-hidden="true">&#8599;</span>
-            <span class="meta">C++ &middot; ★ 4 &middot; <span class="date">2026-01-27</span> &middot; <a class="site-link" href="https://sethuiyer.github.io/baha/" rel="noopener">site &#8599;</a> &middot; <a class="site-link" href="https://sethuiyer.github.io/docs/projects/baha/" rel="noopener">details &#8599;</a> &middot; <a class="site-link" href="https://baha.pages.dev/" rel="noopener">app &#8599;</a> &middot; <a class="site-link" href="https://doi.org/10.5281/zenodo.18373732" rel="noopener">doi</a></span>
-          </div>
-          <p class="summary">Branch-aware holonomy annealing: when a solver stalls, the escape mechanism detects the fractures where the log-derivative of the partition function diverges and navigates the multi-sheeted analytic surface with Lambert W, cutting complexity from exponential to linear where ordinary annealing stalls.</p>
-        </div>
-      </article>
-      <article class="entry">
-        <span class="num">17</span>
-        <div>
-          <div class="entry-title">
-            <a href="https://github.com/sethuiyer/multiplicative-pinn-framework" rel="noopener">multiplicative-pinn-framework</a>
-            <span class="arrow" aria-hidden="true">&#8599;</span>
-            <span class="meta">Python &middot; ★ 1 &middot; <span class="date">2025-11-19</span> &middot; <a class="site-link" href="https://sethuiyer.github.io/multiplicative-pinn-framework/" rel="noopener">site &#8599;</a> &middot; <a class="site-link" href="https://sethuiyer.github.io/docs/projects/multiplicative-pinn/" rel="noopener">details &#8599;</a></span>
-          </div>
-          <p class="summary">A research framework for solving PDEs with multiplicative constraints, where physics-informed networks are constrained multiplicatively rather than additively. The result preserves positivity and conservation laws that the usual formulation violates, and makes the violation visible whenever it cannot be avoided.</p>
-        </div>
-      </article>
-      <article class="entry">
-        <span class="num">18</span>
-        <div>
-          <div class="entry-title">
-            <a href="https://github.com/sethuiyer/model2vec" rel="noopener">model2vec</a>
-            <span class="arrow" aria-hidden="true">&#8599;</span>
-            <span class="meta">fork &middot; <span class="date">2025-11-07</span></span>
-          </div>
-          <p class="summary">A fork of the static-embedding toolkit, kept for experiments in compressing models until only the distinctions a downstream decision depends on remain. The fork exists to test how far that compression can be pushed, and where it starts to lose.</p>
-        </div>
-      </article>
-    </section>
-
-    <section class="group" id="continued">
-      <div class="group-head">
-        <h2>Continuing work</h2>
-        <span class="count">4 entries</span>
-      </div>
-      <p class="group-note">Repositories that began earlier and kept moving through the same period.</p>
-      <article class="entry">
-        <span class="num">19</span>
-        <div>
-          <div class="entry-title">
-            <a href="https://github.com/sethuiyer/casimir-sat-solver" rel="noopener">casimir-sat-solver</a>
-            <span class="arrow" aria-hidden="true">&#8599;</span>
-            <span class="meta">HTML &middot; ★ 2 &middot; <span class="date">2025-10-20</span> &middot; <a class="site-link" href="https://sethuiyer.github.io/casimir-sat-solver/" rel="noopener">site &#8599;</a> &middot; <a class="site-link" href="https://sethuiyer.github.io/docs/projects/casimir-sat-solver/" rel="noopener">details &#8599;</a></span>
-          </div>
-          <p class="summary">Where boolean logic meets quantum mechanics, expressed as a solver whose constraints behave like physical fields settling toward a ground state. The project asks which logical distinctions survive when the clause set is treated as one physical object at once.</p>
-        </div>
-      </article>
-      <article class="entry">
-        <span class="num">20</span>
-        <div>
-          <div class="entry-title">
-            <a href="https://github.com/sethuiyer/spectral-multiplicative-framework" rel="noopener">spectral-multiplicative-framework</a>
-            <span class="arrow" aria-hidden="true">&#8599;</span>
-            <span class="meta">Crystal &middot; ★ 1 &middot; <span class="date">2025-10-14</span> &middot; <a class="site-link" href="https://sethuiyer.github.io/docs/projects/spectral-multiplicative/" rel="noopener">details &#8599;</a></span>
-          </div>
-          <p class="summary">Graph theory meets quantum mechanics in optimization space, implemented in Crystal for a small executable surface. The framework asks which eigenvalues of a constraint graph a decision can afford to forget, and what breaks when the wrong ones are dropped.</p>
-        </div>
-      </article>
-      <article class="entry">
-        <span class="num">21</span>
-        <div>
-          <div class="entry-title">
-            <a href="https://github.com/sethuiyer/obs-ai" rel="noopener">obs-ai</a>
-            <span class="arrow" aria-hidden="true">&#8599;</span>
-            <span class="meta">Python &middot; <span class="date">2025-06-26</span> <span class="chip">private</span></span>
-          </div>
-          <p class="summary">Obsidian with an AI layer, kept as a knowledge base that can be queried without losing provenance. Notes are indexed so retrieval returns the passage you meant, not the closest wording, and answer can be traced back to its source.</p>
-        </div>
-      </article>
-      <article class="entry">
-        <span class="num">22</span>
-        <div>
-          <div class="entry-title">
-            <a href="https://github.com/sethuiyer/banzhaf-ensemble-thesis" rel="noopener">banzhaf-ensemble-thesis</a>
-            <span class="arrow" aria-hidden="true">&#8599;</span>
-            <span class="meta">Python &middot; <span class="date">2025-03-25</span></span>
-          </div>
-          <p class="summary">Game theory meets ensemble learning through Banzhaf power indices, measuring which features shift a model&#x27;s vote. The thesis asks how much redundancy an ensemble can carry before the extra members change nothing, and how to tell when they already have.</p>
-        </div>
-      </article>
-    </section>
-
-    <section class="group" id="gists">
-      <div class="group-head">
-        <h2>Gists and essays</h2>
-        <span class="count">4 entries</span>
-      </div>
-      <p class="group-note">Long-form writing published directly on GitHub, without a repository around it.</p>
-      <article class="entry">
-        <span class="num">23</span>
-        <div>
-          <div class="entry-title">
-            <a href="https://gist.github.com/sethuiyer/95163626f16f4f7c5736d88fe6799587" rel="noopener">TATH</a>
-            <span class="arrow" aria-hidden="true">&#8599;</span>
-            <span class="meta">FORMAL.md &middot; <span class="date">2026-03-26</span></span>
-          </div>
-          <p class="summary">A formal treatment of the laboratory&#x27;s central device, written as a self-contained document. The definitions are tightened until every later project can be checked against them, including which information an abstraction is allowed to discard and what it must keep.</p>
-        </div>
-      </article>
-      <article class="entry">
-        <span class="num">24</span>
-        <div>
-          <div class="entry-title">
-            <a href="https://gist.github.com/sethuiyer/ab041089ca4c4c2a8f3b164be7498442" rel="noopener">How Number Theory Breaks a NP-Hard Problem</a>
-            <span class="arrow" aria-hidden="true">&#8599;</span>
-            <span class="meta">BLOG.md &middot; <span class="date">2026-03-24</span></span>
-          </div>
-          <p class="summary">An argument that number-theoretic structure can dissolve the apparent hardness of a combinatorial problem rather than merely making it faster. The piece isolates the specific distinction the encoding preserves, and explains why removing that distinction returns the original difficulty unchanged.</p>
-        </div>
-      </article>
-      <article class="entry">
-        <span class="num">25</span>
-        <div>
-          <div class="entry-title">
-            <a href="https://gist.github.com/sethuiyer/0f0c58dda163472e77272160391c1b4d" rel="noopener">Computation</a>
-            <span class="arrow" aria-hidden="true">&#8599;</span>
-            <span class="meta">BLOG.md &middot; <span class="date">2026-01-14</span></span>
-          </div>
-          <p class="summary">An essay on computation as the act of discarding what is irrelevant. It works through what computation must retain, what it may forget, and why two questions are inseparable in every system that has to survive contact with a user.</p>
-        </div>
-      </article>
-      <article class="entry">
-        <span class="num">26</span>
-        <div>
-          <div class="entry-title">
-            <a href="https://gist.github.com/sethuiyer/26a3ed75b2a535bcb28b2d2f7af81616" rel="noopener">Operator Algebra Blogpost</a>
-            <span class="arrow" aria-hidden="true">&#8599;</span>
-            <span class="meta">README.md &middot; <span class="date">2026-01-14</span></span>
-          </div>
-          <p class="summary">Operator algebra imported as a language for representation: which parts of a system are interchangeable, and what quotient structure survives that interchange. It is the bridge between physics and the abstraction program, and the clearest statement of the shared vocabulary.</p>
-        </div>
-      </article>
-    </section>
-
-    <section class="group" id="essays">
-      <div class="group-head">
-        <h2>Published essays</h2>
-        <span class="count">6 entries</span>
-      </div>
-      <p class="group-note">Longer pieces written for the site. They live in the archive repository, held private — write to request access.</p>
-      <article class="entry">
-        <span class="num">27</span>
-        <div>
-          <div class="entry-title">
-            <a href="https://github.com/sethuiyer/shunyabar-labs-archive/blob/main/posts/fock-space-computation.html" rel="noopener">Fock Space Computation: A Mathematical Framework for Symbolic Information Processing</a>
-            <span class="arrow" aria-hidden="true">&#8599;</span>
-            <span class="meta">quantum &middot; <span class="date">2025-11</span> <span class="chip">private</span></span>
-          </div>
-          <p class="summary">A formal demonstration that symbolic computation follows quantum field theory mathematics, with experimental validation in parsing and version control. Fock space supplies the state space, and the framework explains why symbolic systems behave like particle systems under construction and annihilation.</p>
-        </div>
-      </article>
-      <article class="entry">
-        <span class="num">28</span>
-        <div>
-          <div class="entry-title">
-            <a href="https://github.com/sethuiyer/shunyabar-labs-archive/blob/main/posts/hidden-laws-of-imbalance.html" rel="noopener">The Hidden Laws of Imbalance: Advanced Diagnostic Frameworks for Optimization Limits</a>
-            <span class="arrow" aria-hidden="true">&#8599;</span>
-            <span class="meta">optimisation &middot; <span class="date">2025-11</span> <span class="chip">private</span></span>
-          </div>
-          <p class="summary">Diagnostic frameworks for optimisation limits in complex systems, arguing that the right move is often architectural rather than parametric. The essay names the imbalance laws that quietly cap a search, and shows where spending more compute stops helping in practice.</p>
-        </div>
-      </article>
-      <article class="entry">
-        <span class="num">29</span>
-        <div>
-          <div class="entry-title">
-            <a href="https://github.com/sethuiyer/shunyabar-labs-archive/blob/main/posts/mathematical-mechanism.html" rel="noopener">Mathematical Mechanism: How the Self-Stabilizing Optimizer Works</a>
-            <span class="arrow" aria-hidden="true">&#8599;</span>
-            <span class="meta">optimisation &middot; <span class="date">2025-11</span> <span class="chip">private</span></span>
-          </div>
-          <p class="summary">Clean, rigorous mathematics behind the exponential-sum manifold and the correlation-based control system applied to NP-hard problems. This is the mechanism write-up: what the solver actually computes, why the correlation term converges, and which guarantees hold for hard instances in practice.</p>
-        </div>
-      </article>
-      <article class="entry">
-        <span class="num">30</span>
-        <div>
-          <div class="entry-title">
-            <a href="https://github.com/sethuiyer/shunyabar-labs-archive/blob/main/posts/multiplicative-constraint-axis.html" rel="noopener">A Multiplicative Axis for Constraint Enforcement in Machine Learning</a>
-            <span class="arrow" aria-hidden="true">&#8599;</span>
-            <span class="meta">machine learning &middot; <span class="date">2025-11</span> <span class="chip">private</span></span>
-          </div>
-          <p class="summary">A previously unrecognised axis in loss-design space, built from spectral-multiplicative constraints using analytic number theory and exponential barrier dynamics. The essay shows that constraints can be enforced multiplicatively, preserving properties additive penalties quietly destroy, and explains when this axis helps.</p>
-        </div>
-      </article>
-      <article class="entry">
-        <span class="num">31</span>
-        <div>
-          <div class="entry-title">
-            <a href="https://github.com/sethuiyer/shunyabar-labs-archive/blob/main/posts/proximity-identity-equilibrium.html" rel="noopener">The Proximity-Identity Functional: Mathematical Foundations of Equilibrium</a>
-            <span class="arrow" aria-hidden="true">&#8599;</span>
-            <span class="meta">equilibrium &middot; <span class="date">2025-11</span> <span class="chip">private</span></span>
-          </div>
-          <p class="summary">A mathematical analysis of the proximity-identity functional and its role in determining equilibrium states across physics, machine learning and information theory. The essay derives the functional&#x27;s fixed points and shows equilibrium as an identity that survives perturbation of the system.</p>
-        </div>
-      </article>
-      <article class="entry">
-        <span class="num">32</span>
-        <div>
-          <div class="entry-title">
-            <a href="https://github.com/sethuiyer/shunyabar-labs-archive/blob/main/posts/self-stabilizing-optimizer.html" rel="noopener">The Hidden Manifold Where Geometry Meets Arithmetic: How We Built a Self-Stabilizing Optimizer</a>
-            <span class="arrow" aria-hidden="true">&#8599;</span>
-            <span class="meta">optimisation &middot; <span class="date">2025-11</span> <span class="chip">private</span></span>
-          </div>
-          <p class="summary">Every optimisation problem, from microchip layouts to cloud allocation, is navigation across an energy landscape. This essay describes the system built to stabilise itself there, replacing brute force with a manifold that contracts toward a solution with no human supervision.</p>
-        </div>
-      </article>
-    </section>
-
-    <section class="group" id="foundations">
-      <div class="group-head">
-        <h2>Foundations</h2>
-        <span class="count">8 entries</span>
-      </div>
-      <p class="group-note">8 long-form documents on the lab site: the thesis, the axiom geometry, the honest scope, and the bibliography. Read these before the code.</p>
-      <article class="entry">
-        <span class="num">33</span>
-        <div>
-          <div class="entry-title">
-            <a href="https://sethuiyer.github.io/docs/axiom-architecture/" rel="noopener">The Architecture of Axioms: Geometry, Infinity, and the Prime Code</a>
-            <span class="arrow" aria-hidden="true">&#8599;</span>
-            <span class="meta">essay &middot; 2026 &middot; <span class="date">2026</span></span>
-          </div>
-          <p class="summary">Axioms are treated as a Boolean lattice whose curvature measures how much each axiom depends on the others. Non-zero curvature is the obstruction to path-independence, and extending the geometry to infinite axiom sets breaks Möbius inversion until primes rescue it.</p>
-        </div>
-      </article>
-      <article class="entry">
-        <span class="num">34</span>
         <div>
           <div class="entry-title">
             <a href="https://sethuiyer.github.io/docs/core-vision/" rel="noopener">The Arithmetic Manifold</a>
@@ -530,7 +270,487 @@
         </div>
       </article>
       <article class="entry">
+        <span class="num">02</span>
+        <div>
+          <div class="entry-title">
+            <a href="https://sethuiyer.github.io/docs/axiom-architecture/" rel="noopener">The Architecture of Axioms: Geometry, Infinity, and the Prime Code</a>
+            <span class="arrow" aria-hidden="true">&#8599;</span>
+            <span class="meta">essay &middot; 2026 &middot; <span class="date">2026</span></span>
+          </div>
+          <p class="summary">Axioms are treated as a Boolean lattice whose curvature measures how much each axiom depends on the others. Non-zero curvature is the obstruction to path-independence, and extending the geometry to infinite axiom sets breaks Möbius inversion until primes rescue it.</p>
+        </div>
+      </article>
+      <article class="entry">
+        <span class="num">03</span>
+        <div>
+          <div class="entry-title">
+            <a href="https://github.com/sethuiyer/behavioral-quotients" rel="noopener">behavioral-quotients</a>
+            <span class="arrow" aria-hidden="true">&#8599;</span>
+            <span class="meta">HTML &middot; ★ 1 &middot; <span class="date">2026-09-12</span> &middot; <a class="site-link" href="https://sethuiyer.github.io/behavioral-quotients/" rel="noopener">site &#8599;</a> &middot; <a class="site-link" href="https://sethuiyer.github.io/docs/projects/behavioral-quotients/" rel="noopener">details &#8599;</a></span>
+          </div>
+          <p class="summary">Two computational histories may be equivalent when they produce the same relevant behaviour. This paper states the equivalence relation explicitly, derives which observations must be retained for it to hold, and presents the quotient as a design principle for computation.</p>
+        </div>
+      </article>
+      <article class="entry">
+        <span class="num">04</span>
+        <div>
+          <div class="entry-title">
+            <a href="https://github.com/sethuiyer/phantom-clock" rel="noopener">phantom-clock</a>
+            <span class="arrow" aria-hidden="true">&#8599;</span>
+            <span class="meta">HTML &middot; ★ 0 &middot; <span class="date">2026-10-22</span> &middot; <a class="site-link" href="https://sethuiyer.github.io/phantom-clock/" rel="noopener">site &#8599;</a></span>
+          </div>
+          <p class="summary">Optical phase space becomes a memory medium. Two rays can share a position and still differ in direction and timing, so collapsing them manufactures errors. This essay keeps phase as a first-class coordinate and documents the ellipsoid inside the clock.</p>
+        </div>
+      </article>
+      <article class="entry">
+        <span class="num">05</span>
+        <div>
+          <div class="entry-title">
+            <a href="https://github.com/sethuiyer/geometry-of-conditional-logic" rel="noopener">geometry-of-conditional-logic</a>
+            <span class="arrow" aria-hidden="true">&#8599;</span>
+            <span class="meta">Python &middot; <span class="date">2026-05-12</span> <span class="chip">private</span> &middot; <a class="site-link" href="https://sethuiyer.github.io/docs/projects/geometry-of-conditional-logic/" rel="noopener">details &#8599;</a></span>
+          </div>
+          <p class="summary">Conditionals are given shape. The repository builds a geometry in which if-then-else regions sit at different distances, letting a program ask how two logical situations differ and when they may be treated as interchangeable without changing what the program decides.</p>
+        </div>
+      </article>
+      <article class="entry">
+        <span class="num">06</span>
+        <div>
+          <div class="entry-title">
+            <a href="https://github.com/sethuiyer/banzhaf-ensemble-thesis" rel="noopener">banzhaf-ensemble-thesis</a>
+            <span class="arrow" aria-hidden="true">&#8599;</span>
+            <span class="meta">Python &middot; <span class="date">2025-03-25</span></span>
+          </div>
+          <p class="summary">Game theory meets ensemble learning through Banzhaf power indices, measuring which features shift a model&#x27;s vote. The thesis asks how much redundancy an ensemble can carry before the extra members change nothing, and how to tell when they already have.</p>
+        </div>
+      </article>
+      <article class="entry">
+        <span class="num">07</span>
+        <div>
+          <div class="entry-title">
+            <a href="https://gist.github.com/sethuiyer/95163626f16f4f7c5736d88fe6799587" rel="noopener">TATH</a>
+            <span class="arrow" aria-hidden="true">&#8599;</span>
+            <span class="meta">FORMAL.md &middot; <span class="date">2026-03-26</span></span>
+          </div>
+          <p class="summary">A formal treatment of the laboratory&#x27;s central device, written as a self-contained document. The definitions are tightened until every later project can be checked against them, including which information an abstraction is allowed to discard and what it must keep.</p>
+        </div>
+      </article>
+      <article class="entry">
+        <span class="num">08</span>
+        <div>
+          <div class="entry-title">
+            <a href="https://gist.github.com/sethuiyer/0f0c58dda163472e77272160391c1b4d" rel="noopener">Computation</a>
+            <span class="arrow" aria-hidden="true">&#8599;</span>
+            <span class="meta">BLOG.md &middot; <span class="date">2026-01-14</span></span>
+          </div>
+          <p class="summary">An essay on computation as the act of discarding what is irrelevant. It works through what computation must retain, what it may forget, and why two questions are inseparable in every system that has to survive contact with a user.</p>
+        </div>
+      </article>
+      <article class="entry">
+        <span class="num">09</span>
+        <div>
+          <div class="entry-title">
+            <a href="https://gist.github.com/sethuiyer/26a3ed75b2a535bcb28b2d2f7af81616" rel="noopener">Operator Algebra Blogpost</a>
+            <span class="arrow" aria-hidden="true">&#8599;</span>
+            <span class="meta">README.md &middot; <span class="date">2026-01-14</span></span>
+          </div>
+          <p class="summary">Operator algebra imported as a language for representation: which parts of a system are interchangeable, and what quotient structure survives that interchange. It is the bridge between physics and the abstraction program, and the clearest statement of the shared vocabulary.</p>
+        </div>
+      </article>
+      <article class="entry">
+        <span class="num">10</span>
+        <div>
+          <div class="entry-title">
+            <a href="https://github.com/sethuiyer/shunyabar-labs-archive/blob/main/posts/proximity-identity-equilibrium.html" rel="noopener">The Proximity-Identity Functional: Mathematical Foundations of Equilibrium</a>
+            <span class="arrow" aria-hidden="true">&#8599;</span>
+            <span class="meta">equilibrium &middot; <span class="date">2025-11</span> <span class="chip">private</span></span>
+          </div>
+          <p class="summary">A mathematical analysis of the proximity-identity functional and its role in determining equilibrium states across physics, machine learning and information theory. The essay derives the functional&#x27;s fixed points and shows equilibrium as an identity that survives perturbation of the system.</p>
+        </div>
+      </article>
+      <article class="entry">
+        <span class="num">11</span>
+        <div>
+          <div class="entry-title">
+            <a href="https://research.shunyabar.foo/posts/dynamic-prime-cantor-set.html" rel="noopener">The Dynamic Prime Cantor Set: A Fractal Woven from the Primes</a>
+            <span class="arrow" aria-hidden="true">&#8599;</span>
+            <span class="meta">Essay &middot; Number theory &middot; <span class="date">2025-11-01</span></span>
+          </div>
+          <p class="summary">A fractal construction on the unit interval built intrinsically from the distribution of prime numbers, replacing the fixed middle-third rule with one driven by prime gaps. The dynamic set is compared against the classical Cantor construction and known fractal dimensions.</p>
+        </div>
+      </article>
+      <article class="entry">
+        <span class="num">12</span>
+        <div>
+          <div class="entry-title">
+            <a href="https://research.shunyabar.foo/posts/prime-walk-jahn-teller.html" rel="noopener">The Prime Walk: Spontaneous Symmetry Breaking from Number Theory to the Riemann Hypothesis</a>
+            <span class="arrow" aria-hidden="true">&#8599;</span>
+            <span class="meta">Essay &middot; Number theory &middot; <span class="date">2025-11-01</span></span>
+          </div>
+          <p class="summary">A random walk on prime powers that connects the molecular Jahn-Teller effect to the Riemann hypothesis through spontaneous symmetry breaking. The walk shows how a physical degeneracy lifts on a number-theoretic landscape, with plots, figures and computed results attached throughout.</p>
+        </div>
+      </article>
+      <article class="entry">
+        <span class="num">13</span>
+        <div>
+          <div class="entry-title">
+            <a href="https://sethuiyer.github.io/docs/blog/multiplicative-archaeology/" rel="noopener">Multiplicative Archaeology: Recovering Interaction History from Digital Atoms</a>
+            <span class="arrow" aria-hidden="true">&#8599;</span>
+            <span class="meta">Note &middot; Number theory &middot; <span class="date">2026-06-23</span></span>
+          </div>
+          <p class="summary">A framework for treating numbers as structured histories rather than opaque quantities. Digit topology, interaction cost and the archaeology of factorization are used to read a number&#x27;s past, to say which parts of that past a downstream decision may ignore.</p>
+        </div>
+      </article>
+    </section>
+
+    <section class="group" id="representation">
+      <div class="group-head">
+        <h2>Representation / Memory</h2>
+        <span class="count">5 entries</span>
+      </div>
+      <p class="group-note">The mirror: the encoding chosen for a system, and how much of it may be discarded before the next decision goes wrong.</p>
+      <article class="entry">
+        <span class="num">14</span>
+        <div>
+          <div class="entry-title">
+            <a href="https://github.com/sethuiyer/FUTCache" rel="noopener">FUTCache</a>
+            <span class="arrow" aria-hidden="true">&#8599;</span>
+            <span class="meta">C &middot; ★ 2 &middot; <span class="date">2026-08-23</span> &middot; <a class="site-link" href="https://sethuiyer.github.io/docs/projects/futcache/" rel="noopener">details &#8599;</a></span>
+          </div>
+          <p class="summary">A bounded-memory sufficient-state representation of explored geometry. FUTCache merges visited states whenever merging loses nothing a later decision needs, scaling to a million production traces while the cache itself stays fixed in size, and released three times in summer 2026.</p>
+        </div>
+      </article>
+      <article class="entry">
+        <span class="num">15</span>
+        <div>
+          <div class="entry-title">
+            <a href="https://github.com/sethuiyer/persistent-discovery-index" rel="noopener">persistent-discovery-index</a>
+            <span class="arrow" aria-hidden="true">&#8599;</span>
+            <span class="meta">Python &middot; v0.5.0 &middot; <span class="date">2026-09-15</span></span>
+          </div>
+          <p class="summary">A microscope for agent behaviour. PDI reads pi, OpenAI, LangSmith and canonical traces to locate the exact boundary where useful discovery ends and wasteful exploration begins, and report that boundary at behavioural resolution instead of returning one blunt aggregate score.</p>
+        </div>
+      </article>
+      <article class="entry">
+        <span class="num">16</span>
+        <div>
+          <div class="entry-title">
+            <a href="https://github.com/sethuiyer/novelty-geometry" rel="noopener">novelty-geometry</a>
+            <span class="arrow" aria-hidden="true">&#8599;</span>
+            <span class="meta">HTML &middot; ★ 2 &middot; <span class="date">2026-08-20</span> &middot; <a class="site-link" href="https://sethuiyer.github.io/novelty-geometry/" rel="noopener">site &#8599;</a> &middot; <a class="site-link" href="https://sethuiyer.github.io/docs/projects/novelty-geometry/" rel="noopener">details &#8599;</a></span>
+          </div>
+          <p class="summary">Traversal, ordered novelty, memory and asymptotic completion in metric and hyperbolic spaces. The framework formalizes which directions an agent has genuinely covered, separating reached territory from a reworded revisit of ground explored, and shows how completion behaves as space grows.</p>
+        </div>
+      </article>
+      <article class="entry">
+        <span class="num">17</span>
+        <div>
+          <div class="entry-title">
+            <a href="https://github.com/sethuiyer/model2vec" rel="noopener">model2vec</a>
+            <span class="arrow" aria-hidden="true">&#8599;</span>
+            <span class="meta">fork &middot; <span class="date">2025-11-07</span></span>
+          </div>
+          <p class="summary">A fork of the static-embedding toolkit, kept for experiments in compressing models until only the distinctions a downstream decision depends on remain. The fork exists to test how far that compression can be pushed, and where it starts to lose.</p>
+        </div>
+      </article>
+      <article class="entry">
+        <span class="num">18</span>
+        <div>
+          <div class="entry-title">
+            <a href="https://github.com/sethuiyer/obs-ai" rel="noopener">obs-ai</a>
+            <span class="arrow" aria-hidden="true">&#8599;</span>
+            <span class="meta">Python &middot; <span class="date">2025-06-26</span> <span class="chip">private</span></span>
+          </div>
+          <p class="summary">Obsidian with an AI layer, kept as a knowledge base that can be queried without losing provenance. Notes are indexed so retrieval returns the passage you meant, not the closest wording, and answer can be traced back to its source.</p>
+        </div>
+      </article>
+    </section>
+
+    <section class="group" id="optimization">
+      <div class="group-head">
+        <h2>Optimization / Search</h2>
+        <span class="count">13 entries</span>
+      </div>
+      <p class="group-note">The shadow: behaviour produced by that representation when it meets a hard instance and a deadline.</p>
+      <article class="entry">
+        <span class="num">19</span>
+        <div>
+          <div class="entry-title">
+            <a href="https://github.com/sethuiyer/baha" rel="noopener">baha</a>
+            <span class="arrow" aria-hidden="true">&#8599;</span>
+            <span class="meta">C++ &middot; ★ 4 &middot; <span class="date">2026-01-27</span> &middot; <a class="site-link" href="https://sethuiyer.github.io/baha/" rel="noopener">site &#8599;</a> &middot; <a class="site-link" href="https://sethuiyer.github.io/docs/projects/baha/" rel="noopener">details &#8599;</a> &middot; <a class="site-link" href="https://baha.pages.dev/" rel="noopener">app &#8599;</a> &middot; <a class="site-link" href="https://doi.org/10.5281/zenodo.18373732" rel="noopener">doi</a></span>
+          </div>
+          <p class="summary">Branch-aware holonomy annealing: when a solver stalls, the escape mechanism detects the fractures where the log-derivative of the partition function diverges and navigates the multi-sheeted analytic surface with Lambert W, cutting complexity from exponential to linear where ordinary annealing stalls.</p>
+        </div>
+      </article>
+      <article class="entry">
+        <span class="num">20</span>
+        <div>
+          <div class="entry-title">
+            <a href="https://github.com/sethuiyer/NitroSAT" rel="noopener">NitroSAT</a>
+            <span class="arrow" aria-hidden="true">&#8599;</span>
+            <span class="meta">C &middot; ★ 2 &middot; <span class="date">2026-02-15</span> &middot; <a class="site-link" href="https://sethuiyer.github.io/NitroSAT/" rel="noopener">site &#8599;</a> &middot; <a class="site-link" href="https://sethuiyer.github.io/docs/projects/nitrosat/" rel="noopener">details &#8599;</a></span>
+          </div>
+          <p class="summary">A powerful linear-time MaxSAT approximator that consistently reaches 99.5 percent satisfaction across graph colouring, clique and Ramsey instances. It prunes aggressively while preserving the distinctions that keep the remaining search honest, and it streams to disk when memory runs short.</p>
+        </div>
+      </article>
+      <article class="entry">
+        <span class="num">21</span>
+        <div>
+          <div class="entry-title">
+            <a href="https://github.com/sethuiyer/navokoj" rel="noopener">navokoj</a>
+            <span class="arrow" aria-hidden="true">&#8599;</span>
+            <span class="meta">Python &middot; <span class="date">2026-01-03</span> <span class="chip">private</span> &middot; <a class="site-link" href="https://sethuiyer.github.io/docs/projects/navokoj/" rel="noopener">details &#8599;</a></span>
+          </div>
+          <p class="summary">Physics-inspired SAT solving that treats constraints as flowing geometry rather than fixed clauses. The solver navigates the space of partial assignments and learns which regions of it are worth revisiting at all, using spectral information to decide where effort belongs.</p>
+        </div>
+      </article>
+      <article class="entry">
+        <span class="num">22</span>
+        <div>
+          <div class="entry-title">
+            <a href="https://github.com/sethuiyer/casimir-sat-solver" rel="noopener">casimir-sat-solver</a>
+            <span class="arrow" aria-hidden="true">&#8599;</span>
+            <span class="meta">HTML &middot; ★ 2 &middot; <span class="date">2025-10-20</span> &middot; <a class="site-link" href="https://sethuiyer.github.io/casimir-sat-solver/" rel="noopener">site &#8599;</a> &middot; <a class="site-link" href="https://sethuiyer.github.io/docs/projects/casimir-sat-solver/" rel="noopener">details &#8599;</a></span>
+          </div>
+          <p class="summary">Where boolean logic meets quantum mechanics, expressed as a solver whose constraints behave like physical fields settling toward a ground state. The project asks which logical distinctions survive when the clause set is treated as one physical object at once.</p>
+        </div>
+      </article>
+      <article class="entry">
+        <span class="num">23</span>
+        <div>
+          <div class="entry-title">
+            <a href="https://github.com/sethuiyer/NoetherLeap" rel="noopener">NoetherLeap</a>
+            <span class="arrow" aria-hidden="true">&#8599;</span>
+            <span class="meta">HTML &middot; v1.0 &middot; <span class="date">2026-06-30</span> <span class="chip">private</span></span>
+          </div>
+          <p class="summary">Constraint-aware optimization that pairs physics-informed neural networks with Bayesian search and symmetry discovery. The system exploits conserved quantities to avoid searching dimensions that provably cannot change the outcome, and reports the symmetries it found in advance rather than assuming them.</p>
+        </div>
+      </article>
+      <article class="entry">
+        <span class="num">24</span>
+        <div>
+          <div class="entry-title">
+            <a href="https://github.com/sethuiyer/spectral-multiplicative-framework" rel="noopener">spectral-multiplicative-framework</a>
+            <span class="arrow" aria-hidden="true">&#8599;</span>
+            <span class="meta">Crystal &middot; ★ 1 &middot; <span class="date">2025-10-14</span> &middot; <a class="site-link" href="https://sethuiyer.github.io/docs/projects/spectral-multiplicative/" rel="noopener">details &#8599;</a></span>
+          </div>
+          <p class="summary">Graph theory meets quantum mechanics in optimization space, implemented in Crystal for a small executable surface. The framework asks which eigenvalues of a constraint graph a decision can afford to forget, and what breaks when the wrong ones are dropped.</p>
+        </div>
+      </article>
+      <article class="entry">
+        <span class="num">25</span>
+        <div>
+          <div class="entry-title">
+            <a href="https://gist.github.com/sethuiyer/ab041089ca4c4c2a8f3b164be7498442" rel="noopener">How Number Theory Breaks a NP-Hard Problem</a>
+            <span class="arrow" aria-hidden="true">&#8599;</span>
+            <span class="meta">BLOG.md &middot; <span class="date">2026-03-24</span></span>
+          </div>
+          <p class="summary">An argument that number-theoretic structure can dissolve the apparent hardness of a combinatorial problem rather than merely making it faster. The piece isolates the specific distinction the encoding preserves, and explains why removing that distinction returns the original difficulty unchanged.</p>
+        </div>
+      </article>
+      <article class="entry">
+        <span class="num">26</span>
+        <div>
+          <div class="entry-title">
+            <a href="https://github.com/sethuiyer/shunyabar-labs-archive/blob/main/posts/hidden-laws-of-imbalance.html" rel="noopener">The Hidden Laws of Imbalance: Advanced Diagnostic Frameworks for Optimization Limits</a>
+            <span class="arrow" aria-hidden="true">&#8599;</span>
+            <span class="meta">optimisation &middot; <span class="date">2025-11</span> <span class="chip">private</span></span>
+          </div>
+          <p class="summary">Diagnostic frameworks for optimisation limits in complex systems, arguing that the right move is often architectural rather than parametric. The essay names the imbalance laws that quietly cap a search, and shows where spending more compute stops helping in practice.</p>
+        </div>
+      </article>
+      <article class="entry">
+        <span class="num">27</span>
+        <div>
+          <div class="entry-title">
+            <a href="https://github.com/sethuiyer/shunyabar-labs-archive/blob/main/posts/mathematical-mechanism.html" rel="noopener">Mathematical Mechanism: How the Self-Stabilizing Optimizer Works</a>
+            <span class="arrow" aria-hidden="true">&#8599;</span>
+            <span class="meta">optimisation &middot; <span class="date">2025-11</span> <span class="chip">private</span></span>
+          </div>
+          <p class="summary">Clean, rigorous mathematics behind the exponential-sum manifold and the correlation-based control system applied to NP-hard problems. This is the mechanism write-up: what the solver actually computes, why the correlation term converges, and which guarantees hold for hard instances in practice.</p>
+        </div>
+      </article>
+      <article class="entry">
+        <span class="num">28</span>
+        <div>
+          <div class="entry-title">
+            <a href="https://github.com/sethuiyer/shunyabar-labs-archive/blob/main/posts/self-stabilizing-optimizer.html" rel="noopener">The Hidden Manifold Where Geometry Meets Arithmetic: How We Built a Self-Stabilizing Optimizer</a>
+            <span class="arrow" aria-hidden="true">&#8599;</span>
+            <span class="meta">optimisation &middot; <span class="date">2025-11</span> <span class="chip">private</span></span>
+          </div>
+          <p class="summary">Every optimisation problem, from microchip layouts to cloud allocation, is navigation across an energy landscape. This essay describes the system built to stabilise itself there, replacing brute force with a manifold that contracts toward a solution with no human supervision.</p>
+        </div>
+      </article>
+      <article class="entry">
+        <span class="num">29</span>
+        <div>
+          <div class="entry-title">
+            <a href="https://sethuiyer.github.io/docs/blog/ramsey-limit/" rel="noopener">Probing the Ramsey Limit: Phase Transitions in High-Dimensional Logic</a>
+            <span class="arrow" aria-hidden="true">&#8599;</span>
+            <span class="meta">Note &middot; Phase transitions &middot; <span class="date">2025-12-20</span></span>
+          </div>
+          <p class="summary">Where perfect solutions become impossible, the constraint system changes character rather than merely getting harder. The essay locates that boundary for high-dimensional logic and reports what survives on the far side of it, where partial satisfaction is all that remains.</p>
+        </div>
+      </article>
+      <article class="entry">
+        <span class="num">30</span>
+        <div>
+          <div class="entry-title">
+            <a href="https://sethuiyer.github.io/docs/blog/physics-engine-for-logic/" rel="noopener">Navokoj: A Physics Engine for Logic</a>
+            <span class="arrow" aria-hidden="true">&#8599;</span>
+            <span class="meta">Note &middot; Constraint solving &middot; <span class="date">2025-11-01</span></span>
+          </div>
+          <p class="summary">Boolean logic treated as a continuous dynamical system rather than a search over assignments. The essay argues that constraints can be relaxed as physics, that the relaxation can be computed, and that the result beats classical solvers on industrial instances.</p>
+        </div>
+      </article>
+      <article class="entry">
+        <span class="num">31</span>
+        <div>
+          <div class="entry-title">
+            <a href="https://sethuiyer.github.io/docs/blog/training-dynamics/" rel="noopener">Training Dynamics for Discrete Constraint Satisfaction</a>
+            <span class="arrow" aria-hidden="true">&#8599;</span>
+            <span class="meta">Note &middot; Optimization &middot; <span class="date">2025-12-15</span></span>
+          </div>
+          <p class="summary">The parallel between gradient descent through a neural network and continuous optimisation for NP-hard constraint problems, examined directly. The essay asks what a training dynamic looks like when the parameters are clauses, and what a loss surface would even mean.</p>
+        </div>
+      </article>
+    </section>
+
+    <section class="group" id="agents">
+      <div class="group-head">
+        <h2>Agents / Authority</h2>
+        <span class="count">5 entries</span>
+      </div>
+      <p class="group-note">The shadow for agents: who may ask, who may act, and which distinctions a merge would silently erase.</p>
+      <article class="entry">
+        <span class="num">32</span>
+        <div>
+          <div class="entry-title">
+            <a href="https://github.com/sethuiyer/authorization-lattice" rel="noopener">authorization-lattice</a>
+            <span class="arrow" aria-hidden="true">&#8599;</span>
+            <span class="meta">HTML &middot; <span class="date">2026-06-04</span> <span class="chip">private</span> &middot; <a class="site-link" href="https://sethuiyer.github.io/docs/projects/authorization-lattice/" rel="noopener">details &#8599;</a></span>
+          </div>
+          <p class="summary">Two agents may request the same action while holding entirely different permissions. Ignoring that distinction produces a security failure, so the work orders authority in a lattice and still keeps ownership attached to objects that may have none at all.</p>
+        </div>
+      </article>
+      <article class="entry">
+        <span class="num">33</span>
+        <div>
+          <div class="entry-title">
+            <a href="https://github.com/sethuiyer/agent-guardrail" rel="noopener">agent-guardrail</a>
+            <span class="arrow" aria-hidden="true">&#8599;</span>
+            <span class="meta">Python &middot; ★ 1 &middot; <span class="date">2026-08-31</span></span>
+          </div>
+          <p class="summary">Policy enforcement and permission testing for AI agents. Mock enterprise APIs simulate synthetic user consent, and requests are blocked before deployment when an agent&#x27;s authority is not actually established, so abstraction never erases the security-relevant distinctions between any two callers.</p>
+        </div>
+      </article>
+      <article class="entry">
+        <span class="num">34</span>
+        <div>
+          <div class="entry-title">
+            <a href="https://github.com/sethuiyer/factor-agent" rel="noopener">factor-agent</a>
+            <span class="arrow" aria-hidden="true">&#8599;</span>
+            <span class="meta">HTML &middot; ★ 1 &middot; <span class="date">2026-05-20</span> &middot; <a class="site-link" href="https://sethuiyer.github.io/factor-agent/" rel="noopener">site &#8599;</a> &middot; <a class="site-link" href="https://sethuiyer.github.io/docs/projects/factor-agent/" rel="noopener">details &#8599;</a></span>
+          </div>
+          <p class="summary">Invariant-preserving agent harnesses built on OTP supervision, arithmetic security lattices and lawful composition. The harness watches that an agent preserves the quantities it was supposed to preserve exactly, and reports every violation rather than silently averaging it out of sight.</p>
+        </div>
+      </article>
+      <article class="entry">
         <span class="num">35</span>
+        <div>
+          <div class="entry-title">
+            <a href="https://github.com/shunyabarlabs/reify" rel="noopener">reify</a>
+            <span class="arrow" aria-hidden="true">&#8599;</span>
+            <span class="meta">D &middot; ★ 0 &middot; <span class="date">2026-07-27</span></span>
+          </div>
+          <p class="summary">A declarative SDK and compiler for constraint optimization and decision-intelligence engines. Constraints are declared rather than hand-encoded, and the compiler decides how much structure can be discarded while every remaining degree of freedom still changes the decision that comes out.</p>
+        </div>
+      </article>
+      <article class="entry">
+        <span class="num">36</span>
+        <div>
+          <div class="entry-title">
+            <a href="https://sethuiyer.github.io/docs/blog/agent-control-plane/" rel="noopener">The Physics-Informed Control Plane for Agentic Systems</a>
+            <span class="arrow" aria-hidden="true">&#8599;</span>
+            <span class="meta">Note &middot; Agents &middot; <span class="date">2026-05-11</span></span>
+          </div>
+          <p class="summary">Probabilistic agent behaviour turned into reliable, inspectable action through a constraint-governed execution layer. The essay describes the architecture that decides what an agent may do, verifies that it was done, and returns verifiable evidence rather than a promise of compliance.</p>
+        </div>
+      </article>
+    </section>
+
+    <section class="group" id="learning">
+      <div class="group-head">
+        <h2>Learning / Physics</h2>
+        <span class="count">5 entries</span>
+      </div>
+      <p class="group-note">Where the representation meets physics: multiplicative constraints, operator language, and models that solve for what softmax assumes.</p>
+      <article class="entry">
+        <span class="num">37</span>
+        <div>
+          <div class="entry-title">
+            <a href="https://github.com/sethuiyer/eigen-attention" rel="noopener">eigen-attention</a>
+            <span class="arrow" aria-hidden="true">&#8599;</span>
+            <span class="meta">JavaScript &middot; ★ 0 &middot; <span class="date">2026-10-18</span> &middot; <a class="site-link" href="https://sethuiyer.github.io/eigen-attention/" rel="noopener">site &#8599;</a></span>
+          </div>
+          <p class="summary">Attention reframed as constrained spectral regression: tokens are eigenvectors under a task-induced operator, and the softmax is solved for rather than assumed. The repository extends the theorem, adds controlled experiments, and ships reproducible checks that show where the approximation holds.</p>
+        </div>
+      </article>
+      <article class="entry">
+        <span class="num">38</span>
+        <div>
+          <div class="entry-title">
+            <a href="https://github.com/sethuiyer/multiplicative-pinn-framework" rel="noopener">multiplicative-pinn-framework</a>
+            <span class="arrow" aria-hidden="true">&#8599;</span>
+            <span class="meta">Python &middot; ★ 1 &middot; <span class="date">2025-11-19</span> &middot; <a class="site-link" href="https://sethuiyer.github.io/multiplicative-pinn-framework/" rel="noopener">site &#8599;</a> &middot; <a class="site-link" href="https://sethuiyer.github.io/docs/projects/multiplicative-pinn/" rel="noopener">details &#8599;</a></span>
+          </div>
+          <p class="summary">A research framework for solving PDEs with multiplicative constraints, where physics-informed networks are constrained multiplicatively rather than additively. The result preserves positivity and conservation laws that the usual formulation violates, and makes the violation visible whenever it cannot be avoided.</p>
+        </div>
+      </article>
+      <article class="entry">
+        <span class="num">39</span>
+        <div>
+          <div class="entry-title">
+            <a href="https://github.com/sethuiyer/shunyabar-labs-archive/blob/main/posts/fock-space-computation.html" rel="noopener">Fock Space Computation: A Mathematical Framework for Symbolic Information Processing</a>
+            <span class="arrow" aria-hidden="true">&#8599;</span>
+            <span class="meta">quantum &middot; <span class="date">2025-11</span> <span class="chip">private</span></span>
+          </div>
+          <p class="summary">A formal demonstration that symbolic computation follows quantum field theory mathematics, with experimental validation in parsing and version control. Fock space supplies the state space, and the framework explains why symbolic systems behave like particle systems under construction and annihilation.</p>
+        </div>
+      </article>
+      <article class="entry">
+        <span class="num">40</span>
+        <div>
+          <div class="entry-title">
+            <a href="https://github.com/sethuiyer/shunyabar-labs-archive/blob/main/posts/multiplicative-constraint-axis.html" rel="noopener">A Multiplicative Axis for Constraint Enforcement in Machine Learning</a>
+            <span class="arrow" aria-hidden="true">&#8599;</span>
+            <span class="meta">machine learning &middot; <span class="date">2025-11</span> <span class="chip">private</span></span>
+          </div>
+          <p class="summary">A previously unrecognised axis in loss-design space, built from spectral-multiplicative constraints using analytic number theory and exponential barrier dynamics. The essay shows that constraints can be enforced multiplicatively, preserving properties additive penalties quietly destroy, and explains when this axis helps.</p>
+        </div>
+      </article>
+      <article class="entry">
+        <span class="num">41</span>
+        <div>
+          <div class="entry-title">
+            <a href="https://research.shunyabar.foo/posts/multiplicative-navier-stokes.html" rel="noopener">The Multiplicative Axis: A New Approach to Navier-Stokes with Prime Number Gates</a>
+            <span class="arrow" aria-hidden="true">&#8599;</span>
+            <span class="meta">Essay &middot; Physics &middot; <span class="date">2025-11-01</span></span>
+          </div>
+          <p class="summary">Additive physics penalties replaced by prime-based multiplicative gates, offering a new perspective on gradient pathology that solvers meet in Navier-Stokes simulation. The essay shows how positivity and conservation laws survive the reformulation that ordinary penalty methods quietly break in practice.</p>
+        </div>
+      </article>
+    </section>
+
+    <section class="group" id="foundations">
+      <div class="group-head">
+        <h2>docs</h2>
+        <span class="count">7 entries</span>
+      </div>
+      <p class="group-note">The long-form documents: what the idea is, where it stops, and what it rests on.</p>
+      <article class="entry">
+        <span class="num">42</span>
         <div>
           <div class="entry-title">
             <a href="https://sethuiyer.github.io/docs/research-report/" rel="noopener">Unified Mathematical Systems Report</a>
@@ -541,7 +761,7 @@
         </div>
       </article>
       <article class="entry">
-        <span class="num">36</span>
+        <span class="num">43</span>
         <div>
           <div class="entry-title">
             <a href="https://sethuiyer.github.io/docs/references/papers/" rel="noopener">Papers and Citations</a>
@@ -552,7 +772,7 @@
         </div>
       </article>
       <article class="entry">
-        <span class="num">37</span>
+        <span class="num">44</span>
         <div>
           <div class="entry-title">
             <a href="https://sethuiyer.github.io/docs/references/related-work/" rel="noopener">Related Work</a>
@@ -563,7 +783,7 @@
         </div>
       </article>
       <article class="entry">
-        <span class="num">38</span>
+        <span class="num">45</span>
         <div>
           <div class="entry-title">
             <a href="https://sethuiyer.github.io/docs/limitations/" rel="noopener">Where Navokoj Works (and Where It Doesn&#x27;t)</a>
@@ -574,7 +794,7 @@
         </div>
       </article>
       <article class="entry">
-        <span class="num">39</span>
+        <span class="num">46</span>
         <div>
           <div class="entry-title">
             <a href="https://sethuiyer.github.io/docs/glossary/" rel="noopener">Glossary</a>
@@ -585,7 +805,7 @@
         </div>
       </article>
       <article class="entry">
-        <span class="num">40</span>
+        <span class="num">47</span>
         <div>
           <div class="entry-title">
             <a href="https://sethuiyer.github.io/docs/design-philosophy/" rel="noopener">The Design Philosophy</a>
@@ -595,16 +815,27 @@
           <p class="summary">A working document on running five public surfaces and ten shipped projects without flattening them into one template. The rule is simple: tune every surface to what its reader came to do, and let the surfaces disagree where readers differ.</p>
         </div>
       </article>
+      <article class="entry">
+        <span class="num">48</span>
+        <div>
+          <div class="entry-title">
+            <a href="https://github.com/sethuiyer/docs" rel="noopener">docs</a>
+            <span class="arrow" aria-hidden="true">&#8599;</span>
+            <span class="meta">Astro &middot; <span class="date">2026-07-20</span> &middot; <a class="site-link" href="https://sethuiyer.github.io/docs/" rel="noopener">site &#8599;</a></span>
+          </div>
+          <p class="summary">The lab&#x27;s documentation site, built with Astro: core vision, glossary, concepts, limitations and design philosophy, written so outsiders can follow it. It states the Arithmetic Manifold thesis, cites the evidence ledger, and serves as the front door to the lab.</p>
+        </div>
+      </article>
     </section>
 
-    <section class="group" id="zenodo">
+    <section class="group" id="citable">
       <div class="group-head">
-        <h2>Citable records</h2>
-        <span class="count">6 entries</span>
+        <h2>Banzhaf Ensemble Thesis</h2>
+        <span class="count">9 entries</span>
       </div>
-      <p class="group-note">6 Zenodo records, each the version of record for an artifact. The DOIs are permanent and citable; prefer them over a repository link when you cite.</p>
+      <p class="group-note">Every artifact with a permanent identifier — the version of record, not a pointer to one.</p>
       <article class="entry">
-        <span class="num">41</span>
+        <span class="num">49</span>
         <div>
           <div class="entry-title">
             <a href="https://zenodo.org/records/17394165" rel="noopener">Solving SAT with Quantum Vacuum Dynamics</a>
@@ -615,7 +846,7 @@
         </div>
       </article>
       <article class="entry">
-        <span class="num">42</span>
+        <span class="num">50</span>
         <div>
           <div class="entry-title">
             <a href="https://zenodo.org/records/17596089" rel="noopener">Spectral-Multiplicative Optimization Framework</a>
@@ -626,7 +857,7 @@
         </div>
       </article>
       <article class="entry">
-        <span class="num">43</span>
+        <span class="num">51</span>
         <div>
           <div class="entry-title">
             <a href="https://zenodo.org/records/18214172" rel="noopener">ShunyaBar: Spectral-Arithmetic Phase Transitions for Combinatorial Optimization</a>
@@ -637,7 +868,7 @@
         </div>
       </article>
       <article class="entry">
-        <span class="num">44</span>
+        <span class="num">52</span>
         <div>
           <div class="entry-title">
             <a href="https://zenodo.org/records/18373732" rel="noopener">Multiplicative Calculus for Hardness Detection and Branch-Aware Optimization</a>
@@ -648,7 +879,7 @@
         </div>
       </article>
       <article class="entry">
-        <span class="num">45</span>
+        <span class="num">53</span>
         <div>
           <div class="entry-title">
             <a href="https://zenodo.org/records/18753235" rel="noopener">NitroSAT: A Physics-Informed MaxSAT Solver Using Heat Kernel Diffusion, Persistent Homology, and Branch-Aware Holonomy Annealing</a>
@@ -659,7 +890,7 @@
         </div>
       </article>
       <article class="entry">
-        <span class="num">46</span>
+        <span class="num">54</span>
         <div>
           <div class="entry-title">
             <a href="https://zenodo.org/records/19571762" rel="noopener">Emergent Stochasticity from Serialized Concurrency</a>
@@ -669,16 +900,49 @@
           <p class="summary">Uniform randomness is reconstructed as the invariant measure of a deterministic concurrent system forced through a serialising bottleneck, with the interleaving space written as products of symmetric groups. It is a constructive theory of when distinct histories may be pooled.</p>
         </div>
       </article>
+      <article class="entry">
+        <span class="num">55</span>
+        <div>
+          <div class="entry-title">
+            <a href="https://doi.org/10.5281/zenodo.22058736" rel="noopener">Novelty Geometry — Initial Release</a>
+            <span class="arrow" aria-hidden="true">&#8599;</span>
+            <span class="meta">Zenodo &middot; Software &middot; <span class="date">2026</span> &middot; <a class="site-link" href="https://doi.org/10.5281/zenodo.22058736" rel="noopener">doi</a></span>
+          </div>
+          <p class="summary">The frozen first release of the novelty-geometry repository, covering traversal, ordered novelty, memory and asymptotic completion in metric and hyperbolic spaces alike. The record fixes the released version that separates genuinely covered territory from a reworded revisit of ground explored.</p>
+        </div>
+      </article>
+      <article class="entry">
+        <span class="num">56</span>
+        <div>
+          <div class="entry-title">
+            <a href="https://doi.org/10.5281/zenodo.21077472" rel="noopener">NoetherLeap — Zenodo software record</a>
+            <span class="arrow" aria-hidden="true">&#8599;</span>
+            <span class="meta">Zenodo &middot; Software &middot; <span class="date">2026</span> &middot; <a class="site-link" href="https://doi.org/10.5281/zenodo.21077472" rel="noopener">doi</a></span>
+          </div>
+          <p class="summary">The frozen first release of constraint-aware optimization, pairing physics-informed networks with Bayesian search and symmetry discovery. Conserved quantities prune the search space without removing any reachable optimum, and the symmetries are reported rather than simply assumed to hold in advance.</p>
+        </div>
+      </article>
+      <article class="entry">
+        <span class="num">57</span>
+        <div>
+          <div class="entry-title">
+            <a href="https://doi.org/10.5281/zenodo.17611452" rel="noopener">Banzhaf Ensemble Thesis</a>
+            <span class="arrow" aria-hidden="true">&#8599;</span>
+            <span class="meta">Zenodo &middot; Thesis &middot; <span class="date">2025</span> &middot; <a class="site-link" href="https://doi.org/10.5281/zenodo.17611452" rel="noopener">doi</a></span>
+          </div>
+          <p class="summary">The frozen, citable thesis record of a study of Banzhaf power indices in ensemble learning: which features shift a model&#x27;s vote, and how much redundancy an ensemble can carry before the extra members change nothing at all in real deployments.</p>
+        </div>
+      </article>
     </section>
 
     <section class="group" id="releases">
       <div class="group-head">
-        <h2>Released artifacts</h2>
+        <h2>reify — v0.1.0, v0.2.0</h2>
         <span class="count">4 entries</span>
       </div>
-      <p class="group-note">Published versions, grouped by project.</p>
+      <p class="group-note">Published versions, grouped by project: what froze, and when.</p>
       <article class="entry">
-        <span class="num">47</span>
+        <span class="num">58</span>
         <div>
           <div class="entry-title">
             <a href="https://github.com/sethuiyer/FUTCache/releases" rel="noopener">FUTCache — v1.3.0, v1.4.0, v.2.0.0</a>
@@ -689,7 +953,7 @@
         </div>
       </article>
       <article class="entry">
-        <span class="num">48</span>
+        <span class="num">59</span>
         <div>
           <div class="entry-title">
             <a href="https://github.com/sethuiyer/NitroSAT/releases" rel="noopener">NitroSAT — v1.0.0, v3.0.0.0, v3.1.0</a>
@@ -700,7 +964,7 @@
         </div>
       </article>
       <article class="entry">
-        <span class="num">49</span>
+        <span class="num">60</span>
         <div>
           <div class="entry-title">
             <a href="https://github.com/sethuiyer/NoetherLeap/releases" rel="noopener">NoetherLeap — v1.0</a>
@@ -711,7 +975,7 @@
         </div>
       </article>
       <article class="entry">
-        <span class="num">50</span>
+        <span class="num">61</span>
         <div>
           <div class="entry-title">
             <a href="https://github.com/shunyabarlabs/reify/releases" rel="noopener">reify — v0.1.0, v0.2.0</a>
@@ -723,594 +987,55 @@
       </article>
     </section>
 
-    <section class="group" id="podcast">
+    <section class="group" id="broadcast">
       <div class="group-head">
-        <h2>Podcast — Space Time Cafe</h2>
-        <span class="count">52 entries</span>
+        <h2>Writing index</h2>
+        <span class="count">3 entries</span>
       </div>
-      <p class="group-note">52 entries — the lab&#x27;s argument in spoken form: one long-form video essay per topic, plus the playlist overview.</p>
-      <article class="entry">
-        <span class="num">51</span>
-        <div>
-          <div class="entry-title">
-            <a href="https://www.youtube.com/playlist?list=PLUPyripldgZb2ZKSJOQ6p1DO3oCk9yT6G" rel="noopener">Space Time Cafe</a>
-            <span class="arrow" aria-hidden="true">&#8599;</span>
-            <span class="meta">Playlist &middot; 51 videos &middot; <span class="date">2025-02-22</span> &middot; <a class="site-link" href="https://www.youtube.com/@SethuIyer95" rel="noopener">site &#8599;</a></span>
-          </div>
-          <p class="summary">A long-form video essay series in which physics, number theory, geometry and machine learning are argued through together. Fifty-one episodes published between February 2025 and August 2026 range over primes, infinity, chaos, operators, fairness and the limits of computation itself.</p>
-        </div>
-      </article>
-      <article class="entry">
-        <span class="num">52</span>
-        <div>
-          <div class="entry-title">
-            <a href="https://www.youtube.com/watch?v=mFOJihE49eE" rel="noopener">Episode 1 : The Lore Behind Majorana Quantum Chip</a>
-            <span class="arrow" aria-hidden="true">&#8599;</span>
-            <span class="meta">Video &middot; 36m 34s &middot; 506 views &middot; <span class="date">2025-02-22</span></span>
-          </div>
-          <p class="summary">The series opens on Ettore Majorana, who vanished in 1938, and the fermions that carry his name. The episode reconstructs the story, explains what makes them neutral and self-conjugate, and traces how a particle became a candidate for quantum hardware.</p>
-        </div>
-      </article>
-      <article class="entry">
-        <span class="num">53</span>
-        <div>
-          <div class="entry-title">
-            <a href="https://www.youtube.com/watch?v=cxMhh-0aysc" rel="noopener">Episode 2 : The Majorana-Riemann Hypothesis Connection – A Breakdown</a>
-            <span class="arrow" aria-hidden="true">&#8599;</span>
-            <span class="meta">Video &middot; 50m 56s &middot; 1.7k views &middot; <span class="date">2025-02-22</span></span>
-          </div>
-          <p class="summary">The second episode presses the link between Majorana fermions and the Riemann hypothesis, working through how topological superconductivity encodes prime behaviour, where the analogy holds, and where the mathematics is doing real work rather than merely sounding deep and impressive.</p>
-        </div>
-      </article>
-      <article class="entry">
-        <span class="num">54</span>
-        <div>
-          <div class="entry-title">
-            <a href="https://www.youtube.com/watch?v=PJB5v1wseRc" rel="noopener">Episode 3: Unraveling Infinity’s Code</a>
-            <span class="arrow" aria-hidden="true">&#8599;</span>
-            <span class="meta">Video &middot; 31m 24s &middot; 146 views &middot; <span class="date">2025-02-24</span></span>
-          </div>
-          <p class="summary">Einstein&#x27;s continuous infinity against Wolfram&#x27;s computational treatment of the infinite, with the argument that infinity is a constraint of description rather than a thing that exists. The episode asks what changes if the universe is explored algorithmically instead of analytically.</p>
-        </div>
-      </article>
-      <article class="entry">
-        <span class="num">55</span>
-        <div>
-          <div class="entry-title">
-            <a href="https://www.youtube.com/watch?v=YvNBkF5KM2c" rel="noopener">Episode 6: The Monster Problem: Fibonacci’s Deepest Secrets (Part 2)</a>
-            <span class="arrow" aria-hidden="true">&#8599;</span>
-            <span class="meta">Video &middot; 40m 50s &middot; 130 views &middot; <span class="date">2025-02-24</span></span>
-          </div>
-          <p class="summary">Part two of the Fibonacci sequence: whether primes hide a code when written in Fibonacci base, and what that means for finding them. The episode works through the monster problem and asks whether arithmetic structure could resolve an open question.</p>
-        </div>
-      </article>
-      <article class="entry">
-        <span class="num">56</span>
-        <div>
-          <div class="entry-title">
-            <a href="https://www.youtube.com/watch?v=xu27UFJ9ua0" rel="noopener">Episode 4: Computational Infinity: The Universe&#x27;s Hidden Code</a>
-            <span class="arrow" aria-hidden="true">&#8599;</span>
-            <span class="meta">Video &middot; 38m 36s &middot; 367 views &middot; <span class="date">2025-02-25</span></span>
-          </div>
-          <p class="summary">What if infinity is not real, and every infinite is a computational limit not yet reached. The episode develops computational infinity as a working alternative to continuous analysis, and tests it against the places classical mathematics refuses to ever terminate.</p>
-        </div>
-      </article>
-      <article class="entry">
-        <span class="num">57</span>
-        <div>
-          <div class="entry-title">
-            <a href="https://www.youtube.com/watch?v=4UJt391PMqY" rel="noopener">Episode 5: Fibonacci Unraveled: The Math, the Mystery, and the Magic (Part 1)</a>
-            <span class="arrow" aria-hidden="true">&#8599;</span>
-            <span class="meta">Video &middot; 38m 47s &middot; 153 views &middot; <span class="date">2025-02-26</span></span>
-          </div>
-          <p class="summary">Part one: the Fibonacci sequence from first principles, its closed form, and the golden ratio it converges to, then outward to sunflowers, spirals and galaxies. The episode asks why one recurrence appears everywhere it does, and what it is counting.</p>
-        </div>
-      </article>
-      <article class="entry">
-        <span class="num">58</span>
-        <div>
-          <div class="entry-title">
-            <a href="https://www.youtube.com/watch?v=h1iDDU50ZKc" rel="noopener">Episode 7: Fibonacci’s Hidden Duality: Growth vs Decay</a>
-            <span class="arrow" aria-hidden="true">&#8599;</span>
-            <span class="meta">Video &middot; 43m 03s &middot; 154 views &middot; <span class="date">2025-02-28</span></span>
-          </div>
-          <p class="summary">The same recurrence, with initial conditions nudged, produces decay instead of growth. The episode explores eigenmode cancellation in detail and the parameter at which exponential growth flips sign, treating the pair of behaviours as one object seen from two sides.</p>
-        </div>
-      </article>
-      <article class="entry">
-        <span class="num">59</span>
-        <div>
-          <div class="entry-title">
-            <a href="https://www.youtube.com/watch?v=Ooh_ZKH93gw" rel="noopener">Episode 8: Primes, Chaos, and the Quantum Code | Spacetime Cafe</a>
-            <span class="arrow" aria-hidden="true">&#8599;</span>
-            <span class="meta">Video &middot; 59m 30s &middot; 976 views &middot; <span class="date">2025-03-09</span></span>
-          </div>
-          <p class="summary">Primes mimic quantum randomness using arithmetic alone: the episode works through chaotic maps over the primes, their spectral behaviour, and why the pattern is indistinguishable from quantum while being entirely classical in origin, then asks what would separate the explanations.</p>
-        </div>
-      </article>
-      <article class="entry">
-        <span class="num">60</span>
-        <div>
-          <div class="entry-title">
-            <a href="https://www.youtube.com/watch?v=Sfr95nLoUAM" rel="noopener">Episode 9: Prime Chaos and the Secret p-adic Vortex of Randomness - Spacetime Cafe</a>
-            <span class="arrow" aria-hidden="true">&#8599;</span>
-            <span class="meta">Video &middot; 47m 25s &middot; 253 views &middot; <span class="date">2025-03-13</span></span>
-          </div>
-          <p class="summary">Prime vortex maps, the swirling flows of quantum materials, and the p-adic number line placed side by side, arguing that randomness at different scales has one single structure, and that the vortex is where number theory becomes fluid and computable.</p>
-        </div>
-      </article>
-      <article class="entry">
-        <span class="num">61</span>
-        <div>
-          <div class="entry-title">
-            <a href="https://www.youtube.com/watch?v=6Yl0xU32ncg" rel="noopener">Episode 10: Patterns in Primes: Structure, Entropy, and the Nature of Intelligence - Spacetime Cafe</a>
-            <span class="arrow" aria-hidden="true">&#8599;</span>
-            <span class="meta">Video &middot; 48m 13s &middot; 137 views &middot; <span class="date">2025-03-14</span></span>
-          </div>
-          <p class="summary">Structure, entropy and the nature of intelligence drawn together through the primes: the episode asks whether the irregularity of the primes carries information, and whether a system that could read that irregularity would count as intelligent in any meaningful sense.</p>
-        </div>
-      </article>
+      <p class="group-note">How the idea becomes reconstructible in someone else&#x27;s head.</p>
       <article class="entry">
         <span class="num">62</span>
         <div>
           <div class="entry-title">
-            <a href="https://www.youtube.com/watch?v=4kD8QYopRzo" rel="noopener">Episode 11: The Beauty and Power of Invariants - Spacetime Cafe</a>
+            <a href="https://www.youtube.com/playlist?list=PLUPyripldgZb2ZKSJOQ6p1DO3oCk9yT6G" rel="noopener">Space Time Cafe</a>
             <span class="arrow" aria-hidden="true">&#8599;</span>
-            <span class="meta">Video &middot; 36m 00s &middot; 68 views &middot; <span class="date">2025-03-15</span></span>
+            <span class="meta">Podcast &middot; 51 episodes &middot; <span class="date">2025-02-22</span> &middot; <a class="site-link" href="https://sethuiyer.github.io/shunyabar-labs/broadcast.html" rel="noopener">site &#8599;</a> &middot; <a class="site-link" href="https://www.youtube.com/@SethuIyer95" rel="noopener">details &#8599;</a></span>
           </div>
-          <p class="summary">Invariants as the hidden order beneath mathematics, using the fraction matrix problem to show how the smallest fractions behave and why quantities that survive every transformation are the ones worth tracking. The episode asks what an invariant is really for.</p>
+          <p class="summary">An audio notebook following the ideas that became ShunyaBar Labs: primes, invariants, operator theory, geometry, complexity, information, intelligence and mathematical physics. The podcast is the oral prehistory of the lab, recording the conceptual lineage behind the later formal research programme.</p>
         </div>
       </article>
       <article class="entry">
         <span class="num">63</span>
         <div>
           <div class="entry-title">
-            <a href="https://www.youtube.com/watch?v=_0YwATNqVtA" rel="noopener">Episode 12: The Terminal Algebra of the Event Horizon - Spacetime Cafe</a>
+            <a href="https://www.youtube.com/playlist?list=PLUPyripldgZZMq2qkUzxhj_N9aVh6w2XV" rel="noopener">Shunyabar Labs podcast</a>
             <span class="arrow" aria-hidden="true">&#8599;</span>
-            <span class="meta">Video &middot; 52m 35s &middot; 49 views &middot; <span class="date">2025-03-18</span></span>
+            <span class="meta">Podcast &middot; 15 episodes &middot; <span class="date">2025-11-29</span> &middot; <a class="site-link" href="https://sethuiyer.github.io/shunyabar-labs/broadcast.html#labs" rel="noopener">site &#8599;</a> &middot; <a class="site-link" href="https://www.youtube.com/@SethuIyer95" rel="noopener">details &#8599;</a></span>
           </div>
-          <p class="summary">Zero point algebra, the algebraic structure at the boundary where nothing returns, and what it says about descriptions of the impossible. The episode works through the system, its operations, and the limits of the framework itself, and where it stops.</p>
+          <p class="summary">The lab&#x27;s short-form channel: arithmetic rigidity, statistical mechanics for NP-hard search, primes as curvature defects, and demonstrations of the solvers and the constraint engine. Fifteen episodes, ten of them public and available today, each one a piece of the argument.</p>
         </div>
       </article>
       <article class="entry">
         <span class="num">64</span>
         <div>
           <div class="entry-title">
-            <a href="https://www.youtube.com/watch?v=Bo97bv65t5I" rel="noopener">Episode 13:  Concurrency Invariant and the Singularity - Spacetime Cafe</a>
+            <a href="https://sethuiyer.github.io/shunyabar-labs/notebook.html" rel="noopener">Writing index</a>
             <span class="arrow" aria-hidden="true">&#8599;</span>
-            <span class="meta">Video &middot; 48m 24s &middot; 37 views &middot; <span class="date">2025-03-19</span></span>
+            <span class="meta">Notebook &middot; 53 notes &middot; <span class="date">2026</span> &middot; <a class="site-link" href="https://research.shunyabar.foo" rel="noopener">site &#8599;</a></span>
           </div>
-          <p class="summary">Cloud workflows, collapse of consciousness, classical and quantum computing, all unified by one claimed law: that concurrency has an invariant. The episode states the law, argues it from several directions, and asks what it would predict if it were true.</p>
-        </div>
-      </article>
-      <article class="entry">
-        <span class="num">65</span>
-        <div>
-          <div class="entry-title">
-            <a href="https://www.youtube.com/watch?v=VT6C_GqeBmI" rel="noopener">Episode 14: Ghosts, Eternal Inflation, and the Boundaries of Singularity Algebra - Spacetime Cafe</a>
-            <span class="arrow" aria-hidden="true">&#8599;</span>
-            <span class="meta">Video &middot; 28m 08s &middot; 36 views &middot; <span class="date">2025-03-20</span></span>
-          </div>
-          <p class="summary">Two of Hawking&#x27;s papers, living with ghosts and the final boundary of the universe, read as a stress test for singularity algebra. The episode asks whether the algebra can account for what the physics actually says, and where it stops.</p>
-        </div>
-      </article>
-      <article class="entry">
-        <span class="num">66</span>
-        <div>
-          <div class="entry-title">
-            <a href="https://www.youtube.com/watch?v=HYqV51qNAWE" rel="noopener">Encrypting with Chaos:- ChaosEncrypt - Episode 12 - Spacetime Cafe</a>
-            <span class="arrow" aria-hidden="true">&#8599;</span>
-            <span class="meta">Video &middot; 37m 45s &middot; 79 views &middot; <span class="date">2025-04-02</span></span>
-          </div>
-          <p class="summary">ChaosEncrypt, a cipher built on deterministic chaotic maps, with prime-driven keystreams and HMAC key exchange. The episode walks through the construction, explains why chaotic systems resist prediction, and is about the difference between a research tool and a production cipher.</p>
-        </div>
-      </article>
-      <article class="entry">
-        <span class="num">67</span>
-        <div>
-          <div class="entry-title">
-            <a href="https://www.youtube.com/watch?v=JXCvWEc_MWY" rel="noopener">Episode 13: The Hidden Geometry of Language Models and Thought | Spacetime Cafe</a>
-            <span class="arrow" aria-hidden="true">&#8599;</span>
-            <span class="meta">Video &middot; 41m 08s &middot; 102 views &middot; <span class="date">2025-04-08</span></span>
-          </div>
-          <p class="summary">Counting, arithmetic and primes connected through Riemannian geometry and singularities, with large language models as the test case. The episode asks whether the geometry of a model&#x27;s internal representations is recoverable at all, and what counting means in that space.</p>
-        </div>
-      </article>
-      <article class="entry">
-        <span class="num">68</span>
-        <div>
-          <div class="entry-title">
-            <a href="https://www.youtube.com/watch?v=3zpYjZtcwcY" rel="noopener">Episode 14: The Strange Reality of Fractals and Hyperbolic Space  | SpaceTime Cafe</a>
-            <span class="arrow" aria-hidden="true">&#8599;</span>
-            <span class="meta">Video &middot; 37m 50s &middot; 184 views &middot; <span class="date">2025-04-11</span></span>
-          </div>
-          <p class="summary">Fractional dimensions and hyperbolic geometry through the idea of precision dimension: how a measure can sit between integers, and what the hyperbolic space does to notions of distance, scale and self-similarity that Euclidean intuition cannot reach or even represent well.</p>
-        </div>
-      </article>
-      <article class="entry">
-        <span class="num">69</span>
-        <div>
-          <div class="entry-title">
-            <a href="https://www.youtube.com/watch?v=2h9Pqlr8mKk" rel="noopener">Episode 15: Visualizing the Cantor Set in Hyperbolic Space | SpaceTime Cafe</a>
-            <span class="arrow" aria-hidden="true">&#8599;</span>
-            <span class="meta">Video &middot; 26m 34s &middot; 171 views &middot; <span class="date">2025-04-13</span></span>
-          </div>
-          <p class="summary">The Cantor set remade in hyperbolic space, where chopping an interval behaves quite differently than it does in the line. The episode is part proof, part visualisation, showing how the classical construction changes and what survives the change of geometry.</p>
-        </div>
-      </article>
-      <article class="entry">
-        <span class="num">70</span>
-        <div>
-          <div class="entry-title">
-            <a href="https://www.youtube.com/watch?v=ooT7DbpX4Lc" rel="noopener">Episode 16: How Prime Numbers Shape Geometry | SpaceTime Cafe</a>
-            <span class="arrow" aria-hidden="true">&#8599;</span>
-            <span class="meta">Video &middot; 46m 56s &middot; 205 views &middot; <span class="date">2025-04-15</span></span>
-          </div>
-          <p class="summary">The Dynamic Prime Cantor set, the fat variant, and the structures primes generate when they are allowed to determine the geometry. The episode follows the construction and asks what it means for arithmetic to be the thing carving the space.</p>
-        </div>
-      </article>
-      <article class="entry">
-        <span class="num">71</span>
-        <div>
-          <div class="entry-title">
-            <a href="https://www.youtube.com/watch?v=po6ofgGcF4o" rel="noopener">Episode 17: From Prime Fractals to Multiverse Islands | SpaceTime Cafe</a>
-            <span class="arrow" aria-hidden="true">&#8599;</span>
-            <span class="meta">Video &middot; 35m 53s &middot; 91 views &middot; <span class="date">2025-04-17</span></span>
-          </div>
-          <p class="summary">Prime fractals read against inverted islands, entanglement and branching cosmologies alike. The episode draws the parallel honestly and precisely: where the analogy is structural rather than decorative, and where the multiverse framing is doing philosophical rather than purely mathematical work.</p>
-        </div>
-      </article>
-      <article class="entry">
-        <span class="num">72</span>
-        <div>
-          <div class="entry-title">
-            <a href="https://www.youtube.com/watch?v=NHodSBlH50Y" rel="noopener">Episode 18: The Mathematical Tug of War between Identity and Proximity |  SpaceTime Cafe</a>
-            <span class="arrow" aria-hidden="true">&#8599;</span>
-            <span class="meta">Video &middot; 38m 41s &middot; 1.0k views &middot; <span class="date">2025-04-19</span></span>
-          </div>
-          <p class="summary">A balance between similarity and difference, appearing in machine learning, quantum physics and perception all at once. The episode builds the tension formally and asks when two things should be treated as the same, and when they must not be.</p>
-        </div>
-      </article>
-      <article class="entry">
-        <span class="num">73</span>
-        <div>
-          <div class="entry-title">
-            <a href="https://www.youtube.com/watch?v=uJNeFs0OjwA" rel="noopener">Episode 19: Dynamic Choice and the Geometry of Now | SpaceTime Cafe</a>
-            <span class="arrow" aria-hidden="true">&#8599;</span>
-            <span class="meta">Video &middot; 55m 43s &middot; 134 views &middot; <span class="date">2025-04-20</span></span>
-          </div>
-          <p class="summary">The present as a saddle point where a Euclidean past meets a fractal future, and the account of choice and time that follows. The episode develops geometry, then asks what freedom looks like when the now is a fixed point.</p>
-        </div>
-      </article>
-      <article class="entry">
-        <span class="num">74</span>
-        <div>
-          <div class="entry-title">
-            <a href="https://www.youtube.com/watch?v=0BymoGdJwkQ" rel="noopener">Ep  20 Trailer:  Regularizing Divergence with Convergence  | SpaceTime Cafe</a>
-            <span class="arrow" aria-hidden="true">&#8599;</span>
-            <span class="meta">Video &middot; 1m 56s &middot; 26 views &middot; <span class="date">2025-04-21</span></span>
-          </div>
-          <p class="summary">A short trailer: collapsing divergent sequences rather than discarding them, and the core insight behind regularizing divergence with convergence. It is a ninety-second door into the argument that non-convergence can be handled by changing what the limit is taken over.</p>
-        </div>
-      </article>
-      <article class="entry">
-        <span class="num">75</span>
-        <div>
-          <div class="entry-title">
-            <a href="https://www.youtube.com/watch?v=nSFq1ny83bU" rel="noopener">Episode 20: Spectral Symmetry Confinement Principle | SpaceTime Cafe</a>
-            <span class="arrow" aria-hidden="true">&#8599;</span>
-            <span class="meta">Video &middot; 37m 03s &middot; 400 views &middot; <span class="date">2025-05-31</span></span>
-          </div>
-          <p class="summary">Symmetry as the hidden force shaping both quantum particles and the primes, stated as the Spectral Symmetry Confinement Principle. The episode formulates the principle, gives it consequences, and asks whether it is a law or a pattern, or a coincidence.</p>
-        </div>
-      </article>
-      <article class="entry">
-        <span class="num">76</span>
-        <div>
-          <div class="entry-title">
-            <a href="https://www.youtube.com/watch?v=Jcu8BoKnIEc" rel="noopener">Episode 21: Primefall: The Precision Descent | SpaceTime Cafe</a>
-            <span class="arrow" aria-hidden="true">&#8599;</span>
-            <span class="meta">Video &middot; 49m 15s &middot; 201 views &middot; <span class="date">2025-06-08</span></span>
-          </div>
-          <p class="summary">A game of number theory, chaos and high stakes: Prime Fall, where a descent through precision replaces the game mechanics. The episode plays it, reads the mathematics inside the rules, and asks what the design teaches about exploration and play.</p>
-        </div>
-      </article>
-      <article class="entry">
-        <span class="num">77</span>
-        <div>
-          <div class="entry-title">
-            <a href="https://www.youtube.com/watch?v=1i-2fclalcg" rel="noopener">Episode 22: The Physics of Story Telling | SpaceTime Cafe</a>
-            <span class="arrow" aria-hidden="true">&#8599;</span>
-            <span class="meta">Video &middot; 47m 37s &middot; 226 views &middot; <span class="date">2025-06-12</span></span>
-          </div>
-          <p class="summary">Reality as a language with physics as its grammar: how quantum mechanics, emotion and narrative form interact in a single account. The episode argues that storytelling is a physical process, and that the mechanism is measurable rather than merely metaphorical.</p>
-        </div>
-      </article>
-      <article class="entry">
-        <span class="num">78</span>
-        <div>
-          <div class="entry-title">
-            <a href="https://www.youtube.com/watch?v=Y4avF7bnFoE" rel="noopener">Episode 23: Mystery of Self-Adjoint Operators | SpaceTime Cafe</a>
-            <span class="arrow" aria-hidden="true">&#8599;</span>
-            <span class="meta">Video &middot; 36m 27s &middot; 93 views &middot; <span class="date">2025-06-23</span></span>
-          </div>
-          <p class="summary">Wigner&#x27;s puzzle about the unreasonable effectiveness of mathematics, approached through self-adjoint operators and the conditions under which an operator is genuinely observable. The episode works through the spectral theorem and asks why physics keeps choosing structures that work so well.</p>
-        </div>
-      </article>
-      <article class="entry">
-        <span class="num">79</span>
-        <div>
-          <div class="entry-title">
-            <a href="https://www.youtube.com/watch?v=gGG_wATUVh4" rel="noopener">Episode 24 : Operator Theory of Everything -  SpaceTime Cafe</a>
-            <span class="arrow" aria-hidden="true">&#8599;</span>
-            <span class="meta">Video &middot; 27m 15s &middot; 150 views &middot; <span class="date">2025-07-01</span></span>
-          </div>
-          <p class="summary">Five codes, one cosmos: a framework blending operator theory with philosophy, and the mathematics carried rather than gestured at. The episode argues that the same operator language describes physics, computation and mind, and asks what it would take to refute.</p>
-        </div>
-      </article>
-      <article class="entry">
-        <span class="num">80</span>
-        <div>
-          <div class="entry-title">
-            <a href="https://www.youtube.com/watch?v=1dQ2vadw-6s" rel="noopener">Episode 25: Artificial Substrate Intelligence | SpaceTime Cafe</a>
-            <span class="arrow" aria-hidden="true">&#8599;</span>
-            <span class="meta">Video &middot; 45m 52s &middot; 66 views &middot; <span class="date">2025-07-04</span></span>
-          </div>
-          <p class="summary">Intelligence that emerges from the substrate rather than the model, moving from philosophical argument to engineering. The episode asks what changes when intelligence is a property of the arrangement of matter rather than of a program trained on text alone.</p>
-        </div>
-      </article>
-      <article class="entry">
-        <span class="num">81</span>
-        <div>
-          <div class="entry-title">
-            <a href="https://www.youtube.com/watch?v=yIV-n3SPIWM" rel="noopener">Episode 26: The Thermodynamics of Purpose | SpaceTime Cafe</a>
-            <span class="arrow" aria-hidden="true">&#8599;</span>
-            <span class="meta">Video &middot; 34m 33s &middot; 133 views &middot; <span class="date">2025-07-07</span></span>
-          </div>
-          <p class="summary">What it means for something to have purpose, worked through thermodynamics and information theory rather than ethics. The episode asks whether agency can be defined by energy accounting alone, and what a purpose-free system looks like in practice to us.</p>
-        </div>
-      </article>
-      <article class="entry">
-        <span class="num">82</span>
-        <div>
-          <div class="entry-title">
-            <a href="https://www.youtube.com/watch?v=p6qQ1EYfwWM" rel="noopener">Episode 27: The Shape of Unsolvable Problems | SpaceTime Cafe</a>
-            <span class="arrow" aria-hidden="true">&#8599;</span>
-            <span class="meta">Video &middot; 40m 17s &middot; 377 views &middot; <span class="date">2025-07-10</span></span>
-          </div>
-          <p class="summary">Obstruction theory and why certain problems feel unsolvable: the gerbe twist and what it implies across mathematics, physics and computation. The episode argues that unsolvability has a shape, and that seeing that shape deliberately changes what you try next time.</p>
-        </div>
-      </article>
-      <article class="entry">
-        <span class="num">83</span>
-        <div>
-          <div class="entry-title">
-            <a href="https://www.youtube.com/watch?v=Wt9j-tO8M3c" rel="noopener">Episode 27 Trailer | Fiber Bundles and Gerbes | SpaceTime Cafe</a>
-            <span class="arrow" aria-hidden="true">&#8599;</span>
-            <span class="meta">Video &middot; 3m 03s &middot; 36 views &middot; <span class="date">2025-07-23</span></span>
-          </div>
-          <p class="summary">A short trailer for the gerbe episode, introducing fiber bundles and gerbes as the hidden architecture of inconsistency, and previewing the argument that some contradictions are structural rather than accidental, and not simply a failure of effort, attention or nerve.</p>
-        </div>
-      </article>
-      <article class="entry">
-        <span class="num">84</span>
-        <div>
-          <div class="entry-title">
-            <a href="https://www.youtube.com/watch?v=Lu3kBF_Sw4k" rel="noopener">Episode 28: Why Hard Problems Bend Reality | SpaceTime Cafe</a>
-            <span class="arrow" aria-hidden="true">&#8599;</span>
-            <span class="meta">Video &middot; 36m 33s &middot; 43 views &middot; <span class="date">2025-07-27</span></span>
-          </div>
-          <p class="summary">The curved geometry of problem spaces, argued through Sudoku and ordinary decisions, and what curvature does to strategy. The episode shows that hard problems are not merely harder but differently shaped, and that the shape should guide the method chosen.</p>
-        </div>
-      </article>
-      <article class="entry">
-        <span class="num">85</span>
-        <div>
-          <div class="entry-title">
-            <a href="https://www.youtube.com/watch?v=NYuqE5p-BU8" rel="noopener">Episode 29: Geometry of Chaos and Order | SpaceTime Cafe</a>
-            <span class="arrow" aria-hidden="true">&#8599;</span>
-            <span class="meta">Video &middot; 19m 13s &middot; 88 views &middot; <span class="date">2025-07-28</span></span>
-          </div>
-          <p class="summary">Prime numbers against reverse gerbes, and the geometry of chaos and order built from them. The episode works through how order emerges inside apparent randomness, and what the reverse construction makes visible that the forward one hides at first glance.</p>
-        </div>
-      </article>
-      <article class="entry">
-        <span class="num">86</span>
-        <div>
-          <div class="entry-title">
-            <a href="https://www.youtube.com/watch?v=tG-efSP8meI" rel="noopener">Episode 30: Mathematics with a Pulse | SpaceTime Cafe</a>
-            <span class="arrow" aria-hidden="true">&#8599;</span>
-            <span class="meta">Video &middot; 56m 37s &middot; 57 views &middot; <span class="date">2025-08-01</span></span>
-          </div>
-          <p class="summary">Spectral logic: proofs treated as thermodynamic journeys with energy bills, prime-weighted costs assigned to each step. The episode argues that mathematics can be made to pay for itself, and asks what a cost function for proof would buy in practice.</p>
-        </div>
-      </article>
-      <article class="entry">
-        <span class="num">87</span>
-        <div>
-          <div class="entry-title">
-            <a href="https://www.youtube.com/watch?v=8X5_F8Y4ZhA" rel="noopener">Episode 31: The Physics of Thought | SpaceTime Cafe</a>
-            <span class="arrow" aria-hidden="true">&#8599;</span>
-            <span class="meta">Video &middot; 45m 53s &middot; 137 views &middot; <span class="date">2025-08-06</span></span>
-          </div>
-          <p class="summary">Creativity through cognitive thermodynamics, examining intelligence through thermodynamics and harmonic analysis. The episode asks whether thinking is a physical process with constraints, and whether those constraints are informative rather than merely limiting, and whether creativity means escaping them at all.</p>
-        </div>
-      </article>
-      <article class="entry">
-        <span class="num">88</span>
-        <div>
-          <div class="entry-title">
-            <a href="https://www.youtube.com/watch?v=0fnvuBTm3fM" rel="noopener">Are we in a Simulation? | Explainer Video</a>
-            <span class="arrow" aria-hidden="true">&#8599;</span>
-            <span class="meta">Video &middot; 9m 00s &middot; 32 views &middot; <span class="date">2025-08-08</span></span>
-          </div>
-          <p class="summary">A short explainer on whether the world is a simulation, approached with scientific tools rather than speculation. It lays out what each hypothesis would predict, what evidence would distinguish them, and why the question is harder than it first appears.</p>
-        </div>
-      </article>
-      <article class="entry">
-        <span class="num">89</span>
-        <div>
-          <div class="entry-title">
-            <a href="https://www.youtube.com/watch?v=KViaJAbt82Y" rel="noopener">Episode 32: Ramanujan Graphs | Elegant Networks for a Complex World | SpaceTime Cafe</a>
-            <span class="arrow" aria-hidden="true">&#8599;</span>
-            <span class="meta">Video &middot; 26m 43s &middot; 404 views &middot; <span class="date">2025-08-11</span></span>
-          </div>
-          <p class="summary">Ramanujan&#x27;s intuition and the graphs that carry it forward: networks with strong spectral properties, used in modern communications and codes. The episode traces the story from a self-taught genius to a deployed technology, and asks what else he saw coming.</p>
-        </div>
-      </article>
-      <article class="entry">
-        <span class="num">90</span>
-        <div>
-          <div class="entry-title">
-            <a href="https://www.youtube.com/watch?v=7xA2FzufFYk" rel="noopener">Episode 33: The Rhythm of Encryption | SpaceTime Cafe</a>
-            <span class="arrow" aria-hidden="true">&#8599;</span>
-            <span class="meta">Video &middot; 51m 08s &middot; 45 views &middot; <span class="date">2025-08-12</span></span>
-          </div>
-          <p class="summary">Keys that are not stored data but the evolving rhythm of a living system. The episode develops the idea, asks what it buys against an adversary, and is frank about how much of it is proposal rather than deployed practice.</p>
-        </div>
-      </article>
-      <article class="entry">
-        <span class="num">91</span>
-        <div>
-          <div class="entry-title">
-            <a href="https://www.youtube.com/watch?v=uAIiKoDP7IU" rel="noopener">Episode 34: General Relativity of Information | SpaceTime Cafe</a>
-            <span class="arrow" aria-hidden="true">&#8599;</span>
-            <span class="meta">Video &middot; 51m 58s &middot; 49 views &middot; <span class="date">2025-08-13</span></span>
-          </div>
-          <p class="summary">Whether reality is fixed or partly constructed by observation, through spectral redundancy and a proposed unified theory of complex systems. The episode develops the claim and asks what would count as evidence against it, and whether any such could exist.</p>
-        </div>
-      </article>
-      <article class="entry">
-        <span class="num">92</span>
-        <div>
-          <div class="entry-title">
-            <a href="https://www.youtube.com/watch?v=p0wiwoMIsyg" rel="noopener">Episode 35: What Makes Something Real? | SpaceTime Cafe</a>
-            <span class="arrow" aria-hidden="true">&#8599;</span>
-            <span class="meta">Video &middot; 1h 08m &middot; 43 views &middot; <span class="date">2025-08-17</span></span>
-          </div>
-          <p class="summary">Inspired by an eight-year-old&#x27;s question, matter versus mind versus resources, and what makes something real at all. The episode takes the question seriously, works through the philosophical positions, and ends with something closer to a method than to an answer.</p>
-        </div>
-      </article>
-      <article class="entry">
-        <span class="num">93</span>
-        <div>
-          <div class="entry-title">
-            <a href="https://www.youtube.com/watch?v=rPucF88JMAM" rel="noopener">Episode 36: Speed Limit of Intelligence | SpaceTime Cafe</a>
-            <span class="arrow" aria-hidden="true">&#8599;</span>
-            <span class="meta">Video &middot; 30m 43s &middot; 59 views &middot; <span class="date">2025-08-19</span></span>
-          </div>
-          <p class="summary">The claim that intelligence has a fundamental speed limit, argued from neuroscience, complex systems and physics. The episode asks what such a limit would be made of, whether it could be evaded, and how you would notice it in practice.</p>
-        </div>
-      </article>
-      <article class="entry">
-        <span class="num">94</span>
-        <div>
-          <div class="entry-title">
-            <a href="https://www.youtube.com/watch?v=gw820jVjk1U" rel="noopener">Podcast Introduction</a>
-            <span class="arrow" aria-hidden="true">&#8599;</span>
-            <span class="meta">Video &middot; 14s &middot; 35 views &middot; <span class="date">2025-08-20</span></span>
-          </div>
-          <p class="summary">A fourteen-second bumper introducing the podcast, and a reminder of what the series is for: long conversations about the places where physics, mathematics and computation meet, and a first taste of the argument that runs through all forty of them.</p>
-        </div>
-      </article>
-      <article class="entry">
-        <span class="num">95</span>
-        <div>
-          <div class="entry-title">
-            <a href="https://www.youtube.com/watch?v=TCYCI1Ijl-0" rel="noopener">Episode 37:  Splitting the Unsplittable  | SpaceTime Cafe</a>
-            <span class="arrow" aria-hidden="true">&#8599;</span>
-            <span class="meta">Video &middot; 40m 00s &middot; 47 views &middot; <span class="date">2025-08-24</span></span>
-          </div>
-          <p class="summary">Fair division in computer science: partitioning data so that no party is systematically worse off, and the approximation guarantees that make it tractable. The episode works through the cake-cutting line of results and asks what fairness costs computationally, and when.</p>
-        </div>
-      </article>
-      <article class="entry">
-        <span class="num">96</span>
-        <div>
-          <div class="entry-title">
-            <a href="https://www.youtube.com/watch?v=bBAEos4oy8I" rel="noopener">Episode 38: The Circle that helps Intelligence | SpaceTime Cafe</a>
-            <span class="arrow" aria-hidden="true">&#8599;</span>
-            <span class="meta">Video &middot; 40m 14s &middot; 76 views &middot; <span class="date">2025-09-21</span></span>
-          </div>
-          <p class="summary">Seven points on a circle, and from them a synthesis bridging geometry, number theory and artificial intelligence alike. The episode builds the construction stepwise, then asks whether the circle helps machines think or only helps us describe how they do.</p>
-        </div>
-      </article>
-      <article class="entry">
-        <span class="num">97</span>
-        <div>
-          <div class="entry-title">
-            <a href="https://www.youtube.com/watch?v=1b_uKRM8eMg" rel="noopener">Episode 39: The Shape of Fairness | SpaceTime Cafe</a>
-            <span class="arrow" aria-hidden="true">&#8599;</span>
-            <span class="meta">Video &middot; 53m 55s &middot; 51 views &middot; <span class="date">2025-09-25</span></span>
-          </div>
-          <p class="summary">What fairness means for a system, a market or a society, challenging the usual definitions in favour of a geometric account. The episode asks what shape fairness has, and whether it can be measured without reducing it to a scalar.</p>
-        </div>
-      </article>
-      <article class="entry">
-        <span class="num">98</span>
-        <div>
-          <div class="entry-title">
-            <a href="https://www.youtube.com/watch?v=rcum4C48efc" rel="noopener">Episode 40: The Perfect Arithmetic Resistor | SpaceTime Cafe</a>
-            <span class="arrow" aria-hidden="true">&#8599;</span>
-            <span class="meta">Video &middot; 40m 49s &middot; 140 views &middot; <span class="date">2025-10-03</span></span>
-          </div>
-          <p class="summary">Anti-superconductors and non-commutative geometry, with the hidden quantum order of the primes. The episode walks through the prime-annealer paper and blog at length, and asks whether arithmetic can insulate a material the way geometry insulates an ordinary semiconductor device today.</p>
-        </div>
-      </article>
-      <article class="entry">
-        <span class="num">99</span>
-        <div>
-          <div class="entry-title">
-            <a href="https://www.youtube.com/watch?v=kGQT5g-Rh5Q" rel="noopener">Episode 41: Prime Walk | SpaceTime Cafe</a>
-            <span class="arrow" aria-hidden="true">&#8599;</span>
-            <span class="meta">Video &middot; 30m 06s &middot; 95 views &middot; <span class="date">2025-10-06</span></span>
-          </div>
-          <p class="summary">The prime walk, a number-line puzzle, taken seriously as a route into symmetry breaking and the Riemann hypothesis. The episode follows the walk, the Jahn-Teller analogy, and the specific sense in which primes behave like quantum particles in the laboratory.</p>
-        </div>
-      </article>
-      <article class="entry">
-        <span class="num">100</span>
-        <div>
-          <div class="entry-title">
-            <a href="https://www.youtube.com/watch?v=CVm01DM0jCw" rel="noopener">Episode 42: The Geometry of Knowledge | SpaceTime Cafe</a>
-            <span class="arrow" aria-hidden="true">&#8599;</span>
-            <span class="meta">Video &middot; 1h 02m &middot; 37 views &middot; <span class="date">2025-10-09</span></span>
-          </div>
-          <p class="summary">The geometry underpinning mathematical understanding, taken from the Floer hardness certificates paper. The episode asks whether knowledge has structure that can be measured, what persistent homology contributes to the question, and whether a certificate is the right thing to want.</p>
-        </div>
-      </article>
-      <article class="entry">
-        <span class="num">101</span>
-        <div>
-          <div class="entry-title">
-            <a href="https://www.youtube.com/watch?v=3NmgkLSyP_8" rel="noopener">The Physics of Divergent Computation</a>
-            <span class="arrow" aria-hidden="true">&#8599;</span>
-            <span class="meta">Video &middot; 52m 58s &middot; 88 views &middot; <span class="date">2026-06-19</span></span>
-          </div>
-          <p class="summary">What an infinite loop is really tracing: divergent computation as a hidden mathematical structure rather than a plain failure. The episode connects frozen loading screens to the mathematics of divergence, and asks what it would mean to wait correctly, eventually.</p>
-        </div>
-      </article>
-      <article class="entry">
-        <span class="num">102</span>
-        <div>
-          <div class="entry-title">
-            <a href="https://www.youtube.com/watch?v=nZLr8RpNgdI" rel="noopener">Gravity Is Just Biased Attention: The Math Connecting Physics and AI</a>
-            <span class="arrow" aria-hidden="true">&#8599;</span>
-            <span class="meta">Video &middot; 47m 57s &middot; 34 views &middot; <span class="date">2026-08-13</span></span>
-          </div>
-          <p class="summary">The claim that asymmetric attention in physics and hallucination in transformers share one piece of mathematics. The episode works through the column-imbalance result and asks what a link between gravity and attention would have to explain, and whether it survives.</p>
+          <p class="summary">Everything written and not promoted into the main index: the concept notes, the research essays and the working blog, with the author&#x27;s ledes kept intact. Eight pieces are promoted into the research path; the rest stay here, one click away.</p>
         </div>
       </article>
     </section>
 
     <section class="group" id="elsewhere">
       <div class="group-head">
-        <h2>Elsewhere</h2>
+        <h2>Theory portal</h2>
         <span class="count">7 entries</span>
       </div>
-      <p class="group-note">7 other doors into the lab: the front door, the notebook, the shipping API, the browser build, the community, the theory portal and the evidence ledger.</p>
+      <p class="group-note">The lab&#x27;s other surfaces: notebook, shipping API, evidence ledger, community.</p>
       <article class="entry">
-        <span class="num">103</span>
+        <span class="num">65</span>
         <div>
           <div class="entry-title">
             <a href="https://research.shunyabar.foo" rel="noopener">Research notebook</a>
@@ -1321,7 +1046,7 @@
         </div>
       </article>
       <article class="entry">
-        <span class="num">104</span>
+        <span class="num">66</span>
         <div>
           <div class="entry-title">
             <a href="https://navokoj.shunyabar.foo" rel="noopener">Navokoj</a>
@@ -1332,7 +1057,7 @@
         </div>
       </article>
       <article class="entry">
-        <span class="num">105</span>
+        <span class="num">67</span>
         <div>
           <div class="entry-title">
             <a href="https://huggingface.co/buckets/sethuiyer/shunyabar-evidence-v1" rel="noopener">Evidence ledger</a>
@@ -1343,7 +1068,7 @@
         </div>
       </article>
       <article class="entry">
-        <span class="num">106</span>
+        <span class="num">68</span>
         <div>
           <div class="entry-title">
             <a href="https://shunyabar.foo/" rel="noopener">Lab homepage</a>
@@ -1354,7 +1079,7 @@
         </div>
       </article>
       <article class="entry">
-        <span class="num">107</span>
+        <span class="num">69</span>
         <div>
           <div class="entry-title">
             <a href="https://baha.pages.dev/" rel="noopener">BAHA beta app</a>
@@ -1365,7 +1090,7 @@
         </div>
       </article>
       <article class="entry">
-        <span class="num">108</span>
+        <span class="num">70</span>
         <div>
           <div class="entry-title">
             <a href="https://sbl.pages.dev/" rel="noopener">SBL community</a>
@@ -1376,7 +1101,7 @@
         </div>
       </article>
       <article class="entry">
-        <span class="num">109</span>
+        <span class="num">71</span>
         <div>
           <div class="entry-title">
             <a href="https://theory.pages.dev/" rel="noopener">Theory portal</a>
@@ -1423,7 +1148,8 @@
     <p class="fine">
       Every entry below carries a forty-word summary. Generated from
       <code>data/entries.json</code>; summaries are checked to exactly forty words by
-      <code>scripts/check_summaries.py</code>.
+      <code>scripts/check_summaries.py</code>. The <a href="broadcast.html">broadcast</a>
+      and the <a href="notebook.html">notebook</a> carry forty-word summaries too.
     </p>
   </div>
 </footer>

@@ -1,0 +1,297 @@
+{
+  "relocate": {
+    "docs": "foundations"
+  },
+  "start_here": [
+    "The Arithmetic Manifold",
+    "The Architecture of Axioms: Geometry, Infinity, and the Prime Code",
+    "behavioral-quotients",
+    "phantom-clock",
+    "FUTCache"
+  ],
+  "promoted_posts": [
+    "The Dynamic Prime Cantor Set: A Fractal Woven from the Primes",
+    "The Prime Walk: Spontaneous Symmetry Breaking from Number Theory to the Riemann Hypothesis",
+    "Multiplicative Archaeology: Recovering Interaction History from Digital Atoms",
+    "Probing the Ramsey Limit: Phase Transitions in High-Dimensional Logic",
+    "Navokoj: A Physics Engine for Logic",
+    "Training Dynamics for Discrete Constraint Satisfaction",
+    "The Physics-Informed Control Plane for Agentic Systems",
+    "The Multiplicative Axis: A New Approach to Navier-Stokes with Prime Number Gates"
+  ],
+  "tribes": [
+    {
+      "id": "core",
+      "title": "Core Theory",
+      "note": "The underlying phenomenon: what structure exists, and what must be preserved for an equivalence to be legitimate at all.",
+      "members": [
+        "The Arithmetic Manifold",
+        "The Architecture of Axioms: Geometry, Infinity, and the Prime Code",
+        "behavioral-quotients",
+        "phantom-clock",
+        "geometry-of-conditional-logic",
+        "banzhaf-ensemble-thesis",
+        "TATH",
+        "Computation",
+        "Operator Algebra Blogpost",
+        "The Proximity-Identity Functional: Mathematical Foundations of Equilibrium",
+        "The Dynamic Prime Cantor Set: A Fractal Woven from the Primes",
+        "The Prime Walk: Spontaneous Symmetry Breaking from Number Theory to the Riemann Hypothesis",
+        "Multiplicative Archaeology: Recovering Interaction History from Digital Atoms"
+      ]
+    },
+    {
+      "id": "representation",
+      "title": "Representation / Memory",
+      "note": "The mirror: the encoding chosen for a system, and how much of it may be discarded before the next decision goes wrong.",
+      "members": [
+        "FUTCache",
+        "persistent-discovery-index",
+        "novelty-geometry",
+        "model2vec",
+        "obs-ai"
+      ]
+    },
+    {
+      "id": "optimization",
+      "title": "Optimization / Search",
+      "note": "The shadow: behaviour produced by that representation when it meets a hard instance and a deadline.",
+      "members": [
+        "baha",
+        "NitroSAT",
+        "navokoj",
+        "casimir-sat-solver",
+        "NoetherLeap",
+        "spectral-multiplicative-framework",
+        "How Number Theory Breaks a NP-Hard Problem",
+        "The Hidden Laws of Imbalance: Advanced Diagnostic Frameworks for Optimization Limits",
+        "Mathematical Mechanism: How the Self-Stabilizing Optimizer Works",
+        "The Hidden Manifold Where Geometry Meets Arithmetic: How We Built a Self-Stabilizing Optimizer",
+        "Probing the Ramsey Limit: Phase Transitions in High-Dimensional Logic",
+        "Navokoj: A Physics Engine for Logic",
+        "Training Dynamics for Discrete Constraint Satisfaction"
+      ]
+    },
+    {
+      "id": "agents",
+      "title": "Agents / Authority",
+      "note": "The shadow for agents: who may ask, who may act, and which distinctions a merge would silently erase.",
+      "members": [
+        "authorization-lattice",
+        "agent-guardrail",
+        "factor-agent",
+        "reify",
+        "The Physics-Informed Control Plane for Agentic Systems"
+      ]
+    },
+    {
+      "id": "learning",
+      "title": "Learning / Physics",
+      "note": "Where the representation meets physics: multiplicative constraints, operator language, and models that solve for what softmax assumes.",
+      "members": [
+        "eigen-attention",
+        "multiplicative-pinn-framework",
+        "Fock Space Computation: A Mathematical Framework for Symbolic Information Processing",
+        "A Multiplicative Axis for Constraint Enforcement in Machine Learning",
+        "The Multiplicative Axis: A New Approach to Navier-Stokes with Prime Number Gates"
+      ]
+    }
+  ],
+  "new_entries": [
+    {
+      "title": "The Dynamic Prime Cantor Set: A Fractal Woven from the Primes",
+      "url": "https://research.shunyabar.foo/posts/dynamic-prime-cantor-set.html",
+      "date": "2025-11-01",
+      "meta": [
+        "Essay",
+        "Number theory"
+      ],
+      "group": "core",
+      "promoted": true
+    },
+    {
+      "title": "The Prime Walk: Spontaneous Symmetry Breaking from Number Theory to the Riemann Hypothesis",
+      "url": "https://research.shunyabar.foo/posts/prime-walk-jahn-teller.html",
+      "date": "2025-11-01",
+      "meta": [
+        "Essay",
+        "Number theory"
+      ],
+      "group": "core",
+      "promoted": true
+    },
+    {
+      "title": "Multiplicative Archaeology: Recovering Interaction History from Digital Atoms",
+      "url": "https://sethuiyer.github.io/docs/blog/multiplicative-archaeology/",
+      "date": "2026-06-23",
+      "meta": [
+        "Note",
+        "Number theory"
+      ],
+      "group": "core",
+      "promoted": true
+    },
+    {
+      "title": "Probing the Ramsey Limit: Phase Transitions in High-Dimensional Logic",
+      "url": "https://sethuiyer.github.io/docs/blog/ramsey-limit/",
+      "date": "2025-12-20",
+      "meta": [
+        "Note",
+        "Phase transitions"
+      ],
+      "group": "optimization",
+      "promoted": true
+    },
+    {
+      "title": "Navokoj: A Physics Engine for Logic",
+      "url": "https://sethuiyer.github.io/docs/blog/physics-engine-for-logic/",
+      "date": "2025-11-01",
+      "meta": [
+        "Note",
+        "Constraint solving"
+      ],
+      "group": "optimization",
+      "promoted": true
+    },
+    {
+      "title": "Training Dynamics for Discrete Constraint Satisfaction",
+      "url": "https://sethuiyer.github.io/docs/blog/training-dynamics/",
+      "date": "2025-12-15",
+      "meta": [
+        "Note",
+        "Optimization"
+      ],
+      "group": "optimization",
+      "promoted": true
+    },
+    {
+      "title": "The Physics-Informed Control Plane for Agentic Systems",
+      "url": "https://sethuiyer.github.io/docs/blog/agent-control-plane/",
+      "date": "2026-05-11",
+      "meta": [
+        "Note",
+        "Agents"
+      ],
+      "group": "agents",
+      "promoted": true
+    },
+    {
+      "title": "The Multiplicative Axis: A New Approach to Navier-Stokes with Prime Number Gates",
+      "url": "https://research.shunyabar.foo/posts/multiplicative-navier-stokes.html",
+      "date": "2025-11-01",
+      "meta": [
+        "Essay",
+        "Physics"
+      ],
+      "group": "learning",
+      "promoted": true
+    },
+    {
+      "title": "Novelty Geometry — Initial Release",
+      "url": "https://doi.org/10.5281/zenodo.22058736",
+      "date": "2026",
+      "meta": [
+        "Zenodo",
+        "Software"
+      ],
+      "group": "citable",
+      "doi": "https://doi.org/10.5281/zenodo.22058736"
+    },
+    {
+      "title": "NoetherLeap — Zenodo software record",
+      "url": "https://doi.org/10.5281/zenodo.21077472",
+      "date": "2026",
+      "meta": [
+        "Zenodo",
+        "Software"
+      ],
+      "group": "citable",
+      "doi": "https://doi.org/10.5281/zenodo.21077472"
+    },
+    {
+      "title": "Banzhaf Ensemble Thesis",
+      "url": "https://doi.org/10.5281/zenodo.17611452",
+      "date": "2025",
+      "meta": [
+        "Zenodo",
+        "Thesis"
+      ],
+      "group": "citable",
+      "doi": "https://doi.org/10.5281/zenodo.17611452"
+    },
+    {
+      "title": "Space Time Cafe",
+      "url": "https://www.youtube.com/playlist?list=PLUPyripldgZb2ZKSJOQ6p1DO3oCk9yT6G",
+      "date": "2025-02-22",
+      "meta": [
+        "Podcast",
+        "51 episodes"
+      ],
+      "group": "broadcast",
+      "site": "https://sethuiyer.github.io/shunyabar-labs/broadcast.html",
+      "details": "https://www.youtube.com/@SethuIyer95"
+    },
+    {
+      "title": "Shunyabar Labs podcast",
+      "url": "https://www.youtube.com/playlist?list=PLUPyripldgZZMq2qkUzxhj_N9aVh6w2XV",
+      "date": "2025-11-29",
+      "meta": [
+        "Podcast",
+        "15 episodes"
+      ],
+      "group": "broadcast",
+      "site": "https://sethuiyer.github.io/shunyabar-labs/broadcast.html#labs",
+      "details": "https://www.youtube.com/@SethuIyer95"
+    },
+    {
+      "title": "Writing index",
+      "url": "https://sethuiyer.github.io/shunyabar-labs/notebook.html",
+      "date": "2026",
+      "meta": [
+        "Notebook",
+        "53 notes"
+      ],
+      "group": "broadcast",
+      "site": "https://research.shunyabar.foo"
+    }
+  ],
+  "layers": [
+    {
+      "id": "core",
+      "label": "Core",
+      "text": "The underlying mathematical or computational phenomenon, before anyone chose a representation for it.",
+      "where": "Core Theory, Foundations"
+    },
+    {
+      "id": "mirror",
+      "label": "Mirror",
+      "text": "The representation chosen for it — the encoding, quotient or geometry that stands in for the original.",
+      "where": "Representation / Memory"
+    },
+    {
+      "id": "shadow",
+      "label": "Shadow",
+      "text": "The behaviour that representation produces when it meets a hard instance, a deadline or an agent.",
+      "where": "Optimization / Search, Agents / Authority, Learning / Physics"
+    },
+    {
+      "id": "record",
+      "label": "Record",
+      "text": "What was actually demonstrated, frozen and given a permanent identifier.",
+      "where": "Citable records, Released artifacts, Evidence ledger"
+    },
+    {
+      "id": "story",
+      "label": "Story",
+      "text": "How the idea becomes reconstructible in someone else's head — episodes, essays, notebook, visual explanations.",
+      "where": "Broadcast, Published essays, Research notebook"
+    }
+  ],
+  "start_glosses": {
+    "The Arithmetic Manifold": "What structure exists — one geometric object under constraint satisfaction, optimisation and simulation.",
+    "The Architecture of Axioms: Geometry, Infinity, and the Prime Code": "What the structure is made of, and the obstruction that appears when it is made infinite.",
+    "behavioral-quotients": "When equivalence is legitimate: when two computational histories may be treated as the same.",
+    "phantom-clock": "What goes wrong when distinctions collapse — two rays, one position, different physics.",
+    "FUTCache": "How to compress safely: merge only when the merge loses nothing a later decision needs."
+  }
+}

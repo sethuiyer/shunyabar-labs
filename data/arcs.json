@@ -1,0 +1,130 @@
+{
+ "stc": [
+  {
+   "id": "arithmetic",
+   "title": "Arithmetic & primes",
+   "note": "The number-theoretic spine: primes as structure rather than as enumeration — fibonacci, chaos, the p-adic vortex, prime fractals, the arithmetic resistor.",
+   "ids": [
+    "PJB5v1wseRc",
+    "YvNBkF5KM2c",
+    "4UJt391PMqY",
+    "h1iDDU50ZKc",
+    "Ooh_ZKH93gw",
+    "Sfr95nLoUAM",
+    "6Yl0xU32ncg",
+    "ooT7DbpX4Lc",
+    "po6ofgGcF4o",
+    "Jcu8BoKnIEc",
+    "rcum4C48efc",
+    "kGQT5g-Rh5Q"
+   ]
+  },
+  {
+   "id": "invariants",
+   "title": "Invariants & operators",
+   "note": "What stays fixed when everything else moves: invariants, concurrency invariants, the terminal algebra of horizons, symmetry confinement, self-adjoint operators.",
+   "ids": [
+    "4kD8QYopRzo",
+    "_0YwATNqVtA",
+    "Bo97bv65t5I",
+    "HYqV51qNAWE",
+    "JXCvWEc_MWY",
+    "nSFq1ny83bU",
+    "Y4avF7bnFoE",
+    "gGG_wATUVh4"
+   ]
+  },
+  {
+   "id": "geometry",
+   "title": "Geometry & complexity",
+   "note": "Shape as the cause: hyperbolic space, gerbes, bent problem spaces, chaos and order, Ramanujan graphs, fair division, the shape of fairness.",
+   "ids": [
+    "VT6C_GqeBmI",
+    "3zpYjZtcwcY",
+    "2h9Pqlr8mKk",
+    "NHodSBlH50Y",
+    "uJNeFs0OjwA",
+    "p6qQ1EYfwWM",
+    "Wt9j-tO8M3c",
+    "Lu3kBF_Sw4k",
+    "NYuqE5p-BU8",
+    "tG-efSP8meI",
+    "KViaJAbt82Y",
+    "TCYCI1Ijl-0",
+    "1b_uKRM8eMg"
+   ]
+  },
+  {
+   "id": "information",
+   "title": "Information & intelligence",
+   "note": "Representation and mind: substrate intelligence, purpose as thermodynamics, the physics of thought, rhythms of encryption, reality, the speed limit of intelligence.",
+   "ids": [
+    "1dQ2vadw-6s",
+    "yIV-n3SPIWM",
+    "8X5_F8Y4ZhA",
+    "0fnvuBTm3fM",
+    "7xA2FzufFYk",
+    "uAIiKoDP7IU",
+    "p0wiwoMIsyg",
+    "rPucF88JMAM",
+    "bBAEos4oy8I",
+    "CVm01DM0jCw"
+   ]
+  },
+  {
+   "id": "physics",
+   "title": "Physics & foundations",
+   "note": "Where the argument starts: Majorana fermions, infinity, the physics of storytelling, divergent computation, and the physics/ML bridge.",
+   "ids": [
+    "mFOJihE49eE",
+    "cxMhh-0aysc",
+    "xu27UFJ9ua0",
+    "0BymoGdJwkQ",
+    "1i-2fclalcg",
+    "gw820jVjk1U",
+    "3NmgkLSyP_8",
+    "nZLr8RpNgdI"
+   ]
+  }
+ ],
+ "labs": [
+  {
+   "id": "labs-primes",
+   "title": "Primes & arithmetic",
+   "note": "Arithmetic rigidity, primes as curvature defects, prime fractals, prime-gated fluids.",
+   "ids": [
+    "2dUImjy7F4A",
+    "4QZOYWg7Diw",
+    "EgUC0Eczr-A",
+    "9o44BH-vWps"
+   ]
+  },
+  {
+   "id": "labs-search",
+   "title": "Search & hardness",
+   "note": "Statistical mechanics for NP-hard search, and a branch-aware optimiser that feels unfair.",
+   "ids": [
+    "lJyqOVOJRPA",
+    "NvSmy5P9H_E"
+   ]
+  },
+  {
+   "id": "labs-solvers",
+   "title": "Solvers in production",
+   "note": "The engines themselves: NitroSAT, Navokoj, and SAT solved by vacuum dynamics.",
+   "ids": [
+    "aJhBIv3EFAM",
+    "ddjok2jt2AQ",
+    "74Chty3tRdI"
+   ]
+  },
+  {
+   "id": "labs-foundations",
+   "title": "Foundations",
+   "note": "The four-step engine of complexity, and the claim that truth is condensed history.",
+   "ids": [
+    "TVWow7yH8BU"
+   ]
+  }
+ ]
+}

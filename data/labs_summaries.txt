@@ -1,0 +1,29 @@
+@@ 2dUImjy7F4A
+Arithmetic Rigidity asks whether mathematics imposes a ceiling on software. The video works through the four constraints, multiplicative identity, hierarchical factorisation, non-lattice spectra and asymptotic control, and argues the primes are the only substrate that scales without collapsing under load.
+
+@@ TVWow7yH8BU
+A four-step engine of complexity, constraint, tension, search and resolution, is the cycle behind physics, cognition and computation. TATH is the claim that mathematics condenses out of infinite possibility, with primes and the adèle ring as its own case studies.
+
+@@ aJhBIv3EFAM
+NitroSAT is shown as continuous relaxation rather than backtracking search: state as a field on the hyperbolic disk, free-energy gradients, heat-kernel diffusion, and branch-aware annealing over detected topological fractures. The claimed result is high satisfaction across thousands of CNF instances.
+
+@@ lJyqOVOJRPA
+Eight years of work on hard problems, presented as physics-inspired computation: hardness treated as a thermodynamic phase transition rather than an adversary. The video argues geometry and statistical mechanics reach answers that brute-force logic cannot, and points to condensed code.
+
+@@ NvSmy5P9H_E
+BAHA is introduced as a branch-adaptive optimiser that treats the landscape as glass, detects shattered solution space through thermodynamic spikes, and moves between sheets rather than grinding. The claim is diagnostic power: the algorithm reveals structure in the instance itself.
+
+@@ ddjok2jt2AQ
+Navokoj is presented as a constraint engine with a guaranteed time budget, using arithmetic symmetry breaking instead of search explosions. The video walks through C* algebras, Gibbs states and zeta functions, and then shows a hands-on lab solving at scale.
+
+@@ 4QZOYWg7Diw
+Primes are reframed as defects in a geometric landscape: frustration measured as curvature, primality read spectrally through the zeta function, and located as irreducible features of the profinite solenoid. The perspective turns number theory into topology, and topology into physics.
+
+@@ EgUC0Eczr-A
+A short guided walkthrough of the multiplicative Navier-Stokes line: prime gates replacing additive penalties in the physics-informed network, so the solver keeps positivity and conservation laws that ordinary formulations violate, with the blog post and code both linked on screen.
+
+@@ 9o44BH-vWps
+The dynamic prime Cantor set, a fractal on the unit interval with measure zero and dimension one, built from prime gaps rather than a rule. The video shows the construction, compares it with the classical Cantor set, and links it.
+
+@@ 74Chty3tRdI
+Casimir-SAT replaces CDCL backtracking with vacuum dynamics and Casimir forces, letting almost-satisfying configurations coagulate into stable clusters. The claimed numbers are 92.57 percent perfect solutions on SAT-2024 instances and 98.7 percent MaxSAT accuracy, with domain walls, phase separation and clustering.

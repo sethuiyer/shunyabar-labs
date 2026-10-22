@@ -308,6 +308,121 @@ h3 {
   border-bottom: 1px solid var(--accent);
 }
 
+/* ---------- start here, tribes, layers ---------- */
+
+.lede-small {
+  font-size: 1.02rem;
+  color: var(--muted);
+  max-width: var(--measure);
+  margin: 0 0 1.75rem;
+}
+
+.start, .tribes, .layers {
+  padding: 3rem 0 0;
+}
+
+.path {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  counter-reset: step;
+}
+
+.path li {
+  display: grid;
+  grid-template-columns: 2.4rem minmax(0, 1fr);
+  gap: 0 0.9rem;
+  padding: 0.85rem 0;
+  border-top: 1px solid var(--rule-soft);
+  align-items: baseline;
+}
+
+.path li:last-child { border-bottom: 1px solid var(--rule-soft); }
+
+.path .step {
+  font-family: var(--mono);
+  font-size: 0.78rem;
+  color: var(--faint);
+}
+
+.path a {
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.path a:hover { color: var(--accent); }
+
+.path .gloss {
+  grid-column: 2;
+  color: var(--muted);
+  font-size: 0.95rem;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(16rem, 1fr));
+  gap: 1px;
+  background: var(--rule-soft);
+  border: 1px solid var(--rule-soft);
+}
+
+.card {
+  display: block;
+  background: var(--bg);
+  padding: 1.15rem 1.25rem 1.3rem;
+  text-decoration: none;
+}
+
+.card:hover { background: var(--bg-soft); }
+
+.card h3 {
+  margin: 0 0 0.45rem;
+  font-size: 1.02rem;
+}
+
+.card p {
+  margin: 0;
+  font-size: 0.9rem;
+  color: var(--muted);
+}
+
+.layers-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.layers-list li {
+  display: grid;
+  grid-template-columns: 5.5rem minmax(0, 1fr) 13rem;
+  gap: 1rem;
+  padding: 0.85rem 0;
+  border-top: 1px solid var(--rule-soft);
+  align-items: baseline;
+}
+
+.layers-list li:last-child { border-bottom: 1px solid var(--rule-soft); }
+
+.layers-list .label {
+  font-family: var(--mono);
+  font-size: 0.8rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--accent);
+}
+
+.layers-list .text { color: var(--fg); }
+
+.layers-list .where {
+  font-size: 0.85rem;
+  color: var(--faint);
+}
+
+@media (max-width: 48rem) {
+  .layers-list li { grid-template-columns: 1fr; gap: 0.25rem; }
+  .layers-list .where { font-size: 0.82rem; }
+}
+
 /* ---------- index ---------- */
 
 .index {

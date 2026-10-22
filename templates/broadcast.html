@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="auto">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Broadcast — ShunyaBar Labs</title>
+<meta name="description" content="The oral prehistory of ShunyaBar Labs: Space Time Cafe and the Shunyabar Labs podcast, clustered into five research arcs.">
+<link rel="stylesheet" href="assets/style.css">
+<script src="assets/theme.js"></script>
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+
+<header class="site">
+  <div class="wrap bar">
+    <a class="wordmark" href="index.html">ShunyaBar&nbsp;Labs</a>
+    <nav class="nav">
+      <a href="index.html#program">Program</a>
+      <a href="index.html#start">Start here</a>
+      <a href="index.html#tribes">Tribes</a>
+      <a href="index.html#index">Index</a>
+      <a href="notebook.html">Notebook</a>
+      <a href="index.html#access">Access</a>
+      <button id="theme-toggle" type="button" aria-label="Toggle colour theme">
+        <span class="dot"></span><span class="label">Theme</span>
+      </button>
+    </nav>
+  </div>
+</header>
+
+<main id="main" class="wrap">
+
+  <section class="hero">
+    <p class="eyebrow">Broadcast · {{STC_COUNT}} episodes · {{LABS_COUNT}} episodes</p>
+    <h1>The oral<br>prehistory</h1>
+    <p class="lede">
+      Before the repositories, the papers and the solvers, there were two channels and a
+      podcast. They argue the same ideas out loud — primes, invariants, operator theory,
+      geometry, complexity, information, intelligence — which makes them the clearest
+      available account of how the research programme was actually built.
+    </p>
+    <p class="counts">{{COUNTS}}</p>
+  </section>
+
+  <section class="program">
+    <h2>Why an index should not list every episode</h2>
+    <p>
+      Fifty-one long-form episodes and ten short ones is not a bibliography, it is a second
+      research programme in prose. The index therefore keeps one entry per show, and this
+      page clusters the episodes into five arcs — the same five questions the rest of the
+      index is organised around.
+    </p>
+    <p class="aside">
+      Read in order, the arcs trace the lineage: arithmetic structure first, then the
+      invariants and operators that make it usable, then geometry and complexity, then
+      information and intelligence, and finally the physics the whole thing rests on.
+      Each episode keeps its forty-word summary, so the argument is still readable without
+      pressing play.
+    </p>
+  </section>
+
+  <section id="stc" class="index">
+    <h2>Space Time Cafe</h2>
+    <p class="lede-small">
+      The long-form show, {{STC_COUNT}} episodes from February 2025 to August 2026.
+      <a href="https://www.youtube.com/playlist?list=PLUPyripldgZb2ZKSJOQ6p1DO3oCk9yT6G" rel="noopener">the playlist &#8599;</a>
+      &middot;
+      <a href="https://www.youtube.com/@SethuIyer95" rel="noopener">the channel &#8599;</a>
+    </p>
+{{STC_ARCS}}
+  </section>
+
+  <section id="labs" class="index">
+    <h2>Shunyabar Labs podcast</h2>
+    <p class="lede-small">
+      The lab's own channel: {{LABS_PUBLIC}} of {{LABS_COUNT}} episodes are public, the rest are
+      not listed. Shorter, sharper, and closer to the shipped work.
+      <a href="https://www.youtube.com/playlist?list=PLUPyripldgZZMq2qkUzxhj_N9aVh6w2XV" rel="noopener">the playlist &#8599;</a>
+    </p>
+{{LABS_ARCS}}
+  </section>
+
+  <section id="access" class="access">
+    <h2>Access</h2>
+    <p>
+      Episodes are public. Research code, unfinished essays and the private projects are not:
+      write to
+      <a class="mail" href="mailto:rxgtoing@gmail.com">rxgtoing@gmail.com</a> and say which
+      thread you want to pick up.
+    </p>
+  </section>
+
+</main>
+
+<footer class="site foot">
+  <div class="wrap">
+    <p class="fp">
+      <span class="m">x</span><sub>1</sub> &sim;<sub>F</sub> <span class="m">x</span><sub>2</sub>
+      &nbsp;&hArr;&nbsp; <span class="m">F</span>(<span class="m">x</span><sub>1</sub>) =
+      <span class="m">F</span>(<span class="m">x</span><sub>2</sub>)
+      <span class="sep">/</span>
+      <a href="https://github.com/sethuiyer">github.com/sethuiyer</a>
+    </p>
+    <p class="fine">
+      Episode metadata fetched with <code>yt-dlp</code>; summaries are forty words each,
+      checked by <code>scripts/check_summaries.py</code>.
+    </p>
+  </div>
+</footer>
+
+</body>
+</html>

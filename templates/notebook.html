@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="auto">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Notebook — ShunyaBar Labs</title>
+<meta name="description" content="Everything the lab has written: concept notes, research essays and the working blog, with the eight pieces promoted into the main research path.">
+<link rel="stylesheet" href="assets/style.css">
+<script src="assets/theme.js"></script>
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+
+<header class="site">
+  <div class="wrap bar">
+    <a class="wordmark" href="index.html">ShunyaBar&nbsp;Labs</a>
+    <nav class="nav">
+      <a href="index.html#program">Program</a>
+      <a href="index.html#start">Start here</a>
+      <a href="index.html#tribes">Tribes</a>
+      <a href="index.html#index">Index</a>
+      <a href="broadcast.html">Broadcast</a>
+      <a href="index.html#access">Access</a>
+      <button id="theme-toggle" type="button" aria-label="Toggle colour theme">
+        <span class="dot"></span><span class="label">Theme</span>
+      </button>
+    </nav>
+  </div>
+</header>
+
+<main id="main" class="wrap">
+
+  <section class="hero">
+    <p class="eyebrow">Notebook · {{CONCEPTS_COUNT}} concepts · {{RESEARCH_COUNT}} essays · {{BLOG_COUNT}} posts</p>
+    <h1>Everything<br>written</h1>
+    <p class="lede">
+      The index keeps the research path legible by holding back most of the writing. This
+      page holds the rest: the concept notes, the research essays and the working blog,
+      each with the author's own lede rather than a rewrite.
+    </p>
+    <p class="counts">{{COUNTS}}</p>
+  </section>
+
+  <section class="program">
+    <h2>Promotion, not dumping</h2>
+    <p>
+      {{PROMOTED_COUNT}} pieces are promoted into the main index, where they sit in a tribe
+      and carry a forty-word summary: {{PROMOTED_LIST}}
+    </p>
+    <p class="aside">
+      Everything else stays here — one click away, never buried, never mixed into the index
+      where it would dilute the argument. A note that is not part of the research path is
+      not less valuable; it is just not part of the path.
+    </p>
+  </section>
+
+  <section id="concepts" class="index">
+    <h2>Concept notes</h2>
+    <p class="lede-small">
+      The vocabulary of the lab, one idea at a time. These are the pages to read before
+      the essays, and they are the fastest way into a project you have never seen.
+    </p>
+{{CONCEPTS}}
+  </section>
+
+  <section id="research" class="index">
+    <h2>Research essays</h2>
+    <p class="lede-small">
+      Long-form essays published on the research site. The marked ones have been promoted
+      into the index.
+    </p>
+{{RESEARCH}}
+  </section>
+
+  <section id="blog" class="index">
+    <h2>Blog</h2>
+    <p class="lede-small">
+      The working blog: research notes, release write-ups and the engineering that connects
+      them. The marked ones have been promoted into the index.
+    </p>
+{{BLOG}}
+  </section>
+
+  <section id="access" class="access">
+    <h2>Access</h2>
+    <p>
+      Everything on this page is public. Unfinished research and the private repositories
+      are not: write to
+      <a class="mail" href="mailto:rxgtoing@gmail.com">rxgtoing@gmail.com</a>.
+    </p>
+  </section>
+
+</main>
+
+<footer class="site foot">
+  <div class="wrap">
+    <p class="fp">
+      <span class="m">x</span><sub>1</sub> &sim;<sub>F</sub> <span class="m">x</span><sub>2</sub>
+      &nbsp;&hArr;&nbsp; <span class="m">F</span>(<span class="m">x</span><sub>1</sub>) =
+      <span class="m">F</span>(<span class="m">x</span><sub>2</sub>)
+      <span class="sep">/</span>
+      <a href="https://github.com/sethuiyer">github.com/sethuiyer</a>
+    </p>
+    <p class="fine">
+      Fetched from the live sites by <code>scripts/fetch_notebook.py</code>; each entry keeps
+      the lede its author wrote.
+    </p>
+  </div>
+</footer>
+
+</body>
+</html>
