@@ -47,6 +47,10 @@ def main() -> int:
                 continue
             owner, repo = m.group(1), m.group(2).removesuffix(".html")
             site = api(f"repos/{owner}/{repo}/pages")
+            if not site:
+                # the API does not always report Pages; probe the conventional URL
+                candidate = f"https://{owner}.github.io/{repo}/"
+                site = candidate if live(candidate) else ""
             if site and live(site):
                 entry["site"] = site
                 found += 1

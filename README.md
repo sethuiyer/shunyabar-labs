@@ -61,6 +61,19 @@ python3 scripts/fetch_details.py     # attach the lab's project write-ups
 python3 scripts/build.py             # regenerate index.html
 ```
 
+## Groups
+
+| Group | What it holds |
+|---|---|
+| Repositories | work created since October 2025 |
+| Continuing work | earlier repositories that kept moving |
+| Gists | long-form writing published without a repository |
+| Essays | the published pieces from the archive |
+| Foundations | the lab's long-form documents on the docs site |
+| Citable records | Zenodo DOIs, the version of record for each artifact |
+| Released artifacts | published versions, grouped by project |
+| Elsewhere | the notebook, the shipping API, the evidence ledger |
+
 ## The criterion
 
 An entry stays in the index only if the work does one of two things:

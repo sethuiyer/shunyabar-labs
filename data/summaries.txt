@@ -180,3 +180,39 @@ A MaxSAT solver treating constraint satisfaction as a dynamical system on a clau
 
 @@ Emergent Stochasticity from Serialized Concurrency
 Uniform randomness is reconstructed as the invariant measure of a deterministic concurrent system forced through a serialising bottleneck, with the interleaving space written as products of symmetric groups. It is a constructive theory of when distinct histories may be pooled.
+
+@@ The Architecture of Axioms: Geometry, Infinity, and the Prime Code
+Axioms are treated as a Boolean lattice whose curvature measures how much each axiom depends on the others. Non-zero curvature is the obstruction to path-independence, and extending the geometry to infinite axiom sets breaks Möbius inversion until primes rescue it.
+
+@@ The Arithmetic Manifold
+The thesis that constraint satisfaction, optimization and physical simulation are projections of one geometric structure, with five proof points: prime-weighted constraints give every clause a unique fingerprint, so none compete for the same gradient signal and the solver stops stalling.
+
+@@ Unified Mathematical Systems Report
+A comprehensive assessment of eight shipped solvers and frameworks sharing one mathematical theory, mapping discrete constraints onto continuous energy landscapes with prime weights and multiplicative dynamics. It reports where the speedups are real, and where they are not at all.
+
+@@ Papers and Citations
+Every publication with a permanent DOI, plus the theoretical foundations they rest on: Kirkpatrick on annealing, Parisi on spin glasses, Corless on Lambert W, and the statistical-physics literature on thresholds. Written for anyone checking the claims rather than admiring them.
+
+@@ Related Work
+A measured comparison with simulated annealing, quantum annealing, belief propagation, constraint programming and mixed-integer solvers: what each approach assumes, where it overlaps with the spectral-arithmetic line, and where the difference is a genuine difference in kind rather than in engineering.
+
+@@ Where Navokoj Works (and Where It Doesn't)
+The scope statement, written before the marketing: NitroSAT is an anytime MaxSAT approximator, strong on structured industrial problems and the wrong tool at the phase transition. Benchmarks are reported against certified optima, with the gaps left visible and honestly named.
+
+@@ Glossary
+A plain-English reference for every term used across the lab's documentation, from BAHA and phase transitions to prime weighting and the partition function. Each entry links to its deeper explanation, so a reader moves from vocabulary into the argument itself.
+
+@@ The Design Philosophy
+A working document on running five public surfaces and ten shipped projects without flattening them into one template. The rule is simple: tune every surface to what its reader came to do, and let the surfaces disagree where readers differ.
+
+@@ baha
+Branch-aware holonomy annealing: when a solver stalls, the escape mechanism detects the fractures where the log-derivative of the partition function diverges and navigates the multi-sheeted analytic surface with Lambert W, cutting complexity from exponential to linear where ordinary annealing stalls.
+
+@@ Research notebook
+The lab notebook: essays sorted into tribes covering core theory, number theory, optimization, with a mindmap of how the projects compose. It is the early face of the work, and says that the entries are exploratory rather than finished proofs.
+
+@@ Navokoj
+The production solver API behind the lab's work: Navokoj serves MaxSAT over plain HTTP, with proof artifacts you can verify offline and an anytime guarantee that returns the best assignment found. It is the shipping version of the research line.
+
+@@ Evidence ledger
+A ledger of evidence artifacts: benchmark runs, results and numbers quoted in the papers. It exists so claims can be checked against the runs that produced them, and each figure has somewhere to be traced back to its own source.

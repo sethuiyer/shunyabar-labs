@@ -176,6 +176,19 @@
           "details": "https://sethuiyer.github.io/docs/projects/navokoj/"
         },
         {
+          "title": "baha",
+          "url": "https://github.com/sethuiyer/baha",
+          "date": "2026-01-27",
+          "meta": [
+            "C++",
+            "★ 4"
+          ],
+          "summary": "Branch-aware holonomy annealing: when a solver stalls, the escape mechanism detects the fractures where the log-derivative of the partition function diverges and navigates the multi-sheeted analytic surface with Lambert W, cutting complexity from exponential to linear where ordinary annealing stalls.",
+          "site": "https://sethuiyer.github.io/baha/",
+          "details": "https://sethuiyer.github.io/docs/projects/baha/",
+          "doi": "https://doi.org/10.5281/zenodo.18373732"
+        },
+        {
           "title": "multiplicative-pinn-framework",
           "url": "https://github.com/sethuiyer/multiplicative-pinn-framework",
           "date": "2025-11-19",
@@ -358,6 +371,93 @@
       ]
     },
     {
+      "id": "foundations",
+      "title": "Foundations",
+      "note": "{n} long-form documents on the lab site: the thesis, the axiom geometry, the honest scope, and the bibliography. Read these before the code.",
+      "entries": [
+        {
+          "title": "The Architecture of Axioms: Geometry, Infinity, and the Prime Code",
+          "url": "https://sethuiyer.github.io/docs/axiom-architecture/",
+          "date": "2026",
+          "meta": [
+            "essay",
+            "2026"
+          ],
+          "summary": "Axioms are treated as a Boolean lattice whose curvature measures how much each axiom depends on the others. Non-zero curvature is the obstruction to path-independence, and extending the geometry to infinite axiom sets breaks Möbius inversion until primes rescue it."
+        },
+        {
+          "title": "The Arithmetic Manifold",
+          "url": "https://sethuiyer.github.io/docs/core-vision/",
+          "date": "2026",
+          "meta": [
+            "thesis",
+            "2026"
+          ],
+          "summary": "The thesis that constraint satisfaction, optimization and physical simulation are projections of one geometric structure, with five proof points: prime-weighted constraints give every clause a unique fingerprint, so none compete for the same gradient signal and the solver stops stalling."
+        },
+        {
+          "title": "Unified Mathematical Systems Report",
+          "url": "https://sethuiyer.github.io/docs/research-report/",
+          "date": "2026",
+          "meta": [
+            "report",
+            "2026"
+          ],
+          "summary": "A comprehensive assessment of eight shipped solvers and frameworks sharing one mathematical theory, mapping discrete constraints onto continuous energy landscapes with prime weights and multiplicative dynamics. It reports where the speedups are real, and where they are not at all."
+        },
+        {
+          "title": "Papers and Citations",
+          "url": "https://sethuiyer.github.io/docs/references/papers/",
+          "date": "2026",
+          "meta": [
+            "bibliography",
+            "2026"
+          ],
+          "summary": "Every publication with a permanent DOI, plus the theoretical foundations they rest on: Kirkpatrick on annealing, Parisi on spin glasses, Corless on Lambert W, and the statistical-physics literature on thresholds. Written for anyone checking the claims rather than admiring them."
+        },
+        {
+          "title": "Related Work",
+          "url": "https://sethuiyer.github.io/docs/references/related-work/",
+          "date": "2026",
+          "meta": [
+            "comparison",
+            "2026"
+          ],
+          "summary": "A measured comparison with simulated annealing, quantum annealing, belief propagation, constraint programming and mixed-integer solvers: what each approach assumes, where it overlaps with the spectral-arithmetic line, and where the difference is a genuine difference in kind rather than in engineering."
+        },
+        {
+          "title": "Where Navokoj Works (and Where It Doesn't)",
+          "url": "https://sethuiyer.github.io/docs/limitations/",
+          "date": "2026",
+          "meta": [
+            "scope",
+            "2026"
+          ],
+          "summary": "The scope statement, written before the marketing: NitroSAT is an anytime MaxSAT approximator, strong on structured industrial problems and the wrong tool at the phase transition. Benchmarks are reported against certified optima, with the gaps left visible and honestly named."
+        },
+        {
+          "title": "Glossary",
+          "url": "https://sethuiyer.github.io/docs/glossary/",
+          "date": "2026",
+          "meta": [
+            "reference",
+            "2026"
+          ],
+          "summary": "A plain-English reference for every term used across the lab's documentation, from BAHA and phase transitions to prime weighting and the partition function. Each entry links to its deeper explanation, so a reader moves from vocabulary into the argument itself."
+        },
+        {
+          "title": "The Design Philosophy",
+          "url": "https://sethuiyer.github.io/docs/design-philosophy/",
+          "date": "2026",
+          "meta": [
+            "working document",
+            "2026"
+          ],
+          "summary": "A working document on running five public surfaces and ten shipped projects without flattening them into one template. The rule is simple: tune every surface to what its reader came to do, and let the surfaces disagree where readers differ."
+        }
+      ]
+    },
+    {
       "id": "zenodo",
       "title": "Citable records",
       "note": "{n} Zenodo records, each the version of record for an artifact. The DOIs are permanent and citable; prefer them over a repository link when you cite.",
@@ -488,6 +588,40 @@
             "2 releases"
           ],
           "summary": "Initial release and first refinement of a declarative SDK for constraint optimization, hosted under the ShunyaBar Labs organisation. Constraints are declared once and the compiler decides what can be safely removed, which is the whole research program in miniature form."
+        }
+      ]
+    },
+    {
+      "id": "elsewhere",
+      "title": "Elsewhere",
+      "note": "{n} other doors into the lab: the public notebook, the shipping API, and the evidence behind the numbers.",
+      "entries": [
+        {
+          "title": "Research notebook",
+          "url": "https://research.shunyabar.foo",
+          "date": "2026",
+          "meta": [
+            "research.shunyabar.foo"
+          ],
+          "summary": "The lab notebook: essays sorted into tribes covering core theory, number theory, optimization, with a mindmap of how the projects compose. It is the early face of the work, and says that the entries are exploratory rather than finished proofs."
+        },
+        {
+          "title": "Navokoj",
+          "url": "https://navokoj.shunyabar.foo",
+          "date": "2026",
+          "meta": [
+            "navokoj.shunyabar.foo"
+          ],
+          "summary": "The production solver API behind the lab's work: Navokoj serves MaxSAT over plain HTTP, with proof artifacts you can verify offline and an anytime guarantee that returns the best assignment found. It is the shipping version of the research line."
+        },
+        {
+          "title": "Evidence ledger",
+          "url": "https://huggingface.co/buckets/sethuiyer/shunyabar-evidence-v1",
+          "date": "2026",
+          "meta": [
+            "huggingface.co"
+          ],
+          "summary": "A ledger of evidence artifacts: benchmark runs, results and numbers quoted in the papers. It exists so claims can be checked against the runs that produced them, and each figure has somewhere to be traced back to its own source."
         }
       ]
     }

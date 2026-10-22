@@ -41,7 +41,6 @@ REMOVE = {
     # asks which distinctions must be preserved
     "axiom-synergy": ("B", "Measures synergy between rules. About rule interaction, not about representation."),
     "thermodynamic-number-line": ("B", "Primes as thermodynamic fuel. Physics metaphor, no decision criterion."),
-    "baha": ("B", "Simulated annealing on a landscape. Search heuristic; no abstraction claim."),
     "floer-hardness-certificates": ("B", "Hardness certificates via persistent homology. Certifies difficulty, not safe compression."),
     "The Dynamic Prime Cantor Set: A Fractal Woven from the Primes": ("B", "Fractal construction from prime gaps. Structure, not decision-relevant distinctions."),
     "Observations on Exponential Functions in Complex Systems": ("B", "Pattern notes on exponential growth. No representation claim."),
