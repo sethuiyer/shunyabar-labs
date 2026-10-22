@@ -1,0 +1,55 @@
+# ShunyaBar Labs
+
+A master index of the lab's research, built around one idea:
+
+> **Decision-preserving abstraction** — preserve the distinctions that matter for a decision,
+> and discard everything else.
+
+Every entry in the index carries a **40-word summary**, and the summaries are enforced:
+`scripts/check_summaries.py` fails the build if any summary is not exactly forty words.
+
+## Layout
+
+```
+index.html            generated — the site (do not edit by hand)
+templates/index.html  page template with {{GROUPS}} / {{COUNTS}} placeholders
+data/entries.json     the index: groups, titles, links, dates, tags, summaries
+data/summaries.txt    the curated 40-word summaries, one block per entry
+assets/style.css      stylesheet: light / dark / auto
+assets/theme.js       theme toggle (auto → light → dark), persisted in localStorage
+scripts/build.py      renders index.html from data + templates
+scripts/apply_summaries.py  copies data/summaries.txt into data/entries.json
+scripts/check_summaries.py  verifies every summary is exactly 40 words
+```
+
+## Workflow
+
+```bash
+python3 scripts/apply_summaries.py   # refresh summaries in entries.json
+python3 scripts/check_summaries.py   # 41/41 summaries at exactly 40 words
+python3 scripts/build.py             # regenerate index.html
+```
+
+Serve locally:
+
+```bash
+python3 -m http.server 8000
+```
+
+## Editing an entry
+
+1. Edit the summary block in `data/summaries.txt` (title must match the entry title exactly).
+2. Run `scripts/apply_summaries.py` — it reports any summary that is not exactly 40 words.
+3. Fix the count, re-run, then `scripts/build.py`.
+4. Commit both `data/entries.json` and `index.html`.
+
+## Design
+
+Minimal and paper-like: no web fonts, no frameworks, no trackers, no build-time
+dependencies beyond the Python standard library. Two themes driven by CSS custom
+properties, with `prefers-color-scheme` as the default and a manual override that
+persists. Type is a serif for prose and headings, a mono for metadata.
+
+## Licence
+
+MIT — see `LICENSE`.

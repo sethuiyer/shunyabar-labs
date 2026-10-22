@@ -1,0 +1,429 @@
+{
+  "meta": {
+    "lab": "ShunyaBar Labs",
+    "tagline": "Decision-preserving abstraction",
+    "question": "When is it safe to treat two different things as the same thing?"
+  },
+  "groups": [
+    {
+      "id": "repos",
+      "title": "Repositories",
+      "note": "Twenty-six new repositories since October 2025, plus six continuing. Each is a different surface of the same question.",
+      "entries": [
+        {
+          "title": "phantom-clock",
+          "url": "https://github.com/sethuiyer/phantom-clock",
+          "date": "2026-10-22",
+          "meta": [
+            "HTML",
+            "★ 0"
+          ],
+          "summary": "Optical phase space becomes a memory medium. Two rays can share a position and still differ in direction and timing, so collapsing them manufactures errors. This essay keeps phase as a first-class coordinate and documents the ellipsoid inside the clock."
+        },
+        {
+          "title": "eigen-attention",
+          "url": "https://github.com/sethuiyer/eigen-attention",
+          "date": "2026-10-18",
+          "meta": [
+            "JavaScript",
+            "★ 0"
+          ],
+          "summary": "Attention reframed as constrained spectral regression: tokens are eigenvectors under a task-induced operator, and the softmax is solved for rather than assumed. The repository extends the theorem, adds controlled experiments, and ships reproducible checks that show where the approximation holds."
+        },
+        {
+          "title": "persistent-discovery-index",
+          "url": "https://github.com/sethuiyer/persistent-discovery-index",
+          "date": "2026-09-15",
+          "meta": [
+            "Python",
+            "v0.5.0"
+          ],
+          "summary": "A microscope for agent behaviour. PDI reads pi, OpenAI, LangSmith and canonical traces to locate the exact boundary where useful discovery ends and wasteful exploration begins, and report that boundary at behavioural resolution instead of returning one blunt aggregate score."
+        },
+        {
+          "title": "behavioral-quotients",
+          "url": "https://github.com/sethuiyer/behavioral-quotients",
+          "date": "2026-09-12",
+          "meta": [
+            "HTML",
+            "★ 1"
+          ],
+          "summary": "Two computational histories may be equivalent when they produce the same relevant behaviour. This paper states the equivalence relation explicitly, derives which observations must be retained for it to hold, and presents the quotient as a design principle for computation."
+        },
+        {
+          "title": "agent-guardrail",
+          "url": "https://github.com/sethuiyer/agent-guardrail",
+          "date": "2026-08-31",
+          "meta": [
+            "Python",
+            "★ 1"
+          ],
+          "summary": "Policy enforcement and permission testing for AI agents. Mock enterprise APIs simulate synthetic user consent, and requests are blocked before deployment when an agent's authority is not actually established, so abstraction never erases the security-relevant distinctions between any two callers."
+        },
+        {
+          "title": "FUTCache",
+          "url": "https://github.com/sethuiyer/FUTCache",
+          "date": "2026-08-23",
+          "meta": [
+            "C",
+            "★ 2"
+          ],
+          "summary": "A bounded-memory sufficient-state representation of explored geometry. FUTCache merges visited states whenever merging loses nothing a later decision needs, scaling to a million production traces while the cache itself stays fixed in size, and released three times in summer 2026."
+        },
+        {
+          "title": "novelty-geometry",
+          "url": "https://github.com/sethuiyer/novelty-geometry",
+          "date": "2026-08-20",
+          "meta": [
+            "HTML",
+            "★ 2"
+          ],
+          "summary": "Traversal, ordered novelty, memory and asymptotic completion in metric and hyperbolic spaces. The framework formalizes which directions an agent has genuinely covered, separating reached territory from a reworded revisit of ground explored, and shows how completion behaves as space grows."
+        },
+        {
+          "title": "tensor-to-tenant",
+          "url": "https://github.com/sethuiyer/tensor-to-tenant",
+          "date": "2026-08-04",
+          "meta": [
+            "Python",
+            "★ 2"
+          ],
+          "summary": "A hundred-and-eight-week apprenticeship in AI systems engineering, spanning mathematics, ML systems, LLMs, distributed systems and design. Built as a static site with deploy automation, analytics integration, pacing budgets and a GPU redirect ladder, and published weekly for two full years."
+        },
+        {
+          "title": "reify",
+          "url": "https://github.com/shunyabarlabs/reify",
+          "date": "2026-07-27",
+          "meta": [
+            "D",
+            "★ 0"
+          ],
+          "summary": "A declarative SDK and compiler for constraint optimization and decision-intelligence engines. Constraints are declared rather than hand-encoded, and the compiler decides how much structure can be discarded while every remaining degree of freedom still changes the decision that comes out."
+        },
+        {
+          "title": "docs",
+          "url": "https://github.com/sethuiyer/docs",
+          "date": "2026-07-20",
+          "meta": [
+            "CSS",
+            "★ 1"
+          ],
+          "summary": "The ShunyaBar Labs blog: a publishing surface for essays, papers and notes. Deliberately quiet, so that the writing carries the argument while the site stays out of the reader's way, with light and dark themes that follow the system setting."
+        },
+        {
+          "title": "NoetherLeap",
+          "url": "https://github.com/sethuiyer/NoetherLeap",
+          "date": "2026-06-30",
+          "meta": [
+            "HTML",
+            "v1.0"
+          ],
+          "summary": "Constraint-aware optimization that pairs physics-informed neural networks with Bayesian search and symmetry discovery. The system exploits conserved quantities to avoid searching dimensions that provably cannot change the outcome, and reports the symmetries it found in advance rather than assuming them."
+        },
+        {
+          "title": "miwa-discord-bot",
+          "url": "https://github.com/sethuiyer/miwa-discord-bot",
+          "date": "2026-06-22",
+          "meta": [
+            "HTML"
+          ],
+          "summary": "A Discord bot deployed as a static front end, keeping its state server-side and out of the browser. Conversations are summarised for retrieval without losing the distinctions a later reply has to respect, and the user interface stays deliberately plain."
+        },
+        {
+          "title": "axiom-synergy",
+          "url": "https://github.com/sethuiyer/axiom-synergy",
+          "date": "2026-06-18",
+          "meta": [
+            "★ 0"
+          ],
+          "summary": "A framework measuring how rules, constraints and logic interact. Cooperative game theory assigns each rule a marginal contribution, and the framework reports hidden synergy when constraints reinforce one another, and conflict when they collide, where the design error usually sits."
+        },
+        {
+          "title": "authorization-lattice",
+          "url": "https://github.com/sethuiyer/authorization-lattice",
+          "date": "2026-06-04",
+          "meta": [
+            "HTML"
+          ],
+          "summary": "Two agents may request the same action while holding entirely different permissions. Ignoring that distinction produces a security failure, so the work orders authority in a lattice and still keeps ownership attached to objects that may have none at all."
+        },
+        {
+          "title": "factor-agent",
+          "url": "https://github.com/sethuiyer/factor-agent",
+          "date": "2026-05-20",
+          "meta": [
+            "HTML",
+            "★ 1"
+          ],
+          "summary": "Invariant-preserving agent harnesses built on OTP supervision, arithmetic security lattices and lawful composition. The harness watches that an agent preserves the quantities it was supposed to preserve exactly, and reports every violation rather than silently averaging it out of sight."
+        },
+        {
+          "title": "geometry-of-conditional-logic",
+          "url": "https://github.com/sethuiyer/geometry-of-conditional-logic",
+          "date": "2026-05-12",
+          "meta": [
+            "Python"
+          ],
+          "summary": "Conditionals are given shape. The repository builds a geometry in which if-then-else regions sit at different distances, letting a program ask how two logical situations differ and when they may be treated as interchangeable without changing what the program decides."
+        },
+        {
+          "title": "thermodynamic-number-line",
+          "url": "https://github.com/sethuiyer/thermodynamic-number-line",
+          "date": "2026-03-13",
+          "meta": [
+            "HTML"
+          ],
+          "summary": "Primes act as thermodynamic fuel, the Riemann zeta function serves as infinite memory, and arithmetic turns out to be a very complex piece of origami. The essay reads number theory as an energy landscape with conserved quantities and irreversible flows."
+        },
+        {
+          "title": "NitroSAT",
+          "url": "https://github.com/sethuiyer/NitroSAT",
+          "date": "2026-02-15",
+          "meta": [
+            "C",
+            "★ 2"
+          ],
+          "summary": "A powerful linear-time MaxSAT approximator that consistently reaches 99.5 percent satisfaction across graph colouring, clique and Ramsey instances. It prunes aggressively while preserving the distinctions that keep the remaining search honest, and it streams to disk when memory runs short."
+        },
+        {
+          "title": "shunyabar.lua",
+          "url": "https://github.com/sethuiyer/shunyabar.lua",
+          "date": "2026-02-06",
+          "meta": [
+            "Lua",
+            "★ 2"
+          ],
+          "summary": "A zero-dependency Lua module for hard combinatorial and physics problems, usable directly inside a game loop or an embedded system. It trades raw speed for small memory and predictable behaviour under tight frame budgets, with no native build step required."
+        },
+        {
+          "title": "baha",
+          "url": "https://github.com/sethuiyer/baha",
+          "date": "2026-01-27",
+          "meta": [
+            "C++",
+            "★ 4"
+          ],
+          "summary": "Simulated annealing that uses the thermodynamics of the landscape to escape local minima, and works remarkably well on discrete combinatorial problems. Recent work fixes CUDA initialization races and adds safety checks around the parallel search so results stay fully reproducible."
+        },
+        {
+          "title": "navokoj",
+          "url": "https://github.com/sethuiyer/navokoj",
+          "date": "2026-01-03",
+          "meta": [
+            "Python"
+          ],
+          "summary": "Physics-inspired SAT solving that treats constraints as flowing geometry rather than fixed clauses. The solver navigates the space of partial assignments and learns which regions of it are worth revisiting at all, using spectral information to decide where effort belongs."
+        },
+        {
+          "title": "multiplicative-pinn-framework",
+          "url": "https://github.com/sethuiyer/multiplicative-pinn-framework",
+          "date": "2025-11-19",
+          "meta": [
+            "Python",
+            "★ 1"
+          ],
+          "summary": "A research framework for solving PDEs with multiplicative constraints, where physics-informed networks are constrained multiplicatively rather than additively. The result preserves positivity and conservation laws that the usual formulation violates, and makes the violation visible whenever it cannot be avoided."
+        },
+        {
+          "title": "shunyabar-labs",
+          "url": "https://github.com/sethuiyer/shunyabar-labs",
+          "date": "2025-11-17",
+          "meta": [
+            "HTML"
+          ],
+          "summary": "The earlier collection of research spanning 2024 to 2026: Fock-space computations, prime walks, ergodicity results and Jahn-Teller experiments, with figures and JSON outputs kept beside the code that produced them, and the essays that grew out of each individual experiment."
+        },
+        {
+          "title": "fooshunyabar",
+          "url": "https://github.com/sethuiyer/fooshunyabar",
+          "date": "2025-11-05",
+          "meta": [
+            "Python"
+          ],
+          "summary": "The code files behind Shunyabar Foo, gathered into one place. These are the scripts and experiments that feed the published work, kept visible so the path from a scratch calculation to a checked result stays traceable to whoever reads it."
+        },
+        {
+          "title": "model2vec",
+          "url": "https://github.com/sethuiyer/model2vec",
+          "date": "2025-11-07",
+          "meta": [
+            "fork"
+          ],
+          "summary": "A fork of the static-embedding toolkit, kept for experiments in compressing models until only the distinctions a downstream decision depends on remain. The fork exists to test how far that compression can be pushed, and where it starts to lose."
+        },
+        {
+          "title": "floer-hardness-certificates",
+          "url": "https://github.com/sethuiyer/floer-hardness-certificates",
+          "date": "2025-10-09",
+          "meta": [
+            "HTML"
+          ],
+          "summary": "A geometric framework for certifying computational hardness through persistent homology, spanning cryptography, SAT solving and neural network optimisation. It aims at a certificate rather than a benchmark, so a claim about difficulty can be checked by others instead of believed."
+        }
+      ]
+    },
+    {
+      "id": "continued",
+      "title": "Continuing work",
+      "note": "Repositories that began earlier and kept moving through the same period.",
+      "entries": [
+        {
+          "title": "casimir-sat-solver",
+          "url": "https://github.com/sethuiyer/casimir-sat-solver",
+          "date": "2025-10-20",
+          "meta": [
+            "HTML",
+            "★ 2"
+          ],
+          "summary": "Where boolean logic meets quantum mechanics, expressed as a solver whose constraints behave like physical fields settling toward a ground state. The project asks which logical distinctions survive when the clause set is treated as one physical object at once."
+        },
+        {
+          "title": "spectral-multiplicative-framework",
+          "url": "https://github.com/sethuiyer/spectral-multiplicative-framework",
+          "date": "2025-10-14",
+          "meta": [
+            "Crystal",
+            "★ 1"
+          ],
+          "summary": "Graph theory meets quantum mechanics in optimization space, implemented in Crystal for a small executable surface. The framework asks which eigenvalues of a constraint graph a decision can afford to forget, and what breaks when the wrong ones are dropped."
+        },
+        {
+          "title": "obs-ai",
+          "url": "https://github.com/sethuiyer/obs-ai",
+          "date": "2025-06-26",
+          "meta": [
+            "Python"
+          ],
+          "summary": "Obsidian with an AI layer, kept as a knowledge base that can be queried without losing provenance. Notes are indexed so retrieval returns the passage you meant, not the closest wording, and answer can be traced back to its source."
+        },
+        {
+          "title": "banzhaf-ensemble-thesis",
+          "url": "https://github.com/sethuiyer/banzhaf-ensemble-thesis",
+          "date": "2025-03-25",
+          "meta": [
+            "Python"
+          ],
+          "summary": "Game theory meets ensemble learning through Banzhaf power indices, measuring which features shift a model's vote. The thesis asks how much redundancy an ensemble can carry before the extra members change nothing, and how to tell when they already have."
+        },
+        {
+          "title": "playlist-ed",
+          "url": "https://github.com/sethuiyer/playlist-ed",
+          "date": "2023-12-28",
+          "meta": [
+            "Svelte",
+            "★ 3"
+          ],
+          "summary": "A distraction-free player for YouTube playlists: no signup, and nothing leaves the browser. The interface removes controls that would not change what you are about to watch next, since every affordance is a distinction the viewer must learn to ignore."
+        },
+        {
+          "title": "sethuiyer.github.com",
+          "url": "https://github.com/sethuiyer/sethuiyer.github.com",
+          "date": "2019-12-21",
+          "meta": [
+            "HTML"
+          ],
+          "summary": "A rebuild of the personal site, refreshed through the same period as the lab. It doubles as a home page for the work and as an example of the light and dark presentation used across these projects, kept deliberately plain."
+        }
+      ]
+    },
+    {
+      "id": "gists",
+      "title": "Gists and essays",
+      "note": "Long-form writing published directly on GitHub, without a repository around it.",
+      "entries": [
+        {
+          "title": "TATH",
+          "url": "https://gist.github.com/sethuiyer/95163626f16f4f7c5736d88fe6799587",
+          "date": "2026-03-26",
+          "meta": [
+            "FORMAL.md"
+          ],
+          "summary": "A formal treatment of the laboratory's central device, written as a self-contained document. The definitions are tightened until every later project can be checked against them, including which information an abstraction is allowed to discard and what it must keep."
+        },
+        {
+          "title": "How Number Theory Breaks a NP-Hard Problem",
+          "url": "https://gist.github.com/sethuiyer/ab041089ca4c4c2a8f3b164be7498442",
+          "date": "2026-03-24",
+          "meta": [
+            "BLOG.md"
+          ],
+          "summary": "An argument that number-theoretic structure can dissolve the apparent hardness of a combinatorial problem rather than merely making it faster. The piece isolates the specific distinction the encoding preserves, and explains why removing that distinction returns the original difficulty unchanged."
+        },
+        {
+          "title": "Computation",
+          "url": "https://gist.github.com/sethuiyer/0f0c58dda163472e77272160391c1b4d",
+          "date": "2026-01-14",
+          "meta": [
+            "BLOG.md"
+          ],
+          "summary": "An essay on computation as the act of discarding what is irrelevant. It works through what computation must retain, what it may forget, and why two questions are inseparable in every system that has to survive contact with a user."
+        },
+        {
+          "title": "Operator Algebra Blogpost",
+          "url": "https://gist.github.com/sethuiyer/26a3ed75b2a535bcb28b2d2f7af81616",
+          "date": "2026-01-14",
+          "meta": [
+            "README.md"
+          ],
+          "summary": "Operator algebra imported as a language for representation: which parts of a system are interchangeable, and what quotient structure survives that interchange. It is the bridge between physics and the abstraction program, and the clearest statement of the shared vocabulary."
+        },
+        {
+          "title": "navbar",
+          "url": "https://gist.github.com/sethuiyer/52cd448a4d99baba00185958e697ec6a",
+          "date": "2025-11-22",
+          "meta": [
+            "simple.lua"
+          ],
+          "summary": "A small Lua navigation helper, thrown up as a gist rather than a repository. Nothing about it is load-bearing, which is the point: a working answer that needs no project structure, no build step and no ceremony to remain usable."
+        }
+      ]
+    },
+    {
+      "id": "releases",
+      "title": "Released artifacts",
+      "note": "Published versions, grouped by project.",
+      "entries": [
+        {
+          "title": "FUTCache — v1.3.0, v1.4.0, v.2.0.0",
+          "url": "https://github.com/sethuiyer/FUTCache/releases",
+          "date": "2026-08-27",
+          "meta": [
+            "C",
+            "3 releases"
+          ],
+          "summary": "Adaptive semantic cache calibration, then a visit-set representation that scales to a million production traces. The releases measure the same claim from both directions: how much can be merged away, and how little information may be lost while doing it."
+        },
+        {
+          "title": "NitroSAT — v1.0.0, v3.0.0.0, v3.1.0",
+          "url": "https://github.com/sethuiyer/NitroSAT/releases",
+          "date": "2026-07-06",
+          "meta": [
+            "C",
+            "3 releases"
+          ],
+          "summary": "A production-ready release, followed by a disk-streaming solver that keeps the working set bounded on instances too large for memory. The streaming design is itself an abstraction: only decision-relevant state survives the write, and nothing else is paid for anyway."
+        },
+        {
+          "title": "NoetherLeap — v1.0",
+          "url": "https://github.com/sethuiyer/NoetherLeap/releases",
+          "date": "2026-06-30",
+          "meta": [
+            "HTML",
+            "1 release"
+          ],
+          "summary": "The first stable release of constraint-aware optimization, pairing physics-informed networks with Bayesian search and symmetry discovery. Conserved quantities prune the search space without removing any reachable optimum, and the symmetries are reported rather than simply assumed to hold in advance."
+        },
+        {
+          "title": "reify — v0.1.0, v0.2.0",
+          "url": "https://github.com/shunyabarlabs/reify/releases",
+          "date": "2026-07-29",
+          "meta": [
+            "D",
+            "2 releases"
+          ],
+          "summary": "Initial release and first refinement of a declarative SDK for constraint optimization, hosted under the ShunyaBar Labs organisation. Constraints are declared once and the compiler decides what can be safely removed, which is the whole research program in miniature form."
+        }
+      ]
+    }
+  ]
+}

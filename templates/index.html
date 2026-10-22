@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="auto">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>ShunyaBar Labs — Decision-Preserving Abstraction</title>
+<meta name="description" content="ShunyaBar Labs: a master index of research on decision-preserving abstraction — when is it safe to treat two different things as the same thing?">
+<link rel="stylesheet" href="assets/style.css">
+<script src="assets/theme.js"></script>
+</head>
+<body>
+<a class="skip" href="#index">Skip to index</a>
+
+<header class="site">
+  <div class="wrap bar">
+    <a class="wordmark" href="#top">ShunyaBar&nbsp;Labs</a>
+    <nav class="nav">
+      <a href="#program">Program</a>
+      <a href="#index">Index</a>
+      <a href="https://github.com/sethuiyer" rel="noopener">GitHub</a>
+      <button id="theme-toggle" type="button" aria-label="Toggle colour theme">
+        <span class="dot"></span><span class="label">Theme</span>
+      </button>
+    </nav>
+  </div>
+</header>
+
+<main id="top" class="wrap">
+
+  <section class="hero">
+    <p class="eyebrow">Research index &middot; 2025&ndash;2026</p>
+    <h1>Decision&#8209;preserving<br>abstraction</h1>
+    <p class="lede">
+      Every project below is a different surface of one question:
+      <em>when is it safe to treat two different things as the same thing?</em>
+      And its mirror: <em>what is the smallest representation that preserves the difference when it matters?</em>
+    </p>
+    <p class="counts">{{COUNTS}}</p>
+  </section>
+
+  <section id="program" class="program">
+    <h2>The program</h2>
+
+    <p>
+      Suppose a system has states <span class="m">x</span> &isin; <span class="m">X</span>, and its
+      downstream behaviour or decision is represented by <span class="m">F</span>(<span class="m">x</span>).
+      Define an equivalence relation
+    </p>
+
+    <div class="eq">
+      <span class="m">x</span><sub>1</sub> &sim;<sub>F</sub> <span class="m">x</span><sub>2</sub>
+      &nbsp;&hArr;&nbsp;
+      <span class="m">F</span>(<span class="m">x</span><sub>1</sub>) = <span class="m">F</span>(<span class="m">x</span><sub>2</sub>)
+    </div>
+
+    <p>
+      Then the system can operate on equivalence classes
+    </p>
+
+    <div class="eq">
+      <span class="m">X</span> / &sim;<sub>F</sub>
+    </div>
+
+    <p>
+      instead of retaining every original state. For a single fixed decision this is
+      straightforward. The research challenge is making it work when decisions depend on
+      future trajectories, constraints, costs and changing environments &mdash; which is to say,
+      when the equivalence has to be justified rather than assumed.
+    </p>
+
+    <p class="question">
+      How can we construct minimal, efficient representations that preserve all
+      decision-relevant information under specified constraints?
+    </p>
+
+    <p class="aside">
+      This is sufficient statistics, state abstraction, bisimulation, automata minimisation and
+      information theory, treated as one subject rather than five. The projects below explore
+      both sides of it.
+    </p>
+
+    <div class="vignettes">
+      <div class="vignette">
+        <h3>Merge when it is safe</h3>
+        <p><a href="https://github.com/sethuiyer/FUTCache">FUTCache</a> does not need to remember every
+        state it has visited; it needs a compact representation that preserves what matters about
+        explored geometry.</p>
+      </div>
+      <div class="vignette">
+        <h3>Refuse to merge</h3>
+        <p><a href="https://github.com/sethuiyer/phantom-clock">Phantom Clock</a>: two rays can occupy
+        the same spatial position and still differ in direction and arrival time. A memory that
+        treats them as identical manufactures timing errors.</p>
+      </div>
+      <div class="vignette">
+        <h3>Define legitimacy</h3>
+        <p><a href="https://github.com/sethuiyer/behavioral-quotients">Behavioral Quotients</a> asks
+        when two different computational histories may be treated as equivalent at all.</p>
+      </div>
+      <div class="vignette">
+        <h3>Route on what remains</h3>
+        <p>Model routing: two prompts may look similar yet require different models, and two very
+        different prompts may be served equally well by the same cheap one. The capability
+        required matters, not superficial similarity.</p>
+      </div>
+      <div class="vignette">
+        <h3>Guard the distinctions</h3>
+        <p><a href="https://github.com/sethuiyer/authorization-lattice">Authorization Lattice</a> and
+        <a href="https://github.com/sethuiyer/agent-guardrail">Agent Guardrail</a>: two agents may
+        request the same action while holding different permissions. Ignoring that distinction is a
+        security failure.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="index" class="index">
+    <h2>Index</h2>
+{{GROUPS}}
+  </section>
+
+</main>
+
+<footer class="site foot">
+  <div class="wrap">
+    <p class="fp">
+      <span class="m">x</span><sub>1</sub> &sim;<sub>F</sub> <span class="m">x</span><sub>2</sub>
+      &nbsp;&hArr;&nbsp; <span class="m">F</span>(<span class="m">x</span><sub>1</sub>) =
+      <span class="m">F</span>(<span class="m">x</span><sub>2</sub>)
+      <span class="sep">/</span>
+      <a href="https://github.com/sethuiyer">github.com/sethuiyer</a>
+    </p>
+    <p class="fine">
+      Every entry below carries a forty-word summary. Generated from
+      <code>data/entries.json</code>; summaries are checked to exactly forty words by
+      <code>scripts/check_summaries.py</code>.
+    </p>
+  </div>
+</footer>
+
+</body>
+</html>

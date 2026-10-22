@@ -1,0 +1,622 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="auto">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>ShunyaBar Labs — Decision-Preserving Abstraction</title>
+<meta name="description" content="ShunyaBar Labs: a master index of research on decision-preserving abstraction — when is it safe to treat two different things as the same thing?">
+<link rel="stylesheet" href="assets/style.css">
+<script src="assets/theme.js"></script>
+</head>
+<body>
+<a class="skip" href="#index">Skip to index</a>
+
+<header class="site">
+  <div class="wrap bar">
+    <a class="wordmark" href="#top">ShunyaBar&nbsp;Labs</a>
+    <nav class="nav">
+      <a href="#program">Program</a>
+      <a href="#index">Index</a>
+      <a href="https://github.com/sethuiyer" rel="noopener">GitHub</a>
+      <button id="theme-toggle" type="button" aria-label="Toggle colour theme">
+        <span class="dot"></span><span class="label">Theme</span>
+      </button>
+    </nav>
+  </div>
+</header>
+
+<main id="top" class="wrap">
+
+  <section class="hero">
+    <p class="eyebrow">Research index &middot; 2025&ndash;2026</p>
+    <h1>Decision&#8209;preserving<br>abstraction</h1>
+    <p class="lede">
+      Every project below is a different surface of one question:
+      <em>when is it safe to treat two different things as the same thing?</em>
+      And its mirror: <em>what is the smallest representation that preserves the difference when it matters?</em>
+    </p>
+    <p class="counts">41 entries &middot; 26 repositories &middot; 5 gists &middot; 4 release lines</p>
+  </section>
+
+  <section id="program" class="program">
+    <h2>The program</h2>
+
+    <p>
+      Suppose a system has states <span class="m">x</span> &isin; <span class="m">X</span>, and its
+      downstream behaviour or decision is represented by <span class="m">F</span>(<span class="m">x</span>).
+      Define an equivalence relation
+    </p>
+
+    <div class="eq">
+      <span class="m">x</span><sub>1</sub> &sim;<sub>F</sub> <span class="m">x</span><sub>2</sub>
+      &nbsp;&hArr;&nbsp;
+      <span class="m">F</span>(<span class="m">x</span><sub>1</sub>) = <span class="m">F</span>(<span class="m">x</span><sub>2</sub>)
+    </div>
+
+    <p>
+      Then the system can operate on equivalence classes
+    </p>
+
+    <div class="eq">
+      <span class="m">X</span> / &sim;<sub>F</sub>
+    </div>
+
+    <p>
+      instead of retaining every original state. For a single fixed decision this is
+      straightforward. The research challenge is making it work when decisions depend on
+      future trajectories, constraints, costs and changing environments &mdash; which is to say,
+      when the equivalence has to be justified rather than assumed.
+    </p>
+
+    <p class="question">
+      How can we construct minimal, efficient representations that preserve all
+      decision-relevant information under specified constraints?
+    </p>
+
+    <p class="aside">
+      This is sufficient statistics, state abstraction, bisimulation, automata minimisation and
+      information theory, treated as one subject rather than five. The projects below explore
+      both sides of it.
+    </p>
+
+    <div class="vignettes">
+      <div class="vignette">
+        <h3>Merge when it is safe</h3>
+        <p><a href="https://github.com/sethuiyer/FUTCache">FUTCache</a> does not need to remember every
+        state it has visited; it needs a compact representation that preserves what matters about
+        explored geometry.</p>
+      </div>
+      <div class="vignette">
+        <h3>Refuse to merge</h3>
+        <p><a href="https://github.com/sethuiyer/phantom-clock">Phantom Clock</a>: two rays can occupy
+        the same spatial position and still differ in direction and arrival time. A memory that
+        treats them as identical manufactures timing errors.</p>
+      </div>
+      <div class="vignette">
+        <h3>Define legitimacy</h3>
+        <p><a href="https://github.com/sethuiyer/behavioral-quotients">Behavioral Quotients</a> asks
+        when two different computational histories may be treated as equivalent at all.</p>
+      </div>
+      <div class="vignette">
+        <h3>Route on what remains</h3>
+        <p>Model routing: two prompts may look similar yet require different models, and two very
+        different prompts may be served equally well by the same cheap one. The capability
+        required matters, not superficial similarity.</p>
+      </div>
+      <div class="vignette">
+        <h3>Guard the distinctions</h3>
+        <p><a href="https://github.com/sethuiyer/authorization-lattice">Authorization Lattice</a> and
+        <a href="https://github.com/sethuiyer/agent-guardrail">Agent Guardrail</a>: two agents may
+        request the same action while holding different permissions. Ignoring that distinction is a
+        security failure.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="index" class="index">
+    <h2>Index</h2>
+    <section class="group" id="repos">
+      <div class="group-head">
+        <h2>Repositories</h2>
+        <span class="count">26 entries</span>
+      </div>
+      <p class="group-note">Twenty-six new repositories since October 2025, plus six continuing. Each is a different surface of the same question.</p>
+      <article class="entry">
+        <span class="num">01</span>
+        <div>
+          <div class="entry-title">
+            <a href="https://github.com/sethuiyer/phantom-clock" rel="noopener">phantom-clock</a>
+            <span class="arrow" aria-hidden="true">&#8599;</span>
+            <span class="meta">HTML &middot; ★ 0 &middot; <span class="date">2026-10-22</span></span>
+          </div>
+          <p class="summary">Optical phase space becomes a memory medium. Two rays can share a position and still differ in direction and timing, so collapsing them manufactures errors. This essay keeps phase as a first-class coordinate and documents the ellipsoid inside the clock.</p>
+        </div>
+      </article>
+      <article class="entry">
+        <span class="num">02</span>
+        <div>
+          <div class="entry-title">
+            <a href="https://github.com/sethuiyer/eigen-attention" rel="noopener">eigen-attention</a>
+            <span class="arrow" aria-hidden="true">&#8599;</span>
+            <span class="meta">JavaScript &middot; ★ 0 &middot; <span class="date">2026-10-18</span></span>
+          </div>
+          <p class="summary">Attention reframed as constrained spectral regression: tokens are eigenvectors under a task-induced operator, and the softmax is solved for rather than assumed. The repository extends the theorem, adds controlled experiments, and ships reproducible checks that show where the approximation holds.</p>
+        </div>
+      </article>
+      <article class="entry">
+        <span class="num">03</span>
+        <div>
+          <div class="entry-title">
+            <a href="https://github.com/sethuiyer/persistent-discovery-index" rel="noopener">persistent-discovery-index</a>
+            <span class="arrow" aria-hidden="true">&#8599;</span>
+            <span class="meta">Python &middot; v0.5.0 &middot; <span class="date">2026-09-15</span></span>
+          </div>
+          <p class="summary">A microscope for agent behaviour. PDI reads pi, OpenAI, LangSmith and canonical traces to locate the exact boundary where useful discovery ends and wasteful exploration begins, and report that boundary at behavioural resolution instead of returning one blunt aggregate score.</p>
+        </div>
+      </article>
+      <article class="entry">
+        <span class="num">04</span>
+        <div>
+          <div class="entry-title">
+            <a href="https://github.com/sethuiyer/behavioral-quotients" rel="noopener">behavioral-quotients</a>
+            <span class="arrow" aria-hidden="true">&#8599;</span>
+            <span class="meta">HTML &middot; ★ 1 &middot; <span class="date">2026-09-12</span></span>
+          </div>
+          <p class="summary">Two computational histories may be equivalent when they produce the same relevant behaviour. This paper states the equivalence relation explicitly, derives which observations must be retained for it to hold, and presents the quotient as a design principle for computation.</p>
+        </div>
+      </article>
+      <article class="entry">
+        <span class="num">05</span>
+        <div>
+          <div class="entry-title">
+            <a href="https://github.com/sethuiyer/agent-guardrail" rel="noopener">agent-guardrail</a>
+            <span class="arrow" aria-hidden="true">&#8599;</span>
+            <span class="meta">Python &middot; ★ 1 &middot; <span class="date">2026-08-31</span></span>
+          </div>
+          <p class="summary">Policy enforcement and permission testing for AI agents. Mock enterprise APIs simulate synthetic user consent, and requests are blocked before deployment when an agent&#x27;s authority is not actually established, so abstraction never erases the security-relevant distinctions between any two callers.</p>
+        </div>
+      </article>
+      <article class="entry">
+        <span class="num">06</span>
+        <div>
+          <div class="entry-title">
+            <a href="https://github.com/sethuiyer/FUTCache" rel="noopener">FUTCache</a>
+            <span class="arrow" aria-hidden="true">&#8599;</span>
+            <span class="meta">C &middot; ★ 2 &middot; <span class="date">2026-08-23</span></span>
+          </div>
+          <p class="summary">A bounded-memory sufficient-state representation of explored geometry. FUTCache merges visited states whenever merging loses nothing a later decision needs, scaling to a million production traces while the cache itself stays fixed in size, and released three times in summer 2026.</p>
+        </div>
+      </article>
+      <article class="entry">
+        <span class="num">07</span>
+        <div>
+          <div class="entry-title">
+            <a href="https://github.com/sethuiyer/novelty-geometry" rel="noopener">novelty-geometry</a>
+            <span class="arrow" aria-hidden="true">&#8599;</span>
+            <span class="meta">HTML &middot; ★ 2 &middot; <span class="date">2026-08-20</span></span>
+          </div>
+          <p class="summary">Traversal, ordered novelty, memory and asymptotic completion in metric and hyperbolic spaces. The framework formalizes which directions an agent has genuinely covered, separating reached territory from a reworded revisit of ground explored, and shows how completion behaves as space grows.</p>
+        </div>
+      </article>
+      <article class="entry">
+        <span class="num">08</span>
+        <div>
+          <div class="entry-title">
+            <a href="https://github.com/sethuiyer/tensor-to-tenant" rel="noopener">tensor-to-tenant</a>
+            <span class="arrow" aria-hidden="true">&#8599;</span>
+            <span class="meta">Python &middot; ★ 2 &middot; <span class="date">2026-08-04</span></span>
+          </div>
+          <p class="summary">A hundred-and-eight-week apprenticeship in AI systems engineering, spanning mathematics, ML systems, LLMs, distributed systems and design. Built as a static site with deploy automation, analytics integration, pacing budgets and a GPU redirect ladder, and published weekly for two full years.</p>
+        </div>
+      </article>
+      <article class="entry">
+        <span class="num">09</span>
+        <div>
+          <div class="entry-title">
+            <a href="https://github.com/shunyabarlabs/reify" rel="noopener">reify</a>
+            <span class="arrow" aria-hidden="true">&#8599;</span>
+            <span class="meta">D &middot; ★ 0 &middot; <span class="date">2026-07-27</span></span>
+          </div>
+          <p class="summary">A declarative SDK and compiler for constraint optimization and decision-intelligence engines. Constraints are declared rather than hand-encoded, and the compiler decides how much structure can be discarded while every remaining degree of freedom still changes the decision that comes out.</p>
+        </div>
+      </article>
+      <article class="entry">
+        <span class="num">10</span>
+        <div>
+          <div class="entry-title">
+            <a href="https://github.com/sethuiyer/docs" rel="noopener">docs</a>
+            <span class="arrow" aria-hidden="true">&#8599;</span>
+            <span class="meta">CSS &middot; ★ 1 &middot; <span class="date">2026-07-20</span></span>
+          </div>
+          <p class="summary">The ShunyaBar Labs blog: a publishing surface for essays, papers and notes. Deliberately quiet, so that the writing carries the argument while the site stays out of the reader&#x27;s way, with light and dark themes that follow the system setting.</p>
+        </div>
+      </article>
+      <article class="entry">
+        <span class="num">11</span>
+        <div>
+          <div class="entry-title">
+            <a href="https://github.com/sethuiyer/NoetherLeap" rel="noopener">NoetherLeap</a>
+            <span class="arrow" aria-hidden="true">&#8599;</span>
+            <span class="meta">HTML &middot; v1.0 &middot; <span class="date">2026-06-30</span></span>
+          </div>
+          <p class="summary">Constraint-aware optimization that pairs physics-informed neural networks with Bayesian search and symmetry discovery. The system exploits conserved quantities to avoid searching dimensions that provably cannot change the outcome, and reports the symmetries it found in advance rather than assuming them.</p>
+        </div>
+      </article>
+      <article class="entry">
+        <span class="num">12</span>
+        <div>
+          <div class="entry-title">
+            <a href="https://github.com/sethuiyer/miwa-discord-bot" rel="noopener">miwa-discord-bot</a>
+            <span class="arrow" aria-hidden="true">&#8599;</span>
+            <span class="meta">HTML &middot; <span class="date">2026-06-22</span></span>
+          </div>
+          <p class="summary">A Discord bot deployed as a static front end, keeping its state server-side and out of the browser. Conversations are summarised for retrieval without losing the distinctions a later reply has to respect, and the user interface stays deliberately plain.</p>
+        </div>
+      </article>
+      <article class="entry">
+        <span class="num">13</span>
+        <div>
+          <div class="entry-title">
+            <a href="https://github.com/sethuiyer/axiom-synergy" rel="noopener">axiom-synergy</a>
+            <span class="arrow" aria-hidden="true">&#8599;</span>
+            <span class="meta">★ 0 &middot; <span class="date">2026-06-18</span></span>
+          </div>
+          <p class="summary">A framework measuring how rules, constraints and logic interact. Cooperative game theory assigns each rule a marginal contribution, and the framework reports hidden synergy when constraints reinforce one another, and conflict when they collide, where the design error usually sits.</p>
+        </div>
+      </article>
+      <article class="entry">
+        <span class="num">14</span>
+        <div>
+          <div class="entry-title">
+            <a href="https://github.com/sethuiyer/authorization-lattice" rel="noopener">authorization-lattice</a>
+            <span class="arrow" aria-hidden="true">&#8599;</span>
+            <span class="meta">HTML &middot; <span class="date">2026-06-04</span></span>
+          </div>
+          <p class="summary">Two agents may request the same action while holding entirely different permissions. Ignoring that distinction produces a security failure, so the work orders authority in a lattice and still keeps ownership attached to objects that may have none at all.</p>
+        </div>
+      </article>
+      <article class="entry">
+        <span class="num">15</span>
+        <div>
+          <div class="entry-title">
+            <a href="https://github.com/sethuiyer/factor-agent" rel="noopener">factor-agent</a>
+            <span class="arrow" aria-hidden="true">&#8599;</span>
+            <span class="meta">HTML &middot; ★ 1 &middot; <span class="date">2026-05-20</span></span>
+          </div>
+          <p class="summary">Invariant-preserving agent harnesses built on OTP supervision, arithmetic security lattices and lawful composition. The harness watches that an agent preserves the quantities it was supposed to preserve exactly, and reports every violation rather than silently averaging it out of sight.</p>
+        </div>
+      </article>
+      <article class="entry">
+        <span class="num">16</span>
+        <div>
+          <div class="entry-title">
+            <a href="https://github.com/sethuiyer/geometry-of-conditional-logic" rel="noopener">geometry-of-conditional-logic</a>
+            <span class="arrow" aria-hidden="true">&#8599;</span>
+            <span class="meta">Python &middot; <span class="date">2026-05-12</span></span>
+          </div>
+          <p class="summary">Conditionals are given shape. The repository builds a geometry in which if-then-else regions sit at different distances, letting a program ask how two logical situations differ and when they may be treated as interchangeable without changing what the program decides.</p>
+        </div>
+      </article>
+      <article class="entry">
+        <span class="num">17</span>
+        <div>
+          <div class="entry-title">
+            <a href="https://github.com/sethuiyer/thermodynamic-number-line" rel="noopener">thermodynamic-number-line</a>
+            <span class="arrow" aria-hidden="true">&#8599;</span>
+            <span class="meta">HTML &middot; <span class="date">2026-03-13</span></span>
+          </div>
+          <p class="summary">Primes act as thermodynamic fuel, the Riemann zeta function serves as infinite memory, and arithmetic turns out to be a very complex piece of origami. The essay reads number theory as an energy landscape with conserved quantities and irreversible flows.</p>
+        </div>
+      </article>
+      <article class="entry">
+        <span class="num">18</span>
+        <div>
+          <div class="entry-title">
+            <a href="https://github.com/sethuiyer/NitroSAT" rel="noopener">NitroSAT</a>
+            <span class="arrow" aria-hidden="true">&#8599;</span>
+            <span class="meta">C &middot; ★ 2 &middot; <span class="date">2026-02-15</span></span>
+          </div>
+          <p class="summary">A powerful linear-time MaxSAT approximator that consistently reaches 99.5 percent satisfaction across graph colouring, clique and Ramsey instances. It prunes aggressively while preserving the distinctions that keep the remaining search honest, and it streams to disk when memory runs short.</p>
+        </div>
+      </article>
+      <article class="entry">
+        <span class="num">19</span>
+        <div>
+          <div class="entry-title">
+            <a href="https://github.com/sethuiyer/shunyabar.lua" rel="noopener">shunyabar.lua</a>
+            <span class="arrow" aria-hidden="true">&#8599;</span>
+            <span class="meta">Lua &middot; ★ 2 &middot; <span class="date">2026-02-06</span></span>
+          </div>
+          <p class="summary">A zero-dependency Lua module for hard combinatorial and physics problems, usable directly inside a game loop or an embedded system. It trades raw speed for small memory and predictable behaviour under tight frame budgets, with no native build step required.</p>
+        </div>
+      </article>
+      <article class="entry">
+        <span class="num">20</span>
+        <div>
+          <div class="entry-title">
+            <a href="https://github.com/sethuiyer/baha" rel="noopener">baha</a>
+            <span class="arrow" aria-hidden="true">&#8599;</span>
+            <span class="meta">C++ &middot; ★ 4 &middot; <span class="date">2026-01-27</span></span>
+          </div>
+          <p class="summary">Simulated annealing that uses the thermodynamics of the landscape to escape local minima, and works remarkably well on discrete combinatorial problems. Recent work fixes CUDA initialization races and adds safety checks around the parallel search so results stay fully reproducible.</p>
+        </div>
+      </article>
+      <article class="entry">
+        <span class="num">21</span>
+        <div>
+          <div class="entry-title">
+            <a href="https://github.com/sethuiyer/navokoj" rel="noopener">navokoj</a>
+            <span class="arrow" aria-hidden="true">&#8599;</span>
+            <span class="meta">Python &middot; <span class="date">2026-01-03</span></span>
+          </div>
+          <p class="summary">Physics-inspired SAT solving that treats constraints as flowing geometry rather than fixed clauses. The solver navigates the space of partial assignments and learns which regions of it are worth revisiting at all, using spectral information to decide where effort belongs.</p>
+        </div>
+      </article>
+      <article class="entry">
+        <span class="num">22</span>
+        <div>
+          <div class="entry-title">
+            <a href="https://github.com/sethuiyer/multiplicative-pinn-framework" rel="noopener">multiplicative-pinn-framework</a>
+            <span class="arrow" aria-hidden="true">&#8599;</span>
+            <span class="meta">Python &middot; ★ 1 &middot; <span class="date">2025-11-19</span></span>
+          </div>
+          <p class="summary">A research framework for solving PDEs with multiplicative constraints, where physics-informed networks are constrained multiplicatively rather than additively. The result preserves positivity and conservation laws that the usual formulation violates, and makes the violation visible whenever it cannot be avoided.</p>
+        </div>
+      </article>
+      <article class="entry">
+        <span class="num">23</span>
+        <div>
+          <div class="entry-title">
+            <a href="https://github.com/sethuiyer/shunyabar-labs" rel="noopener">shunyabar-labs</a>
+            <span class="arrow" aria-hidden="true">&#8599;</span>
+            <span class="meta">HTML &middot; <span class="date">2025-11-17</span></span>
+          </div>
+          <p class="summary">The earlier collection of research spanning 2024 to 2026: Fock-space computations, prime walks, ergodicity results and Jahn-Teller experiments, with figures and JSON outputs kept beside the code that produced them, and the essays that grew out of each individual experiment.</p>
+        </div>
+      </article>
+      <article class="entry">
+        <span class="num">24</span>
+        <div>
+          <div class="entry-title">
+            <a href="https://github.com/sethuiyer/fooshunyabar" rel="noopener">fooshunyabar</a>
+            <span class="arrow" aria-hidden="true">&#8599;</span>
+            <span class="meta">Python &middot; <span class="date">2025-11-05</span></span>
+          </div>
+          <p class="summary">The code files behind Shunyabar Foo, gathered into one place. These are the scripts and experiments that feed the published work, kept visible so the path from a scratch calculation to a checked result stays traceable to whoever reads it.</p>
+        </div>
+      </article>
+      <article class="entry">
+        <span class="num">25</span>
+        <div>
+          <div class="entry-title">
+            <a href="https://github.com/sethuiyer/model2vec" rel="noopener">model2vec</a>
+            <span class="arrow" aria-hidden="true">&#8599;</span>
+            <span class="meta">fork &middot; <span class="date">2025-11-07</span></span>
+          </div>
+          <p class="summary">A fork of the static-embedding toolkit, kept for experiments in compressing models until only the distinctions a downstream decision depends on remain. The fork exists to test how far that compression can be pushed, and where it starts to lose.</p>
+        </div>
+      </article>
+      <article class="entry">
+        <span class="num">26</span>
+        <div>
+          <div class="entry-title">
+            <a href="https://github.com/sethuiyer/floer-hardness-certificates" rel="noopener">floer-hardness-certificates</a>
+            <span class="arrow" aria-hidden="true">&#8599;</span>
+            <span class="meta">HTML &middot; <span class="date">2025-10-09</span></span>
+          </div>
+          <p class="summary">A geometric framework for certifying computational hardness through persistent homology, spanning cryptography, SAT solving and neural network optimisation. It aims at a certificate rather than a benchmark, so a claim about difficulty can be checked by others instead of believed.</p>
+        </div>
+      </article>
+    </section>
+
+    <section class="group" id="continued">
+      <div class="group-head">
+        <h2>Continuing work</h2>
+        <span class="count">6 entries</span>
+      </div>
+      <p class="group-note">Repositories that began earlier and kept moving through the same period.</p>
+      <article class="entry">
+        <span class="num">27</span>
+        <div>
+          <div class="entry-title">
+            <a href="https://github.com/sethuiyer/casimir-sat-solver" rel="noopener">casimir-sat-solver</a>
+            <span class="arrow" aria-hidden="true">&#8599;</span>
+            <span class="meta">HTML &middot; ★ 2 &middot; <span class="date">2025-10-20</span></span>
+          </div>
+          <p class="summary">Where boolean logic meets quantum mechanics, expressed as a solver whose constraints behave like physical fields settling toward a ground state. The project asks which logical distinctions survive when the clause set is treated as one physical object at once.</p>
+        </div>
+      </article>
+      <article class="entry">
+        <span class="num">28</span>
+        <div>
+          <div class="entry-title">
+            <a href="https://github.com/sethuiyer/spectral-multiplicative-framework" rel="noopener">spectral-multiplicative-framework</a>
+            <span class="arrow" aria-hidden="true">&#8599;</span>
+            <span class="meta">Crystal &middot; ★ 1 &middot; <span class="date">2025-10-14</span></span>
+          </div>
+          <p class="summary">Graph theory meets quantum mechanics in optimization space, implemented in Crystal for a small executable surface. The framework asks which eigenvalues of a constraint graph a decision can afford to forget, and what breaks when the wrong ones are dropped.</p>
+        </div>
+      </article>
+      <article class="entry">
+        <span class="num">29</span>
+        <div>
+          <div class="entry-title">
+            <a href="https://github.com/sethuiyer/obs-ai" rel="noopener">obs-ai</a>
+            <span class="arrow" aria-hidden="true">&#8599;</span>
+            <span class="meta">Python &middot; <span class="date">2025-06-26</span></span>
+          </div>
+          <p class="summary">Obsidian with an AI layer, kept as a knowledge base that can be queried without losing provenance. Notes are indexed so retrieval returns the passage you meant, not the closest wording, and answer can be traced back to its source.</p>
+        </div>
+      </article>
+      <article class="entry">
+        <span class="num">30</span>
+        <div>
+          <div class="entry-title">
+            <a href="https://github.com/sethuiyer/banzhaf-ensemble-thesis" rel="noopener">banzhaf-ensemble-thesis</a>
+            <span class="arrow" aria-hidden="true">&#8599;</span>
+            <span class="meta">Python &middot; <span class="date">2025-03-25</span></span>
+          </div>
+          <p class="summary">Game theory meets ensemble learning through Banzhaf power indices, measuring which features shift a model&#x27;s vote. The thesis asks how much redundancy an ensemble can carry before the extra members change nothing, and how to tell when they already have.</p>
+        </div>
+      </article>
+      <article class="entry">
+        <span class="num">31</span>
+        <div>
+          <div class="entry-title">
+            <a href="https://github.com/sethuiyer/playlist-ed" rel="noopener">playlist-ed</a>
+            <span class="arrow" aria-hidden="true">&#8599;</span>
+            <span class="meta">Svelte &middot; ★ 3 &middot; <span class="date">2023-12-28</span></span>
+          </div>
+          <p class="summary">A distraction-free player for YouTube playlists: no signup, and nothing leaves the browser. The interface removes controls that would not change what you are about to watch next, since every affordance is a distinction the viewer must learn to ignore.</p>
+        </div>
+      </article>
+      <article class="entry">
+        <span class="num">32</span>
+        <div>
+          <div class="entry-title">
+            <a href="https://github.com/sethuiyer/sethuiyer.github.com" rel="noopener">sethuiyer.github.com</a>
+            <span class="arrow" aria-hidden="true">&#8599;</span>
+            <span class="meta">HTML &middot; <span class="date">2019-12-21</span></span>
+          </div>
+          <p class="summary">A rebuild of the personal site, refreshed through the same period as the lab. It doubles as a home page for the work and as an example of the light and dark presentation used across these projects, kept deliberately plain.</p>
+        </div>
+      </article>
+    </section>
+
+    <section class="group" id="gists">
+      <div class="group-head">
+        <h2>Gists and essays</h2>
+        <span class="count">5 entries</span>
+      </div>
+      <p class="group-note">Long-form writing published directly on GitHub, without a repository around it.</p>
+      <article class="entry">
+        <span class="num">33</span>
+        <div>
+          <div class="entry-title">
+            <a href="https://gist.github.com/sethuiyer/95163626f16f4f7c5736d88fe6799587" rel="noopener">TATH</a>
+            <span class="arrow" aria-hidden="true">&#8599;</span>
+            <span class="meta">FORMAL.md &middot; <span class="date">2026-03-26</span></span>
+          </div>
+          <p class="summary">A formal treatment of the laboratory&#x27;s central device, written as a self-contained document. The definitions are tightened until every later project can be checked against them, including which information an abstraction is allowed to discard and what it must keep.</p>
+        </div>
+      </article>
+      <article class="entry">
+        <span class="num">34</span>
+        <div>
+          <div class="entry-title">
+            <a href="https://gist.github.com/sethuiyer/ab041089ca4c4c2a8f3b164be7498442" rel="noopener">How Number Theory Breaks a NP-Hard Problem</a>
+            <span class="arrow" aria-hidden="true">&#8599;</span>
+            <span class="meta">BLOG.md &middot; <span class="date">2026-03-24</span></span>
+          </div>
+          <p class="summary">An argument that number-theoretic structure can dissolve the apparent hardness of a combinatorial problem rather than merely making it faster. The piece isolates the specific distinction the encoding preserves, and explains why removing that distinction returns the original difficulty unchanged.</p>
+        </div>
+      </article>
+      <article class="entry">
+        <span class="num">35</span>
+        <div>
+          <div class="entry-title">
+            <a href="https://gist.github.com/sethuiyer/0f0c58dda163472e77272160391c1b4d" rel="noopener">Computation</a>
+            <span class="arrow" aria-hidden="true">&#8599;</span>
+            <span class="meta">BLOG.md &middot; <span class="date">2026-01-14</span></span>
+          </div>
+          <p class="summary">An essay on computation as the act of discarding what is irrelevant. It works through what computation must retain, what it may forget, and why two questions are inseparable in every system that has to survive contact with a user.</p>
+        </div>
+      </article>
+      <article class="entry">
+        <span class="num">36</span>
+        <div>
+          <div class="entry-title">
+            <a href="https://gist.github.com/sethuiyer/26a3ed75b2a535bcb28b2d2f7af81616" rel="noopener">Operator Algebra Blogpost</a>
+            <span class="arrow" aria-hidden="true">&#8599;</span>
+            <span class="meta">README.md &middot; <span class="date">2026-01-14</span></span>
+          </div>
+          <p class="summary">Operator algebra imported as a language for representation: which parts of a system are interchangeable, and what quotient structure survives that interchange. It is the bridge between physics and the abstraction program, and the clearest statement of the shared vocabulary.</p>
+        </div>
+      </article>
+      <article class="entry">
+        <span class="num">37</span>
+        <div>
+          <div class="entry-title">
+            <a href="https://gist.github.com/sethuiyer/52cd448a4d99baba00185958e697ec6a" rel="noopener">navbar</a>
+            <span class="arrow" aria-hidden="true">&#8599;</span>
+            <span class="meta">simple.lua &middot; <span class="date">2025-11-22</span></span>
+          </div>
+          <p class="summary">A small Lua navigation helper, thrown up as a gist rather than a repository. Nothing about it is load-bearing, which is the point: a working answer that needs no project structure, no build step and no ceremony to remain usable.</p>
+        </div>
+      </article>
+    </section>
+
+    <section class="group" id="releases">
+      <div class="group-head">
+        <h2>Released artifacts</h2>
+        <span class="count">4 entries</span>
+      </div>
+      <p class="group-note">Published versions, grouped by project.</p>
+      <article class="entry">
+        <span class="num">38</span>
+        <div>
+          <div class="entry-title">
+            <a href="https://github.com/sethuiyer/FUTCache/releases" rel="noopener">FUTCache — v1.3.0, v1.4.0, v.2.0.0</a>
+            <span class="arrow" aria-hidden="true">&#8599;</span>
+            <span class="meta">C &middot; 3 releases &middot; <span class="date">2026-08-27</span></span>
+          </div>
+          <p class="summary">Adaptive semantic cache calibration, then a visit-set representation that scales to a million production traces. The releases measure the same claim from both directions: how much can be merged away, and how little information may be lost while doing it.</p>
+        </div>
+      </article>
+      <article class="entry">
+        <span class="num">39</span>
+        <div>
+          <div class="entry-title">
+            <a href="https://github.com/sethuiyer/NitroSAT/releases" rel="noopener">NitroSAT — v1.0.0, v3.0.0.0, v3.1.0</a>
+            <span class="arrow" aria-hidden="true">&#8599;</span>
+            <span class="meta">C &middot; 3 releases &middot; <span class="date">2026-07-06</span></span>
+          </div>
+          <p class="summary">A production-ready release, followed by a disk-streaming solver that keeps the working set bounded on instances too large for memory. The streaming design is itself an abstraction: only decision-relevant state survives the write, and nothing else is paid for anyway.</p>
+        </div>
+      </article>
+      <article class="entry">
+        <span class="num">40</span>
+        <div>
+          <div class="entry-title">
+            <a href="https://github.com/sethuiyer/NoetherLeap/releases" rel="noopener">NoetherLeap — v1.0</a>
+            <span class="arrow" aria-hidden="true">&#8599;</span>
+            <span class="meta">HTML &middot; 1 release &middot; <span class="date">2026-06-30</span></span>
+          </div>
+          <p class="summary">The first stable release of constraint-aware optimization, pairing physics-informed networks with Bayesian search and symmetry discovery. Conserved quantities prune the search space without removing any reachable optimum, and the symmetries are reported rather than simply assumed to hold in advance.</p>
+        </div>
+      </article>
+      <article class="entry">
+        <span class="num">41</span>
+        <div>
+          <div class="entry-title">
+            <a href="https://github.com/shunyabarlabs/reify/releases" rel="noopener">reify — v0.1.0, v0.2.0</a>
+            <span class="arrow" aria-hidden="true">&#8599;</span>
+            <span class="meta">D &middot; 2 releases &middot; <span class="date">2026-07-29</span></span>
+          </div>
+          <p class="summary">Initial release and first refinement of a declarative SDK for constraint optimization, hosted under the ShunyaBar Labs organisation. Constraints are declared once and the compiler decides what can be safely removed, which is the whole research program in miniature form.</p>
+        </div>
+      </article>
+    </section>
+  </section>
+
+</main>
+
+<footer class="site foot">
+  <div class="wrap">
+    <p class="fp">
+      <span class="m">x</span><sub>1</sub> &sim;<sub>F</sub> <span class="m">x</span><sub>2</sub>
+      &nbsp;&hArr;&nbsp; <span class="m">F</span>(<span class="m">x</span><sub>1</sub>) =
+      <span class="m">F</span>(<span class="m">x</span><sub>2</sub>)
+      <span class="sep">/</span>
+      <a href="https://github.com/sethuiyer">github.com/sethuiyer</a>
+    </p>
+    <p class="fine">
+      Every entry below carries a forty-word summary. Generated from
+      <code>data/entries.json</code>; summaries are checked to exactly forty words by
+      <code>scripts/check_summaries.py</code>.
+    </p>
+  </div>
+</footer>
+
+</body>
+</html>
