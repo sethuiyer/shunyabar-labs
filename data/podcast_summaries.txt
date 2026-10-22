@@ -1,0 +1,152 @@
+@@ mFOJihE49eE
+The series opens on Ettore Majorana, who vanished in 1938, and the fermions that carry his name. The episode reconstructs the story, explains what makes them neutral and self-conjugate, and traces how a particle became a candidate for quantum hardware.
+
+@@ cxMhh-0aysc
+The second episode presses the link between Majorana fermions and the Riemann hypothesis, working through how topological superconductivity encodes prime behaviour, where the analogy holds, and where the mathematics is doing real work rather than merely sounding deep and impressive.
+
+@@ PJB5v1wseRc
+Einstein's continuous infinity against Wolfram's computational treatment of the infinite, with the argument that infinity is a constraint of description rather than a thing that exists. The episode asks what changes if the universe is explored algorithmically instead of analytically.
+
+@@ YvNBkF5KM2c
+Part two of the Fibonacci sequence: whether primes hide a code when written in Fibonacci base, and what that means for finding them. The episode works through the monster problem and asks whether arithmetic structure could resolve an open question.
+
+@@ xu27UFJ9ua0
+What if infinity is not real, and every infinite is a computational limit not yet reached. The episode develops computational infinity as a working alternative to continuous analysis, and tests it against the places classical mathematics refuses to ever terminate.
+
+@@ 4UJt391PMqY
+Part one: the Fibonacci sequence from first principles, its closed form, and the golden ratio it converges to, then outward to sunflowers, spirals and galaxies. The episode asks why one recurrence appears everywhere it does, and what it is counting.
+
+@@ h1iDDU50ZKc
+The same recurrence, with initial conditions nudged, produces decay instead of growth. The episode explores eigenmode cancellation in detail and the parameter at which exponential growth flips sign, treating the pair of behaviours as one object seen from two sides.
+
+@@ Ooh_ZKH93gw
+Primes mimic quantum randomness using arithmetic alone: the episode works through chaotic maps over the primes, their spectral behaviour, and why the pattern is indistinguishable from quantum while being entirely classical in origin, then asks what would separate the explanations.
+
+@@ Sfr95nLoUAM
+Prime vortex maps, the swirling flows of quantum materials, and the p-adic number line placed side by side, arguing that randomness at different scales has one single structure, and that the vortex is where number theory becomes fluid and computable.
+
+@@ 6Yl0xU32ncg
+Structure, entropy and the nature of intelligence drawn together through the primes: the episode asks whether the irregularity of the primes carries information, and whether a system that could read that irregularity would count as intelligent in any meaningful sense.
+
+@@ 4kD8QYopRzo
+Invariants as the hidden order beneath mathematics, using the fraction matrix problem to show how the smallest fractions behave and why quantities that survive every transformation are the ones worth tracking. The episode asks what an invariant is really for.
+
+@@ _0YwATNqVtA
+Zero point algebra, the algebraic structure at the boundary where nothing returns, and what it says about descriptions of the impossible. The episode works through the system, its operations, and the limits of the framework itself, and where it stops.
+
+@@ Bo97bv65t5I
+Cloud workflows, collapse of consciousness, classical and quantum computing, all unified by one claimed law: that concurrency has an invariant. The episode states the law, argues it from several directions, and asks what it would predict if it were true.
+
+@@ VT6C_GqeBmI
+Two of Hawking's papers, living with ghosts and the final boundary of the universe, read as a stress test for singularity algebra. The episode asks whether the algebra can account for what the physics actually says, and where it stops.
+
+@@ HYqV51qNAWE
+ChaosEncrypt, a cipher built on deterministic chaotic maps, with prime-driven keystreams and HMAC key exchange. The episode walks through the construction, explains why chaotic systems resist prediction, and is about the difference between a research tool and a production cipher.
+
+@@ JXCvWEc_MWY
+Counting, arithmetic and primes connected through Riemannian geometry and singularities, with large language models as the test case. The episode asks whether the geometry of a model's internal representations is recoverable at all, and what counting means in that space.
+
+@@ 3zpYjZtcwcY
+Fractional dimensions and hyperbolic geometry through the idea of precision dimension: how a measure can sit between integers, and what the hyperbolic space does to notions of distance, scale and self-similarity that Euclidean intuition cannot reach or even represent well.
+
+@@ 2h9Pqlr8mKk
+The Cantor set remade in hyperbolic space, where chopping an interval behaves quite differently than it does in the line. The episode is part proof, part visualisation, showing how the classical construction changes and what survives the change of geometry.
+
+@@ ooT7DbpX4Lc
+The Dynamic Prime Cantor set, the fat variant, and the structures primes generate when they are allowed to determine the geometry. The episode follows the construction and asks what it means for arithmetic to be the thing carving the space.
+
+@@ po6ofgGcF4o
+Prime fractals read against inverted islands, entanglement and branching cosmologies alike. The episode draws the parallel honestly and precisely: where the analogy is structural rather than decorative, and where the multiverse framing is doing philosophical rather than purely mathematical work.
+
+@@ NHodSBlH50Y
+A balance between similarity and difference, appearing in machine learning, quantum physics and perception all at once. The episode builds the tension formally and asks when two things should be treated as the same, and when they must not be.
+
+@@ uJNeFs0OjwA
+The present as a saddle point where a Euclidean past meets a fractal future, and the account of choice and time that follows. The episode develops geometry, then asks what freedom looks like when the now is a fixed point.
+
+@@ 0BymoGdJwkQ
+A short trailer: collapsing divergent sequences rather than discarding them, and the core insight behind regularizing divergence with convergence. It is a ninety-second door into the argument that non-convergence can be handled by changing what the limit is taken over.
+
+@@ nSFq1ny83bU
+Symmetry as the hidden force shaping both quantum particles and the primes, stated as the Spectral Symmetry Confinement Principle. The episode formulates the principle, gives it consequences, and asks whether it is a law or a pattern, or a coincidence.
+
+@@ Jcu8BoKnIEc
+A game of number theory, chaos and high stakes: Prime Fall, where a descent through precision replaces the game mechanics. The episode plays it, reads the mathematics inside the rules, and asks what the design teaches about exploration and play.
+
+@@ 1i-2fclalcg
+Reality as a language with physics as its grammar: how quantum mechanics, emotion and narrative form interact in a single account. The episode argues that storytelling is a physical process, and that the mechanism is measurable rather than merely metaphorical.
+
+@@ Y4avF7bnFoE
+Wigner's puzzle about the unreasonable effectiveness of mathematics, approached through self-adjoint operators and the conditions under which an operator is genuinely observable. The episode works through the spectral theorem and asks why physics keeps choosing structures that work so well.
+
+@@ gGG_wATUVh4
+Five codes, one cosmos: a framework blending operator theory with philosophy, and the mathematics carried rather than gestured at. The episode argues that the same operator language describes physics, computation and mind, and asks what it would take to refute.
+
+@@ 1dQ2vadw-6s
+Intelligence that emerges from the substrate rather than the model, moving from philosophical argument to engineering. The episode asks what changes when intelligence is a property of the arrangement of matter rather than of a program trained on text alone.
+
+@@ yIV-n3SPIWM
+What it means for something to have purpose, worked through thermodynamics and information theory rather than ethics. The episode asks whether agency can be defined by energy accounting alone, and what a purpose-free system looks like in practice to us.
+
+@@ p6qQ1EYfwWM
+Obstruction theory and why certain problems feel unsolvable: the gerbe twist and what it implies across mathematics, physics and computation. The episode argues that unsolvability has a shape, and that seeing that shape deliberately changes what you try next time.
+
+@@ Wt9j-tO8M3c
+A short trailer for the gerbe episode, introducing fiber bundles and gerbes as the hidden architecture of inconsistency, and previewing the argument that some contradictions are structural rather than accidental, and not simply a failure of effort, attention or nerve.
+
+@@ Lu3kBF_Sw4k
+The curved geometry of problem spaces, argued through Sudoku and ordinary decisions, and what curvature does to strategy. The episode shows that hard problems are not merely harder but differently shaped, and that the shape should guide the method chosen.
+
+@@ NYuqE5p-BU8
+Prime numbers against reverse gerbes, and the geometry of chaos and order built from them. The episode works through how order emerges inside apparent randomness, and what the reverse construction makes visible that the forward one hides at first glance.
+
+@@ tG-efSP8meI
+Spectral logic: proofs treated as thermodynamic journeys with energy bills, prime-weighted costs assigned to each step. The episode argues that mathematics can be made to pay for itself, and asks what a cost function for proof would buy in practice.
+
+@@ 8X5_F8Y4ZhA
+Creativity through cognitive thermodynamics, examining intelligence through thermodynamics and harmonic analysis. The episode asks whether thinking is a physical process with constraints, and whether those constraints are informative rather than merely limiting, and whether creativity means escaping them at all.
+
+@@ 0fnvuBTm3fM
+A short explainer on whether the world is a simulation, approached with scientific tools rather than speculation. It lays out what each hypothesis would predict, what evidence would distinguish them, and why the question is harder than it first appears.
+
+@@ KViaJAbt82Y
+Ramanujan's intuition and the graphs that carry it forward: networks with strong spectral properties, used in modern communications and codes. The episode traces the story from a self-taught genius to a deployed technology, and asks what else he saw coming.
+
+@@ 7xA2FzufFYk
+Keys that are not stored data but the evolving rhythm of a living system. The episode develops the idea, asks what it buys against an adversary, and is frank about how much of it is proposal rather than deployed practice.
+
+@@ uAIiKoDP7IU
+Whether reality is fixed or partly constructed by observation, through spectral redundancy and a proposed unified theory of complex systems. The episode develops the claim and asks what would count as evidence against it, and whether any such could exist.
+
+@@ p0wiwoMIsyg
+Inspired by an eight-year-old's question, matter versus mind versus resources, and what makes something real at all. The episode takes the question seriously, works through the philosophical positions, and ends with something closer to a method than to an answer.
+
+@@ rPucF88JMAM
+The claim that intelligence has a fundamental speed limit, argued from neuroscience, complex systems and physics. The episode asks what such a limit would be made of, whether it could be evaded, and how you would notice it in practice.
+
+@@ gw820jVjk1U
+A fourteen-second bumper introducing the podcast, and a reminder of what the series is for: long conversations about the places where physics, mathematics and computation meet, and a first taste of the argument that runs through all forty of them.
+
+@@ TCYCI1Ijl-0
+Fair division in computer science: partitioning data so that no party is systematically worse off, and the approximation guarantees that make it tractable. The episode works through the cake-cutting line of results and asks what fairness costs computationally, and when.
+
+@@ bBAEos4oy8I
+Seven points on a circle, and from them a synthesis bridging geometry, number theory and artificial intelligence alike. The episode builds the construction stepwise, then asks whether the circle helps machines think or only helps us describe how they do.
+
+@@ 1b_uKRM8eMg
+What fairness means for a system, a market or a society, challenging the usual definitions in favour of a geometric account. The episode asks what shape fairness has, and whether it can be measured without reducing it to a scalar.
+
+@@ rcum4C48efc
+Anti-superconductors and non-commutative geometry, with the hidden quantum order of the primes. The episode walks through the prime-annealer paper and blog at length, and asks whether arithmetic can insulate a material the way geometry insulates an ordinary semiconductor device today.
+
+@@ kGQT5g-Rh5Q
+The prime walk, a number-line puzzle, taken seriously as a route into symmetry breaking and the Riemann hypothesis. The episode follows the walk, the Jahn-Teller analogy, and the specific sense in which primes behave like quantum particles in the laboratory.
+
+@@ CVm01DM0jCw
+The geometry underpinning mathematical understanding, taken from the Floer hardness certificates paper. The episode asks whether knowledge has structure that can be measured, what persistent homology contributes to the question, and whether a certificate is the right thing to want.
+
+@@ 3NmgkLSyP_8
+What an infinite loop is really tracing: divergent computation as a hidden mathematical structure rather than a plain failure. The episode connects frozen loading screens to the mathematics of divergence, and asks what it would mean to wait correctly, eventually.
+
+@@ nZLr8RpNgdI
+The claim that asymmetric attention in physics and hallucination in transformers share one piece of mathematics. The episode works through the column-imbalance result and asks what a link between gravity and attention would have to explain, and whether it survives.

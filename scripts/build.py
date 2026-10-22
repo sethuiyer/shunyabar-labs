@@ -92,11 +92,12 @@ def main() -> int:
     cont = sum(len(g["entries"]) for g in data["groups"] if g["id"] == "continued")
     found = sum(len(g["entries"]) for g in data["groups"] if g["id"] == "foundations")
     elsew = sum(len(g["entries"]) for g in data["groups"] if g["id"] == "elsewhere")
+    pod = sum(len(g["entries"]) for g in data["groups"] if g["id"] == "podcast")
     private = sum(1 for g in data["groups"] for e in g["entries"] if "private" in e.get("meta", []))
     counts = (f"{total} entries &middot; {repos} repositories &middot; {cont} continuing "
               f"&middot; {gists} gists &middot; {essays} essays &middot; {found} foundations "
               f"&middot; {zen} citable records &middot; {rel} release lines &middot; "
-              f"{elsew} elsewhere &middot; {private} held private")
+              f"{pod} podcast entries &middot; {elsew} elsewhere &middot; {private} held private")
 
     out = template.replace("{{GROUPS}}", groups).replace("{{COUNTS}}", counts)
     (ROOT / "index.html").write_text(out)

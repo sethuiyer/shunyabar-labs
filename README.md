@@ -39,10 +39,13 @@ index.html            generated — the site (do not edit by hand)
 templates/index.html  page template with {{GROUPS}} / {{COUNTS}} placeholders
 data/entries.json     the index: groups, titles, links, dates, tags, summaries
 data/summaries.txt    the curated 40-word summaries, one block per entry
+data/episodes.json   podcast episode metadata (id, date, duration, views) fetched with yt-dlp
+data/podcast_summaries.txt  curated 40-word summaries for the podcast, keyed by video id
 assets/style.css      stylesheet: light / dark / auto
 assets/theme.js       theme toggle (auto → light → dark), persisted in localStorage
 scripts/build.py      renders index.html from data + templates
 scripts/apply_summaries.py  copies data/summaries.txt into data/entries.json
+scripts/apply_podcast.py    rebuilds the podcast group from data/episodes.json + summaries
 scripts/check_summaries.py  verifies every summary is exactly 40 words
 scripts/fetch_visibility.py  tags entries whose repository is private
 scripts/fetch_pages.py       attaches live GitHub Pages URLs to entries
@@ -55,7 +58,8 @@ data/removed.json            the pruned entries, with reasons, so nothing is los
 
 ```bash
 python3 scripts/apply_summaries.py   # refresh summaries in entries.json
-python3 scripts/check_summaries.py   # 55/55 summaries at exactly 40 words
+python3 scripts/apply_podcast.py     # rebuild the podcast group
+python3 scripts/check_summaries.py   # 109/109 summaries at exactly 40 words
 python3 scripts/fetch_visibility.py  # re-tag private repositories
 python3 scripts/fetch_pages.py       # attach live GitHub Pages URLs
 python3 scripts/fetch_details.py     # attach the lab's project write-ups
@@ -73,6 +77,7 @@ python3 scripts/build.py             # regenerate index.html
 | Foundations | the lab's long-form documents on the docs site |
 | Citable records | Zenodo DOIs, the version of record for each artifact |
 | Released artifacts | published versions, grouped by project |
+| Podcast | *Space Time Cafe* — the playlist overview and every episode |
 | Elsewhere | the notebook, the shipping API, the evidence ledger |
 
 ## The criterion

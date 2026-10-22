@@ -593,6 +593,636 @@
       ]
     },
     {
+      "id": "podcast",
+      "title": "Podcast — Space Time Cafe",
+      "note": "{n} entries — the lab's argument in spoken form: one long-form video essay per topic, plus the playlist overview.",
+      "entries": [
+        {
+          "title": "Space Time Cafe",
+          "url": "https://www.youtube.com/playlist?list=PLUPyripldgZb2ZKSJOQ6p1DO3oCk9yT6G",
+          "date": "2025-02-22",
+          "meta": [
+            "Playlist",
+            "51 videos"
+          ],
+          "summary": "A long-form video essay series in which physics, number theory, geometry and machine learning are argued through together. Fifty-one episodes published between February 2025 and August 2026 range over primes, infinity, chaos, operators, fairness and the limits of computation itself.",
+          "site": "https://www.youtube.com/@SethuIyer95"
+        },
+        {
+          "title": "Episode 1 : The Lore Behind Majorana Quantum Chip",
+          "url": "https://www.youtube.com/watch?v=mFOJihE49eE",
+          "date": "2025-02-22",
+          "meta": [
+            "Video",
+            "36m 34s",
+            "506 views"
+          ],
+          "summary": "The series opens on Ettore Majorana, who vanished in 1938, and the fermions that carry his name. The episode reconstructs the story, explains what makes them neutral and self-conjugate, and traces how a particle became a candidate for quantum hardware.",
+          "video": "mFOJihE49eE"
+        },
+        {
+          "title": "Episode 2 : The Majorana-Riemann Hypothesis Connection – A Breakdown",
+          "url": "https://www.youtube.com/watch?v=cxMhh-0aysc",
+          "date": "2025-02-22",
+          "meta": [
+            "Video",
+            "50m 56s",
+            "1.7k views"
+          ],
+          "summary": "The second episode presses the link between Majorana fermions and the Riemann hypothesis, working through how topological superconductivity encodes prime behaviour, where the analogy holds, and where the mathematics is doing real work rather than merely sounding deep and impressive.",
+          "video": "cxMhh-0aysc"
+        },
+        {
+          "title": "Episode 3: Unraveling Infinity’s Code",
+          "url": "https://www.youtube.com/watch?v=PJB5v1wseRc",
+          "date": "2025-02-24",
+          "meta": [
+            "Video",
+            "31m 24s",
+            "146 views"
+          ],
+          "summary": "Einstein's continuous infinity against Wolfram's computational treatment of the infinite, with the argument that infinity is a constraint of description rather than a thing that exists. The episode asks what changes if the universe is explored algorithmically instead of analytically.",
+          "video": "PJB5v1wseRc"
+        },
+        {
+          "title": "Episode 6: The Monster Problem: Fibonacci’s Deepest Secrets (Part 2)",
+          "url": "https://www.youtube.com/watch?v=YvNBkF5KM2c",
+          "date": "2025-02-24",
+          "meta": [
+            "Video",
+            "40m 50s",
+            "130 views"
+          ],
+          "summary": "Part two of the Fibonacci sequence: whether primes hide a code when written in Fibonacci base, and what that means for finding them. The episode works through the monster problem and asks whether arithmetic structure could resolve an open question.",
+          "video": "YvNBkF5KM2c"
+        },
+        {
+          "title": "Episode 4: Computational Infinity: The Universe's Hidden Code",
+          "url": "https://www.youtube.com/watch?v=xu27UFJ9ua0",
+          "date": "2025-02-25",
+          "meta": [
+            "Video",
+            "38m 36s",
+            "367 views"
+          ],
+          "summary": "What if infinity is not real, and every infinite is a computational limit not yet reached. The episode develops computational infinity as a working alternative to continuous analysis, and tests it against the places classical mathematics refuses to ever terminate.",
+          "video": "xu27UFJ9ua0"
+        },
+        {
+          "title": "Episode 5: Fibonacci Unraveled: The Math, the Mystery, and the Magic (Part 1)",
+          "url": "https://www.youtube.com/watch?v=4UJt391PMqY",
+          "date": "2025-02-26",
+          "meta": [
+            "Video",
+            "38m 47s",
+            "153 views"
+          ],
+          "summary": "Part one: the Fibonacci sequence from first principles, its closed form, and the golden ratio it converges to, then outward to sunflowers, spirals and galaxies. The episode asks why one recurrence appears everywhere it does, and what it is counting.",
+          "video": "4UJt391PMqY"
+        },
+        {
+          "title": "Episode 7: Fibonacci’s Hidden Duality: Growth vs Decay",
+          "url": "https://www.youtube.com/watch?v=h1iDDU50ZKc",
+          "date": "2025-02-28",
+          "meta": [
+            "Video",
+            "43m 03s",
+            "154 views"
+          ],
+          "summary": "The same recurrence, with initial conditions nudged, produces decay instead of growth. The episode explores eigenmode cancellation in detail and the parameter at which exponential growth flips sign, treating the pair of behaviours as one object seen from two sides.",
+          "video": "h1iDDU50ZKc"
+        },
+        {
+          "title": "Episode 8: Primes, Chaos, and the Quantum Code | Spacetime Cafe",
+          "url": "https://www.youtube.com/watch?v=Ooh_ZKH93gw",
+          "date": "2025-03-09",
+          "meta": [
+            "Video",
+            "59m 30s",
+            "976 views"
+          ],
+          "summary": "Primes mimic quantum randomness using arithmetic alone: the episode works through chaotic maps over the primes, their spectral behaviour, and why the pattern is indistinguishable from quantum while being entirely classical in origin, then asks what would separate the explanations.",
+          "video": "Ooh_ZKH93gw"
+        },
+        {
+          "title": "Episode 9: Prime Chaos and the Secret p-adic Vortex of Randomness - Spacetime Cafe",
+          "url": "https://www.youtube.com/watch?v=Sfr95nLoUAM",
+          "date": "2025-03-13",
+          "meta": [
+            "Video",
+            "47m 25s",
+            "253 views"
+          ],
+          "summary": "Prime vortex maps, the swirling flows of quantum materials, and the p-adic number line placed side by side, arguing that randomness at different scales has one single structure, and that the vortex is where number theory becomes fluid and computable.",
+          "video": "Sfr95nLoUAM"
+        },
+        {
+          "title": "Episode 10: Patterns in Primes: Structure, Entropy, and the Nature of Intelligence - Spacetime Cafe",
+          "url": "https://www.youtube.com/watch?v=6Yl0xU32ncg",
+          "date": "2025-03-14",
+          "meta": [
+            "Video",
+            "48m 13s",
+            "137 views"
+          ],
+          "summary": "Structure, entropy and the nature of intelligence drawn together through the primes: the episode asks whether the irregularity of the primes carries information, and whether a system that could read that irregularity would count as intelligent in any meaningful sense.",
+          "video": "6Yl0xU32ncg"
+        },
+        {
+          "title": "Episode 11: The Beauty and Power of Invariants - Spacetime Cafe",
+          "url": "https://www.youtube.com/watch?v=4kD8QYopRzo",
+          "date": "2025-03-15",
+          "meta": [
+            "Video",
+            "36m 00s",
+            "68 views"
+          ],
+          "summary": "Invariants as the hidden order beneath mathematics, using the fraction matrix problem to show how the smallest fractions behave and why quantities that survive every transformation are the ones worth tracking. The episode asks what an invariant is really for.",
+          "video": "4kD8QYopRzo"
+        },
+        {
+          "title": "Episode 12: The Terminal Algebra of the Event Horizon - Spacetime Cafe",
+          "url": "https://www.youtube.com/watch?v=_0YwATNqVtA",
+          "date": "2025-03-18",
+          "meta": [
+            "Video",
+            "52m 35s",
+            "49 views"
+          ],
+          "summary": "Zero point algebra, the algebraic structure at the boundary where nothing returns, and what it says about descriptions of the impossible. The episode works through the system, its operations, and the limits of the framework itself, and where it stops.",
+          "video": "_0YwATNqVtA"
+        },
+        {
+          "title": "Episode 13:  Concurrency Invariant and the Singularity - Spacetime Cafe",
+          "url": "https://www.youtube.com/watch?v=Bo97bv65t5I",
+          "date": "2025-03-19",
+          "meta": [
+            "Video",
+            "48m 24s",
+            "37 views"
+          ],
+          "summary": "Cloud workflows, collapse of consciousness, classical and quantum computing, all unified by one claimed law: that concurrency has an invariant. The episode states the law, argues it from several directions, and asks what it would predict if it were true.",
+          "video": "Bo97bv65t5I"
+        },
+        {
+          "title": "Episode 14: Ghosts, Eternal Inflation, and the Boundaries of Singularity Algebra - Spacetime Cafe",
+          "url": "https://www.youtube.com/watch?v=VT6C_GqeBmI",
+          "date": "2025-03-20",
+          "meta": [
+            "Video",
+            "28m 08s",
+            "36 views"
+          ],
+          "summary": "Two of Hawking's papers, living with ghosts and the final boundary of the universe, read as a stress test for singularity algebra. The episode asks whether the algebra can account for what the physics actually says, and where it stops.",
+          "video": "VT6C_GqeBmI"
+        },
+        {
+          "title": "Encrypting with Chaos:- ChaosEncrypt - Episode 12 - Spacetime Cafe",
+          "url": "https://www.youtube.com/watch?v=HYqV51qNAWE",
+          "date": "2025-04-02",
+          "meta": [
+            "Video",
+            "37m 45s",
+            "79 views"
+          ],
+          "summary": "ChaosEncrypt, a cipher built on deterministic chaotic maps, with prime-driven keystreams and HMAC key exchange. The episode walks through the construction, explains why chaotic systems resist prediction, and is about the difference between a research tool and a production cipher.",
+          "video": "HYqV51qNAWE"
+        },
+        {
+          "title": "Episode 13: The Hidden Geometry of Language Models and Thought | Spacetime Cafe",
+          "url": "https://www.youtube.com/watch?v=JXCvWEc_MWY",
+          "date": "2025-04-08",
+          "meta": [
+            "Video",
+            "41m 08s",
+            "102 views"
+          ],
+          "summary": "Counting, arithmetic and primes connected through Riemannian geometry and singularities, with large language models as the test case. The episode asks whether the geometry of a model's internal representations is recoverable at all, and what counting means in that space.",
+          "video": "JXCvWEc_MWY"
+        },
+        {
+          "title": "Episode 14: The Strange Reality of Fractals and Hyperbolic Space  | SpaceTime Cafe",
+          "url": "https://www.youtube.com/watch?v=3zpYjZtcwcY",
+          "date": "2025-04-11",
+          "meta": [
+            "Video",
+            "37m 50s",
+            "184 views"
+          ],
+          "summary": "Fractional dimensions and hyperbolic geometry through the idea of precision dimension: how a measure can sit between integers, and what the hyperbolic space does to notions of distance, scale and self-similarity that Euclidean intuition cannot reach or even represent well.",
+          "video": "3zpYjZtcwcY"
+        },
+        {
+          "title": "Episode 15: Visualizing the Cantor Set in Hyperbolic Space | SpaceTime Cafe",
+          "url": "https://www.youtube.com/watch?v=2h9Pqlr8mKk",
+          "date": "2025-04-13",
+          "meta": [
+            "Video",
+            "26m 34s",
+            "171 views"
+          ],
+          "summary": "The Cantor set remade in hyperbolic space, where chopping an interval behaves quite differently than it does in the line. The episode is part proof, part visualisation, showing how the classical construction changes and what survives the change of geometry.",
+          "video": "2h9Pqlr8mKk"
+        },
+        {
+          "title": "Episode 16: How Prime Numbers Shape Geometry | SpaceTime Cafe",
+          "url": "https://www.youtube.com/watch?v=ooT7DbpX4Lc",
+          "date": "2025-04-15",
+          "meta": [
+            "Video",
+            "46m 56s",
+            "205 views"
+          ],
+          "summary": "The Dynamic Prime Cantor set, the fat variant, and the structures primes generate when they are allowed to determine the geometry. The episode follows the construction and asks what it means for arithmetic to be the thing carving the space.",
+          "video": "ooT7DbpX4Lc"
+        },
+        {
+          "title": "Episode 17: From Prime Fractals to Multiverse Islands | SpaceTime Cafe",
+          "url": "https://www.youtube.com/watch?v=po6ofgGcF4o",
+          "date": "2025-04-17",
+          "meta": [
+            "Video",
+            "35m 53s",
+            "91 views"
+          ],
+          "summary": "Prime fractals read against inverted islands, entanglement and branching cosmologies alike. The episode draws the parallel honestly and precisely: where the analogy is structural rather than decorative, and where the multiverse framing is doing philosophical rather than purely mathematical work.",
+          "video": "po6ofgGcF4o"
+        },
+        {
+          "title": "Episode 18: The Mathematical Tug of War between Identity and Proximity |  SpaceTime Cafe",
+          "url": "https://www.youtube.com/watch?v=NHodSBlH50Y",
+          "date": "2025-04-19",
+          "meta": [
+            "Video",
+            "38m 41s",
+            "1.0k views"
+          ],
+          "summary": "A balance between similarity and difference, appearing in machine learning, quantum physics and perception all at once. The episode builds the tension formally and asks when two things should be treated as the same, and when they must not be.",
+          "video": "NHodSBlH50Y"
+        },
+        {
+          "title": "Episode 19: Dynamic Choice and the Geometry of Now | SpaceTime Cafe",
+          "url": "https://www.youtube.com/watch?v=uJNeFs0OjwA",
+          "date": "2025-04-20",
+          "meta": [
+            "Video",
+            "55m 43s",
+            "134 views"
+          ],
+          "summary": "The present as a saddle point where a Euclidean past meets a fractal future, and the account of choice and time that follows. The episode develops geometry, then asks what freedom looks like when the now is a fixed point.",
+          "video": "uJNeFs0OjwA"
+        },
+        {
+          "title": "Ep  20 Trailer:  Regularizing Divergence with Convergence  | SpaceTime Cafe",
+          "url": "https://www.youtube.com/watch?v=0BymoGdJwkQ",
+          "date": "2025-04-21",
+          "meta": [
+            "Video",
+            "1m 56s",
+            "26 views"
+          ],
+          "summary": "A short trailer: collapsing divergent sequences rather than discarding them, and the core insight behind regularizing divergence with convergence. It is a ninety-second door into the argument that non-convergence can be handled by changing what the limit is taken over.",
+          "video": "0BymoGdJwkQ"
+        },
+        {
+          "title": "Episode 20: Spectral Symmetry Confinement Principle | SpaceTime Cafe",
+          "url": "https://www.youtube.com/watch?v=nSFq1ny83bU",
+          "date": "2025-05-31",
+          "meta": [
+            "Video",
+            "37m 03s",
+            "400 views"
+          ],
+          "summary": "Symmetry as the hidden force shaping both quantum particles and the primes, stated as the Spectral Symmetry Confinement Principle. The episode formulates the principle, gives it consequences, and asks whether it is a law or a pattern, or a coincidence.",
+          "video": "nSFq1ny83bU"
+        },
+        {
+          "title": "Episode 21: Primefall: The Precision Descent | SpaceTime Cafe",
+          "url": "https://www.youtube.com/watch?v=Jcu8BoKnIEc",
+          "date": "2025-06-08",
+          "meta": [
+            "Video",
+            "49m 15s",
+            "201 views"
+          ],
+          "summary": "A game of number theory, chaos and high stakes: Prime Fall, where a descent through precision replaces the game mechanics. The episode plays it, reads the mathematics inside the rules, and asks what the design teaches about exploration and play.",
+          "video": "Jcu8BoKnIEc"
+        },
+        {
+          "title": "Episode 22: The Physics of Story Telling | SpaceTime Cafe",
+          "url": "https://www.youtube.com/watch?v=1i-2fclalcg",
+          "date": "2025-06-12",
+          "meta": [
+            "Video",
+            "47m 37s",
+            "226 views"
+          ],
+          "summary": "Reality as a language with physics as its grammar: how quantum mechanics, emotion and narrative form interact in a single account. The episode argues that storytelling is a physical process, and that the mechanism is measurable rather than merely metaphorical.",
+          "video": "1i-2fclalcg"
+        },
+        {
+          "title": "Episode 23: Mystery of Self-Adjoint Operators | SpaceTime Cafe",
+          "url": "https://www.youtube.com/watch?v=Y4avF7bnFoE",
+          "date": "2025-06-23",
+          "meta": [
+            "Video",
+            "36m 27s",
+            "93 views"
+          ],
+          "summary": "Wigner's puzzle about the unreasonable effectiveness of mathematics, approached through self-adjoint operators and the conditions under which an operator is genuinely observable. The episode works through the spectral theorem and asks why physics keeps choosing structures that work so well.",
+          "video": "Y4avF7bnFoE"
+        },
+        {
+          "title": "Episode 24 : Operator Theory of Everything -  SpaceTime Cafe",
+          "url": "https://www.youtube.com/watch?v=gGG_wATUVh4",
+          "date": "2025-07-01",
+          "meta": [
+            "Video",
+            "27m 15s",
+            "150 views"
+          ],
+          "summary": "Five codes, one cosmos: a framework blending operator theory with philosophy, and the mathematics carried rather than gestured at. The episode argues that the same operator language describes physics, computation and mind, and asks what it would take to refute.",
+          "video": "gGG_wATUVh4"
+        },
+        {
+          "title": "Episode 25: Artificial Substrate Intelligence | SpaceTime Cafe",
+          "url": "https://www.youtube.com/watch?v=1dQ2vadw-6s",
+          "date": "2025-07-04",
+          "meta": [
+            "Video",
+            "45m 52s",
+            "66 views"
+          ],
+          "summary": "Intelligence that emerges from the substrate rather than the model, moving from philosophical argument to engineering. The episode asks what changes when intelligence is a property of the arrangement of matter rather than of a program trained on text alone.",
+          "video": "1dQ2vadw-6s"
+        },
+        {
+          "title": "Episode 26: The Thermodynamics of Purpose | SpaceTime Cafe",
+          "url": "https://www.youtube.com/watch?v=yIV-n3SPIWM",
+          "date": "2025-07-07",
+          "meta": [
+            "Video",
+            "34m 33s",
+            "133 views"
+          ],
+          "summary": "What it means for something to have purpose, worked through thermodynamics and information theory rather than ethics. The episode asks whether agency can be defined by energy accounting alone, and what a purpose-free system looks like in practice to us.",
+          "video": "yIV-n3SPIWM"
+        },
+        {
+          "title": "Episode 27: The Shape of Unsolvable Problems | SpaceTime Cafe",
+          "url": "https://www.youtube.com/watch?v=p6qQ1EYfwWM",
+          "date": "2025-07-10",
+          "meta": [
+            "Video",
+            "40m 17s",
+            "377 views"
+          ],
+          "summary": "Obstruction theory and why certain problems feel unsolvable: the gerbe twist and what it implies across mathematics, physics and computation. The episode argues that unsolvability has a shape, and that seeing that shape deliberately changes what you try next time.",
+          "video": "p6qQ1EYfwWM"
+        },
+        {
+          "title": "Episode 27 Trailer | Fiber Bundles and Gerbes | SpaceTime Cafe",
+          "url": "https://www.youtube.com/watch?v=Wt9j-tO8M3c",
+          "date": "2025-07-23",
+          "meta": [
+            "Video",
+            "3m 03s",
+            "36 views"
+          ],
+          "summary": "A short trailer for the gerbe episode, introducing fiber bundles and gerbes as the hidden architecture of inconsistency, and previewing the argument that some contradictions are structural rather than accidental, and not simply a failure of effort, attention or nerve.",
+          "video": "Wt9j-tO8M3c"
+        },
+        {
+          "title": "Episode 28: Why Hard Problems Bend Reality | SpaceTime Cafe",
+          "url": "https://www.youtube.com/watch?v=Lu3kBF_Sw4k",
+          "date": "2025-07-27",
+          "meta": [
+            "Video",
+            "36m 33s",
+            "43 views"
+          ],
+          "summary": "The curved geometry of problem spaces, argued through Sudoku and ordinary decisions, and what curvature does to strategy. The episode shows that hard problems are not merely harder but differently shaped, and that the shape should guide the method chosen.",
+          "video": "Lu3kBF_Sw4k"
+        },
+        {
+          "title": "Episode 29: Geometry of Chaos and Order | SpaceTime Cafe",
+          "url": "https://www.youtube.com/watch?v=NYuqE5p-BU8",
+          "date": "2025-07-28",
+          "meta": [
+            "Video",
+            "19m 13s",
+            "88 views"
+          ],
+          "summary": "Prime numbers against reverse gerbes, and the geometry of chaos and order built from them. The episode works through how order emerges inside apparent randomness, and what the reverse construction makes visible that the forward one hides at first glance.",
+          "video": "NYuqE5p-BU8"
+        },
+        {
+          "title": "Episode 30: Mathematics with a Pulse | SpaceTime Cafe",
+          "url": "https://www.youtube.com/watch?v=tG-efSP8meI",
+          "date": "2025-08-01",
+          "meta": [
+            "Video",
+            "56m 37s",
+            "57 views"
+          ],
+          "summary": "Spectral logic: proofs treated as thermodynamic journeys with energy bills, prime-weighted costs assigned to each step. The episode argues that mathematics can be made to pay for itself, and asks what a cost function for proof would buy in practice.",
+          "video": "tG-efSP8meI"
+        },
+        {
+          "title": "Episode 31: The Physics of Thought | SpaceTime Cafe",
+          "url": "https://www.youtube.com/watch?v=8X5_F8Y4ZhA",
+          "date": "2025-08-06",
+          "meta": [
+            "Video",
+            "45m 53s",
+            "137 views"
+          ],
+          "summary": "Creativity through cognitive thermodynamics, examining intelligence through thermodynamics and harmonic analysis. The episode asks whether thinking is a physical process with constraints, and whether those constraints are informative rather than merely limiting, and whether creativity means escaping them at all.",
+          "video": "8X5_F8Y4ZhA"
+        },
+        {
+          "title": "Are we in a Simulation? | Explainer Video",
+          "url": "https://www.youtube.com/watch?v=0fnvuBTm3fM",
+          "date": "2025-08-08",
+          "meta": [
+            "Video",
+            "9m 00s",
+            "32 views"
+          ],
+          "summary": "A short explainer on whether the world is a simulation, approached with scientific tools rather than speculation. It lays out what each hypothesis would predict, what evidence would distinguish them, and why the question is harder than it first appears.",
+          "video": "0fnvuBTm3fM"
+        },
+        {
+          "title": "Episode 32: Ramanujan Graphs | Elegant Networks for a Complex World | SpaceTime Cafe",
+          "url": "https://www.youtube.com/watch?v=KViaJAbt82Y",
+          "date": "2025-08-11",
+          "meta": [
+            "Video",
+            "26m 43s",
+            "404 views"
+          ],
+          "summary": "Ramanujan's intuition and the graphs that carry it forward: networks with strong spectral properties, used in modern communications and codes. The episode traces the story from a self-taught genius to a deployed technology, and asks what else he saw coming.",
+          "video": "KViaJAbt82Y"
+        },
+        {
+          "title": "Episode 33: The Rhythm of Encryption | SpaceTime Cafe",
+          "url": "https://www.youtube.com/watch?v=7xA2FzufFYk",
+          "date": "2025-08-12",
+          "meta": [
+            "Video",
+            "51m 08s",
+            "45 views"
+          ],
+          "summary": "Keys that are not stored data but the evolving rhythm of a living system. The episode develops the idea, asks what it buys against an adversary, and is frank about how much of it is proposal rather than deployed practice.",
+          "video": "7xA2FzufFYk"
+        },
+        {
+          "title": "Episode 34: General Relativity of Information | SpaceTime Cafe",
+          "url": "https://www.youtube.com/watch?v=uAIiKoDP7IU",
+          "date": "2025-08-13",
+          "meta": [
+            "Video",
+            "51m 58s",
+            "49 views"
+          ],
+          "summary": "Whether reality is fixed or partly constructed by observation, through spectral redundancy and a proposed unified theory of complex systems. The episode develops the claim and asks what would count as evidence against it, and whether any such could exist.",
+          "video": "uAIiKoDP7IU"
+        },
+        {
+          "title": "Episode 35: What Makes Something Real? | SpaceTime Cafe",
+          "url": "https://www.youtube.com/watch?v=p0wiwoMIsyg",
+          "date": "2025-08-17",
+          "meta": [
+            "Video",
+            "1h 08m",
+            "43 views"
+          ],
+          "summary": "Inspired by an eight-year-old's question, matter versus mind versus resources, and what makes something real at all. The episode takes the question seriously, works through the philosophical positions, and ends with something closer to a method than to an answer.",
+          "video": "p0wiwoMIsyg"
+        },
+        {
+          "title": "Episode 36: Speed Limit of Intelligence | SpaceTime Cafe",
+          "url": "https://www.youtube.com/watch?v=rPucF88JMAM",
+          "date": "2025-08-19",
+          "meta": [
+            "Video",
+            "30m 43s",
+            "59 views"
+          ],
+          "summary": "The claim that intelligence has a fundamental speed limit, argued from neuroscience, complex systems and physics. The episode asks what such a limit would be made of, whether it could be evaded, and how you would notice it in practice.",
+          "video": "rPucF88JMAM"
+        },
+        {
+          "title": "Podcast Introduction",
+          "url": "https://www.youtube.com/watch?v=gw820jVjk1U",
+          "date": "2025-08-20",
+          "meta": [
+            "Video",
+            "14s",
+            "35 views"
+          ],
+          "summary": "A fourteen-second bumper introducing the podcast, and a reminder of what the series is for: long conversations about the places where physics, mathematics and computation meet, and a first taste of the argument that runs through all forty of them.",
+          "video": "gw820jVjk1U"
+        },
+        {
+          "title": "Episode 37:  Splitting the Unsplittable  | SpaceTime Cafe",
+          "url": "https://www.youtube.com/watch?v=TCYCI1Ijl-0",
+          "date": "2025-08-24",
+          "meta": [
+            "Video",
+            "40m 00s",
+            "47 views"
+          ],
+          "summary": "Fair division in computer science: partitioning data so that no party is systematically worse off, and the approximation guarantees that make it tractable. The episode works through the cake-cutting line of results and asks what fairness costs computationally, and when.",
+          "video": "TCYCI1Ijl-0"
+        },
+        {
+          "title": "Episode 38: The Circle that helps Intelligence | SpaceTime Cafe",
+          "url": "https://www.youtube.com/watch?v=bBAEos4oy8I",
+          "date": "2025-09-21",
+          "meta": [
+            "Video",
+            "40m 14s",
+            "76 views"
+          ],
+          "summary": "Seven points on a circle, and from them a synthesis bridging geometry, number theory and artificial intelligence alike. The episode builds the construction stepwise, then asks whether the circle helps machines think or only helps us describe how they do.",
+          "video": "bBAEos4oy8I"
+        },
+        {
+          "title": "Episode 39: The Shape of Fairness | SpaceTime Cafe",
+          "url": "https://www.youtube.com/watch?v=1b_uKRM8eMg",
+          "date": "2025-09-25",
+          "meta": [
+            "Video",
+            "53m 55s",
+            "51 views"
+          ],
+          "summary": "What fairness means for a system, a market or a society, challenging the usual definitions in favour of a geometric account. The episode asks what shape fairness has, and whether it can be measured without reducing it to a scalar.",
+          "video": "1b_uKRM8eMg"
+        },
+        {
+          "title": "Episode 40: The Perfect Arithmetic Resistor | SpaceTime Cafe",
+          "url": "https://www.youtube.com/watch?v=rcum4C48efc",
+          "date": "2025-10-03",
+          "meta": [
+            "Video",
+            "40m 49s",
+            "140 views"
+          ],
+          "summary": "Anti-superconductors and non-commutative geometry, with the hidden quantum order of the primes. The episode walks through the prime-annealer paper and blog at length, and asks whether arithmetic can insulate a material the way geometry insulates an ordinary semiconductor device today.",
+          "video": "rcum4C48efc"
+        },
+        {
+          "title": "Episode 41: Prime Walk | SpaceTime Cafe",
+          "url": "https://www.youtube.com/watch?v=kGQT5g-Rh5Q",
+          "date": "2025-10-06",
+          "meta": [
+            "Video",
+            "30m 06s",
+            "95 views"
+          ],
+          "summary": "The prime walk, a number-line puzzle, taken seriously as a route into symmetry breaking and the Riemann hypothesis. The episode follows the walk, the Jahn-Teller analogy, and the specific sense in which primes behave like quantum particles in the laboratory.",
+          "video": "kGQT5g-Rh5Q"
+        },
+        {
+          "title": "Episode 42: The Geometry of Knowledge | SpaceTime Cafe",
+          "url": "https://www.youtube.com/watch?v=CVm01DM0jCw",
+          "date": "2025-10-09",
+          "meta": [
+            "Video",
+            "1h 02m",
+            "37 views"
+          ],
+          "summary": "The geometry underpinning mathematical understanding, taken from the Floer hardness certificates paper. The episode asks whether knowledge has structure that can be measured, what persistent homology contributes to the question, and whether a certificate is the right thing to want.",
+          "video": "CVm01DM0jCw"
+        },
+        {
+          "title": "The Physics of Divergent Computation",
+          "url": "https://www.youtube.com/watch?v=3NmgkLSyP_8",
+          "date": "2026-06-19",
+          "meta": [
+            "Video",
+            "52m 58s",
+            "88 views"
+          ],
+          "summary": "What an infinite loop is really tracing: divergent computation as a hidden mathematical structure rather than a plain failure. The episode connects frozen loading screens to the mathematics of divergence, and asks what it would mean to wait correctly, eventually.",
+          "video": "3NmgkLSyP_8"
+        },
+        {
+          "title": "Gravity Is Just Biased Attention: The Math Connecting Physics and AI",
+          "url": "https://www.youtube.com/watch?v=nZLr8RpNgdI",
+          "date": "2026-08-13",
+          "meta": [
+            "Video",
+            "47m 57s",
+            "34 views"
+          ],
+          "summary": "The claim that asymmetric attention in physics and hallucination in transformers share one piece of mathematics. The episode works through the column-imbalance result and asks what a link between gravity and attention would have to explain, and whether it survives.",
+          "video": "nZLr8RpNgdI"
+        }
+      ]
+    },
+    {
       "id": "elsewhere",
       "title": "Elsewhere",
       "note": "{n} other doors into the lab: the front door, the notebook, the shipping API, the browser build, the community, the theory portal and the evidence ledger.",
