@@ -51,7 +51,8 @@
             "★ 1"
           ],
           "summary": "Two computational histories may be equivalent when they produce the same relevant behaviour. This paper states the equivalence relation explicitly, derives which observations must be retained for it to hold, and presents the quotient as a design principle for computation.",
-          "site": "https://sethuiyer.github.io/behavioral-quotients/"
+          "site": "https://sethuiyer.github.io/behavioral-quotients/",
+          "details": "https://sethuiyer.github.io/docs/projects/behavioral-quotients/"
         },
         {
           "title": "agent-guardrail",
@@ -71,7 +72,8 @@
             "C",
             "★ 2"
           ],
-          "summary": "A bounded-memory sufficient-state representation of explored geometry. FUTCache merges visited states whenever merging loses nothing a later decision needs, scaling to a million production traces while the cache itself stays fixed in size, and released three times in summer 2026."
+          "summary": "A bounded-memory sufficient-state representation of explored geometry. FUTCache merges visited states whenever merging loses nothing a later decision needs, scaling to a million production traces while the cache itself stays fixed in size, and released three times in summer 2026.",
+          "details": "https://sethuiyer.github.io/docs/projects/futcache/"
         },
         {
           "title": "novelty-geometry",
@@ -82,7 +84,8 @@
             "★ 2"
           ],
           "summary": "Traversal, ordered novelty, memory and asymptotic completion in metric and hyperbolic spaces. The framework formalizes which directions an agent has genuinely covered, separating reached territory from a reworded revisit of ground explored, and shows how completion behaves as space grows.",
-          "site": "https://sethuiyer.github.io/novelty-geometry/"
+          "site": "https://sethuiyer.github.io/novelty-geometry/",
+          "details": "https://sethuiyer.github.io/docs/projects/novelty-geometry/"
         },
         {
           "title": "reify",
@@ -123,7 +126,8 @@
             "HTML",
             "private"
           ],
-          "summary": "Two agents may request the same action while holding entirely different permissions. Ignoring that distinction produces a security failure, so the work orders authority in a lattice and still keeps ownership attached to objects that may have none at all."
+          "summary": "Two agents may request the same action while holding entirely different permissions. Ignoring that distinction produces a security failure, so the work orders authority in a lattice and still keeps ownership attached to objects that may have none at all.",
+          "details": "https://sethuiyer.github.io/docs/projects/authorization-lattice/"
         },
         {
           "title": "factor-agent",
@@ -134,7 +138,8 @@
             "★ 1"
           ],
           "summary": "Invariant-preserving agent harnesses built on OTP supervision, arithmetic security lattices and lawful composition. The harness watches that an agent preserves the quantities it was supposed to preserve exactly, and reports every violation rather than silently averaging it out of sight.",
-          "site": "https://sethuiyer.github.io/factor-agent/"
+          "site": "https://sethuiyer.github.io/factor-agent/",
+          "details": "https://sethuiyer.github.io/docs/projects/factor-agent/"
         },
         {
           "title": "geometry-of-conditional-logic",
@@ -144,7 +149,8 @@
             "Python",
             "private"
           ],
-          "summary": "Conditionals are given shape. The repository builds a geometry in which if-then-else regions sit at different distances, letting a program ask how two logical situations differ and when they may be treated as interchangeable without changing what the program decides."
+          "summary": "Conditionals are given shape. The repository builds a geometry in which if-then-else regions sit at different distances, letting a program ask how two logical situations differ and when they may be treated as interchangeable without changing what the program decides.",
+          "details": "https://sethuiyer.github.io/docs/projects/geometry-of-conditional-logic/"
         },
         {
           "title": "NitroSAT",
@@ -155,7 +161,8 @@
             "★ 2"
           ],
           "summary": "A powerful linear-time MaxSAT approximator that consistently reaches 99.5 percent satisfaction across graph colouring, clique and Ramsey instances. It prunes aggressively while preserving the distinctions that keep the remaining search honest, and it streams to disk when memory runs short.",
-          "site": "https://sethuiyer.github.io/NitroSAT/"
+          "site": "https://sethuiyer.github.io/NitroSAT/",
+          "details": "https://sethuiyer.github.io/docs/projects/nitrosat/"
         },
         {
           "title": "navokoj",
@@ -165,7 +172,8 @@
             "Python",
             "private"
           ],
-          "summary": "Physics-inspired SAT solving that treats constraints as flowing geometry rather than fixed clauses. The solver navigates the space of partial assignments and learns which regions of it are worth revisiting at all, using spectral information to decide where effort belongs."
+          "summary": "Physics-inspired SAT solving that treats constraints as flowing geometry rather than fixed clauses. The solver navigates the space of partial assignments and learns which regions of it are worth revisiting at all, using spectral information to decide where effort belongs.",
+          "details": "https://sethuiyer.github.io/docs/projects/navokoj/"
         },
         {
           "title": "multiplicative-pinn-framework",
@@ -176,7 +184,8 @@
             "★ 1"
           ],
           "summary": "A research framework for solving PDEs with multiplicative constraints, where physics-informed networks are constrained multiplicatively rather than additively. The result preserves positivity and conservation laws that the usual formulation violates, and makes the violation visible whenever it cannot be avoided.",
-          "site": "https://sethuiyer.github.io/multiplicative-pinn-framework/"
+          "site": "https://sethuiyer.github.io/multiplicative-pinn-framework/",
+          "details": "https://sethuiyer.github.io/docs/projects/multiplicative-pinn/"
         },
         {
           "title": "model2vec",
@@ -203,7 +212,8 @@
             "★ 2"
           ],
           "summary": "Where boolean logic meets quantum mechanics, expressed as a solver whose constraints behave like physical fields settling toward a ground state. The project asks which logical distinctions survive when the clause set is treated as one physical object at once.",
-          "site": "https://sethuiyer.github.io/casimir-sat-solver/"
+          "site": "https://sethuiyer.github.io/casimir-sat-solver/",
+          "details": "https://sethuiyer.github.io/docs/projects/casimir-sat-solver/"
         },
         {
           "title": "spectral-multiplicative-framework",
@@ -213,7 +223,8 @@
             "Crystal",
             "★ 1"
           ],
-          "summary": "Graph theory meets quantum mechanics in optimization space, implemented in Crystal for a small executable surface. The framework asks which eigenvalues of a constraint graph a decision can afford to forget, and what breaks when the wrong ones are dropped."
+          "summary": "Graph theory meets quantum mechanics in optimization space, implemented in Crystal for a small executable surface. The framework asks which eigenvalues of a constraint graph a decision can afford to forget, and what breaks when the wrong ones are dropped.",
+          "details": "https://sethuiyer.github.io/docs/projects/spectral-multiplicative/"
         },
         {
           "title": "obs-ai",
@@ -343,6 +354,91 @@
             "private"
           ],
           "summary": "Every optimisation problem, from microchip layouts to cloud allocation, is navigation across an energy landscape. This essay describes the system built to stabilise itself there, replacing brute force with a manifold that contracts toward a solution with no human supervision."
+        }
+      ]
+    },
+    {
+      "id": "zenodo",
+      "title": "Citable records",
+      "note": "{n} Zenodo records, each the version of record for an artifact. The DOIs are permanent and citable; prefer them over a repository link when you cite.",
+      "entries": [
+        {
+          "title": "Solving SAT with Quantum Vacuum Dynamics",
+          "url": "https://zenodo.org/records/17394165",
+          "date": "2025-10-20",
+          "meta": [
+            "Proposal",
+            "2025",
+            "CC-BY-4.0"
+          ],
+          "summary": "Partial assignments are treated as physical microstates in an energy landscape, where almost-satisfying configurations attract one another Casimir-style and coagulate into stable solution clusters. The proposal reframes Boolean satisfiability as a physical process, with the implementation and interactive site attached.",
+          "doi": "https://doi.org/10.5281/zenodo.17394165",
+          "details": "https://sethuiyer.github.io/docs/zenodo/solving-sat-quantum-vacuum-dynamics"
+        },
+        {
+          "title": "Spectral-Multiplicative Optimization Framework",
+          "url": "https://zenodo.org/records/17596089",
+          "date": "2025-04-21",
+          "meta": [
+            "Thesis",
+            "2025",
+            "CC-BY-4.0"
+          ],
+          "summary": "An implementation and validation bundle joining heat-kernel spectral theory to number-theoretic constraint encoding, running at O(nnz) on graphs past a hundred thousand nodes while holding spectral action and multiplicative penalties correlated. It ships diagnostics for inherent optimisation limits baked in.",
+          "doi": "https://doi.org/10.5281/zenodo.17596089",
+          "details": "https://sethuiyer.github.io/docs/zenodo/spectral-multiplicative-framework"
+        },
+        {
+          "title": "ShunyaBar: Spectral-Arithmetic Phase Transitions for Combinatorial Optimization",
+          "url": "https://zenodo.org/records/18214172",
+          "date": "2025-12-31",
+          "meta": [
+            "Preprint",
+            "2025",
+            "CC-BY-4.0"
+          ],
+          "summary": "The umbrella preprint formalising the solver programme as a spectral triple whose partition function factorises over the adelic ring, with KMS states undergoing a phase transition at inverse temperature one. A renormalisation sweep replaces exponential search with a bounded one.",
+          "doi": "https://doi.org/10.5281/zenodo.18214172",
+          "details": "https://sethuiyer.github.io/docs/zenodo/shunyabar-spectral-arithmetic-phase-transitions"
+        },
+        {
+          "title": "Multiplicative Calculus for Hardness Detection and Branch-Aware Optimization",
+          "url": "https://zenodo.org/records/18373732",
+          "date": "2026-01-26",
+          "meta": [
+            "Working paper",
+            "2026",
+            "CC-BY-4.0"
+          ],
+          "summary": "Hardness is located where the log-derivative of a partition function diverges, because the control parameter there lives on a multi-sheeted analytic surface where optimisers fail. A branch-aware optimiser navigates the sheets with Lambert W, cutting complexity from exponential to linear.",
+          "doi": "https://doi.org/10.5281/zenodo.18373732",
+          "details": "https://sethuiyer.github.io/docs/zenodo/multiplicative-calculus-hardness-detection"
+        },
+        {
+          "title": "NitroSAT: A Physics-Informed MaxSAT Solver Using Heat Kernel Diffusion, Persistent Homology, and Branch-Aware Holonomy Annealing",
+          "url": "https://zenodo.org/records/18753235",
+          "date": "2026-02-24",
+          "meta": [
+            "Software",
+            "2026",
+            "Apache-2.0"
+          ],
+          "summary": "A MaxSAT solver treating constraint satisfaction as a dynamical system on a clause hypergraph, with heat-kernel smoothing, persistent homology for symmetry detection, zeta-guided resonance injection and branch-aware holonomy annealing. It reaches 99.58 percent satisfaction across 358 instances and nineteen families.",
+          "doi": "https://doi.org/10.5281/zenodo.18753235",
+          "details": "https://sethuiyer.github.io/docs/zenodo/nitrosat-physics-informed-maxsat"
+        },
+        {
+          "title": "Emergent Stochasticity from Serialized Concurrency",
+          "url": "https://zenodo.org/records/19571762",
+          "date": "2026-04-03",
+          "meta": [
+            "Thesis",
+            "2026",
+            "CC-BY-4.0"
+          ],
+          "summary": "Uniform randomness is reconstructed as the invariant measure of a deterministic concurrent system forced through a serialising bottleneck, with the interleaving space written as products of symmetric groups. It is a constructive theory of when distinct histories may be pooled.",
+          "doi": "https://doi.org/10.5281/zenodo.19571762",
+          "details": "https://sethuiyer.github.io/docs/zenodo/emergent-stochasticity-serialized-concurrency"
         }
       ]
     },

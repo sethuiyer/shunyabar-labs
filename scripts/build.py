@@ -28,8 +28,16 @@ def render_entry(index: int, entry: dict) -> str:
     if entry.get("site"):
         site = (f' &middot; <a class="site-link" href="{esc(entry["site"])}" rel="noopener">'
                 f'site &#8599;</a>')
+    details = ""
+    if entry.get("details"):
+        details = (f' &middot; <a class="site-link" href="{esc(entry["details"])}" rel="noopener">'
+                   f'details &#8599;</a>')
+    doi = ""
+    if entry.get("doi"):
+        doi = (f' &middot; <a class="site-link" href="{esc(entry["doi"])}" rel="noopener">'
+               f'doi</a>')
     meta_line = (f'<span class="meta">{meta} &middot; <span class="date">{date}</span>'
-                 f'{chip}{site}</span>')
+                 f'{chip}{site}{details}{doi}</span>')
     summary_words = len(entry["summary"].split())
     if summary_words != TARGET:
         print(f"  !! {entry['title']}: summary is {summary_words} words")
@@ -76,9 +84,11 @@ def main() -> int:
     gists = sum(len(g["entries"]) for g in data["groups"] if g["id"] == "gists")
     essays = sum(len(g["entries"]) for g in data["groups"] if g["id"] == "essays")
     rel = sum(len(g["entries"]) for g in data["groups"] if g["id"] == "releases")
+    zen = sum(len(g["entries"]) for g in data["groups"] if g["id"] == "zenodo")
     private = sum(1 for g in data["groups"] for e in g["entries"] if "private" in e.get("meta", []))
     counts = (f"{total} entries &middot; {repos} repositories &middot; {gists} gists &middot; "
-              f"{essays} essays &middot; {rel} release lines &middot; {private} held private")
+              f"{essays} essays &middot; {zen} citable records &middot; {rel} release lines "
+              f"&middot; {private} held private")
 
     out = template.replace("{{GROUPS}}", groups).replace("{{COUNTS}}", counts)
     (ROOT / "index.html").write_text(out)

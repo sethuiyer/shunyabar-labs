@@ -162,3 +162,21 @@ Every optimisation problem, from microchip layouts to cloud allocation, is navig
 
 @@ TSP on the Self-Stabilizing Optimizer: A Complete Implementation Plan
 The exponential-sum manifold framework mapped onto the travelling salesman problem, with complete implementation details rather than a sketch. The document specifies data structures, move operators, convergence criteria, the failure modes that follow from each, and a fully worked toy example.
+
+@@ Solving SAT with Quantum Vacuum Dynamics
+Partial assignments are treated as physical microstates in an energy landscape, where almost-satisfying configurations attract one another Casimir-style and coagulate into stable solution clusters. The proposal reframes Boolean satisfiability as a physical process, with the implementation and interactive site attached.
+
+@@ Spectral-Multiplicative Optimization Framework
+An implementation and validation bundle joining heat-kernel spectral theory to number-theoretic constraint encoding, running at O(nnz) on graphs past a hundred thousand nodes while holding spectral action and multiplicative penalties correlated. It ships diagnostics for inherent optimisation limits baked in.
+
+@@ ShunyaBar: Spectral-Arithmetic Phase Transitions for Combinatorial Optimization
+The umbrella preprint formalising the solver programme as a spectral triple whose partition function factorises over the adelic ring, with KMS states undergoing a phase transition at inverse temperature one. A renormalisation sweep replaces exponential search with a bounded one.
+
+@@ Multiplicative Calculus for Hardness Detection and Branch-Aware Optimization
+Hardness is located where the log-derivative of a partition function diverges, because the control parameter there lives on a multi-sheeted analytic surface where optimisers fail. A branch-aware optimiser navigates the sheets with Lambert W, cutting complexity from exponential to linear.
+
+@@ NitroSAT: A Physics-Informed MaxSAT Solver Using Heat Kernel Diffusion, Persistent Homology, and Branch-Aware Holonomy Annealing
+A MaxSAT solver treating constraint satisfaction as a dynamical system on a clause hypergraph, with heat-kernel smoothing, persistent homology for symmetry detection, zeta-guided resonance injection and branch-aware holonomy annealing. It reaches 99.58 percent satisfaction across 358 instances and nineteen families.
+
+@@ Emergent Stochasticity from Serialized Concurrency
+Uniform randomness is reconstructed as the invariant measure of a deterministic concurrent system forced through a serialising bottleneck, with the interleaving space written as products of symmetric groups. It is a constructive theory of when distinct histories may be pooled.
