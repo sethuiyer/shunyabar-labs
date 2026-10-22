@@ -401,6 +401,17 @@ h3 {
   white-space: nowrap;
 }
 
+.site-link {
+  color: var(--muted);
+  text-decoration: none;
+  border-bottom: 1px solid var(--rule);
+  transition: color 0.15s ease, border-color 0.15s ease;
+}
+.site-link:hover {
+  color: var(--accent);
+  border-bottom-color: var(--accent);
+}
+
 .chip {
   display: inline-block;
   font-family: var(--mono);

@@ -24,7 +24,12 @@ def render_entry(index: int, entry: dict) -> str:
     chip = ""
     if "private" in entry.get("meta", []):
         chip = ' <span class="chip">private</span>'
-    meta_line = f'<span class="meta">{meta} &middot; <span class="date">{date}</span>{chip}</span>'
+    site = ""
+    if entry.get("site"):
+        site = (f' &middot; <a class="site-link" href="{esc(entry["site"])}" rel="noopener">'
+                f'site &#8599;</a>')
+    meta_line = (f'<span class="meta">{meta} &middot; <span class="date">{date}</span>'
+                 f'{chip}{site}</span>')
     summary_words = len(entry["summary"].split())
     if summary_words != TARGET:
         print(f"  !! {entry['title']}: summary is {summary_words} words")

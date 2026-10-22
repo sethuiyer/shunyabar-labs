@@ -18,7 +18,8 @@
             "HTML",
             "★ 0"
           ],
-          "summary": "Optical phase space becomes a memory medium. Two rays can share a position and still differ in direction and timing, so collapsing them manufactures errors. This essay keeps phase as a first-class coordinate and documents the ellipsoid inside the clock."
+          "summary": "Optical phase space becomes a memory medium. Two rays can share a position and still differ in direction and timing, so collapsing them manufactures errors. This essay keeps phase as a first-class coordinate and documents the ellipsoid inside the clock.",
+          "site": "https://sethuiyer.github.io/phantom-clock/"
         },
         {
           "title": "eigen-attention",
@@ -28,7 +29,8 @@
             "JavaScript",
             "★ 0"
           ],
-          "summary": "Attention reframed as constrained spectral regression: tokens are eigenvectors under a task-induced operator, and the softmax is solved for rather than assumed. The repository extends the theorem, adds controlled experiments, and ships reproducible checks that show where the approximation holds."
+          "summary": "Attention reframed as constrained spectral regression: tokens are eigenvectors under a task-induced operator, and the softmax is solved for rather than assumed. The repository extends the theorem, adds controlled experiments, and ships reproducible checks that show where the approximation holds.",
+          "site": "https://sethuiyer.github.io/eigen-attention/"
         },
         {
           "title": "persistent-discovery-index",
@@ -48,7 +50,8 @@
             "HTML",
             "★ 1"
           ],
-          "summary": "Two computational histories may be equivalent when they produce the same relevant behaviour. This paper states the equivalence relation explicitly, derives which observations must be retained for it to hold, and presents the quotient as a design principle for computation."
+          "summary": "Two computational histories may be equivalent when they produce the same relevant behaviour. This paper states the equivalence relation explicitly, derives which observations must be retained for it to hold, and presents the quotient as a design principle for computation.",
+          "site": "https://sethuiyer.github.io/behavioral-quotients/"
         },
         {
           "title": "agent-guardrail",
@@ -78,7 +81,8 @@
             "HTML",
             "★ 2"
           ],
-          "summary": "Traversal, ordered novelty, memory and asymptotic completion in metric and hyperbolic spaces. The framework formalizes which directions an agent has genuinely covered, separating reached territory from a reworded revisit of ground explored, and shows how completion behaves as space grows."
+          "summary": "Traversal, ordered novelty, memory and asymptotic completion in metric and hyperbolic spaces. The framework formalizes which directions an agent has genuinely covered, separating reached territory from a reworded revisit of ground explored, and shows how completion behaves as space grows.",
+          "site": "https://sethuiyer.github.io/novelty-geometry/"
         },
         {
           "title": "reify",
@@ -89,6 +93,16 @@
             "★ 0"
           ],
           "summary": "A declarative SDK and compiler for constraint optimization and decision-intelligence engines. Constraints are declared rather than hand-encoded, and the compiler decides how much structure can be discarded while every remaining degree of freedom still changes the decision that comes out."
+        },
+        {
+          "title": "docs",
+          "url": "https://github.com/sethuiyer/docs",
+          "date": "2026-07-20",
+          "meta": [
+            "Astro"
+          ],
+          "summary": "The lab's documentation site, built with Astro: core vision, glossary, concepts, limitations and design philosophy, written so outsiders can follow it. It states the Arithmetic Manifold thesis, cites the evidence ledger, and serves as the front door to the lab.",
+          "site": "https://sethuiyer.github.io/docs/"
         },
         {
           "title": "NoetherLeap",
@@ -119,7 +133,8 @@
             "HTML",
             "★ 1"
           ],
-          "summary": "Invariant-preserving agent harnesses built on OTP supervision, arithmetic security lattices and lawful composition. The harness watches that an agent preserves the quantities it was supposed to preserve exactly, and reports every violation rather than silently averaging it out of sight."
+          "summary": "Invariant-preserving agent harnesses built on OTP supervision, arithmetic security lattices and lawful composition. The harness watches that an agent preserves the quantities it was supposed to preserve exactly, and reports every violation rather than silently averaging it out of sight.",
+          "site": "https://sethuiyer.github.io/factor-agent/"
         },
         {
           "title": "geometry-of-conditional-logic",
@@ -139,7 +154,8 @@
             "C",
             "★ 2"
           ],
-          "summary": "A powerful linear-time MaxSAT approximator that consistently reaches 99.5 percent satisfaction across graph colouring, clique and Ramsey instances. It prunes aggressively while preserving the distinctions that keep the remaining search honest, and it streams to disk when memory runs short."
+          "summary": "A powerful linear-time MaxSAT approximator that consistently reaches 99.5 percent satisfaction across graph colouring, clique and Ramsey instances. It prunes aggressively while preserving the distinctions that keep the remaining search honest, and it streams to disk when memory runs short.",
+          "site": "https://sethuiyer.github.io/NitroSAT/"
         },
         {
           "title": "navokoj",
@@ -159,7 +175,8 @@
             "Python",
             "★ 1"
           ],
-          "summary": "A research framework for solving PDEs with multiplicative constraints, where physics-informed networks are constrained multiplicatively rather than additively. The result preserves positivity and conservation laws that the usual formulation violates, and makes the violation visible whenever it cannot be avoided."
+          "summary": "A research framework for solving PDEs with multiplicative constraints, where physics-informed networks are constrained multiplicatively rather than additively. The result preserves positivity and conservation laws that the usual formulation violates, and makes the violation visible whenever it cannot be avoided.",
+          "site": "https://sethuiyer.github.io/multiplicative-pinn-framework/"
         },
         {
           "title": "model2vec",
@@ -185,7 +202,8 @@
             "HTML",
             "★ 2"
           ],
-          "summary": "Where boolean logic meets quantum mechanics, expressed as a solver whose constraints behave like physical fields settling toward a ground state. The project asks which logical distinctions survive when the clause set is treated as one physical object at once."
+          "summary": "Where boolean logic meets quantum mechanics, expressed as a solver whose constraints behave like physical fields settling toward a ground state. The project asks which logical distinctions survive when the clause set is treated as one physical object at once.",
+          "site": "https://sethuiyer.github.io/casimir-sat-solver/"
         },
         {
           "title": "spectral-multiplicative-framework",
@@ -351,7 +369,8 @@
             "C",
             "3 releases"
           ],
-          "summary": "A production-ready release, followed by a disk-streaming solver that keeps the working set bounded on instances too large for memory. The streaming design is itself an abstraction: only decision-relevant state survives the write, and nothing else is paid for anyway."
+          "summary": "A production-ready release, followed by a disk-streaming solver that keeps the working set bounded on instances too large for memory. The streaming design is itself an abstraction: only decision-relevant state survives the write, and nothing else is paid for anyway.",
+          "site": "https://sethuiyer.github.io/NitroSAT/"
         },
         {
           "title": "NoetherLeap — v1.0",

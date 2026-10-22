@@ -26,7 +26,6 @@ ROOT = pathlib.Path(__file__).resolve().parent.parent
 REMOVE = {
     # tier A — infrastructure, tooling, publishing, meta
     "tensor-to-tenant": ("A", "Curriculum and course site. Publishing and teaching, not representation."),
-    "docs": ("A", "The blog's own repository. Publishing vehicle, not research."),
     "miwa-discord-bot": ("A", "Application code. No abstraction or decision-preservation content."),
     "shunyabar.lua": ("A", "Utility library. Bounded memory, but nothing about preserving distinctions."),
     "shunyabar-labs": ("A", "The earlier collection repository, now the archive. Self-referential."),

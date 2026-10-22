@@ -11,6 +11,8 @@ Live at **https://sethuiyer.github.io/shunyabar-labs/** (deployed by GitHub Page
 Every entry in the index carries a **40-word summary**, and the summaries are enforced:
 `scripts/check_summaries.py` fails the build if any summary is not exactly forty words.
 
+Entries with a live GitHub Pages site carry a **site ↗** link next to the repository link.
+
 ## Access
 
 Some repositories and essays are **private** and are marked with a `private` chip in the
@@ -36,6 +38,7 @@ scripts/build.py      renders index.html from data + templates
 scripts/apply_summaries.py  copies data/summaries.txt into data/entries.json
 scripts/check_summaries.py  verifies every summary is exactly 40 words
 scripts/fetch_visibility.py  tags entries whose repository is private
+scripts/fetch_pages.py       attaches live GitHub Pages URLs to entries
 scripts/prune.py             prunes entries that fail the central criterion
 data/removed.json            the pruned entries, with reasons, so nothing is lost
 ```
@@ -46,6 +49,7 @@ data/removed.json            the pruned entries, with reasons, so nothing is los
 python3 scripts/apply_summaries.py   # refresh summaries in entries.json
 python3 scripts/check_summaries.py   # 55/55 summaries at exactly 40 words
 python3 scripts/fetch_visibility.py  # re-tag private repositories
+python3 scripts/fetch_pages.py       # attach live GitHub Pages URLs
 python3 scripts/build.py             # regenerate index.html
 ```
 

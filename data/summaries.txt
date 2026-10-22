@@ -26,7 +26,7 @@ A hundred-and-eight-week apprenticeship in AI systems engineering, spanning math
 A declarative SDK and compiler for constraint optimization and decision-intelligence engines. Constraints are declared rather than hand-encoded, and the compiler decides how much structure can be discarded while every remaining degree of freedom still changes the decision that comes out.
 
 @@ docs
-The ShunyaBar Labs blog: a publishing surface for essays, papers and notes. Deliberately quiet, so that the writing carries the argument while the site stays out of the reader's way, with light and dark themes that follow the system setting.
+The lab's documentation site, built with Astro: core vision, glossary, concepts, limitations and design philosophy, written so outsiders can follow it. It states the Arithmetic Manifold thesis, cites the evidence ledger, and serves as the front door to the lab.
 
 @@ NoetherLeap
 Constraint-aware optimization that pairs physics-informed neural networks with Bayesian search and symmetry discovery. The system exploits conserved quantities to avoid searching dimensions that provably cannot change the outcome, and reports the symmetries it found in advance rather than assuming them.
