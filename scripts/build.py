@@ -96,7 +96,7 @@ def main() -> int:
     counts = (f"{total} entries &middot; {repos} repositories &middot; {cont} continuing "
               f"&middot; {gists} gists &middot; {essays} essays &middot; {found} foundations "
               f"&middot; {zen} citable records &middot; {rel} release lines &middot; "
-              f"{private} held private")
+              f"{elsew} elsewhere &middot; {private} held private")
 
     out = template.replace("{{GROUPS}}", groups).replace("{{COUNTS}}", counts)
     (ROOT / "index.html").write_text(out)
