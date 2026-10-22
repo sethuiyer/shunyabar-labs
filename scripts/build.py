@@ -32,12 +32,16 @@ def render_entry(index: int, entry: dict) -> str:
     if entry.get("details"):
         details = (f' &middot; <a class="site-link" href="{esc(entry["details"])}" rel="noopener">'
                    f'details &#8599;</a>')
+    app = ""
+    if entry.get("app"):
+        app = (f' &middot; <a class="site-link" href="{esc(entry["app"])}" rel="noopener">'
+               f'app &#8599;</a>')
     doi = ""
     if entry.get("doi"):
         doi = (f' &middot; <a class="site-link" href="{esc(entry["doi"])}" rel="noopener">'
                f'doi</a>')
     meta_line = (f'<span class="meta">{meta} &middot; <span class="date">{date}</span>'
-                 f'{chip}{site}{details}{doi}</span>')
+                 f'{chip}{site}{details}{app}{doi}</span>')
     summary_words = len(entry["summary"].split())
     if summary_words != TARGET:
         print(f"  !! {entry['title']}: summary is {summary_words} words")

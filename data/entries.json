@@ -186,7 +186,8 @@
           "summary": "Branch-aware holonomy annealing: when a solver stalls, the escape mechanism detects the fractures where the log-derivative of the partition function diverges and navigates the multi-sheeted analytic surface with Lambert W, cutting complexity from exponential to linear where ordinary annealing stalls.",
           "site": "https://sethuiyer.github.io/baha/",
           "details": "https://sethuiyer.github.io/docs/projects/baha/",
-          "doi": "https://doi.org/10.5281/zenodo.18373732"
+          "doi": "https://doi.org/10.5281/zenodo.18373732",
+          "app": "https://baha.pages.dev/"
         },
         {
           "title": "multiplicative-pinn-framework",
@@ -594,7 +595,7 @@
     {
       "id": "elsewhere",
       "title": "Elsewhere",
-      "note": "{n} other doors into the lab: the public notebook, the shipping API, and the evidence behind the numbers.",
+      "note": "{n} other doors into the lab: the front door, the notebook, the shipping API, the browser build, the community, the theory portal and the evidence ledger.",
       "entries": [
         {
           "title": "Research notebook",
@@ -622,6 +623,43 @@
             "huggingface.co"
           ],
           "summary": "A ledger of evidence artifacts: benchmark runs, results and numbers quoted in the papers. It exists so claims can be checked against the runs that produced them, and each figure has somewhere to be traced back to its own source."
+        },
+        {
+          "title": "Lab homepage",
+          "url": "https://shunyabar.foo/",
+          "date": "2026",
+          "meta": [
+            "shunyabar.foo"
+          ],
+          "summary": "The lab's front door: one page stating the thesis, the numbers behind it, and the routes into the solver, the API and the notebook. The shortest path for a visitor who has never heard of the lab and wants more."
+        },
+        {
+          "title": "BAHA beta app",
+          "url": "https://baha.pages.dev/",
+          "date": "2026",
+          "meta": [
+            "Cloudflare Pages"
+          ],
+          "summary": "The browser build of the escape mechanism, running the solver in the cloud and showing the branch-aware trajectory as it happens. It is the quickest way to watch the theory work on an instance you care about, without installing anything."
+        },
+        {
+          "title": "SBL community",
+          "url": "https://sbl.pages.dev/",
+          "date": "2026",
+          "meta": [
+            "Cloudflare Pages",
+            "Discord"
+          ],
+          "summary": "The community around the lab: a Discord with people working on solvers, constraint systems and the deeper mathematics underneath them. Open questions get posted daily, results get argued about, and the people behind the papers sit in the channel there."
+        },
+        {
+          "title": "Theory portal",
+          "url": "https://theory.pages.dev/",
+          "date": "2026",
+          "meta": [
+            "Cloudflare Pages"
+          ],
+          "summary": "The formal architecture of the spectral-arithmetic system, still being written: the axioms, the geometry, the quotient structure and the open questions. It is the deepest door into the lab, and it is currently a placeholder while the proofs are settled."
         }
       ]
     }

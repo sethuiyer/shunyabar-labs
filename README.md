@@ -15,6 +15,7 @@ Entries carry up to three extra links next to the repository link:
 
 - **site ↗** — the project's own GitHub Pages site, when it serves a live page
 - **details ↗** — the lab's own long-form write-up of the project, at `sethuiyer.github.io/docs`
+- **app** — a browser build, when the project has one
 - **doi** — the Zenodo record, the version of record for the artifact
 
 Every link is verified to resolve before it is attached, so the index carries no dead URLs.

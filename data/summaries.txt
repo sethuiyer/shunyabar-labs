@@ -216,3 +216,15 @@ The production solver API behind the lab's work: Navokoj serves MaxSAT over plai
 
 @@ Evidence ledger
 A ledger of evidence artifacts: benchmark runs, results and numbers quoted in the papers. It exists so claims can be checked against the runs that produced them, and each figure has somewhere to be traced back to its own source.
+
+@@ Lab homepage
+The lab's front door: one page stating the thesis, the numbers behind it, and the routes into the solver, the API and the notebook. The shortest path for a visitor who has never heard of the lab and wants more.
+
+@@ BAHA beta app
+The browser build of the escape mechanism, running the solver in the cloud and showing the branch-aware trajectory as it happens. It is the quickest way to watch the theory work on an instance you care about, without installing anything.
+
+@@ SBL community
+The community around the lab: a Discord with people working on solvers, constraint systems and the deeper mathematics underneath them. Open questions get posted daily, results get argued about, and the people behind the papers sit in the channel there.
+
+@@ Theory portal
+The formal architecture of the spectral-arithmetic system, still being written: the axioms, the geometry, the quotient structure and the open questions. It is the deepest door into the lab, and it is currently a placeholder while the proofs are settled.
