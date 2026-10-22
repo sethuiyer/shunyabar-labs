@@ -36,6 +36,8 @@ scripts/build.py      renders index.html from data + templates
 scripts/apply_summaries.py  copies data/summaries.txt into data/entries.json
 scripts/check_summaries.py  verifies every summary is exactly 40 words
 scripts/fetch_visibility.py  tags entries whose repository is private
+scripts/prune.py             prunes entries that fail the central criterion
+data/removed.json            the pruned entries, with reasons, so nothing is lost
 ```
 
 ## Workflow
@@ -46,6 +48,18 @@ python3 scripts/check_summaries.py   # 55/55 summaries at exactly 40 words
 python3 scripts/fetch_visibility.py  # re-tag private repositories
 python3 scripts/build.py             # regenerate index.html
 ```
+
+## The criterion
+
+An entry stays in the index only if the work does one of two things:
+
+- **A.** constructs or analyses a representation, abstraction, quotient or encoding of a
+  system, and states what information it keeps or discards;
+- **B.** identifies distinctions that must be preserved for a decision, guarantee or
+  evaluation to remain valid.
+
+`scripts/prune.py` applies that criterion. Removed entries are written to
+`data/removed.json` with a reason, so any of them can be reinstated.
 
 Serve locally:
 

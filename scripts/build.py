@@ -48,7 +48,7 @@ def render_group(group: dict, counter: list) -> str:
         counter[0] += 1
         rows.append(render_entry(counter[0], entry))
 
-    note = f'<p class="group-note">{esc(group["note"])}</p>' if group.get("note") else ""
+    note = f'<p class="group-note">{esc(group["note"].replace("{n}", str(len(entries))))}</p>' if group.get("note") else ""
     return f"""    <section class="group" id="{esc(group['id'])}">
       <div class="group-head">
         <h2>{esc(group['title'])}</h2>
