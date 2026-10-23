@@ -470,7 +470,7 @@
     },
     {
       "id": "foundations",
-      "title": "docs",
+      "title": "Foundations",
       "note": "The long-form documents: what the idea is, where it stops, and what it rests on.",
       "entries": [
         {
@@ -547,7 +547,7 @@
     },
     {
       "id": "citable",
-      "title": "Banzhaf Ensemble Thesis",
+      "title": "Citable records",
       "note": "Every artifact with a permanent identifier — the version of record, not a pointer to one.",
       "entries": [
         {
@@ -665,7 +665,7 @@
     },
     {
       "id": "releases",
-      "title": "reify — v0.1.0, v0.2.0",
+      "title": "Released artifacts",
       "note": "Published versions, grouped by project: what froze, and when.",
       "entries": [
         {
@@ -676,7 +676,8 @@
             "C",
             "3 releases"
           ],
-          "summary": "Adaptive semantic cache calibration, then a visit-set representation that scales to a million production traces. The releases measure the same claim from both directions: how much can be merged away, and how little information may be lost while doing it."
+          "summary": "Adaptive semantic cache calibration, then a visit-set representation that scales to a million production traces. The releases measure the same claim from both directions: how much can be merged away, and how little information may be lost while doing it.",
+          "details": "https://sethuiyer.github.io/docs/projects/futcache/"
         },
         {
           "title": "NitroSAT — v1.0.0, v3.0.0.0, v3.1.0",
@@ -687,7 +688,8 @@
             "3 releases"
           ],
           "summary": "A production-ready release, followed by a disk-streaming solver that keeps the working set bounded on instances too large for memory. The streaming design is itself an abstraction: only decision-relevant state survives the write, and nothing else is paid for anyway.",
-          "site": "https://sethuiyer.github.io/NitroSAT/"
+          "site": "https://sethuiyer.github.io/NitroSAT/",
+          "details": "https://sethuiyer.github.io/docs/projects/nitrosat/"
         },
         {
           "title": "NoetherLeap — v1.0",
@@ -714,7 +716,7 @@
     },
     {
       "id": "broadcast",
-      "title": "Writing index",
+      "title": "Broadcast",
       "note": "How the idea becomes reconstructible in someone else's head.",
       "entries": [
         {
@@ -756,7 +758,7 @@
     },
     {
       "id": "elsewhere",
-      "title": "Theory portal",
+      "title": "Elsewhere",
       "note": "The lab's other surfaces: notebook, shipping API, evidence ledger, community.",
       "entries": [
         {

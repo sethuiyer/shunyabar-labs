@@ -3,29 +3,68 @@
   "removed": [
     {
       "group": "repos",
-      "title": "tensor-to-tenant",
-      "url": "https://github.com/sethuiyer/tensor-to-tenant",
-      "tier": "A",
-      "reason": "Curriculum and course site. Publishing and teaching, not representation.",
-      "summary": "A hundred-and-eight-week apprenticeship in AI systems engineering, spanning mathematics, ML systems, LLMs, distributed systems and design. Built as a static site with deploy automation, analytics integration, pacing budgets and a GPU redirect ladder, and published weekly for two full years.",
+      "title": "axiom-synergy",
+      "url": "https://github.com/sethuiyer/axiom-synergy",
+      "tier": "B",
+      "reason": "Measures synergy between rules. About rule interaction, not about representation.",
+      "summary": "A framework measuring how rules, constraints and logic interact. Cooperative game theory assigns each rule a marginal contribution, and the framework reports hidden synergy when constraints reinforce one another, and conflict when they collide, where the design error usually sits.",
       "meta": [
-        "Python",
-        "★ 2"
+        "★ 0",
+        "private"
       ],
-      "date": "2026-08-04"
+      "date": "2026-06-18"
+    },
+    {
+      "group": "essays",
+      "title": "Convergence Frontiers: Literature Survey of Interdisciplinary Research Paradigms",
+      "url": "https://github.com/sethuiyer/shunyabar-labs-archive/blob/main/posts/convergence-frontiers.html",
+      "tier": "A",
+      "reason": "Literature survey. Positions the work against prior art, states no criterion.",
+      "summary": "A systematic survey mapping the lab's interdisciplinary research onto current scientific advances, placing each line of work against the published literature it touches. The essay identifies where existing results already explain the observations, and where the gap remains genuinely open.",
+      "meta": [
+        "survey",
+        "private"
+      ],
+      "date": "2025-11"
     },
     {
       "group": "repos",
-      "title": "docs",
-      "url": "https://github.com/sethuiyer/docs",
-      "tier": "A",
-      "reason": "The blog's own repository. Publishing vehicle, not research.",
-      "summary": "The ShunyaBar Labs blog: a publishing surface for essays, papers and notes. Deliberately quiet, so that the writing carries the argument while the site stays out of the reader's way, with light and dark themes that follow the system setting.",
+      "title": "floer-hardness-certificates",
+      "url": "https://github.com/sethuiyer/floer-hardness-certificates",
+      "tier": "B",
+      "reason": "Hardness certificates via persistent homology. Certifies difficulty, not safe compression.",
+      "summary": "A geometric framework for certifying computational hardness through persistent homology, spanning cryptography, SAT solving and neural network optimisation. It aims at a certificate rather than a benchmark, so a claim about difficulty can be checked by others instead of believed.",
       "meta": [
-        "CSS",
-        "★ 1"
+        "HTML",
+        "private"
       ],
-      "date": "2026-07-20"
+      "date": "2025-10-09"
+    },
+    {
+      "group": "repos",
+      "title": "fooshunyabar",
+      "url": "https://github.com/sethuiyer/fooshunyabar",
+      "tier": "A",
+      "reason": "Loose scratch files. Working notes, not a claim.",
+      "summary": "The code files behind Shunyabar Foo, gathered into one place. These are the scripts and experiments that feed the published work, kept visible so the path from a scratch calculation to a checked result stays traceable to whoever reads it.",
+      "meta": [
+        "Python",
+        "private"
+      ],
+      "date": "2025-11-05"
+    },
+    {
+      "group": "essays",
+      "title": "Majorana Topological Superconductors: From Quantum Particles to the Riemann Hypothesis",
+      "url": "https://github.com/sethuiyer/shunyabar-labs-archive/blob/main/posts/majorana-topological-superconductors.html",
+      "tier": "B",
+      "reason": "Quantum physics to the Riemann hypothesis. No abstraction criterion.",
+      "summary": "Exploring the connection between Majorana fermions, topological superconductors and the Riemann hypothesis through quantum physical systems. The essay builds the bridge from topological order to the distribution of primes, treating the hypothesis as an emergent property and what remains unproved.",
+      "meta": [
+        "topology",
+        "private"
+      ],
+      "date": "2025-11"
     },
     {
       "group": "repos",
@@ -41,56 +80,67 @@
       "date": "2026-06-22"
     },
     {
-      "group": "repos",
-      "title": "axiom-synergy",
-      "url": "https://github.com/sethuiyer/axiom-synergy",
-      "tier": "B",
-      "reason": "Measures synergy between rules. About rule interaction, not about representation.",
-      "summary": "A framework measuring how rules, constraints and logic interact. Cooperative game theory assigns each rule a marginal contribution, and the framework reports hidden synergy when constraints reinforce one another, and conflict when they collide, where the design error usually sits.",
-      "meta": [
-        "★ 0",
-        "private"
-      ],
-      "date": "2026-06-18"
-    },
-    {
-      "group": "repos",
-      "title": "thermodynamic-number-line",
-      "url": "https://github.com/sethuiyer/thermodynamic-number-line",
-      "tier": "B",
-      "reason": "Primes as thermodynamic fuel. Physics metaphor, no decision criterion.",
-      "summary": "Primes act as thermodynamic fuel, the Riemann zeta function serves as infinite memory, and arithmetic turns out to be a very complex piece of origami. The essay reads number theory as an energy landscape with conserved quantities and irreversible flows.",
-      "meta": [
-        "HTML",
-        "private"
-      ],
-      "date": "2026-03-13"
-    },
-    {
-      "group": "repos",
-      "title": "shunyabar.lua",
-      "url": "https://github.com/sethuiyer/shunyabar.lua",
+      "group": "gists",
+      "title": "navbar",
+      "url": "https://gist.github.com/sethuiyer/52cd448a4d99baba00185958e697ec6a",
       "tier": "A",
-      "reason": "Utility library. Bounded memory, but nothing about preserving distinctions.",
-      "summary": "A zero-dependency Lua module for hard combinatorial and physics problems, usable directly inside a game loop or an embedded system. It trades raw speed for small memory and predictable behaviour under tight frame budgets, with no native build step required.",
+      "reason": "Small Lua helper. Utility.",
+      "summary": "A small Lua navigation helper, thrown up as a gist rather than a repository. Nothing about it is load-bearing, which is the point: a working answer that needs no project structure, no build step and no ceremony to remain usable.",
       "meta": [
-        "Lua",
-        "★ 2"
+        "simple.lua"
       ],
-      "date": "2026-02-06"
+      "date": "2025-11-22"
     },
     {
-      "group": "repos",
-      "title": "baha",
-      "url": "https://github.com/sethuiyer/baha",
+      "group": "essays",
+      "title": "Observations on Exponential Functions in Complex Systems",
+      "url": "https://github.com/sethuiyer/shunyabar-labs-archive/blob/main/posts/fingerprint-of-complexity.html",
       "tier": "B",
-      "reason": "Simulated annealing on a landscape. Search heuristic; no abstraction claim.",
-      "summary": "Simulated annealing that uses the thermodynamics of the landscape to escape local minima, and works remarkably well on discrete combinatorial problems. Recent work fixes CUDA initialization races and adds safety checks around the parallel search so results stay fully reproducible.",
+      "reason": "Pattern notes on exponential growth. No representation claim.",
+      "summary": "Notes on patterns in exponential functions across the mathematical and computational domains the lab has studied, looking for a shared shape rather than separate derivations. The essay treats exponential growth as a fingerprint that identifies which regime a system occupies.",
       "meta": [
-        "C++",
-        "★ 4"
+        "notes",
+        "private"
       ],
-      "date": "2026-01-27"
+      "date": "2025-11"
+    },
+    {
+      "group": "continued",
+      "title": "playlist-ed",
+      "url": "https://github.com/udit-001/playlist-ed",
+      "tier": "A",
+      "reason": "A YouTube player. Product, not research.",
+      "summary": "A distraction-free player for YouTube playlists: no signup, and nothing leaves the browser. The interface removes controls that would not change what you are about to watch next, since every affordance is a distinction the viewer must learn to ignore.",
+      "meta": [
+        "Svelte",
+        "★ 3"
+      ],
+      "date": "2023-12-28"
+    },
+    {
+      "group": "essays",
+      "title": "Research Contributions",
+      "url": "https://github.com/sethuiyer/shunyabar-labs-archive/blob/main/posts/research.html",
+      "tier": "A",
+      "reason": "Archive index page. Meta.",
+      "summary": "The archive's research index, published in November 2025, listing every contributed essay with authorship and affiliation. It is the front door to the collection, kept in step with the posts so a reader can enter anywhere and find the context.",
+      "meta": [
+        "index",
+        "private"
+      ],
+      "date": "2025-11"
+    },
+    {
+      "group": "continued",
+      "title": "sethuiyer.github.com",
+      "url": "https://github.com/sethuiyer/sethuiyer.github.com",
+      "tier": "A",
+      "reason": "Personal website. Infrastructure.",
+      "summary": "A rebuild of the personal site, refreshed through the same period as the lab. It doubles as a home page for the work and as an example of the light and dark presentation used across these projects, kept deliberately plain.",
+      "meta": [
+        "HTML"
+      ],
+      "date": "2019-12-21"
     },
     {
       "group": "repos",
@@ -107,131 +157,29 @@
     },
     {
       "group": "repos",
-      "title": "fooshunyabar",
-      "url": "https://github.com/sethuiyer/fooshunyabar",
+      "title": "shunyabar.lua",
+      "url": "https://github.com/sethuiyer/shunyabar.lua",
       "tier": "A",
-      "reason": "Loose scratch files. Working notes, not a claim.",
-      "summary": "The code files behind Shunyabar Foo, gathered into one place. These are the scripts and experiments that feed the published work, kept visible so the path from a scratch calculation to a checked result stays traceable to whoever reads it.",
+      "reason": "Utility library. Bounded memory, but nothing about preserving distinctions.",
+      "summary": "A zero-dependency Lua module for hard combinatorial and physics problems, usable directly inside a game loop or an embedded system. It trades raw speed for small memory and predictable behaviour under tight frame budgets, with no native build step required.",
       "meta": [
-        "Python",
-        "private"
+        "Lua",
+        "★ 2"
       ],
-      "date": "2025-11-05"
+      "date": "2026-02-06"
     },
     {
       "group": "repos",
-      "title": "floer-hardness-certificates",
-      "url": "https://github.com/sethuiyer/floer-hardness-certificates",
-      "tier": "B",
-      "reason": "Hardness certificates via persistent homology. Certifies difficulty, not safe compression.",
-      "summary": "A geometric framework for certifying computational hardness through persistent homology, spanning cryptography, SAT solving and neural network optimisation. It aims at a certificate rather than a benchmark, so a claim about difficulty can be checked by others instead of believed.",
-      "meta": [
-        "HTML",
-        "private"
-      ],
-      "date": "2025-10-09"
-    },
-    {
-      "group": "continued",
-      "title": "playlist-ed",
-      "url": "https://github.com/udit-001/playlist-ed",
+      "title": "tensor-to-tenant",
+      "url": "https://github.com/sethuiyer/tensor-to-tenant",
       "tier": "A",
-      "reason": "A YouTube player. Product, not research.",
-      "summary": "A distraction-free player for YouTube playlists: no signup, and nothing leaves the browser. The interface removes controls that would not change what you are about to watch next, since every affordance is a distinction the viewer must learn to ignore.",
+      "reason": "Curriculum and course site. Publishing and teaching, not representation.",
+      "summary": "A hundred-and-eight-week apprenticeship in AI systems engineering, spanning mathematics, ML systems, LLMs, distributed systems and design. Built as a static site with deploy automation, analytics integration, pacing budgets and a GPU redirect ladder, and published weekly for two full years.",
       "meta": [
-        "Svelte",
-        "★ 3"
+        "Python",
+        "★ 2"
       ],
-      "date": "2023-12-28"
-    },
-    {
-      "group": "continued",
-      "title": "sethuiyer.github.com",
-      "url": "https://github.com/sethuiyer/sethuiyer.github.com",
-      "tier": "A",
-      "reason": "Personal website. Infrastructure.",
-      "summary": "A rebuild of the personal site, refreshed through the same period as the lab. It doubles as a home page for the work and as an example of the light and dark presentation used across these projects, kept deliberately plain.",
-      "meta": [
-        "HTML"
-      ],
-      "date": "2019-12-21"
-    },
-    {
-      "group": "gists",
-      "title": "navbar",
-      "url": "https://gist.github.com/sethuiyer/52cd448a4d99baba00185958e697ec6a",
-      "tier": "A",
-      "reason": "Small Lua helper. Utility.",
-      "summary": "A small Lua navigation helper, thrown up as a gist rather than a repository. Nothing about it is load-bearing, which is the point: a working answer that needs no project structure, no build step and no ceremony to remain usable.",
-      "meta": [
-        "simple.lua"
-      ],
-      "date": "2025-11-22"
-    },
-    {
-      "group": "essays",
-      "title": "Convergence Frontiers: Literature Survey of Interdisciplinary Research Paradigms",
-      "url": "https://github.com/sethuiyer/shunyabar-labs-archive/blob/main/posts/convergence-frontiers.html",
-      "tier": "A",
-      "reason": "Literature survey. Positions the work against prior art, states no criterion.",
-      "summary": "A systematic survey mapping the lab's interdisciplinary research onto current scientific advances, placing each line of work against the published literature it touches. The essay identifies where existing results already explain the observations, and where the gap remains genuinely open.",
-      "meta": [
-        "survey",
-        "private"
-      ],
-      "date": "2025-11"
-    },
-    {
-      "group": "essays",
-      "title": "The Dynamic Prime Cantor Set: A Fractal Woven from the Primes",
-      "url": "https://github.com/sethuiyer/shunyabar-labs-archive/blob/main/posts/dynamic-prime-cantor-set.html",
-      "tier": "B",
-      "reason": "Fractal construction from prime gaps. Structure, not decision-relevant distinctions.",
-      "summary": "A fractal construction on the unit interval built intrinsically from the distribution of prime numbers, replacing the fixed middle-third rule with one driven by prime gaps. The dynamic set is compared against the classical Cantor construction and known fractal dimensions.",
-      "meta": [
-        "fractals",
-        "private"
-      ],
-      "date": "2025-11"
-    },
-    {
-      "group": "essays",
-      "title": "Observations on Exponential Functions in Complex Systems",
-      "url": "https://github.com/sethuiyer/shunyabar-labs-archive/blob/main/posts/fingerprint-of-complexity.html",
-      "tier": "B",
-      "reason": "Pattern notes on exponential growth. No representation claim.",
-      "summary": "Notes on patterns in exponential functions across the mathematical and computational domains the lab has studied, looking for a shared shape rather than separate derivations. The essay treats exponential growth as a fingerprint that identifies which regime a system occupies.",
-      "meta": [
-        "notes",
-        "private"
-      ],
-      "date": "2025-11"
-    },
-    {
-      "group": "essays",
-      "title": "Majorana Topological Superconductors: From Quantum Particles to the Riemann Hypothesis",
-      "url": "https://github.com/sethuiyer/shunyabar-labs-archive/blob/main/posts/majorana-topological-superconductors.html",
-      "tier": "B",
-      "reason": "Quantum physics to the Riemann hypothesis. No abstraction criterion.",
-      "summary": "Exploring the connection between Majorana fermions, topological superconductors and the Riemann hypothesis through quantum physical systems. The essay builds the bridge from topological order to the distribution of primes, treating the hypothesis as an emergent property and what remains unproved.",
-      "meta": [
-        "topology",
-        "private"
-      ],
-      "date": "2025-11"
-    },
-    {
-      "group": "essays",
-      "title": "The Prime Walk: Spontaneous Symmetry Breaking from Number Theory to the Riemann Hypothesis",
-      "url": "https://github.com/sethuiyer/shunyabar-labs-archive/blob/main/posts/prime-walk-jahn-teller.html",
-      "tier": "B",
-      "reason": "Random walk on prime powers. Physics bridge, no decision criterion.",
-      "summary": "A random walk on prime powers that connects the molecular Jahn-Teller effect to the Riemann hypothesis through spontaneous symmetry breaking. The walk shows how a physical degeneracy lifts on a number-theoretic landscape, with plots, figures and computed results attached throughout.",
-      "meta": [
-        "number theory",
-        "private"
-      ],
-      "date": "2025-11"
+      "date": "2026-08-04"
     },
     {
       "group": "essays",
@@ -247,17 +195,17 @@
       "date": "2025-11"
     },
     {
-      "group": "essays",
-      "title": "Research Contributions",
-      "url": "https://github.com/sethuiyer/shunyabar-labs-archive/blob/main/posts/research.html",
-      "tier": "A",
-      "reason": "Archive index page. Meta.",
-      "summary": "The archive's research index, published in November 2025, listing every contributed essay with authorship and affiliation. It is the front door to the collection, kept in step with the posts so a reader can enter anywhere and find the context.",
+      "group": "repos",
+      "title": "thermodynamic-number-line",
+      "url": "https://github.com/sethuiyer/thermodynamic-number-line",
+      "tier": "B",
+      "reason": "Primes as thermodynamic fuel. Physics metaphor, no decision criterion.",
+      "summary": "Primes act as thermodynamic fuel, the Riemann zeta function serves as infinite memory, and arithmetic turns out to be a very complex piece of origami. The essay reads number theory as an energy landscape with conserved quantities and irreversible flows.",
       "meta": [
-        "index",
+        "HTML",
         "private"
       ],
-      "date": "2025-11"
+      "date": "2026-03-13"
     },
     {
       "group": "essays",

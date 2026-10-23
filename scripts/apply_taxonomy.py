@@ -89,7 +89,7 @@ def main() -> int:
     for tribe in taxonomy["tribes"]:
         used.update(tribe["members"])
 
-    for group_id, title, note in LAYER_GROUPS:
+    for group_id, group_title, note in LAYER_GROUPS:
         if group_id == "citable":
             records = json.loads((ROOT / "data" / "citable_records.json").read_text())
             members = [r["title"] for r in records]
@@ -98,33 +98,43 @@ def main() -> int:
             members = [n["title"] for n in taxonomy["new_entries"] if n["group"] == "broadcast"]
         else:
             members = [t for t in by_group.get(group_id, []) if t not in used]
-            for title, target in relocate.items():
-                if target == group_id and title not in members:
-                    members.append(title)
+            for reloc_title, target in relocate.items():
+                if target == group_id and reloc_title not in members:
+                    members.append(reloc_title)
         entries = []
         records = {r["title"]: r for r in
                    json.loads((ROOT / "data" / "citable_records.json").read_text())}
-        for title in members:
-            if title in records and title not in existing:
-                entry = dict(records[title])
-                entry["summary"] = summaries.get(title, entry.get("summary", ""))
+        for member_title in members:
+            if member_title in records and member_title not in existing:
+                entry = dict(records[member_title])
+                entry["summary"] = summaries.get(member_title, entry.get("summary", ""))
                 entries.append(entry)
                 continue
-            if title in existing:
-                entries.append(existing[title])
+            if member_title in existing:
+                entries.append(existing[member_title])
                 continue
-            stub = next((n for n in taxonomy["new_entries"] if n["title"] == title), None)
+            stub = next((n for n in taxonomy["new_entries"] if n["title"] == member_title), None)
             if stub is None:
-                print(f"  !! no entry or stub for {title}")
+                print(f"  !! no entry or stub for {member_title}")
                 return 1
-            summary = summaries.get(title)
+            summary = summaries.get(member_title)
             if summary is None or len(summary.split()) != TARGET:
-                print(f"  !! bad summary for {title}")
+                print(f"  !! bad summary for {member_title}")
                 return 1
             entry = {k: v for k, v in stub.items() if k not in ("group", "promoted")}
             entry["summary"] = summary
             entries.append(entry)
-        groups.append({"id": group_id, "title": title, "note": note, "entries": entries})
+        groups.append({"id": group_id, "title": group_title, "note": note, "entries": entries})
+
+    placed = {entry["title"] for group in groups for entry in group["entries"]}
+    dropped = sorted(set(existing) - placed)
+    if dropped:
+        print(f"  !! {len(dropped)} existing entries were not placed in any group: {dropped}")
+        return 1
+    unused = sorted({n["title"] for n in taxonomy["new_entries"]} - placed)
+    if unused:
+        print(f"  !! {len(unused)} taxonomy stubs were not placed in any group: {unused}")
+        return 1
 
     data["groups"] = groups
     data["start_here"] = taxonomy["start_here"]

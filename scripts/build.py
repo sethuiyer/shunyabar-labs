@@ -81,11 +81,11 @@ def render_entry(index: int, entry: dict) -> str:
     return f"""      <article class="entry">
         <span class="num">{index:02d}</span>
         <div>
-          <div class="entry-title">
+          <h3 class="entry-title">
             <a href="{esc(entry['url'])}" rel="noopener">{esc(entry['title'])}</a>
             <span class="arrow" aria-hidden="true">&#8599;</span>
             {meta_line}
-          </div>
+          </h3>
           <p class="summary">{esc(entry['summary'])}</p>
         </div>
       </article>"""
@@ -169,11 +169,11 @@ def render_arcs(arcs: list, episodes: list, summaries: dict, counter: list) -> s
             rows.append(f"""      <article class="entry">
         <span class="num">{counter[0]:02d}</span>
         <div>
-          <div class="entry-title">
+          <h3 class="entry-title">
             <a href="https://www.youtube.com/watch?v={esc(video_id)}" rel="noopener">{esc(episode['title'])}</a>
             <span class="arrow" aria-hidden="true">&#8599;</span>
             <span class="meta">{meta}</span>
-          </div>
+          </h3>
           <p class="summary">{esc(summary)}</p>
         </div>
       </article>""")
@@ -200,11 +200,11 @@ def render_note_items(items: list, counter: list) -> str:
         rows.append(f"""      <article class="entry">
         <span class="num">{counter[0]:02d}</span>
         <div>
-          <div class="entry-title">
+          <h3 class="entry-title">
             <a href="{esc(item['url'])}" rel="noopener">{esc(item['title'])}</a>
             <span class="arrow" aria-hidden="true">&#8599;</span>
             <span class="meta">{date}</span>{promoted}
-          </div>
+          </h3>
           <p class="summary">{esc(lede)}</p>
         </div>
       </article>""")

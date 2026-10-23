@@ -6,7 +6,7 @@
   --bg-soft: #f4f2ee;
   --fg: #17171a;
   --muted: #6d6c70;
-  --faint: #787679;
+  --faint: #6f6d72;
   --rule: #e6e3dd;
   --rule-soft: #efede8;
   --accent: #8a6a3f;
@@ -283,16 +283,13 @@ h3 {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
   gap: 1px;
-  background: var(--rule-soft);
-  border: 1px solid var(--rule-soft);
-  border-radius: 6px;
-  overflow: hidden;
   margin-top: 2.5rem;
 }
 
 .vignette {
   background: var(--bg);
   padding: 1.15rem 1.25rem 1.35rem;
+  box-shadow: 0 0 0 1px var(--rule-soft);
 }
 
 .vignette p {
@@ -362,8 +359,6 @@ h3 {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(16rem, 1fr));
   gap: 1px;
-  background: var(--rule-soft);
-  border: 1px solid var(--rule-soft);
 }
 
 .card {
@@ -371,6 +366,7 @@ h3 {
   background: var(--bg);
   padding: 1.15rem 1.25rem 1.3rem;
   text-decoration: none;
+  box-shadow: 0 0 0 1px var(--rule-soft);
 }
 
 .card:hover { background: var(--bg-soft); }
@@ -484,6 +480,13 @@ h3 {
   align-items: baseline;
   gap: 0.7rem;
   flex-wrap: wrap;
+  margin: 0;
+  font-family: inherit;
+  font-size: inherit;
+  font-weight: inherit;
+  letter-spacing: normal;
+  text-transform: none;
+  color: inherit;
 }
 
 .entry-title a {
@@ -619,8 +622,17 @@ code {
 
 @media (max-width: 34rem) {
   body { font-size: 16px; }
+  .site { position: static; }
+  .bar { flex-wrap: wrap; row-gap: 0.35rem; padding-top: 0.6rem; padding-bottom: 0.6rem; }
+  .nav {
+    width: 100%;
+    flex-wrap: wrap;
+    gap: 0.35rem 0.85rem;
+    font-size: 0.8rem;
+  }
   .entry { grid-template-columns: 1.9rem minmax(0, 1fr); }
-  .nav a:not(:last-of-type) { display: none; }
+  .entry .meta { white-space: normal; }
+  #theme-toggle { margin-left: auto; font-size: 0.72rem; }
   #theme-toggle .label { display: none; }
   .hero { padding: 3.25rem 0 2.5rem; }
 }

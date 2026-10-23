@@ -69,9 +69,14 @@ def research_pages() -> list:
             lambda s: parse(fetch(f"{RESEARCH}posts/{s}.html"), f"{RESEARCH}posts/{s}.html"), slugs))
 
 
+def base_title(title: str) -> str:
+    """Drop a scraped subtitle (" | Constraint Intelligence Platform")."""
+    return title.split(" | ")[0].strip()
+
+
 def main() -> int:
     taxonomy = json.loads((ROOT / "data" / "taxonomy.json").read_text())
-    promoted = set(taxonomy.get("promoted_posts", []))
+    promoted = {base_title(t) for t in taxonomy.get("promoted_posts", [])}
     data = {
         "concepts": docs_pages("concepts"),
         "research": research_pages(),
@@ -79,7 +84,8 @@ def main() -> int:
     }
     for collection in ("blog", "research"):
         for item in data[collection]:
-            item["promoted"] = any(item["title"].startswith(t) for t in promoted)
+            title = base_title(item["title"])
+            item["promoted"] = any(title.startswith(t) for t in promoted)
     path = ROOT / "data" / "notebook.json"
     path.write_text(json.dumps(data, indent=2, ensure_ascii=False) + "\n")
     print(f"wrote notebook.json — {len(data['concepts'])} concepts, "

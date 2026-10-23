@@ -14,6 +14,14 @@ Everything else is infrastructure, tooling, publishing, or unrelated physics
 and number theory. Removed entries are archived in data/removed.json so they
 can be reinstated with one command.
 
+The script is idempotent and self-healing:
+
+  * a title that is already archived is not an error;
+  * an archived title that is back in the index counts as reinstated and is
+    dropped from the archive;
+  * the criterion text and the tier glossary in data/removed.json are always
+    preserved.
+
 Usage:  python3 scripts/prune.py [--dry-run]
 """
 import json
@@ -21,6 +29,16 @@ import pathlib
 import sys
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent
+
+CRITERION = ("An entry stays only if it (A) constructs or analyses a representation / "
+             "abstraction / quotient / encoding and states what it keeps or discards, "
+             "or (B) identifies distinctions that must be preserved for a decision, "
+             "guarantee or evaluation to remain valid.")
+
+TIERS = {
+    "A": "infrastructure, tooling, publishing, meta",
+    "B": "near misses: physics, number theory and search work with no stated criterion",
+}
 
 # title -> (tier, reason)
 REMOVE = {
@@ -42,18 +60,35 @@ REMOVE = {
     "axiom-synergy": ("B", "Measures synergy between rules. About rule interaction, not about representation."),
     "thermodynamic-number-line": ("B", "Primes as thermodynamic fuel. Physics metaphor, no decision criterion."),
     "floer-hardness-certificates": ("B", "Hardness certificates via persistent homology. Certifies difficulty, not safe compression."),
-    "The Dynamic Prime Cantor Set: A Fractal Woven from the Primes": ("B", "Fractal construction from prime gaps. Structure, not decision-relevant distinctions."),
     "Observations on Exponential Functions in Complex Systems": ("B", "Pattern notes on exponential growth. No representation claim."),
     "Majorana Topological Superconductors: From Quantum Particles to the Riemann Hypothesis": ("B", "Quantum physics to the Riemann hypothesis. No abstraction criterion."),
-    "The Prime Walk: Spontaneous Symmetry Breaking from Number Theory to the Riemann Hypothesis": ("B", "Random walk on prime powers. Physics bridge, no decision criterion."),
     "The Quantum Rhythm Hypothesis: Mathematics as Condensed Matter Physics": ("B", "Primes as quasiparticles. Condensed matter framing, no abstraction criterion."),
 }
 
 
+def load_archive(path: pathlib.Path) -> dict:
+    if not path.exists():
+        return {"criterion": CRITERION, "removed": [], "tiers": dict(TIERS)}
+    archive = json.loads(path.read_text())
+    archive.setdefault("removed", [])
+    archive["criterion"] = CRITERION
+    archive["tiers"] = dict(TIERS)
+    return archive
+
+
 def main() -> int:
     dry = "--dry-run" in sys.argv
-    path = ROOT / "data" / "entries.json"
-    data = json.loads(path.read_text())
+    entries_path = ROOT / "data" / "entries.json"
+    archive_path = ROOT / "data" / "removed.json"
+
+    data = json.loads(entries_path.read_text())
+    archive = load_archive(archive_path)
+    indexed = {entry["title"] for group in data["groups"] for entry in group["entries"]}
+
+    # Reinstated: archived entries that are back in the index.
+    reinstated = [r["title"] for r in archive["removed"] if r["title"] in indexed]
+    archive["removed"] = [r for r in archive["removed"] if r["title"] not in indexed]
+    archived = {r["title"] for r in archive["removed"]}
 
     removed = []
     kept = []
@@ -71,26 +106,31 @@ def main() -> int:
                 kept.append(title)
         group["entries"] = keep
 
-    missing = set(REMOVE) - {r["title"] for r in removed}
-    if missing:
-        print("no such entry:", missing)
+    unknown = set(REMOVE) - archived - {r["title"] for r in removed}
+    if unknown:
+        print("no such entry (not in the index, not archived):", sorted(unknown))
         return 1
 
-    for group in data["groups"]:
+    archive["removed"].extend(removed)
+    archive["removed"].sort(key=lambda r: r["title"].lower())
+
+    for group in list(data["groups"]):
         if not group["entries"]:
             data["groups"].remove(group)
 
     print(f"keeping {len(kept)} entries, removing {len(removed)}")
     for r in removed:
         print(f"  [{r['tier']}] {r['title']} — {r['reason']}")
+    for title in reinstated:
+        print(f"  reinstated {title} — dropped from the archive")
+    print(f"archive holds {len(archive['removed'])} removed entries")
 
     if dry:
         print("(dry run; nothing written)")
         return 0
 
-    path.write_text(json.dumps(data, indent=2, ensure_ascii=False) + "\n")
-    (ROOT / "data" / "removed.json").write_text(
-        json.dumps({"criterion": REMOVE and "", "removed": removed}, indent=2, ensure_ascii=False) + "\n")
+    entries_path.write_text(json.dumps(data, indent=2, ensure_ascii=False) + "\n")
+    archive_path.write_text(json.dumps(archive, indent=2, ensure_ascii=False) + "\n")
     print("wrote data/entries.json and data/removed.json")
     return 0
 

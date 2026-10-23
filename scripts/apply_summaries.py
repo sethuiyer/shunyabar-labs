@@ -32,8 +32,6 @@ def main() -> int:
     data = json.loads(path.read_text())
     missing = []
     for group in data["groups"]:
-        if group["id"] == "podcast":
-            continue  # podcast summaries are curated in data/podcast_summaries.txt
         for entry in group["entries"]:
             if entry["title"] in curated:
                 entry["summary"] = curated[entry["title"]]

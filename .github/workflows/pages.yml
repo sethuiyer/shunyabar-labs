@@ -22,13 +22,26 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
-      - name: Verify summaries and build
+
+      - name: Verify summaries
+        run: python3 scripts/check_summaries.py
+
+      - name: Build pages
+        run: python3 scripts/build.py
+
+      - name: Verify generated pages are committed
+        run: git diff --exit-code -- index.html broadcast.html notebook.html
+
+      - name: Assemble site (pages and assets only)
         run: |
-          python3 scripts/check_summaries.py
-          python3 scripts/build.py
+          mkdir -p _site
+          cp index.html broadcast.html notebook.html 404.html robots.txt sitemap.xml _site/
+          cp -r assets _site/assets
+
       - uses: actions/upload-pages-artifact@v3
         with:
-          path: .
+          path: _site
+
   deploy:
     needs: build
     runs-on: ubuntu-latest
